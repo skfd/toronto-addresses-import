@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toronto Address Change Tracker</title>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --border: #2d3244;
+            --text: #e1e4ed;
+            --text-dim: #8b90a0;
+            --accent: #6c8cff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            display: flex;
+            justify-content: center;
+            padding: 3rem 1.5rem;
+        }
+
+        main {
+            max-width: 640px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: var(--text-dim);
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .reports {
+            margin-top: 1rem;
+        }
+
+        .report-link {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+            transition: border-color 0.2s;
+        }
+
+        .report-link:hover {
+            border-color: var(--accent);
+            text-decoration: none;
+        }
+
+        .report-link .date {
+            font-weight: 600;
+        }
+
+        .report-link .meta {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-top: 0.25rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+        }
+
+        footer a {
+            color: var(--text-dim);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Toronto Address Change Tracker</h1>
+        <p>
+            Tracking daily changes to the City of Toronto's
+            <a href="https://open.toronto.ca/dataset/address-points-municipal-toronto-one-address-repository/">Address
+                Points</a>
+            dataset — over 525,000 addresses across the city.
+        </p>
+
+        <h2 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Reports</h2>
+        <div class="reports">
+            <a class="report-link" href="report-2026-02-12.html">
+                <div class="date">February 12, 2026</div>
+                <div class="meta">293 added · 457 removed · 2,482 modified</div>
+            </a>
+        </div>
+
+        <footer>
+            Data from <a href="https://open.toronto.ca">Toronto Open Data</a>
+            · <a href="https://github.com/skfd/toronto-addresses-import">Source on GitHub</a>
+        </footer>
+    </main>
+</body>
+
+</html>
