@@ -1,7 +1,7 @@
 """Download Toronto address points GeoJSON from the Open Data portal."""
 
 import os
-from datetime import date
+from datetime import date, datetime
 
 import requests
 
@@ -58,7 +58,17 @@ def download(force=False):
                 return "SKIPPED", "Remote file has not changed since last download.", None
 
     # 3. Download
-    filename = f"address-points-{date.today().isoformat()}.geojson"
+    # Use Last-Modified date for filename if available, otherwise today
+    file_date = date.today()
+    if remote_headers.get("Last-Modified"):
+        try:
+            # Example: Fri, 13 Feb 2026 11:40:00 GMT
+            lm = datetime.strptime(remote_headers["Last-Modified"], "%a, %d %b %Y %H:%M:%S %Z")
+            file_date = lm.date()
+        except ValueError:
+            pass
+
+    filename = f"address-points-{file_date.isoformat()}.geojson"
     filepath = os.path.join(DATA_DIR, filename)
 
     if os.path.exists(filepath) and not force:

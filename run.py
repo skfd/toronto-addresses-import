@@ -114,7 +114,8 @@ def cmd_rebuild(args):
 
 def cmd_report_all(args):
     """Generate reports for ALL snapshots in the database."""
-    snapshots = get_latest_snapshots(9999) # Get all
+    snapshots = [s for s in get_latest_snapshots(9999) if not s.get("skipped")] # Get all valid
+
     if not snapshots:
         print("No snapshots found.")
         return
@@ -170,6 +171,8 @@ def main():
     sub.add_parser("report", help="Generate HTML report for latest diff")
 
     sub.add_parser("report-all", help="Regenerate reports for entire history")
+    
+    sub.add_parser("refresh-reports", help="Regenerate HTML shells and index from JSON data")
 
     up = sub.add_parser("update", help="Download + import + diff + report")
     up.add_argument("--force", action="store_true", help="Force re-download")
@@ -190,6 +193,7 @@ def main():
         "diff": cmd_diff,
         "report": cmd_report,
         "report-all": cmd_report_all,
+        "refresh-reports": lambda a: __import__("src.report").report.refresh_reports(),
         "update": cmd_update,
         "rebuild": cmd_rebuild,
         "verify": lambda a: __import__("src.verify_diff").verify_diff.verify_diff(

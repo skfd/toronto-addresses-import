@@ -126,10 +126,21 @@ def _clean_str(val):
 
 
 def record_skipped_snapshot(filename, reason):
-    """Record a skipped snapshot."""
+    """Record a skipped snapshot, avoiding duplicates."""
     init_db()
     conn = _connect()
     
+    # Check if we already have a skipped snapshot for this filename today (or just this filename)
+    # Since filename usually includes date, checking filename is enough
+    existing = conn.execute(
+        "SELECT id FROM snapshots WHERE filename = ? AND skipped = 1", (filename,)
+    ).fetchone()
+    
+    if existing:
+        print(f"Skipped snapshot already recorded: {filename} (id={existing[0]})")
+        conn.close()
+        return
+
     conn.execute(
         "INSERT INTO snapshots (downloaded, row_count, filename, skipped) VALUES (?, 0, ?, 1)",
         (datetime.now().isoformat(), filename)
@@ -311,7 +322,7 @@ def import_geojson(filepath, headers=None):
 
         # 2. Update existing unchanged records: extend max_snapshot_id
         # We find records active at 'prev' that match 'staging'
-        conn.execute(f"""
+        cur_upd = conn.execute(f"""
             UPDATE addresses SET max_snapshot_id = ?
             WHERE max_snapshot_id = ?
             AND EXISTS (
@@ -321,14 +332,14 @@ def import_geojson(filepath, headers=None):
             )
         """, (curr_id, prev))
         
-        updated_count = conn.total_changes
+        updated_count = cur_upd.rowcount
         print(f"  Unchanged: {updated_count:,} (extended validity)")
 
         # 3. Insert New or Modified records
         # These are records in staging that DO NOT exist in addresses with max_snapshot_id = curr_id
         # (Because if they matched, we just updated them to curr_id)
         cols_str = ", ".join(col_names)
-        conn.execute(f"""
+        cur_ins = conn.execute(f"""
             INSERT INTO addresses (min_snapshot_id, max_snapshot_id, {cols_str})
             SELECT ?, ?, {cols_str} FROM staging_addresses s
             WHERE s.address_point_id NOT IN (
@@ -337,8 +348,34 @@ def import_geojson(filepath, headers=None):
             )
         """, (curr_id, curr_id, curr_id))
         
-        inserted_count = conn.total_changes
+        inserted_count = cur_ins.rowcount
         print(f"  New/Modified: {inserted_count:,}")
+
+    # Safeguard: If row_count is 0, this is likely a bad import (unless the file was truly empty, 
+    # but for Toronto addresses that's impossible).
+    if row_count == 0:
+        print("ERROR: Imported 0 rows. Aborting snapshot creation.")
+        conn.close() # Rollback (since we haven't committed yet)
+        raise ValueError("Import failed: 0 rows found in GeoJSON.")
+
+    # Check if this import resulted in ANY changes (new or modified)
+    if inserted_count == 0:
+        print(f"  No changes detected compared to snapshot {prev}.")
+        print("  Rolling back new snapshot...")
+        conn.rollback()
+        
+        # However, we might want to update the metadata of the previous snapshot
+        # if the new file has better metadata (e.g. Last-Modified)
+        if headers.get("Last-Modified"):
+            conn.execute(
+                "UPDATE snapshots SET remote_last_modified = ?, remote_content_length = ? WHERE id = ?",
+                (headers.get("Last-Modified"), headers.get("Content-Length"), prev)
+            )
+            conn.commit()
+            print(f"  Updated metadata for snapshot {prev}.")
+            
+        conn.close()
+        return prev
 
     # Update summary
     conn.execute(
@@ -372,7 +409,7 @@ def get_latest_snapshots(n=2):
     """Return the last n snapshots."""
     conn = _connect()
     rows = conn.execute(
-        "SELECT * FROM snapshots ORDER BY downloaded DESC LIMIT ?", (n,)
+        "SELECT * FROM snapshots WHERE skipped = 0 ORDER BY downloaded DESC LIMIT ?", (n,)
     ).fetchall()
     conn.close()
     return [dict(r) for r in reversed(rows)]
