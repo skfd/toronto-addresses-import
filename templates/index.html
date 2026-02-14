@@ -110,43 +110,18 @@
 
         <h2 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Reports</h2>
         <div class="reports">
-            
-            <a class="report-link" href="../reports/report-2026-02-13.html">
-                <div class="date">2026-02-13</div>
+            {% for report in reports %}
+            <a class="report-link" href="{{ report.filename }}">
+                <div class="date">{{ report.date }}</div>
                 <div class="meta">
-                    
-                    2 added · 3 removed · 14 modified
-                    
+                    {% if report.added == 0 and report.removed == 0 and report.modified == 0 %}
+                    No changes detected
+                    {% else %}
+                    {{ report.added }} added · {{ report.removed }} removed · {{ report.modified }} modified
+                    {% endif %}
                 </div>
             </a>
-            
-            <a class="report-link" href="../reports/report-2026-02-12.html">
-                <div class="date">2026-02-12</div>
-                <div class="meta">
-                    
-                    293 added · 457 removed · 2482 modified
-                    
-                </div>
-            </a>
-            
-            <a class="report-link" href="../reports/report-2025-09-09.html">
-                <div class="date">2025-09-09</div>
-                <div class="meta">
-                    
-                    532 added · 623 removed · 142 modified
-                    
-                </div>
-            </a>
-            
-            <a class="report-link" href="../reports/#">
-                <div class="date">2025-04-01</div>
-                <div class="meta">
-                    
-                    525613 added · 0 removed · 0 modified
-                    
-                </div>
-            </a>
-            
+            {% endfor %}
         </div>
 
         <footer>

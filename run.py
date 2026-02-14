@@ -98,6 +98,47 @@ def cmd_rebuild(args):
     print("Rebuild complete.")
 
 
+def cmd_report_all(args):
+    """Generate reports for ALL snapshots in the database."""
+    snapshots = get_latest_snapshots(9999) # Get all
+    if not snapshots:
+        print("No snapshots found.")
+        return
+    
+    # Sort old -> new
+    snapshots.sort(key=lambda x: x["id"])
+    
+    import src.report
+    from src.report import _update_report_metadata, update_index
+    
+    print(f"Found {len(snapshots)} snapshots. Generating reports...")
+
+    for i, snap in enumerate(snapshots):
+        if i == 0:
+            # First snapshot: No diff possible, but we want it in the index
+            import re
+            match = re.search(r"(\d{4}-\d{2}-\d{2})", snap["filename"])
+            date_part = match.group(1) if match else snap["downloaded"][:10]
+            
+            print(f"[{date_part}] Initial Import (Snapshot {snap['id']})")
+            
+            # Manually update metadata for the first one
+            _update_report_metadata(snap["id"], date_part, "#", 
+                                    {"added": snap["row_count"], "removed": 0, "modified": 0},
+                                    {"added": range(snap["row_count"]), "removed": [], "modified": []}) # Fake diff result
+            
+            pass
+        else:
+            old = snapshots[i-1]
+            new = snap
+            print(f"[{new['downloaded'][:10]}] Diffing {old['id']} -> {new['id']}...")
+            result = compute_diff(old["id"], new["id"])
+            generate_report(result, old, new)
+
+    update_index()
+    print("All reports generated.")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Toronto Address Change Tracker",
@@ -113,6 +154,8 @@ def main():
     sub.add_parser("diff", help="Show diff between latest two snapshots")
 
     sub.add_parser("report", help="Generate HTML report for latest diff")
+
+    sub.add_parser("report-all", help="Regenerate reports for entire history")
 
     up = sub.add_parser("update", help="Download + import + diff + report")
     up.add_argument("--force", action="store_true", help="Force re-download")
@@ -130,6 +173,7 @@ def main():
         "import": cmd_import,
         "diff": cmd_diff,
         "report": cmd_report,
+        "report-all": cmd_report_all,
         "update": cmd_update,
         "rebuild": cmd_rebuild,
     }
