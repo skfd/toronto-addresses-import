@@ -8,14 +8,17 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from src.download import download
-from src.db import import_geojson, get_latest_snapshots, init_db
+from src.db import import_geojson, get_latest_snapshots, init_db, record_skipped_snapshot
 from src.diff import compute_diff
 from src.report import generate_report
 
 
 def cmd_download(args):
-    filepath = download(force=args.force)
-    print(f"GeoJSON ready: {filepath}")
+    status, data, _ = download(force=args.force)
+    if status == "SKIPPED":
+        print(f"Skipped download: {data}")
+    else:
+        print(f"GeoJSON ready: {data}")
 
 
 def cmd_import(args):
@@ -62,10 +65,21 @@ def cmd_report(args):
 def cmd_update(args):
     """Download, import, diff, and generate a report in one go."""
     print("=== Download ===")
-    filepath = download(force=args.force)
+    status, data, headers = download(force=args.force)
+    
+    if status == "SKIPPED":
+        print(f"\nSkipped: {data}")
+        print("Recording skipped snapshot...")
+        record_skipped_snapshot("skipped-download", data)
+        
+        from src.report import generate_no_changes_report
+        outpath = generate_no_changes_report()
+        print(f"Report generated: {outpath}")
+        return
+
     print()
     print("=== Import ===")
-    import_geojson(filepath)
+    import_geojson(data, headers=headers)
     print()
     print("=== Diff & Report ===")
     cmd_report(args)

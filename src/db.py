@@ -44,12 +44,29 @@ def _connect():
 def init_db():
     """Create tables if they don't exist."""
     conn = _connect()
+    # Check if we need to migrate existing table
+    try:
+        # Check if new columns exist
+        conn.execute("SELECT remote_last_modified FROM snapshots LIMIT 1")
+    except sqlite3.OperationalError:
+        # Migration needed: Add columns
+        try:
+            conn.execute("ALTER TABLE snapshots ADD COLUMN remote_last_modified TEXT")
+            conn.execute("ALTER TABLE snapshots ADD COLUMN remote_content_length INTEGER")
+            conn.execute("ALTER TABLE snapshots ADD COLUMN skipped INTEGER DEFAULT 0")
+        except sqlite3.OperationalError:
+            # Table might not exist yet, which is fine, create it below
+            pass
+
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS snapshots (
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
             downloaded  TEXT NOT NULL,
             row_count   INTEGER NOT NULL,
-            filename    TEXT NOT NULL
+            filename    TEXT NOT NULL,
+            remote_last_modified TEXT,
+            remote_content_length INTEGER,
+            skipped     INTEGER DEFAULT 0
         );
 
         CREATE TABLE IF NOT EXISTS addresses (
@@ -108,12 +125,48 @@ def _clean_str(val):
     return str(val)
 
 
-def import_geojson(filepath):
+def record_skipped_snapshot(filename, reason):
+    """Record a skipped snapshot."""
+    init_db()
+    conn = _connect()
+    
+    conn.execute(
+        "INSERT INTO snapshots (downloaded, row_count, filename, skipped) VALUES (?, 0, ?, 1)",
+        (datetime.now().isoformat(), filename)
+    )
+    conn.commit()
+    conn.close()
+    print(f"Recorded skipped snapshot: {filename} ({reason})")
+
+
+def get_last_snapshot_headers():
+    """Get the Last-Modified and Content-Length of the most recent NON-SKIPPED snapshot."""
+    conn = _connect()
+    try:
+        row = conn.execute("""
+            SELECT remote_last_modified, remote_content_length 
+            FROM snapshots 
+            WHERE skipped = 0 
+            ORDER BY id DESC LIMIT 1
+        """).fetchone()
+    except sqlite3.OperationalError:
+        # Columns might not exist yet if not initialized
+        conn.close()
+        return None
+        
+    conn.close()
+    if row:
+        return dict(row)
+    return None
+
+
+def import_geojson(filepath, headers=None):
     """Import a GeoJSON file as a new snapshot using delta logic."""
     init_db()
     conn = _connect()
 
     filename = os.path.basename(filepath)
+    headers = headers or {}
 
     # Check if already imported
     existing = conn.execute(
@@ -125,14 +178,21 @@ def import_geojson(filepath):
         return existing["id"]
 
     # Get previous snapshot ID
-    prev = conn.execute("SELECT MAX(id) FROM snapshots").fetchone()[0]
+    prev = conn.execute("SELECT MAX(id) FROM snapshots WHERE skipped = 0").fetchone()[0]
 
     print(f"Importing {filename} (prev_snapshot={prev}) ...")
 
     # Insert snapshot record
     cur = conn.execute(
-        "INSERT INTO snapshots (downloaded, row_count, filename) VALUES (?, 0, ?)",
-        (datetime.now().isoformat(), filename),
+        """INSERT INTO snapshots (
+            downloaded, row_count, filename, remote_last_modified, remote_content_length
+        ) VALUES (?, 0, ?, ?, ?)""",
+        (
+            datetime.now().isoformat(), 
+            filename,
+            headers.get("Last-Modified"),
+            headers.get("Content-Length")
+        ),
     )
     curr_id = cur.lastrowid
 

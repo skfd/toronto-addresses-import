@@ -176,6 +176,68 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
     return outpath
 
 
+def generate_no_changes_report():
+    """Generate a report indicating no changes were found."""
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    
+    # Get latest snapshot for row count
+    from src.db import get_latest_snapshots
+    snapshots = get_latest_snapshots(1)
+    row_count = snapshots[0]["row_count"] if snapshots else 0
+    
+    date_part = datetime.now().strftime("%Y-%m-%d")
+    filename = f"report-{date_part}-skipped.html"
+    outpath = os.path.join(REPORTS_DIR, filename)
+    
+    env = Environment(
+        loader=FileSystemLoader(TEMPLATES_DIR),
+        autoescape=True,
+    )
+    
+    dummy_snapshot = {
+        "downloaded": datetime.now().isoformat(),
+        "filename": "No New Data",
+        "id": "-",
+        "row_count": row_count
+    }
+
+    template = env.get_template("report.html")
+    html = template.render(
+        generated=datetime.now().strftime("%b %d, %Y at %I:%M %p"),
+        old_snapshot=dummy_snapshot,
+        new_snapshot=dummy_snapshot,
+        old_date_friendly=_friendly_date(date_part),
+        new_date_friendly=_friendly_date(date_part),
+        added=[],
+        removed=[],
+        modified=[],
+        stats={},
+        added_count=0,
+        removed_count=0,
+        modified_count=0,
+        is_skipped=True
+    )
+    
+    with open(outpath, "w", encoding="utf-8") as f:
+        f.write(html)
+        
+    print(f"No-changes report written to {outpath}")
+    
+    # Update index
+    skipped_id = int(datetime.now().timestamp())
+    
+    _update_report_metadata(
+        skipped_id, 
+        date_part, 
+        filename, 
+        {"muni_added":{}, "muni_removed":{}, "field_changes":{}}, 
+        {"added":[], "removed":[], "modified":[]}
+    )
+    update_index()
+    
+    return outpath
+
+
 def _compute_stats(diff_result):
     """Compute per-municipality and per-ward change counts."""
     muni_added = Counter()

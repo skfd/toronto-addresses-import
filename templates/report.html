@@ -336,7 +336,11 @@
     <strong>Updated addresses</strong> are corrections to existing records.
   </div>
 
-  {% if added_count == 0 and removed_count == 0 and modified_count == 0 %}
+  {% if is_skipped %}
+  <div class="no-changes-banner">
+    ✓ Source data unchanged — no download or update required.
+  </div>
+  {% elif added_count == 0 and removed_count == 0 and modified_count == 0 %}
   <div class="no-changes-banner">
     ✓ Everything matches — no address changes were found.
   </div>
