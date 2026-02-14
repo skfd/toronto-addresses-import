@@ -3,6 +3,7 @@
 import os
 import re
 import json
+import math
 from collections import Counter
 from datetime import datetime
 
@@ -39,6 +40,25 @@ def _friendly_date(date_str):
         return date_str
 
 
+def _get_bearing_arrow(dx, dy):
+    """Return an arrow emoji based on the vector (dx, dy)."""
+    if dx == 0 and dy == 0:
+        return ""
+    
+    # atan2 returns angle in radians, -pi to +pi
+    # 0 is East (positive x), pi/2 is North (positive y)
+    angle = math.degrees(math.atan2(dy, dx))
+    
+    # Normalize to 0-360
+    angle = (angle + 360) % 360
+    
+    # Map to 8 directions (45 degrees each)
+    # East (0) is [337.5, 22.5]
+    idx = int((angle + 22.5) // 45) % 8
+    arrows = ["→", "↗", "↑", "↖", "←", "↙", "↓", "↘"]
+    return arrows[idx]
+
+
 def generate_report(diff_result, old_snapshot, new_snapshot):
     """Generate an HTML report from a diff result. Returns the output file path."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
@@ -48,8 +68,58 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
 
     # Humanize field names in the changes
     for mod in diff_result["modified"]:
+        # Check for coordinate changes to combine
+        changes = mod["changes"]
+        lat_change = next((c for c in changes if c["field"] == "latitude"), None)
+        lon_change = next((c for c in changes if c["field"] == "longitude"), None)
+
+        if lat_change or lon_change:
+            # Get current values (from diff.py's augmented modified dict) or fallbacks
+            new_lat = mod.get("latitude")
+            new_lon = mod.get("longitude")
+            
+            # For old values, we need to subtract the delta if we have a change record
+            # If no change record for one component, it means it didn't change (delta=0)
+            
+            old_lat = lat_change["old"] if lat_change else new_lat
+            # new_lat is already the 'new' value. 
+            # If lat didn't change, old_lat == new_lat.
+            
+            old_lon = lon_change["old"] if lon_change else new_lon
+            
+            # Calculate bearing if we have both coordinates
+            arrow = ""
+            if old_lat is not None and old_lon is not None and new_lat is not None and new_lon is not None:
+                dy = new_lat - old_lat
+                dx = (new_lon - old_lon) * 0.723  # Correct for Toronto latitude (~43.7N)
+                if abs(dy) > 1e-6 or abs(dx) > 1e-6:
+                    arrow = " " + _get_bearing_arrow(dx, dy)
+            
+            # Create formatted strings
+            # If a value is None (unlikely for lat/lon but possible), handle gracefully
+            def fmt(lat, lon):
+                if lat is None or lon is None:
+                    return "—"
+                return f"{lat:.6f}, {lon:.6f}"
+
+            old_str = fmt(old_lat, old_lon)
+            new_str = fmt(new_lat, new_lon) + arrow
+            
+            # Remove individual lat/lon changes
+            changes = [c for c in changes if c["field"] not in ("latitude", "longitude")]
+            
+            # Add combined change
+            changes.append({
+                "field": "location",
+                "old": old_str,
+                "new": new_str,
+                "display_field": "Location"
+            })
+            mod["changes"] = changes
+
         for ch in mod["changes"]:
-            ch["display_field"] = FIELD_DISPLAY_NAMES.get(ch["field"], ch["field"])
+            if "display_field" not in ch:
+                ch["display_field"] = FIELD_DISPLAY_NAMES.get(ch["field"], ch["field"])
 
     # Humanize field names in stats
     if stats.get("field_changes"):

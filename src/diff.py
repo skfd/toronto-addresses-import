@@ -95,6 +95,8 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
                 "address_point_id": row["address_point_id"],
                 "address_full": row["new_address_full"] or row["old_address_full"] or "",
                 "municipality_name": row["new_municipality_name"] or row["old_municipality_name"] or "",
+                "latitude": row["new_latitude"],
+                "longitude": row["new_longitude"],
                 "changes": changes,
             })
 
