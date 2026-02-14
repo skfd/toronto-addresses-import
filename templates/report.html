@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Toronto Address Changes — {{ new_snapshot.downloaded[:10] }}</title>
+  <title>Toronto Address Changes — {{ new_date_friendly }}</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -31,6 +31,32 @@
       color: var(--text);
       line-height: 1.6;
       padding: 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-bottom: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: var(--accent);
+      text-decoration: none;
     }
 
     h1 {
@@ -42,7 +68,18 @@
     .subtitle {
       color: var(--text-dim);
       font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .explainer {
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      line-height: 1.6;
       margin-bottom: 2rem;
+      padding: 1rem 1.25rem;
+      background: var(--surface);
+      border-radius: 10px;
+      border: 1px solid var(--border);
     }
 
     .cards {
@@ -175,6 +212,12 @@
       font-weight: 600;
     }
 
+    .map-link {
+      color: var(--accent);
+      font-size: 0.8rem;
+      white-space: nowrap;
+    }
+
     .bar-chart {
       margin-top: 0.5rem;
     }
@@ -188,7 +231,7 @@
     }
 
     .bar-label {
-      width: 160px;
+      width: 180px;
       text-align: right;
       color: var(--text-dim);
       flex-shrink: 0;
@@ -247,48 +290,73 @@
       cursor: pointer;
       font-size: 0.8rem;
       margin-bottom: 0.75rem;
+      transition: background 0.2s;
     }
 
     .collapsible-toggle:hover {
       background: var(--surface2);
+    }
+
+    .no-changes-banner {
+      background: rgba(74, 222, 128, 0.1);
+      border: 1px solid var(--green);
+      color: var(--green);
+      padding: 1.25rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    .generated-at {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--text-dim);
     }
   </style>
 </head>
 
 <body>
 
+  <a class="back-link" href="../docs/index.html">← Back to all reports</a>
+
   <h1>Toronto Address Changes</h1>
   <p class="subtitle">
-    Comparing snapshot {{ old_snapshot.id }} ({{ old_snapshot.downloaded[:10] }}, {{
-    "{:,}".format(old_snapshot.row_count) }} rows)
-    → snapshot {{ new_snapshot.id }} ({{ new_snapshot.downloaded[:10] }}, {{ "{:,}".format(new_snapshot.row_count) }}
-    rows)
-    &nbsp;·&nbsp; Generated {{ generated }}
+    Changes between {{ old_date_friendly }} and {{ new_date_friendly }}
+    · {{ "{:,}".format(new_snapshot.row_count) }} total addresses
   </p>
 
+  <div class="explainer">
+    This report shows what changed in Toronto's official address list since the last update.
+    <strong>New addresses</strong> are typically new buildings or subdivisions.
+    <strong>Removed addresses</strong> may be demolished or re-numbered properties.
+    <strong>Updated addresses</strong> are corrections to existing records.
+  </div>
 
   {% if added_count == 0 and removed_count == 0 and modified_count == 0 %}
-  <div
-    style="background: rgba(74,222,128,0.1); border: 1px solid var(--green); color: var(--green); padding: 1rem; border-radius: 8px; margin-bottom: 2rem; text-align: center; font-weight: 600;">
-    ✓ Import Successful: No Data Changes Detected
+  <div class="no-changes-banner">
+    ✓ Everything matches — no address changes were found.
   </div>
   {% endif %}
 
   <div class="cards">
     <div class="card">
-      <div class="label">Total Addresses (new)</div>
+      <div class="label">Total Addresses</div>
       <div class="value accent">{{ "{:,}".format(new_snapshot.row_count) }}</div>
     </div>
     <div class="card">
-      <div class="label">Added</div>
+      <div class="label">New Addresses</div>
       <div class="value green">+{{ "{:,}".format(added_count) }}</div>
     </div>
     <div class="card">
-      <div class="label">Removed</div>
+      <div class="label">Retired Addresses</div>
       <div class="value red">−{{ "{:,}".format(removed_count) }}</div>
     </div>
     <div class="card">
-      <div class="label">Modified</div>
+      <div class="label">Updated Addresses</div>
       <div class="value yellow">{{ "{:,}".format(modified_count) }}</div>
     </div>
   </div>
@@ -301,7 +369,7 @@
 
       {% if stats.muni_added %}
       <div class="card">
-        <div class="label">Added by Municipality</div>
+        <div class="label">New by Municipality</div>
         <div class="bar-chart">
           {% set max_val = stats.muni_added.values()|max %}
           {% for name, count in stats.muni_added.items() %}
@@ -337,7 +405,7 @@
 
       {% if stats.field_changes %}
       <div class="card">
-        <div class="label">Most Changed Fields</div>
+        <div class="label">Most Frequently Updated Fields</div>
         <div class="bar-chart">
           {% set max_val = stats.field_changes.values()|max %}
           {% for name, count in stats.field_changes.items() %}
@@ -359,131 +427,150 @@
 
   <!-- Added -->
   <div class="section">
-    <h2>Added Addresses <span class="badge badge-green">{{ added_count }}</span></h2>
+    <h2>New Addresses <span class="badge badge-green">{{ added_count }}</span></h2>
     {% if added %}
+    {% if added_count > 50 %}
     <button class="collapsible-toggle" onclick="toggle('tbl-added')">Show / Hide</button>
     <div id="tbl-added" style="display:none">
-      <table>
-        <thead>
-          <tr>
-            <th onclick="sortTable('tbl-added-t',0)">Address</th>
-            <th onclick="sortTable('tbl-added-t',1)">Street</th>
-            <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
-            <th onclick="sortTable('tbl-added-t',3)">Ward</th>
-            <th onclick="sortTable('tbl-added-t',4)">Lat</th>
-            <th onclick="sortTable('tbl-added-t',5)">Lon</th>
-          </tr>
-        </thead>
-        <tbody id="tbl-added-t">
-          {% for r in added %}
-          <tr>
-            <td>{{ r.address_full or '' }}</td>
-            <td>{{ r.linear_name_full or '' }}</td>
-            <td>{{ r.municipality_name or '' }}</td>
-            <td>{{ r.ward_name or '' }}</td>
-            <td>{{ "%.6f"|format(r.latitude) if r.latitude else '' }}</td>
-            <td>{{ "%.6f"|format(r.longitude) if r.longitude else '' }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+      {% else %}
+      <div id="tbl-added">
+        {% endif %}
+        <table>
+          <thead>
+            <tr>
+              <th onclick="sortTable('tbl-added-t',0)">Address</th>
+              <th onclick="sortTable('tbl-added-t',1)">Street</th>
+              <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
+              <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>Map</th>
+            </tr>
+          </thead>
+          <tbody id="tbl-added-t">
+            {% for r in added %}
+            <tr>
+              <td>{{ r.address_full or '' }}</td>
+              <td>{{ r.linear_name_full or '' }}</td>
+              <td>{{ r.municipality_name or '' }}</td>
+              <td>{{ r.ward_name or '' }}</td>
+              <td>{% if r.latitude and r.longitude %}{% set lat = "%.6f"|format(r.latitude) %}{% set lon =
+                "%.6f"|format(r.longitude) %}<a class="map-link"
+                  href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}"
+                  target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% else %}
+      <p class="empty">No new addresses.</p>
+      {% endif %}
     </div>
-    {% else %}
-    <p class="empty">No addresses added.</p>
-    {% endif %}
-  </div>
 
-  <!-- Removed -->
-  <div class="section">
-    <h2>Removed Addresses <span class="badge badge-red">{{ removed_count }}</span></h2>
-    {% if removed %}
-    <button class="collapsible-toggle" onclick="toggle('tbl-removed')">Show / Hide</button>
-    <div id="tbl-removed" style="display:none">
-      <table>
-        <thead>
-          <tr>
-            <th onclick="sortTable('tbl-removed-t',0)">Address</th>
-            <th onclick="sortTable('tbl-removed-t',1)">Street</th>
-            <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
-            <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
-            <th onclick="sortTable('tbl-removed-t',4)">Lat</th>
-            <th onclick="sortTable('tbl-removed-t',5)">Lon</th>
-          </tr>
-        </thead>
-        <tbody id="tbl-removed-t">
-          {% for r in removed %}
-          <tr>
-            <td>{{ r.address_full or '' }}</td>
-            <td>{{ r.linear_name_full or '' }}</td>
-            <td>{{ r.municipality_name or '' }}</td>
-            <td>{{ r.ward_name or '' }}</td>
-            <td>{{ "%.6f"|format(r.latitude) if r.latitude else '' }}</td>
-            <td>{{ "%.6f"|format(r.longitude) if r.longitude else '' }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-    {% else %}
-    <p class="empty">No addresses removed.</p>
-    {% endif %}
-  </div>
+    <!-- Removed -->
+    <div class="section">
+      <h2>Retired Addresses <span class="badge badge-red">{{ removed_count }}</span></h2>
+      {% if removed %}
+      {% if removed_count > 50 %}
+      <button class="collapsible-toggle" onclick="toggle('tbl-removed')">Show / Hide</button>
+      <div id="tbl-removed" style="display:none">
+        {% else %}
+        <div id="tbl-removed">
+          {% endif %}
+          <table>
+            <thead>
+              <tr>
+                <th onclick="sortTable('tbl-removed-t',0)">Address</th>
+                <th onclick="sortTable('tbl-removed-t',1)">Street</th>
+                <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
+                <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>Map</th>
+              </tr>
+            </thead>
+            <tbody id="tbl-removed-t">
+              {% for r in removed %}
+              <tr>
+                <td>{{ r.address_full or '' }}</td>
+                <td>{{ r.linear_name_full or '' }}</td>
+                <td>{{ r.municipality_name or '' }}</td>
+                <td>{{ r.ward_name or '' }}</td>
+                <td>{% if r.latitude and r.longitude %}{% set lat = "%.6f"|format(r.latitude) %}{% set lon =
+                  "%.6f"|format(r.longitude) %}<a class="map-link"
+                    href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}"
+                    target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% else %}
+        <p class="empty">No addresses retired.</p>
+        {% endif %}
+      </div>
 
-  <!-- Modified -->
-  <div class="section">
-    <h2>Modified Addresses <span class="badge badge-yellow">{{ modified_count }}</span></h2>
-    {% if modified %}
-    <button class="collapsible-toggle" onclick="toggle('tbl-modified')">Show / Hide</button>
-    <div id="tbl-modified" style="display:none">
-      <table>
-        <thead>
-          <tr>
-            <th>Address Point ID</th>
-            <th>Field</th>
-            <th>Old Value</th>
-            <th>New Value</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for m in modified %}
-          {% for ch in m.changes %}
-          <tr>
-            {% if loop.first %}<td rowspan="{{ m.changes|length }}">{{ m.address_point_id }}</td>{% endif %}
-            <td class="change-field">{{ ch.field }}</td>
-            <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
-            <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
-          </tr>
-          {% endfor %}
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-    {% else %}
-    <p class="empty">No addresses modified.</p>
-    {% endif %}
-  </div>
+      <!-- Modified -->
+      <div class="section">
+        <h2>Updated Addresses <span class="badge badge-yellow">{{ modified_count }}</span></h2>
+        {% if modified %}
+        {% if modified_count > 50 %}
+        <button class="collapsible-toggle" onclick="toggle('tbl-modified')">Show / Hide</button>
+        <div id="tbl-modified" style="display:none">
+          {% else %}
+          <div id="tbl-modified">
+            {% endif %}
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>What Changed</th>
+                  <th>Before</th>
+                  <th>After</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for m in modified %}
+                {% for ch in m.changes %}
+                <tr>
+                  {% if loop.first %}<td rowspan="{{ m.changes|length }}">{{ m.address_full or m.address_point_id }}
+                  </td>{% endif %}
+                  <td class="change-field">{{ ch.display_field or ch.field }}</td>
+                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
+                </tr>
+                {% endfor %}
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% else %}
+          <p class="empty">No addresses updated.</p>
+          {% endif %}
+        </div>
 
-  <script>
-    function toggle(id) {
-      const el = document.getElementById(id);
-      el.style.display = el.style.display === 'none' ? 'block' : 'none';
-    }
-    function sortTable(tbodyId, col) {
-      const tbody = document.getElementById(tbodyId);
-      if (!tbody) return;
-      const rows = Array.from(tbody.rows);
-      const dir = tbody.dataset.sortDir === 'asc' ? 'desc' : 'asc';
-      tbody.dataset.sortDir = dir;
-      rows.sort((a, b) => {
-        const av = a.cells[col]?.textContent.trim() || '';
-        const bv = b.cells[col]?.textContent.trim() || '';
-        const an = parseFloat(av), bn = parseFloat(bv);
-        if (!isNaN(an) && !isNaN(bn)) return dir === 'asc' ? an - bn : bn - an;
-        return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
-      });
-      rows.forEach(r => tbody.appendChild(r));
-    }
-  </script>
+        <div class="generated-at">
+          Report generated {{ generated }}
+        </div>
+
+        <script>
+          function toggle(id) {
+            const el = document.getElementById(id);
+            el.style.display = el.style.display === 'none' ? 'block' : 'none';
+          }
+          function sortTable(tbodyId, col) {
+            const tbody = document.getElementById(tbodyId);
+            if (!tbody) return;
+            const rows = Array.from(tbody.rows);
+            const dir = tbody.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+            tbody.dataset.sortDir = dir;
+            rows.sort((a, b) => {
+              const av = a.cells[col]?.textContent.trim() || '';
+              const bv = b.cells[col]?.textContent.trim() || '';
+              const an = parseFloat(av), bn = parseFloat(bv);
+              if (!isNaN(an) && !isNaN(bn)) return dir === 'asc' ? an - bn : bn - an;
+              return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+            });
+            rows.forEach(r => tbody.appendChild(r));
+          }
+        </script>
 
 </body>
 

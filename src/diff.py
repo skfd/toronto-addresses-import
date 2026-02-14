@@ -93,6 +93,8 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
         if changes:
             modified.append({
                 "address_point_id": row["address_point_id"],
+                "address_full": row["new_address_full"] or row["old_address_full"] or "",
+                "municipality_name": row["new_municipality_name"] or row["old_municipality_name"] or "",
                 "changes": changes,
             })
 
@@ -118,10 +120,6 @@ def _values_differ(a, b):
     if a is None or b is None:
         return True
     
-    # For floats, use tolerance for coordinate rounding
-    if isinstance(a, float) and isinstance(b, float):
-        return abs(a - b) > 1e-7
-        
     return str(a) != str(b)
 
 

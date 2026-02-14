@@ -9,10 +9,14 @@
         :root {
             --bg: #0f1117;
             --surface: #1a1d27;
+            --surface2: #232735;
             --border: #2d3244;
             --text: #e1e4ed;
             --text-dim: #8b90a0;
             --accent: #6c8cff;
+            --green: #4ade80;
+            --red: #f87171;
+            --yellow: #fbbf24;
         }
 
         * {
@@ -32,21 +36,56 @@
         }
 
         main {
-            max-width: 640px;
+            max-width: 680px;
             width: 100%;
         }
 
-        h1 {
-            font-size: 1.75rem;
-            font-weight: 600;
+        /* Hero section */
+        .hero {
+            margin-bottom: 2.5rem;
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 700;
             margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
-        p {
+        .hero .tagline {
             color: var(--text-dim);
-            margin-bottom: 1.5rem;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
         }
 
+        .hero .dataset-link {
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .hero .dataset-link:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        /* Section header */
+        .section-header {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            font-size: 0.8rem;
+        }
+
+        /* Report cards */
         a {
             color: var(--accent);
             text-decoration: none;
@@ -57,37 +96,97 @@
         }
 
         .reports {
-            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
         }
 
         .report-link {
             display: block;
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: 10px;
-            padding: 1rem 1.25rem;
-            margin-bottom: 0.75rem;
+            border-radius: 12px;
+            padding: 1.15rem 1.35rem;
             color: var(--text);
-            transition: border-color 0.2s;
+            transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+            position: relative;
         }
 
         .report-link:hover {
             border-color: var(--accent);
             text-decoration: none;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(108, 140, 255, 0.1);
+        }
+
+        .report-link .date-row {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
         }
 
         .report-link .date {
             font-weight: 600;
+            font-size: 1.05rem;
         }
 
-        .report-link .meta {
-            font-size: 0.85rem;
+        .report-link .badge-latest {
+            font-size: 0.65rem;
+            padding: 0.15em 0.55em;
+            border-radius: 999px;
+            font-weight: 700;
+            background: rgba(108, 140, 255, 0.15);
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .report-link .summary {
+            font-size: 0.88rem;
             color: var(--text-dim);
-            margin-top: 0.25rem;
+            margin-top: 0.35rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .report-link .summary .indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .indicator.green {
+            background: var(--green);
+        }
+
+        .indicator.red {
+            background: var(--red);
+        }
+
+        .indicator.yellow {
+            background: var(--yellow);
+        }
+
+        .indicator.neutral {
+            background: var(--text-dim);
+            opacity: 0.4;
+        }
+
+        .report-link.no-report {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .report-link.no-report .date {
+            color: var(--text-dim);
         }
 
         footer {
             margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
             font-size: 0.8rem;
             color: var(--text-dim);
         }
@@ -95,32 +194,66 @@
         footer a {
             color: var(--text-dim);
         }
+
+        footer a:hover {
+            color: var(--accent);
+        }
     </style>
 </head>
 
 <body>
     <main>
-        <h1>Toronto Address Change Tracker</h1>
-        <p>
-            Tracking daily changes to the City of Toronto's
-            <a href="https://open.toronto.ca/dataset/address-points-municipal-toronto-one-address-repository/">Address
-                Points</a>
-            dataset — over 525,000 addresses across the city.
-        </p>
+        <div class="hero">
+            <h1>Toronto Address Change Tracker</h1>
+            <p class="tagline">
+                Every day, we compare the City of Toronto's official address list to spot
+                new buildings, retired addresses, and corrections — so you don't have to.
+            </p>
+            <a class="dataset-link"
+                href="https://open.toronto.ca/dataset/address-points-municipal-toronto-one-address-repository/">
+                View the source dataset on Toronto Open Data →
+            </a>
+        </div>
 
-        <h2 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Reports</h2>
+        <div class="section-header">Reports</div>
         <div class="reports">
             {% for report in reports %}
+            {% if report.filename == "../reports/#" %}
+            <div class="report-link no-report">
+                <div class="date-row">
+                    <span class="date">{{ report.friendly_date }}</span>
+                </div>
+                <div class="summary">
+                    <span class="indicator neutral"></span>
+                    Initial import — {{ "{:,}".format(report.added) }} addresses loaded (no report available)
+                </div>
+            </div>
+            {% else %}
             <a class="report-link" href="{{ report.filename }}">
-                <div class="date">{{ report.date }}</div>
-                <div class="meta">
+                <div class="date-row">
+                    <span class="date">{{ report.friendly_date }}</span>
+                    {% if report.is_latest %}
+                    <span class="badge-latest">Latest</span>
+                    {% endif %}
+                </div>
+                <div class="summary">
                     {% if report.added == 0 and report.removed == 0 and report.modified == 0 %}
-                    No changes detected
+                    <span class="indicator neutral"></span>
+                    No changes
                     {% else %}
-                    {{ report.added }} added · {{ report.removed }} removed · {{ report.modified }} modified
+                    {% if report.added >= report.removed and report.added >= report.modified %}
+                    <span class="indicator green"></span>
+                    {% elif report.removed >= report.added and report.removed >= report.modified %}
+                    <span class="indicator red"></span>
+                    {% else %}
+                    <span class="indicator yellow"></span>
+                    {% endif %}
+                    {{ "{:,}".format(report.added) }} new · {{ "{:,}".format(report.removed) }} removed · {{
+                    "{:,}".format(report.modified) }} updated
                     {% endif %}
                 </div>
             </a>
+            {% endif %}
             {% endfor %}
         </div>
 

@@ -184,8 +184,10 @@ def import_geojson(filepath):
             if coords and isinstance(coords[0], list):
                 coords = coords[0]
             
-            lon = _parse_float(coords[0]) if len(coords) > 0 else None
-            lat = _parse_float(coords[1]) if len(coords) > 1 else None
+            lon_raw = _parse_float(coords[0]) if len(coords) > 0 else None
+            lat_raw = _parse_float(coords[1]) if len(coords) > 1 else None
+            lon = round(lon_raw, 5) if lon_raw is not None else None
+            lat = round(lat_raw, 5) if lat_raw is not None else None
 
             vals = [
                 _parse_int(props.get("ADDRESS_POINT_ID")),
