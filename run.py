@@ -162,6 +162,8 @@ def main():
 
     sub.add_parser("rebuild", help="Delete DB and re-import all historical data")
 
+    sub.add_parser("verify", help="Verify logic by comparing raw files")
+
     args = parser.parse_args()
 
     if args.command is None:
@@ -176,8 +178,21 @@ def main():
         "report-all": cmd_report_all,
         "update": cmd_update,
         "rebuild": cmd_rebuild,
+        "verify": lambda a: __import__("src.verify_diff").verify_diff.verify_diff(
+            *([s["id"] for s in  __import__("src.db").db.get_latest_snapshots(2)] if len(__import__("src.db").db.get_latest_snapshots(2)) >= 2 else [None, None])
+        )
     }
-    commands[args.command](args)
+    
+    if args.command == "verify":
+        from src.verify_diff import verify_diff
+        from src.db import get_latest_snapshots
+        snaps = get_latest_snapshots(2)
+        if len(snaps) < 2:
+            print("Not enough snapshots.")
+            return
+        verify_diff(snaps[0]["id"], snaps[1]["id"])
+    else:
+        commands[args.command](args)
 
 
 if __name__ == "__main__":
