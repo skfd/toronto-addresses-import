@@ -31,38 +31,42 @@ def _connect():
 
 
 def compute_diff(old_snapshot_id, new_snapshot_id):
-    """Compare two snapshots. Returns a dict with added, removed, modified lists."""
+    """Compare two snapshots using validity ranges. Returns a dict with added, removed, modified lists."""
     conn = _connect()
 
-    # Added: in new but not in old
+    # Added: Valid in new, but NO record valid in old for this address_point_id
     added = conn.execute("""
         SELECT n.* FROM addresses n
-        LEFT JOIN addresses o
-            ON o.snapshot_id = ? AND o.address_point_id = n.address_point_id
-        WHERE n.snapshot_id = ? AND o.address_point_id IS NULL
-    """, (old_snapshot_id, new_snapshot_id)).fetchall()
+        WHERE n.min_snapshot_id <= ? AND n.max_snapshot_id >= ?
+        AND NOT EXISTS (
+            SELECT 1 FROM addresses o
+            WHERE o.address_point_id = n.address_point_id
+            AND o.min_snapshot_id <= ? AND o.max_snapshot_id >= ?
+        )
+    """, (new_snapshot_id, new_snapshot_id, old_snapshot_id, old_snapshot_id)).fetchall()
 
-    # Removed: in old but not in new
+    # Removed: Valid in old, but NO record valid in new for this address_point_id
     removed = conn.execute("""
         SELECT o.* FROM addresses o
-        LEFT JOIN addresses n
-            ON n.snapshot_id = ? AND n.address_point_id = o.address_point_id
-        WHERE o.snapshot_id = ? AND n.address_point_id IS NULL
-    """, (new_snapshot_id, old_snapshot_id)).fetchall()
+        WHERE o.min_snapshot_id <= ? AND o.max_snapshot_id >= ?
+        AND NOT EXISTS (
+            SELECT 1 FROM addresses n
+            WHERE n.address_point_id = o.address_point_id
+            AND n.min_snapshot_id <= ? AND n.max_snapshot_id >= ?
+        )
+    """, (old_snapshot_id, old_snapshot_id, new_snapshot_id, new_snapshot_id)).fetchall()
 
-    # Modified: same address_point_id, but at least one tracked column differs
-    where_clauses = " OR ".join(
-        f"o.{c} IS NOT n.{c}" for c in COMPARE_COLUMNS
-    )
+    # Modified: Address exists in both, but represented by DIFFERENT rows (meaning change occurred)
     modified_rows = conn.execute(f"""
         SELECT o.address_point_id,
                {', '.join(f'o.{c} AS old_{c}' for c in COMPARE_COLUMNS)},
                {', '.join(f'n.{c} AS new_{c}' for c in COMPARE_COLUMNS)}
         FROM addresses o
-        JOIN addresses n
-            ON n.snapshot_id = ? AND n.address_point_id = o.address_point_id
-        WHERE o.snapshot_id = ? AND ({where_clauses})
-    """, (new_snapshot_id, old_snapshot_id)).fetchall()
+        JOIN addresses n ON n.address_point_id = o.address_point_id
+        WHERE o.min_snapshot_id <= ? AND o.max_snapshot_id >= ?
+          AND n.min_snapshot_id <= ? AND n.max_snapshot_id >= ?
+          AND o.min_snapshot_id != n.min_snapshot_id
+    """, (old_snapshot_id, old_snapshot_id, new_snapshot_id, new_snapshot_id)).fetchall()
 
     conn.close()
 

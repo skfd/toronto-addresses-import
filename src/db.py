@@ -53,7 +53,8 @@ def init_db():
         );
 
         CREATE TABLE IF NOT EXISTS addresses (
-            snapshot_id         INTEGER NOT NULL REFERENCES snapshots(id),
+            min_snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
+            max_snapshot_id     INTEGER NOT NULL REFERENCES snapshots(id),
             address_point_id    INTEGER NOT NULL,
             address_full        TEXT,
             address_number      TEXT,
@@ -70,11 +71,14 @@ def init_db():
             longitude           REAL,
             latitude            REAL,
             extra               TEXT,
-            PRIMARY KEY (snapshot_id, address_point_id)
+            PRIMARY KEY (address_point_id, min_snapshot_id)
         );
 
-        CREATE INDEX IF NOT EXISTS idx_addr_point
-            ON addresses(address_point_id);
+        CREATE INDEX IF NOT EXISTS idx_addr_validity
+            ON addresses(min_snapshot_id, max_snapshot_id);
+            
+        CREATE INDEX IF NOT EXISTS idx_addr_active
+            ON addresses(max_snapshot_id);
     """)
     conn.commit()
     conn.close()
@@ -105,16 +109,13 @@ def _clean_str(val):
 
 
 def import_geojson(filepath):
-    """Import a GeoJSON file as a new snapshot. Returns the snapshot id.
-
-    Streams the file line-by-line (each Feature is one line in the Toronto dataset).
-    """
+    """Import a GeoJSON file as a new snapshot using delta logic."""
     init_db()
     conn = _connect()
 
     filename = os.path.basename(filepath)
 
-    # Check if this file was already imported
+    # Check if already imported
     existing = conn.execute(
         "SELECT id FROM snapshots WHERE filename = ?", (filename,)
     ).fetchone()
@@ -123,25 +124,54 @@ def import_geojson(filepath):
         conn.close()
         return existing["id"]
 
-    print(f"Importing {filename} ...")
+    # Get previous snapshot ID
+    prev = conn.execute("SELECT MAX(id) FROM snapshots").fetchone()[0]
+
+    print(f"Importing {filename} (prev_snapshot={prev}) ...")
 
     # Insert snapshot record
     cur = conn.execute(
         "INSERT INTO snapshots (downloaded, row_count, filename) VALUES (?, 0, ?)",
         (datetime.now().isoformat(), filename),
     )
-    snapshot_id = cur.lastrowid
+    curr_id = cur.lastrowid
 
+    # Create temporary staging table
+    conn.execute("DROP TABLE IF EXISTS staging_addresses")
+    # Copy schema structure from addresses but without min/max/pk constraints
+    conn.execute("""
+        CREATE TEMPORARY TABLE staging_addresses (
+            address_point_id    INTEGER,
+            address_full        TEXT,
+            address_number      TEXT,
+            lo_num              INTEGER,
+            lo_num_suf          TEXT,
+            hi_num              INTEGER,
+            hi_num_suf          TEXT,
+            linear_name_full    TEXT,
+            linear_name         TEXT,
+            linear_name_type    TEXT,
+            linear_name_dir     TEXT,
+            municipality_name   TEXT,
+            ward_name           TEXT,
+            longitude           REAL,
+            latitude            REAL,
+            extra               TEXT
+        )
+    """)
+
+    # 1. Load data into staging
     row_count = 0
     batch = []
     batch_size = 5000
+
+    col_names = [k.lower() for k in TRACKED_COLUMNS] + ["longitude", "latitude", "extra"]
 
     with open(filepath, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip().rstrip(",")
             if '"type": "Feature"' not in line:
                 continue
-            # Fix trailing commas (invalid JSON in some exports)
             line = re.sub(r",\s*]", "]", line)
             line = re.sub(r",\s*}", "}", line)
             try:
@@ -151,68 +181,119 @@ def import_geojson(filepath):
 
             props = feat.get("properties", {})
             coords = feat.get("geometry", {}).get("coordinates", [])
-            # Handle MultiPoint: [[lon, lat]] or Point: [lon, lat]
             if coords and isinstance(coords[0], list):
                 coords = coords[0]
-
+            
             lon = _parse_float(coords[0]) if len(coords) > 0 else None
             lat = _parse_float(coords[1]) if len(coords) > 1 else None
 
-            vals = {
-                "snapshot_id": snapshot_id,
-                "address_point_id": _parse_int(props.get("ADDRESS_POINT_ID")),
-                "address_full": _clean_str(props.get("ADDRESS_FULL")),
-                "address_number": _clean_str(props.get("ADDRESS_NUMBER")),
-                "lo_num": _parse_int(props.get("LO_NUM")),
-                "lo_num_suf": _clean_str(props.get("LO_NUM_SUF")),
-                "hi_num": _parse_int(props.get("HI_NUM")),
-                "hi_num_suf": _clean_str(props.get("HI_NUM_SUF")),
-                "linear_name_full": _clean_str(props.get("LINEAR_NAME_FULL")),
-                "linear_name": _clean_str(props.get("LINEAR_NAME")),
-                "linear_name_type": _clean_str(props.get("LINEAR_NAME_TYPE")),
-                "linear_name_dir": _clean_str(props.get("LINEAR_NAME_DIR")),
-                "municipality_name": _clean_str(props.get("MUNICIPALITY_NAME")),
-                "ward_name": _clean_str(props.get("WARD_NAME")),
-                "longitude": lon,
-                "latitude": lat,
-            }
+            vals = [
+                _parse_int(props.get("ADDRESS_POINT_ID")),
+                _clean_str(props.get("ADDRESS_FULL")),
+                _clean_str(props.get("ADDRESS_NUMBER")),
+                _parse_int(props.get("LO_NUM")),
+                _clean_str(props.get("LO_NUM_SUF")),
+                _parse_int(props.get("HI_NUM")),
+                _clean_str(props.get("HI_NUM_SUF")),
+                _clean_str(props.get("LINEAR_NAME_FULL")),
+                _clean_str(props.get("LINEAR_NAME")),
+                _clean_str(props.get("LINEAR_NAME_TYPE")),
+                _clean_str(props.get("LINEAR_NAME_DIR")),
+                _clean_str(props.get("MUNICIPALITY_NAME")),
+                _clean_str(props.get("WARD_NAME")),
+                lon,
+                lat
+            ]
 
-            # Everything else goes into extra
+            # Extra
             extra_keys = set(props.keys()) - set(TRACKED_COLUMNS) - {"_id"}
             extra = {k: props[k] for k in sorted(extra_keys) if props.get(k) is not None}
-            vals["extra"] = json.dumps(extra) if extra else None
+            vals.append(json.dumps(extra) if extra else None)
 
-            if vals["address_point_id"] is None:
-                continue  # skip features without a valid key
+            if vals[0] is None: continue # address_point_id is first
 
-            batch.append(vals)
+            batch.append(tuple(vals))
             row_count += 1
 
             if len(batch) >= batch_size:
-                _insert_batch(conn, batch)
+                _insert_staging(conn, batch, col_names)
                 batch = []
                 if row_count % 50000 == 0:
-                    print(f"  {row_count:,} rows ...")
+                    print(f"  Buffered {row_count:,} rows ...")
 
     if batch:
-        _insert_batch(conn, batch)
+        _insert_staging(conn, batch, col_names)
 
+    conn.execute("CREATE INDEX idx_staging_id ON staging_addresses(address_point_id)")
+
+    if prev is None:
+        # First import ever: everything is new
+        print("  First import: Bulk inserting all rows...")
+        cols_str = ", ".join(col_names)
+        conn.execute(f"""
+            INSERT INTO addresses (min_snapshot_id, max_snapshot_id, {cols_str})
+            SELECT ?, ?, {cols_str} FROM staging_addresses
+        """, (curr_id, curr_id))
+    else:
+        # Delta logic
+        print("  Detecting changes...")
+        
+        # Build comparison clause
+        # tracked cols + geo cols + extra
+        compare_cols = col_names[1:] # skip address_point_id
+        
+        conditions = []
+        for c in compare_cols:
+            conditions.append(f"(addresses.{c} IS s.{c})")
+        match_condition = " AND ".join(conditions)
+
+        # 2. Update existing unchanged records: extend max_snapshot_id
+        # We find records active at 'prev' that match 'staging'
+        conn.execute(f"""
+            UPDATE addresses SET max_snapshot_id = ?
+            WHERE max_snapshot_id = ?
+            AND EXISTS (
+                SELECT 1 FROM staging_addresses s
+                WHERE s.address_point_id = addresses.address_point_id
+                AND {match_condition}
+            )
+        """, (curr_id, prev))
+        
+        updated_count = conn.total_changes
+        print(f"  Unchanged: {updated_count:,} (extended validity)")
+
+        # 3. Insert New or Modified records
+        # These are records in staging that DO NOT exist in addresses with max_snapshot_id = curr_id
+        # (Because if they matched, we just updated them to curr_id)
+        cols_str = ", ".join(col_names)
+        conn.execute(f"""
+            INSERT INTO addresses (min_snapshot_id, max_snapshot_id, {cols_str})
+            SELECT ?, ?, {cols_str} FROM staging_addresses s
+            WHERE s.address_point_id NOT IN (
+                SELECT address_point_id FROM addresses
+                WHERE max_snapshot_id = ?
+            )
+        """, (curr_id, curr_id, curr_id))
+        
+        inserted_count = conn.total_changes
+        print(f"  New/Modified: {inserted_count:,}")
+
+    # Update summary
     conn.execute(
-        "UPDATE snapshots SET row_count = ? WHERE id = ?", (row_count, snapshot_id)
+        "UPDATE snapshots SET row_count = ? WHERE id = ?", (row_count, curr_id)
     )
+    conn.execute("DROP TABLE staging_addresses")
     conn.commit()
     conn.close()
-    print(f"Imported {row_count:,} rows as snapshot {snapshot_id}")
-    return snapshot_id
+    
+    print(f"Imported {row_count:,} rows as snapshot {curr_id}")
+    return curr_id
 
 
-def _insert_batch(conn, batch):
-    cols = list(batch[0].keys())
+def _insert_staging(conn, batch, cols):
     placeholders = ", ".join(["?"] * len(cols))
-    col_names = ", ".join(cols)
-    sql = f"INSERT OR REPLACE INTO addresses ({col_names}) VALUES ({placeholders})"
-    conn.executemany(sql, [tuple(row[c] for c in cols) for row in batch])
-    conn.commit()
+    sql = f"INSERT INTO staging_addresses ({', '.join(cols)}) VALUES ({placeholders})"
+    conn.executemany(sql, batch)
 
 
 def get_snapshots():

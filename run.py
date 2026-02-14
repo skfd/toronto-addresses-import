@@ -71,6 +71,33 @@ def cmd_update(args):
     cmd_report(args)
 
 
+def cmd_rebuild(args):
+    """Delete the database and re-import all GeoJSON files in data/."""
+    from src.db import DB_PATH
+    
+    if os.path.exists(DB_PATH):
+        print(f"Deleting existing database: {DB_PATH}")
+        os.remove(DB_PATH)
+    
+    # data_dir logic
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    if not os.path.isdir(data_dir):
+        print("No data/ directory found.")
+        return
+
+    files = sorted(f for f in os.listdir(data_dir) if f.endswith(".geojson"))
+    if not files:
+        print("No GeoJSON files found in data/.")
+        return
+
+    print(f"Found {len(files)} snapshots to import. Rebuilding...")
+    for f in files:
+        filepath = os.path.join(data_dir, f)
+        import_geojson(filepath)
+    
+    print("Rebuild complete.")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Toronto Address Change Tracker",
@@ -90,6 +117,8 @@ def main():
     up = sub.add_parser("update", help="Download + import + diff + report")
     up.add_argument("--force", action="store_true", help="Force re-download")
 
+    sub.add_parser("rebuild", help="Delete DB and re-import all historical data")
+
     args = parser.parse_args()
 
     if args.command is None:
@@ -102,6 +131,7 @@ def main():
         "diff": cmd_diff,
         "report": cmd_report,
         "update": cmd_update,
+        "rebuild": cmd_rebuild,
     }
     commands[args.command](args)
 
