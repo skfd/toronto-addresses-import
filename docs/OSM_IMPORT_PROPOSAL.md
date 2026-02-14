@@ -17,6 +17,7 @@ Toronto has approximately **525,000** official address points. Currently, OpenSt
 *   **Publisher**: City of Toronto
 *   **Format**: GeoJSON / CSV
 *   **Update Frequency**: Daily (Source) / One-time import (This proposal)
+*   **Excluded Data**: Postal codes are **not included** in the source dataset and will not be imported. Deriving them from proprietary sources (Canada Post) is not permitted.
 
 ### 2.2 License
 *   **License**: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
@@ -39,6 +40,7 @@ Mapping City of Toronto fields to OSM tags:
 | (Static) | `addr:city` | `Toronto` |
 | (Static) | `addr:province` | `ON` |
 | (Static) | `source` | `City of Toronto Open Data` |
+| (*Missing*) | `addr:postcode` | *Not Imported* |
 
 ### 4.2. Conflation Logic
 We use a conservative conflation algorithm to avoid duplicates:
@@ -63,11 +65,12 @@ We use a conservative conflation algorithm to avoid duplicates:
     *   Download existing OSM data for the area.
     *   Validate against satellite imagery (Bing/Esri).
     *   Run JOSM Validator to catch overlapping nodes.
+    *   *(Optional)*: Manually add postal codes if known from survey/knowledge.
 4.  **Upload**: Commit with comment: `Toronto Address Import 2026 #TorontoAddresses`.
 
 ## 6. Maintenance
 This is a one-time import. Future updates will be handled by re-running the conflation analysis to generate "New Address" reports for the local community to map manually.
 
 ## 7. Team
-*   **Lead**: [Your OSM Username]
+*   **Lead**: skfd
 *   **Support**: local Toronto OSM community.
