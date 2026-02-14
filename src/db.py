@@ -316,3 +316,28 @@ def get_latest_snapshots(n=2):
     ).fetchall()
     conn.close()
     return [dict(r) for r in reversed(rows)]
+
+
+def get_active_addresses():
+    """Return all addresses valid in the most recent snapshot."""
+    conn = _connect()
+    
+    # Get latest snapshot ID
+    cur = conn.execute("SELECT MAX(id) FROM snapshots")
+    latest_id = cur.fetchone()[0]
+    
+    if latest_id is None:
+        conn.close()
+        return []
+
+    print(f"Fetching addresses for snapshot {latest_id}...")
+    
+    # Query for addresses where max_snapshot_id matches the latest snapshot
+    # This implies they were present/verified in the most recent import
+    rows = conn.execute(f"""
+        SELECT * FROM addresses 
+        WHERE max_snapshot_id = ?
+    """, (latest_id,)).fetchall()
+    
+    conn.close()
+    return [dict(r) for r in rows]
