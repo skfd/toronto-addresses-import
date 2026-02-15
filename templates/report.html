@@ -520,8 +520,8 @@
               <td>{{ r.linear_name_full or '' }}</td>
               <td>{{ r.municipality_name or '' }}</td>
               <td>{{ r.ward_name or '' }}</td>
-              <td>{% if r.latitude and r.longitude %}{% set lat = "%.6f"|format(r.latitude) %}{% set lon =
-                "%.6f"|format(r.longitude) %}<a class="map-link"
+              <td>{% if r.latitude and r.longitude %}{% set lat = "%.5f"|format(r.latitude) %}{% set lon =
+                "%.5f"|format(r.longitude) %}<a class="map-link"
                   href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}"
                   target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
             </tr>
@@ -561,8 +561,8 @@
                 <td>{{ r.linear_name_full or '' }}</td>
                 <td>{{ r.municipality_name or '' }}</td>
                 <td>{{ r.ward_name or '' }}</td>
-                <td>{% if r.latitude and r.longitude %}{% set lat = "%.6f"|format(r.latitude) %}{% set lon =
-                  "%.6f"|format(r.longitude) %}<a class="map-link"
+                <td>{% if r.latitude and r.longitude %}{% set lat = "%.5f"|format(r.latitude) %}{% set lon =
+                  "%.5f"|format(r.longitude) %}<a class="map-link"
                     href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}"
                     target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
               </tr>

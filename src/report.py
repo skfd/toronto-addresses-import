@@ -104,7 +104,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             def fmt(lat, lon):
                 if lat is None or lon is None:
                     return "—"
-                return f"{lat:.6f}, {lon:.6f}"
+                return f"{lat:.5f}, {lon:.5f}"
 
             old_str = fmt(old_lat, old_lon)
             new_str = fmt(new_lat, new_lon) + suffix
