@@ -6,6 +6,20 @@ import re
 import sqlite3
 from datetime import datetime
 
+from pyproj import Transformer
+
+# Toronto municipal data sometimes uses EPSG:2952 (NAD83(CSRS) / MTM zone 10)
+_proj_to_wgs84 = Transformer.from_crs("EPSG:2952", "EPSG:4326", always_xy=True)
+
+
+def to_wgs84(lon, lat):
+    """Convert projected coordinates (MTM zone 10) to WGS84 if needed. Pass-through if already WGS84."""
+    if lon is None or lat is None:
+        return lon, lat
+    if abs(lon) <= 180 and abs(lat) <= 90:
+        return lon, lat  # already WGS84
+    return _proj_to_wgs84.transform(lon, lat)
+
 DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "addresses.db")
 
 # Columns stored as real DB columns (tracked for changes)
@@ -257,6 +271,7 @@ def import_geojson(filepath, headers=None):
             
             lon_raw = _parse_float(coords[0]) if len(coords) > 0 else None
             lat_raw = _parse_float(coords[1]) if len(coords) > 1 else None
+            lon_raw, lat_raw = to_wgs84(lon_raw, lat_raw)
             lon = round(lon_raw, 5) if lon_raw is not None else None
             lat = round(lat_raw, 5) if lat_raw is not None else None
 
