@@ -6,17 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Toronto Address Change Tracker</title>
     <style>
+        /* Fluent 2 Design System — Light theme (default) */
         :root {
-            --bg: #0f1117;
-            --surface: #1a1d27;
-            --surface2: #232735;
-            --border: #2d3244;
-            --text: #e1e4ed;
-            --text-dim: #8b90a0;
-            --accent: #6c8cff;
-            --green: #4ade80;
-            --red: #f87171;
-            --yellow: #fbbf24;
+            --bg: #fafafa;
+            --surface: #ffffff;
+            --surface2: #f5f5f5;
+            --border: #e0e0e0;
+            --text: #242424;
+            --text-secondary: #424242;
+            --text-dim: #616161;
+            --accent: #0078d4;
+            --accent-hover: #106ebe;
+            --accent-bg: #eff6fc;
+            --green: #107c10;
+            --red: #c50f1f;
+            --yellow: #eaa300;
+            --shadow-4: 0 2px 4px rgba(0,0,0,0.14), 0 0 2px rgba(0,0,0,0.12);
+            --shadow-8: 0 4px 8px rgba(0,0,0,0.14), 0 0 2px rgba(0,0,0,0.12);
+            color-scheme: light;
+        }
+
+        /* Fluent 2 Design System — Dark theme */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1f1f1f;
+                --surface: #292929;
+                --surface2: #333333;
+                --border: #525252;
+                --text: #ffffff;
+                --text-secondary: #d6d6d6;
+                --text-dim: #adadad;
+                --accent: #2899f5;
+                --accent-hover: #3aa0f3;
+                --accent-bg: #002848;
+                --green: #54b054;
+                --red: #dc626d;
+                --yellow: #f2c661;
+                --shadow-4: 0 2px 4px rgba(0,0,0,0.28), 0 0 2px rgba(0,0,0,0.24);
+                --shadow-8: 0 4px 8px rgba(0,0,0,0.28), 0 0 2px rgba(0,0,0,0.24);
+                color-scheme: dark;
+            }
         }
 
         * {
@@ -26,13 +55,15 @@
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            font-family: 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, sans-serif;
             background: var(--bg);
             color: var(--text);
-            line-height: 1.7;
+            line-height: 1.5;
             display: flex;
             justify-content: center;
-            padding: 3rem 1.5rem;
+            padding: 48px 24px;
+            font-size: 14px;
+            -webkit-font-smoothing: antialiased;
         }
 
         main {
@@ -42,47 +73,40 @@
 
         /* Hero section */
         .hero {
-            margin-bottom: 2.5rem;
+            margin-bottom: 32px;
         }
 
         .hero h1 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(135deg, var(--accent), #a78bfa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
         }
 
         .hero .tagline {
-            color: var(--text-dim);
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 12px;
         }
 
         .hero .dataset-link {
-            font-size: 0.85rem;
+            font-size: 12px;
             color: var(--accent);
             text-decoration: none;
-            opacity: 0.8;
         }
 
         .hero .dataset-link:hover {
-            opacity: 1;
             text-decoration: underline;
+            color: var(--accent-hover);
         }
 
         /* Section header */
         .section-header {
-            font-size: 1.1rem;
+            font-size: 12px;
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin-bottom: 12px;
             color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            font-size: 0.8rem;
         }
 
         /* Report cards */
@@ -93,61 +117,62 @@
 
         a:hover {
             text-decoration: underline;
+            color: var(--accent-hover);
         }
 
         .reports {
             display: flex;
             flex-direction: column;
-            gap: 0.75rem;
+            gap: 8px;
         }
 
         .report-link {
             display: block;
             background: var(--surface);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 1.15rem 1.35rem;
+            border-radius: 8px;
+            padding: 14px 16px;
             color: var(--text);
-            transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+            transition: box-shadow 0.1s, border-color 0.1s;
             position: relative;
+            box-shadow: var(--shadow-4);
         }
 
         .report-link:hover {
             border-color: var(--accent);
             text-decoration: none;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 16px rgba(108, 140, 255, 0.1);
+            box-shadow: var(--shadow-8);
         }
 
         .report-link .date-row {
             display: flex;
             align-items: center;
-            gap: 0.6rem;
+            gap: 8px;
         }
 
         .report-link .date {
             font-weight: 600;
-            font-size: 1.05rem;
+            font-size: 14px;
         }
 
         .report-link .badge-latest {
-            font-size: 0.65rem;
-            padding: 0.15em 0.55em;
+            font-size: 10px;
+            padding: 2px 8px;
             border-radius: 999px;
-            font-weight: 700;
-            background: rgba(108, 140, 255, 0.15);
+            font-weight: 600;
+            background: var(--accent-bg);
             color: var(--accent);
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.04em;
         }
 
         .report-link .summary {
-            font-size: 0.88rem;
+            font-size: 12px;
             color: var(--text-dim);
-            margin-top: 0.35rem;
+            margin-top: 4px;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 8px;
         }
 
         .report-link .summary .indicator {
@@ -177,6 +202,7 @@
         .report-link.no-report {
             opacity: 0.5;
             pointer-events: none;
+            box-shadow: none;
         }
 
         .report-link.no-report .date {
@@ -184,10 +210,10 @@
         }
 
         footer {
-            margin-top: 3rem;
-            padding-top: 1.5rem;
+            margin-top: 32px;
+            padding-top: 16px;
             border-top: 1px solid var(--border);
-            font-size: 0.8rem;
+            font-size: 12px;
             color: var(--text-dim);
         }
 

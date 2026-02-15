@@ -6,17 +6,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Toronto Address Changes — {{ new_date_friendly }}</title>
   <style>
+    /* Fluent 2 Design System — Light theme (default) */
     :root {
-      --bg: #0f1117;
-      --surface: #1a1d27;
-      --surface2: #232735;
-      --border: #2d3244;
-      --text: #e1e4ed;
-      --text-dim: #8b90a0;
-      --accent: #6c8cff;
-      --green: #4ade80;
-      --red: #f87171;
-      --yellow: #fbbf24;
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --surface2: #f5f5f5;
+      --surface3: #ebebeb;
+      --border: #e0e0e0;
+      --border-strong: #d1d1d1;
+      --text: #242424;
+      --text-secondary: #424242;
+      --text-dim: #616161;
+      --accent: #0078d4;
+      --accent-hover: #106ebe;
+      --accent-bg: #eff6fc;
+      --green: #107c10;
+      --green-bg: #f1faf1;
+      --green-tint: #9fd89f;
+      --red: #c50f1f;
+      --red-bg: #fdf3f4;
+      --red-tint: #eeacb2;
+      --yellow: #eaa300;
+      --yellow-bg: #fefbf4;
+      --yellow-tint: #f9e2ae;
+      --shadow-4: 0 2px 4px rgba(0,0,0,0.14), 0 0 2px rgba(0,0,0,0.12);
+      --shadow-8: 0 4px 8px rgba(0,0,0,0.14), 0 0 2px rgba(0,0,0,0.12);
+      --card-bg: #ffffff;
+      --card-hover: #f5f5f5;
+      color-scheme: light;
+    }
+
+    /* Fluent 2 Design System — Dark theme */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1f1f1f;
+        --surface: #292929;
+        --surface2: #333333;
+        --surface3: #3d3d3d;
+        --border: #525252;
+        --border-strong: #666666;
+        --text: #ffffff;
+        --text-secondary: #d6d6d6;
+        --text-dim: #adadad;
+        --accent: #2899f5;
+        --accent-hover: #3aa0f3;
+        --accent-bg: #002848;
+        --green: #54b054;
+        --green-bg: #052505;
+        --green-tint: #107c10;
+        --red: #dc626d;
+        --red-bg: #3b0509;
+        --red-tint: #c50f1f;
+        --yellow: #f2c661;
+        --yellow-bg: #463100;
+        --yellow-tint: #eaa300;
+        --shadow-4: 0 2px 4px rgba(0,0,0,0.28), 0 0 2px rgba(0,0,0,0.24);
+        --shadow-8: 0 4px 8px rgba(0,0,0,0.28), 0 0 2px rgba(0,0,0,0.24);
+        --card-bg: #333333;
+        --card-hover: #3d3d3d;
+        color-scheme: dark;
+      }
     }
 
     * {
@@ -26,13 +75,15 @@
     }
 
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: 'Segoe UI Variable', 'Segoe UI', system-ui, -apple-system, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.5;
       padding: 2rem;
       max-width: 1100px;
       margin: 0 auto;
+      font-size: 14px;
+      -webkit-font-smoothing: antialiased;
     }
 
     a {
@@ -42,16 +93,17 @@
 
     a:hover {
       text-decoration: underline;
+      color: var(--accent-hover);
     }
 
     .back-link {
       display: inline-flex;
       align-items: center;
       gap: 0.35rem;
-      font-size: 0.85rem;
+      font-size: 12px;
       color: var(--text-dim);
       margin-bottom: 1.5rem;
-      transition: color 0.2s;
+      transition: color 0.1s;
     }
 
     .back-link:hover {
@@ -60,53 +112,59 @@
     }
 
     h1 {
-      font-size: 1.75rem;
+      font-size: 24px;
       font-weight: 600;
-      margin-bottom: 0.25rem;
+      margin-bottom: 4px;
     }
 
     .subtitle {
-      color: var(--text-dim);
-      font-size: 0.9rem;
-      margin-bottom: 0.75rem;
+      color: var(--text-secondary);
+      font-size: 14px;
+      margin-bottom: 12px;
     }
 
     .explainer {
-      color: var(--text-dim);
-      font-size: 0.85rem;
-      line-height: 1.6;
-      margin-bottom: 2rem;
-      padding: 1rem 1.25rem;
+      color: var(--text-secondary);
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      padding: 12px 16px;
       background: var(--surface);
-      border-radius: 10px;
+      border-radius: 8px;
       border: 1px solid var(--border);
+      box-shadow: var(--shadow-4);
     }
 
     .cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-      margin-bottom: 2rem;
+      gap: 12px;
+      margin-bottom: 24px;
     }
 
     .card {
-      background: var(--surface);
+      background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: var(--shadow-4);
+      transition: box-shadow 0.1s;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-8);
     }
 
     .card .label {
-      font-size: 0.8rem;
+      font-size: 12px;
       color: var(--text-dim);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      font-weight: 400;
     }
 
     .card .value {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-top: 0.25rem;
+      font-size: 28px;
+      font-weight: 600;
+      margin-top: 4px;
     }
 
     .card .value.green {
@@ -126,47 +184,49 @@
     }
 
     .section {
-      margin-bottom: 2rem;
+      margin-bottom: 24px;
     }
 
     .section h2 {
-      font-size: 1.15rem;
+      font-size: 16px;
       font-weight: 600;
-      margin-bottom: 0.75rem;
+      margin-bottom: 12px;
       display: flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 8px;
     }
 
     .badge {
-      font-size: 0.75rem;
-      padding: 0.15em 0.6em;
+      font-size: 12px;
+      padding: 2px 8px;
       border-radius: 999px;
       font-weight: 600;
     }
 
     .badge-green {
-      background: rgba(74, 222, 128, 0.15);
+      background: var(--green-bg);
       color: var(--green);
     }
 
     .badge-red {
-      background: rgba(248, 113, 113, 0.15);
+      background: var(--red-bg);
       color: var(--red);
     }
 
     .badge-yellow {
-      background: rgba(251, 191, 36, 0.15);
+      background: var(--yellow-bg);
       color: var(--yellow);
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.85rem;
+      font-size: 13px;
       background: var(--surface);
       border-radius: 8px;
       overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-4);
     }
 
     thead {
@@ -175,14 +235,13 @@
 
     th {
       text-align: left;
-      padding: 0.65rem 0.75rem;
+      padding: 8px 12px;
       font-weight: 600;
       color: var(--text-dim);
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
+      font-size: 12px;
       cursor: pointer;
       user-select: none;
+      border-bottom: 1px solid var(--border);
     }
 
     th:hover {
@@ -190,7 +249,7 @@
     }
 
     td {
-      padding: 0.55rem 0.75rem;
+      padding: 8px 12px;
       border-top: 1px solid var(--border);
     }
 
@@ -214,26 +273,26 @@
 
     .map-link {
       color: var(--accent);
-      font-size: 0.8rem;
+      font-size: 12px;
       white-space: nowrap;
     }
 
     .bar-chart {
-      margin-top: 0.5rem;
+      margin-top: 8px;
     }
 
     .bar-row {
       display: flex;
       align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 0.35rem;
-      font-size: 0.8rem;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 12px;
     }
 
     .bar-label {
       width: 180px;
       text-align: right;
-      color: var(--text-dim);
+      color: var(--text-secondary);
       flex-shrink: 0;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -242,7 +301,7 @@
 
     .bar-track {
       flex: 1;
-      height: 20px;
+      height: 8px;
       background: var(--surface2);
       border-radius: 4px;
       overflow: hidden;
@@ -252,7 +311,7 @@
     .bar-fill {
       height: 100%;
       border-radius: 4px;
-      transition: width 0.3s;
+      transition: width 0.15s ease;
     }
 
     .bar-fill.green {
@@ -265,32 +324,33 @@
 
     .bar-count {
       width: 40px;
-      font-size: 0.75rem;
+      font-size: 12px;
       color: var(--text-dim);
     }
 
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-      gap: 1.5rem;
+      gap: 16px;
     }
 
     .empty {
       color: var(--text-dim);
       font-style: italic;
-      padding: 1rem;
+      padding: 16px;
     }
 
     .collapsible-toggle {
-      background: none;
+      background: transparent;
       border: 1px solid var(--border);
       color: var(--accent);
-      padding: 0.4em 1em;
-      border-radius: 6px;
+      padding: 5px 12px;
+      border-radius: 4px;
       cursor: pointer;
-      font-size: 0.8rem;
-      margin-bottom: 0.75rem;
-      transition: background 0.2s;
+      font-size: 12px;
+      font-family: inherit;
+      margin-bottom: 12px;
+      transition: background 0.1s;
     }
 
     .collapsible-toggle:hover {
@@ -298,22 +358,22 @@
     }
 
     .no-changes-banner {
-      background: rgba(74, 222, 128, 0.1);
-      border: 1px solid var(--green);
+      background: var(--green-bg);
+      border: 1px solid var(--green-tint);
       color: var(--green);
-      padding: 1.25rem;
-      border-radius: 10px;
-      margin-bottom: 2rem;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 24px;
       text-align: center;
       font-weight: 600;
-      font-size: 1.05rem;
+      font-size: 14px;
     }
 
     .generated-at {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
+      margin-top: 32px;
+      padding-top: 16px;
       border-top: 1px solid var(--border);
-      font-size: 0.75rem;
+      font-size: 12px;
       color: var(--text-dim);
     }
   </style>
@@ -556,7 +616,7 @@
 
       <!-- Location Adjustments -->
       <div class="section">
-        <h2>Location Adjustments <span class="badge" style="background: rgba(139,144,160,0.15); color: var(--text-dim)">{{ modified_location_count|default(0) }}</span></h2>
+        <h2>Location Adjustments <span class="badge" style="background: var(--surface2); color: var(--text-dim)">{{ modified_location_count|default(0) }}</span></h2>
         {% if modified_location %}
         {% if modified_location_count|default(0) > 50 %}
         <button class="collapsible-toggle" onclick="toggle('tbl-location')">Show / Hide</button>
