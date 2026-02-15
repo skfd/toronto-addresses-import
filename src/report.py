@@ -350,7 +350,7 @@ def refresh_reports():
 
 
 def update_index():
-    """Regenerate docs/index.html based on reports/metadata.json."""
+    """Regenerate index.html based on reports/metadata.json."""
     meta_path = os.path.join(REPORTS_DIR, "metadata.json")
     if not os.path.exists(meta_path):
         return
@@ -380,8 +380,8 @@ def update_index():
 
     html = template.render(reports=reports)
 
-    # Write to docs/index.html (which is where GitHub Pages would serve from usually, or just root)
-    # The user has docs/index.html so let's overwrite that.
+    # Write to index.html (which is where GitHub Pages would serve from usually, or just root)
+    # The user has index.html so let's overwrite that.
     docs_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs")
     os.makedirs(docs_dir, exist_ok=True)
     outpath = os.path.join(docs_dir, "index.html")
@@ -407,7 +407,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result)
 
     data[str(snapshot_id)] = {
         "date": date_str,
-        "filename": f"reports/{filename}",  # Relative path from docs/index.html
+        "filename": f"reports/{filename}",  # Relative path from index.html
         "added": len(diff_result["added"]),
         "removed": len(diff_result["removed"]),
         "modified": len(diff_result["modified"]),
