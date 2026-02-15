@@ -10,7 +10,7 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 
 TEMPLATES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "templates")
-REPORTS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "reports")
+REPORTS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs", "reports")
 
 # Human-friendly field name mapping for display
 FIELD_DISPLAY_NAMES = {
@@ -407,7 +407,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result)
 
     data[str(snapshot_id)] = {
         "date": date_str,
-        "filename": f"../reports/{filename}",  # Relative path from docs/index.html
+        "filename": f"reports/{filename}",  # Relative path from docs/index.html
         "added": len(diff_result["added"]),
         "removed": len(diff_result["removed"]),
         "modified": len(diff_result["modified"]),

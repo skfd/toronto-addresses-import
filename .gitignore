@@ -1,7 +1,6 @@
 data/
 *.db
 *.geojson
-reports/
 raw_data/
 __pycache__/
 *.pyc

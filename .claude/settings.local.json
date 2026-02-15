@@ -13,7 +13,10 @@
       "Bash(python3:*)",
       "Bash(pip install:*)",
       "Bash(git checkout:*)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:fluent2.microsoft.design)",
+      "WebFetch(domain:react.fluentui.dev)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }

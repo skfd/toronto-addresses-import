@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toronto Address Changes — Saturday, Feb 14, 2026</title>
+  <link rel="stylesheet"
+    href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css">
+  <style>
+    :root {
+      /* Fluent 2 Web Tokens (Light Mode - Fallback/Base) */
+      --colorNeutralBackground1: #ffffff;
+      --colorNeutralBackground2: #fafafa;
+      --colorNeutralBackground3: #f5f5f5;
+      --colorNeutralForeground1: #242424;
+      --colorNeutralForeground2: #424242;
+      --colorNeutralForeground3: #616161;
+      --colorBrandForeground1: #0078D4;
+      --colorBrandBackground: #0078D4;
+      --colorBrandBackgroundHover: #106EBE;
+      --colorNeutralStroke1: #d1d1d1;
+      --colorNeutralStroke2: #e0e0e0;
+      /* Elevation */
+      --shadow4: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108);
+      /* Status */
+      --colorPaletteGreenForeground1: #107C10;
+      --colorPaletteGreenBackground1: #DFF6DD;
+      --colorPaletteRedForeground1: #D13438;
+      --colorPaletteRedBackground1: #FDE7E9;
+      --colorPaletteYellowForeground1: #8C6C00;
+      /* Darker than standard for text legibility */
+      --colorPaletteYellowBackground1: #FFF4CE;
+      /* Dimensions */
+      --borderRadiusMedium: 4px;
+      --borderRadiusLarge: 8px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --colorNeutralBackground1: #1f1f1f;
+        --colorNeutralBackground2: #111111;
+        --colorNeutralBackground3: #292929;
+        --colorNeutralForeground1: #ffffff;
+        --colorNeutralForeground2: #d1d1d1;
+        --colorNeutralForeground3: #adadad;
+        --colorBrandForeground1: #479EF5;
+        --colorBrandBackground: #479EF5;
+        --colorBrandBackgroundHover: #2886DE;
+        --colorNeutralStroke1: #323130;
+        --colorNeutralStroke2: #484644;
+        --colorPaletteGreenForeground1: #54B054;
+        --colorPaletteGreenBackground1: #052505;
+        --colorPaletteRedForeground1: #FF5E5E;
+        --colorPaletteRedBackground1: #33080A;
+        --colorPaletteYellowForeground1: #FCE100;
+        --colorPaletteYellowBackground1: #2E2600;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Base Styling */
+    body {
+      font-family: 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+      background-color: var(--colorNeutralBackground2);
+      color: var(--colorNeutralForeground1);
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    a {
+      color: var(--colorBrandForeground1);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .app-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 24px 48px 24px;
+    }
+
+    /* Header / Breadcrumb */
+    .header-bar {
+      padding: 16px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--colorNeutralForeground2);
+    }
+
+    .breadcrumb-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb-separator {
+      font-size: 12px;
+      color: var(--colorNeutralForeground3);
+    }
+
+    .report-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: var(--colorNeutralForeground2);
+    }
+
+    /* KPIS / InfoBar Details */
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .kpi-card {
+      background: var(--colorNeutralBackground1);
+      border: 1px solid var(--colorNeutralStroke1);
+      border-radius: var(--borderRadiusLarge);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow4);
+    }
+
+    .kpi-label {
+      font-size: 12px;
+      color: var(--colorNeutralForeground3);
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .kpi-value {
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 1;
+    }
+
+    .kpi-indicator {
+      font-size: 12px;
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    .text-green {
+      color: var(--colorPaletteGreenForeground1);
+    }
+
+    .text-red {
+      color: var(--colorPaletteRedForeground1);
+    }
+
+    .text-yellow {
+      color: var(--colorPaletteYellowForeground1);
+    }
+
+    .text-brand {
+      color: var(--colorBrandForeground1);
+    }
+
+    /* Info Message */
+    .message-bar {
+      background-color: var(--colorNeutralBackground3);
+      border-left: 4px solid var(--colorBrandBackground);
+      padding: 12px 16px;
+      margin-bottom: 24px;
+      border-radius: 4px;
+      font-size: 13px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .message-bar.success {
+      background-color: var(--colorPaletteGreenBackground1);
+      border-left-color: var(--colorPaletteGreenForeground1);
+      color: var(--colorPaletteGreenForeground1);
+      /* Text matches border for high contrast */
+      border: 1px solid transparent;
+    }
+
+    .message-bar.success .message-content {
+      color: var(--colorNeutralForeground1);
+      /* Keep text neutral */
+    }
+
+    /* Charts / Stats Grid */
+    .stats-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    .chart-card {
+      background: var(--colorNeutralBackground1);
+      border: 1px solid var(--colorNeutralStroke1);
+      border-radius: var(--borderRadiusLarge);
+      padding: 20px;
+    }
+
+    .chart-header {
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 16px;
+      color: var(--colorNeutralForeground1);
+    }
+
+    .bar-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
+    .bar-label {
+      width: 140px;
+      text-align: right;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: var(--colorNeutralForeground2);
+    }
+
+    .bar-track {
+      flex: 1;
+      height: 12px;
+      background: var(--colorNeutralBackground3);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 4px;
+    }
+
+    .bg-green {
+      background-color: var(--colorPaletteGreenForeground1);
+    }
+
+    .bg-red {
+      background-color: var(--colorPaletteRedForeground1);
+    }
+
+
+    /* Details Lists / Tables */
+    .data-section {
+      margin-bottom: 48px;
+    }
+
+    .section-header-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .badge {
+      background-color: var(--colorNeutralBackground3);
+      color: var(--colorNeutralForeground1);
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .badge.green {
+      background: var(--colorPaletteGreenBackground1);
+      color: var(--colorPaletteGreenForeground1);
+    }
+
+    .badge.red {
+      background: var(--colorPaletteRedBackground1);
+      color: var(--colorPaletteRedForeground1);
+    }
+
+    .badge.yellow {
+      background: var(--colorPaletteYellowBackground1);
+      color: var(--colorPaletteYellowForeground1);
+    }
+
+
+    /* Fluent Data Grid Style Table */
+    .fluent-table-container {
+      border: 1px solid var(--colorNeutralStroke1);
+      border-radius: var(--borderRadiusMedium);
+      overflow: hidden;
+      /* For rounded corners */
+      background: var(--colorNeutralBackground1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    thead {
+      background-color: var(--colorNeutralBackground3);
+      border-bottom: 1px solid var(--colorNeutralStroke1);
+    }
+
+    th {
+      text-align: left;
+      font-weight: 600;
+      color: var(--colorNeutralForeground2);
+      padding: 10px 16px;
+      /* Compact */
+      cursor: pointer;
+      user-select: none;
+      position: relative;
+    }
+
+    th:hover {
+      background-color: var(--colorNeutralStroke2);
+      color: var(--colorNeutralForeground1);
+    }
+
+    td {
+      padding: 8px 16px;
+      /* Compact */
+      border-bottom: 1px solid var(--colorNeutralStroke2);
+      color: var(--colorNeutralForeground1);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background-color: var(--colorNeutralBackground3);
+    }
+
+    /* Diff styling */
+    .diff-old {
+      color: var(--colorPaletteRedForeground1);
+      text-decoration: line-through;
+      margin-right: 8px;
+      opacity: 0.8;
+    }
+
+    .diff-new {
+      color: var(--colorPaletteGreenForeground1);
+      font-weight: 600;
+    }
+
+    /* Expander / Details */
+    details.expander {
+      margin-bottom: 16px;
+    }
+
+    summary.expander-header {
+      list-style: none;
+      cursor: pointer;
+      padding: 12px;
+      background: var(--colorNeutralBackground1);
+      border: 1px solid var(--colorNeutralStroke1);
+      border-radius: var(--borderRadiusMedium);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      color: var(--colorBrandForeground1);
+    }
+
+    summary.expander-header:hover {
+      background: var(--colorNeutralBackground3);
+    }
+
+    summary.expander-header::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Toggle */
+    details[open] summary.expander-header {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: 1px solid var(--colorNeutralStroke2);
+      margin-bottom: 0;
+    }
+
+    .expander-content {
+      border: 1px solid var(--colorNeutralStroke1);
+      border-top: none;
+      border-bottom-left-radius: var(--borderRadiusMedium);
+      border-bottom-right-radius: var(--borderRadiusMedium);
+      /* overflow: hidden; -- Removed to prevent clipping if content overflows */
+      background: var(--colorNeutralBackground1);
+    }
+
+    /* Map Link */
+    .action-link {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .empty-state {
+      padding: 32px;
+      text-align: center;
+      color: var(--colorNeutralForeground3);
+      font-style: italic;
+    }
+
+    .generated-footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--colorNeutralStroke1);
+      color: var(--colorNeutralForeground3);
+      font-size: 11px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="app-container">
+
+    <div class="header-bar">
+      <div class="breadcrumb">
+        <a href="../index.html" class="breadcrumb-item">Hub</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item" style="font-weight: 600; color: var(--colorNeutralForeground1);">Report
+          Details</span>
+      </div>
+      <div class="actions">
+        <button onclick="window.print()"
+          style="background:none; border:none; cursor:pointer; color: var(--colorBrandForeground1); font-weight:600; font-family: inherit;">Print
+          Report</button>
+      </div>
+    </div>
+
+    <div class="report-title-row">
+      <div>
+        <h1>Toronto Address Changes</h1>
+        <div class="subtitle">
+          Analysis period: Saturday, Feb 14, 2026 &mdash; Saturday, Feb 14, 2026
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Message -->
+    <div class="message-bar">
+      <div class="message-content">
+        This report highlights differences between two snapshots of the City of Toronto address database.
+        <b>Green</b> indicates additions, <b>Red</b> indicates removals, and <b>Yellow</b> indicates corrections.
+      </div>
+    </div>
+
+    
+    <div class="message-bar success">
+      <div class="message-content"><b>No updates required.</b> Source data has not changed since the last run.</div>
+    </div>
+    
+
+    <!-- KPIs -->
+    <div class="kpi-strip">
+      <div class="kpi-card">
+        <div class="kpi-label">Total Addresses</div>
+        <div class="kpi-value text-brand">525,357</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">New</div>
+        <div class="kpi-value text-green">0</div>
+        <div class="kpi-indicator text-green">
+          
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Retired</div>
+        <div class="kpi-value text-red">0</div>
+        <div class="kpi-indicator text-red">
+          
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Updated</div>
+        <div class="kpi-value text-yellow">0</div>
+        <div class="kpi-indicator text-yellow">
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Breakdown -->
+    
+
+    <!-- Added Table -->
+    <section class="data-section">
+      <div class="section-header-row">
+        <h2>New Addresses</h2>
+        <span class="badge green">0</span>
+      </div>
+
+      
+  <div class="fluent-table-container">
+    <div class="empty-state">No new addresses recorded in this period.</div>
+  </div>
+  
+  </section>
+
+  <!-- Removed Table -->
+  <section class="data-section">
+    <div class="section-header-row">
+      <h2>Retired Addresses</h2>
+      <span class="badge red">0</span>
+    </div>
+
+    
+    <div class="fluent-table-container">
+      <div class="empty-state">No addresses were retired in this period.</div>
+    </div>
+    
+  </section>
+
+  <!-- Modified Table -->
+  <section class="data-section">
+    <div class="section-header-row">
+      <h2>Updated Addresses</h2>
+      <span class="badge yellow">0</span>
+    </div>
+
+    
+    <div class="fluent-table-container">
+      <div class="empty-state">No corrections or updates in this period.</div>
+    </div>
+    
+  </section>
+
+  <div class="generated-footer">
+    Report generated automatically on Feb 14, 2026 at 03:42 PM
+  </div>
+
+  </div> <!-- End App Container -->
+
+  <script>
+    function sortTable(th, col) {
+      const table = th.closest('table');
+      const tbody = table.querySelector('tbody');
+      const rows = Array.from(tbody.rows);
+      const dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+
+      // Reset other headers
+      table.querySelectorAll('th').forEach(h => {
+        if (h !== th) delete h.dataset.sortDir;
+      });
+
+      th.dataset.sortDir = dir;
+
+      rows.sort((a, b) => {
+        const av = a.cells[col]?.textContent.trim() || '';
+        const bv = b.cells[col]?.textContent.trim() || '';
+        const an = parseFloat(av), bn = parseFloat(bv);
+        if (!isNaN(an) && !isNaN(bn)) return dir === 'asc' ? an - bn : bn - an;
+        return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+      });
+
+      rows.forEach(r => tbody.appendChild(r));
+    }
+  </script>
+</body>
+
+</html>
