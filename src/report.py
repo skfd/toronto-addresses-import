@@ -132,27 +132,6 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
     old_date_raw = old_snapshot["downloaded"][:10]
     new_date_raw = new_snapshot["downloaded"][:10]
 
-    env = Environment(
-        loader=FileSystemLoader(TEMPLATES_DIR),
-        autoescape=True,
-    )
-    template = env.get_template("report.html")
-
-    html = template.render(
-        generated=datetime.now().strftime("%b %d, %Y at %I:%M %p"),
-        old_snapshot=old_snapshot,
-        new_snapshot=new_snapshot,
-        old_date_friendly=_friendly_date(old_date_raw),
-        new_date_friendly=_friendly_date(new_date_raw),
-        added=diff_result["added"],
-        removed=diff_result["removed"],
-        modified=diff_result["modified"],
-        stats=stats,
-        added_count=len(diff_result["added"]),
-        removed_count=len(diff_result["removed"]),
-        modified_count=len(diff_result["modified"]),
-    )
-
     # Name by new snapshot date
     # Try to extract date from filename first, else use downloaded time
     match = re.search(r"(\d{4}-\d{2}-\d{2})", new_snapshot["filename"])
@@ -160,6 +139,30 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         date_part = match.group(1)
     else:
         date_part = new_snapshot["downloaded"][:10]
+
+    # Save template context as data file (for re-rendering without DB)
+    context = {
+        "generated": datetime.now().strftime("%b %d, %Y at %I:%M %p"),
+        "old_snapshot": dict(old_snapshot),
+        "new_snapshot": dict(new_snapshot),
+        "old_date_friendly": _friendly_date(old_date_raw),
+        "new_date_friendly": _friendly_date(new_date_raw),
+        "added": diff_result["added"],
+        "removed": diff_result["removed"],
+        "modified": diff_result["modified"],
+        "stats": stats,
+        "added_count": len(diff_result["added"]),
+        "removed_count": len(diff_result["removed"]),
+        "modified_count": len(diff_result["modified"]),
+    }
+
+    data_path = os.path.join(REPORTS_DIR, f"report-{date_part}-data.js")
+    with open(data_path, "w", encoding="utf-8") as f:
+        f.write("window.REPORT_DATA = ")
+        json.dump(context, f, indent=2, default=str)
+
+    # Render HTML from context
+    html = _render_report_html(context)
 
     filename = f"report-{date_part}.html"
     outpath = os.path.join(REPORTS_DIR, filename)
@@ -188,12 +191,7 @@ def generate_no_changes_report():
     date_part = datetime.now().strftime("%Y-%m-%d")
     filename = f"report-{date_part}-skipped.html"
     outpath = os.path.join(REPORTS_DIR, filename)
-    
-    env = Environment(
-        loader=FileSystemLoader(TEMPLATES_DIR),
-        autoescape=True,
-    )
-    
+
     dummy_snapshot = {
         "downloaded": datetime.now().isoformat(),
         "filename": "No New Data",
@@ -201,26 +199,33 @@ def generate_no_changes_report():
         "row_count": row_count
     }
 
-    template = env.get_template("report.html")
-    html = template.render(
-        generated=datetime.now().strftime("%b %d, %Y at %I:%M %p"),
-        old_snapshot=dummy_snapshot,
-        new_snapshot=dummy_snapshot,
-        old_date_friendly=_friendly_date(date_part),
-        new_date_friendly=_friendly_date(date_part),
-        added=[],
-        removed=[],
-        modified=[],
-        stats={},
-        added_count=0,
-        removed_count=0,
-        modified_count=0,
-        is_skipped=True
-    )
-    
+    context = {
+        "generated": datetime.now().strftime("%b %d, %Y at %I:%M %p"),
+        "old_snapshot": dummy_snapshot,
+        "new_snapshot": dummy_snapshot,
+        "old_date_friendly": _friendly_date(date_part),
+        "new_date_friendly": _friendly_date(date_part),
+        "added": [],
+        "removed": [],
+        "modified": [],
+        "stats": {},
+        "added_count": 0,
+        "removed_count": 0,
+        "modified_count": 0,
+        "is_skipped": True,
+    }
+
+    # Save data file for re-rendering
+    data_path = os.path.join(REPORTS_DIR, f"report-{date_part}-skipped-data.js")
+    with open(data_path, "w", encoding="utf-8") as f:
+        f.write("window.REPORT_DATA = ")
+        json.dump(context, f, indent=2, default=str)
+
+    html = _render_report_html(context)
+
     with open(outpath, "w", encoding="utf-8") as f:
         f.write(html)
-        
+
     print(f"No-changes report written to {outpath}")
     
     # Update index
@@ -272,6 +277,46 @@ def _compute_stats(diff_result):
     }
 
 
+def _render_report_html(context):
+    """Render report HTML from a context dict."""
+    env = Environment(
+        loader=FileSystemLoader(TEMPLATES_DIR),
+        autoescape=True,
+    )
+    template = env.get_template("report.html")
+    return template.render(**context)
+
+
+def refresh_reports():
+    """Re-render all HTML reports from existing -data.js files (no DB needed)."""
+    import glob as globmod
+    data_files = sorted(globmod.glob(os.path.join(REPORTS_DIR, "report-*-data.js")))
+    if not data_files:
+        print("No data files found in reports/.")
+        return
+
+    for data_path in data_files:
+        basename = os.path.basename(data_path)
+        # report-2026-02-13-data.js -> report-2026-02-13.html
+        html_name = basename.replace("-data.js", ".html")
+
+        with open(data_path, "r", encoding="utf-8") as f:
+            raw = f.read()
+
+        # Strip the "window.REPORT_DATA = " prefix and any trailing semicolon
+        json_str = raw.split("=", 1)[1].strip().rstrip(";")
+        context = json.loads(json_str)
+
+        html = _render_report_html(context)
+        outpath = os.path.join(REPORTS_DIR, html_name)
+        with open(outpath, "w", encoding="utf-8") as f:
+            f.write(html)
+        print(f"Refreshed {html_name}")
+
+    update_index()
+    print("All reports refreshed.")
+
+
 def update_index():
     """Regenerate docs/index.html based on reports/metadata.json."""
     meta_path = os.path.join(REPORTS_DIR, "metadata.json")
@@ -284,11 +329,16 @@ def update_index():
     # Sort by date desc
     reports = sorted(data.values(), key=lambda x: x["date"], reverse=True)
 
-    # Add friendly dates and determine the latest report
-    for i, report in enumerate(reports):
+    # Add friendly dates and determine the latest report with changes
+    found_latest = False
+    for report in reports:
         report["friendly_date"] = _friendly_date(report["date"])
-        report["is_latest"] = (i == 0)
         report["total_changes"] = report["added"] + report["removed"] + report["modified"]
+        if not found_latest and report["total_changes"] > 0:
+            report["is_latest"] = True
+            found_latest = True
+        else:
+            report["is_latest"] = False
 
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),

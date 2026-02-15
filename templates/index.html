@@ -228,19 +228,25 @@
                     Initial import — {{ "{:,}".format(report.added) }} addresses loaded (no report available)
                 </div>
             </div>
+            {% elif report.added == 0 and report.removed == 0 and report.modified == 0 %}
+            <div class="report-link no-report">
+                <div class="date-row">
+                    <span class="date">{{ report.friendly_date }}</span>
+                </div>
+                <div class="summary">
+                    <span class="indicator neutral"></span>
+                    No changes
+                </div>
+            </div>
             {% else %}
             <a class="report-link" href="{{ report.filename }}">
                 <div class="date-row">
                     <span class="date">{{ report.friendly_date }}</span>
                     {% if report.is_latest %}
-                    <span class="badge-latest">Latest</span>
+                    <span class="badge-latest">New</span>
                     {% endif %}
                 </div>
                 <div class="summary">
-                    {% if report.added == 0 and report.removed == 0 and report.modified == 0 %}
-                    <span class="indicator neutral"></span>
-                    No changes
-                    {% else %}
                     {% if report.added >= report.removed and report.added >= report.modified %}
                     <span class="indicator green"></span>
                     {% elif report.removed >= report.added and report.removed >= report.modified %}
@@ -250,7 +256,6 @@
                     {% endif %}
                     {{ "{:,}".format(report.added) }} new · {{ "{:,}".format(report.removed) }} removed · {{
                     "{:,}".format(report.modified) }} updated
-                    {% endif %}
                 </div>
             </a>
             {% endif %}

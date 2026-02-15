@@ -73,17 +73,23 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
     # Build structured modifications
     modified = []
     for row in modified_rows:
+        # Skip entries where coordinates changed or are incomparable (projected).
+        # If coords changed, the address_point_id reassignment is an internal data
+        # change, not a meaningful address update for the same physical location.
+        old_lat, old_lon = row["old_latitude"], row["old_longitude"]
+        new_lat, new_lon = row["new_latitude"], row["new_longitude"]
+        if (_is_projected(old_lat) or _is_projected(old_lon)
+                or _is_projected(new_lat) or _is_projected(new_lon)
+                or _values_differ(old_lat, new_lat)
+                or _values_differ(old_lon, new_lon)):
+            continue
+
         changes = []
         for col in COMPARE_COLUMNS:
+            if col in ("latitude", "longitude"):
+                continue  # already verified coords are identical
             old_val = row[f"old_{col}"]
             new_val = row[f"new_{col}"]
-            if col in ("latitude", "longitude"):
-                # Ignore coordinate changes if either value is out of WGS84 bounds (indicating different projection)
-                # EPSG:4326 lat is [-90, 90], lon is [-180, 180]. 
-                # We use 180 as a safe upper bound for both.
-                if _is_projected(old_val) or _is_projected(new_val):
-                    continue
-            
             if _values_differ(old_val, new_val):
                 changes.append({
                     "field": col,
