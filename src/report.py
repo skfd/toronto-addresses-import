@@ -87,23 +87,27 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             
             old_lon = lon_change["old"] if lon_change else new_lon
             
-            # Calculate bearing if we have both coordinates
-            arrow = ""
+            # Calculate bearing and distance if we have both coordinates
+            suffix = ""
             if old_lat is not None and old_lon is not None and new_lat is not None and new_lon is not None:
                 dy = new_lat - old_lat
                 dx = (new_lon - old_lon) * 0.723  # Correct for Toronto latitude (~43.7N)
                 if abs(dy) > 1e-6 or abs(dx) > 1e-6:
-                    arrow = " " + _get_bearing_arrow(dx, dy)
-            
+                    arrow = _get_bearing_arrow(dx, dy)
+                    # Approximate distance in meters using Haversine-like flat Earth
+                    dy_m = (new_lat - old_lat) * 111_320
+                    dx_m = (new_lon - old_lon) * 111_320 * math.cos(math.radians((old_lat + new_lat) / 2))
+                    dist_m = math.sqrt(dx_m**2 + dy_m**2)
+                    suffix = f" {arrow} {dist_m:.1f}m"
+
             # Create formatted strings
-            # If a value is None (unlikely for lat/lon but possible), handle gracefully
             def fmt(lat, lon):
                 if lat is None or lon is None:
                     return "—"
                 return f"{lat:.6f}, {lon:.6f}"
 
             old_str = fmt(old_lat, old_lon)
-            new_str = fmt(new_lat, new_lon) + arrow
+            new_str = fmt(new_lat, new_lon) + suffix
             
             # Remove individual lat/lon changes
             changes = [c for c in changes if c["field"] not in ("latitude", "longitude")]

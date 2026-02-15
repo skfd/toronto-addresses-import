@@ -136,7 +136,7 @@ def _parse_float(val):
 def _clean_str(val):
     if val is None or val == "None" or val == "":
         return None
-    return str(val)
+    return str(val).strip()
 
 
 def record_skipped_snapshot(filename, reason):
@@ -322,6 +322,7 @@ def import_geojson(filepath, headers=None):
             INSERT INTO addresses (min_snapshot_id, max_snapshot_id, {cols_str})
             SELECT ?, ?, {cols_str} FROM staging_addresses
         """, (curr_id, curr_id))
+        inserted_count = row_count
     else:
         # Delta logic
         print("  Detecting changes...")
