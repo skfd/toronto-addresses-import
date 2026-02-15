@@ -4,7 +4,16 @@
       "Bash(git init:*)",
       "Bash(gh repo create:*)",
       "Bash(powershell -Command:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(sqlite3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(git checkout:*)",
+      "WebSearch"
     ]
   }
 }
