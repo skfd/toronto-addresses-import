@@ -125,6 +125,17 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             if "display_field" not in ch:
                 ch["display_field"] = FIELD_DISPLAY_NAMES.get(ch["field"], ch["field"])
 
+    # Split modified into location-only vs significant changes
+    # If an address has both location and other changes, it goes into significant
+    modified_location = []
+    modified_significant = []
+    for mod in diff_result["modified"]:
+        fields = {c["field"] for c in mod["changes"]}
+        if fields == {"location"}:
+            modified_location.append(mod)
+        else:
+            modified_significant.append(mod)
+
     # Humanize field names in stats
     if stats.get("field_changes"):
         stats["field_changes"] = {
@@ -153,11 +164,13 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "new_date_friendly": _friendly_date(new_date_raw),
         "added": diff_result["added"],
         "removed": diff_result["removed"],
-        "modified": diff_result["modified"],
+        "modified": modified_significant,
+        "modified_location": modified_location,
         "stats": stats,
         "added_count": len(diff_result["added"]),
         "removed_count": len(diff_result["removed"]),
-        "modified_count": len(diff_result["modified"]),
+        "modified_count": len(modified_significant),
+        "modified_location_count": len(modified_location),
     }
 
     data_path = os.path.join(REPORTS_DIR, f"report-{date_part}-data.js")
@@ -310,6 +323,21 @@ def refresh_reports():
         # Strip the "window.REPORT_DATA = " prefix and any trailing semicolon
         json_str = raw.split("=", 1)[1].strip().rstrip(";")
         context = json.loads(json_str)
+
+        # Split modified into location-only vs significant if not already split
+        if "modified_location" not in context and context.get("modified"):
+            loc = []
+            sig = []
+            for mod in context["modified"]:
+                fields = {c["field"] for c in mod.get("changes", [])}
+                if fields == {"location"}:
+                    loc.append(mod)
+                else:
+                    sig.append(mod)
+            context["modified"] = sig
+            context["modified_location"] = loc
+            context["modified_count"] = len(sig)
+            context["modified_location_count"] = len(loc)
 
         html = _render_report_html(context)
         outpath = os.path.join(REPORTS_DIR, html_name)

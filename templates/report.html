@@ -340,7 +340,7 @@
   <div class="no-changes-banner">
     ✓ Source data unchanged — no download or update required.
   </div>
-  {% elif added_count == 0 and removed_count == 0 and modified_count == 0 %}
+  {% elif added_count == 0 and removed_count == 0 and modified_count == 0 and modified_location_count|default(0) == 0 %}
   <div class="no-changes-banner">
     ✓ Everything matches — no address changes were found.
   </div>
@@ -362,6 +362,10 @@
     <div class="card">
       <div class="label">Updated Addresses</div>
       <div class="value yellow">{{ "{:,}".format(modified_count) }}</div>
+    </div>
+    <div class="card">
+      <div class="label">Location Adjustments</div>
+      <div class="value" style="color: var(--text-dim)">{{ "{:,}".format(modified_location_count|default(0)) }}</div>
     </div>
   </div>
 
@@ -547,6 +551,42 @@
           </div>
           {% else %}
           <p class="empty">No addresses updated.</p>
+          {% endif %}
+        </div>
+
+      <!-- Location Adjustments -->
+      <div class="section">
+        <h2>Location Adjustments <span class="badge" style="background: rgba(139,144,160,0.15); color: var(--text-dim)">{{ modified_location_count|default(0) }}</span></h2>
+        {% if modified_location %}
+        {% if modified_location_count|default(0) > 50 %}
+        <button class="collapsible-toggle" onclick="toggle('tbl-location')">Show / Hide</button>
+        <div id="tbl-location" style="display:none">
+          {% else %}
+          <div id="tbl-location">
+            {% endif %}
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>Before</th>
+                  <th>After</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for m in modified_location %}
+                <tr>
+                  <td>{{ m.address_full or m.address_point_id }}</td>
+                  {% for ch in m.changes %}
+                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
+                  {% endfor %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% else %}
+          <p class="empty">No location adjustments.</p>
           {% endif %}
         </div>
 
