@@ -45,7 +45,7 @@ def cmd_diff(args):
         print("Need at least 2 snapshots to diff. Import more data first.")
         return
     old, new = snapshots[0], snapshots[1]
-    print(f"Diffing snapshot {old['id']} → {new['id']} ...")
+    print(f"Diffing snapshot {old['id']} -> {new['id']} ...")
     result = compute_diff(old["id"], new["id"])
     print(f"  Added:    {len(result['added']):,}")
     print(f"  Removed:  {len(result['removed']):,}")
