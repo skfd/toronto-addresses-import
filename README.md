@@ -25,7 +25,7 @@ This allows us to:
 
 ## Usage
 
-### 1. Download Layout
+### 1. Download
 Fetch the latest address points from Toronto Open Data:
 ```bash
 python run.py download
@@ -34,8 +34,10 @@ python run.py download
 ### 2. Import & Diff
 Import a specific GeoJSON file. This will automatically detect changes against the previous snapshot:
 ```bash
-python run.py import data/address-points-YYYY-MM-DD.geojson
+python run.py import --file data/address-points-YYYY-MM-DD.geojson
 ```
+
+Without `--file`, it picks the alphabetically last `.geojson` in `data/`, which may not be the most recent date if non-date-named files (e.g. `test-*.geojson`) are present. Always pass the file explicitly to be safe.
 
 ### 3. Rebuild History
 If you need to re-process all data (e.g., after a schema change or to backfill history), use the `rebuild` command.
