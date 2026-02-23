@@ -51,3 +51,27 @@ Generate HTML reports for all historical snapshots and update the index:
 ```bash
 python run.py report-all
 ```
+
+### 5. Daily Update (all-in-one)
+Download, import, diff, and generate a report in a single command:
+```bash
+python run.py update
+```
+
+## Scheduling (Windows)
+
+Two PowerShell scripts manage the Windows Task Scheduler entry. Run them as Administrator.
+
+**Add** — registers a daily task that runs `update` at noon and appends output to `logs\scheduler.log`:
+```powershell
+.\schedule-add.ps1
+```
+
+**Remove** — unregisters the task:
+```powershell
+.\schedule-remove.ps1
+```
+
+The task is named `TorontoAddressImport` and can also be managed via the Task Scheduler GUI (`taskschd.msc`).
+
+> If the task fails with a "python not found" error, replace `python` in `schedule-add.ps1` with the full path (e.g. `C:\Python312\python.exe`). Run `where python` in a terminal to find it.
