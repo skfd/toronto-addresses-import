@@ -98,7 +98,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
                     dy_m = (new_lat - old_lat) * 111_320
                     dx_m = (new_lon - old_lon) * 111_320 * math.cos(math.radians((old_lat + new_lat) / 2))
                     dist_m = math.sqrt(dx_m**2 + dy_m**2)
-                    suffix = f" {arrow} {dist_m:.1f}m"
+                    suffix = f"{arrow} {dist_m:.1f}m"
 
             # Create formatted strings
             def fmt(lat, lon):
@@ -107,16 +107,17 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
                 return f"{lat:.5f}, {lon:.5f}"
 
             old_str = fmt(old_lat, old_lon)
-            new_str = fmt(new_lat, new_lon) + suffix
-            
+            new_str = fmt(new_lat, new_lon)
+
             # Remove individual lat/lon changes
             changes = [c for c in changes if c["field"] not in ("latitude", "longitude")]
-            
+
             # Add combined change
             changes.append({
                 "field": "location",
                 "old": old_str,
                 "new": new_str,
+                "arrow": suffix,
                 "display_field": "Location"
             })
             mod["changes"] = changes
@@ -304,6 +305,20 @@ def _render_report_html(context):
     return template.render(**context)
 
 
+_ARROW_SUFFIX_RE = re.compile(r" ([↗↑↖←↙↓↘→] \d+\.\d+m)$")
+
+
+def _migrate_location_arrow(mods):
+    """Move old-format arrow suffix from ch['new'] into ch['arrow'] for location changes."""
+    for mod in mods:
+        for ch in mod.get("changes", []):
+            if ch.get("field") == "location" and "arrow" not in ch and ch.get("new"):
+                m = _ARROW_SUFFIX_RE.search(ch["new"])
+                if m:
+                    ch["arrow"] = m.group(1)
+                    ch["new"] = ch["new"][:m.start()]
+
+
 def refresh_reports():
     """Re-render all HTML reports from existing -data.js files (no DB needed)."""
     import glob as globmod
@@ -323,6 +338,10 @@ def refresh_reports():
         # Strip the "window.REPORT_DATA = " prefix and any trailing semicolon
         json_str = raw.split("=", 1)[1].strip().rstrip(";")
         context = json.loads(json_str)
+
+        # Migrate old location changes: extract arrow suffix from new into arrow key
+        _migrate_location_arrow(context.get("modified", []))
+        _migrate_location_arrow(context.get("modified_location", []))
 
         # Split modified into location-only vs significant if not already split
         if "modified_location" not in context and context.get("modified"):

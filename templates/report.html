@@ -266,6 +266,12 @@
       color: var(--green);
     }
 
+    .arrow-val {
+      color: var(--text-dim);
+      text-align: center;
+      white-space: nowrap;
+    }
+
     .change-field {
       color: var(--yellow);
       font-weight: 600;
@@ -591,6 +597,7 @@
                   <th>Address</th>
                   <th>What Changed</th>
                   <th>Before</th>
+                  <th></th>
                   <th>After</th>
                 </tr>
               </thead>
@@ -602,6 +609,7 @@
                   </td>{% endif %}
                   <td class="change-field">{{ ch.display_field or ch.field }}</td>
                   <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="arrow-val">{{ ch.arrow if ch.arrow else '' }}</td>
                   <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
                 </tr>
                 {% endfor %}
@@ -629,6 +637,7 @@
                 <tr>
                   <th>Address</th>
                   <th>Before</th>
+                  <th></th>
                   <th>After</th>
                 </tr>
               </thead>
@@ -638,6 +647,7 @@
                   <td>{{ m.address_full or m.address_point_id }}</td>
                   {% for ch in m.changes %}
                   <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="arrow-val">{{ ch.arrow if ch.arrow else '' }}</td>
                   <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
                   {% endfor %}
                 </tr>
