@@ -377,8 +377,21 @@ def update_index():
     with open(meta_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Deduplicate by date: keep the entry with the most total changes;
+    # if tied, keep the one with the highest key (latest run).
+    by_date = {}
+    for key, entry in data.items():
+        date = entry["date"]
+        total = entry["added"] + entry["removed"] + entry["modified"]
+        if date not in by_date:
+            by_date[date] = (key, entry, total)
+        else:
+            prev_key, _, prev_total = by_date[date]
+            if total > prev_total or (total == prev_total and int(key) > int(prev_key)):
+                by_date[date] = (key, entry, total)
+
     # Sort by date desc
-    reports = sorted(data.values(), key=lambda x: x["date"], reverse=True)
+    reports = sorted((entry for _, entry, _ in by_date.values()), key=lambda x: x["date"], reverse=True)
 
     # Add friendly dates and determine the latest report with changes
     found_latest = False
