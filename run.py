@@ -85,6 +85,89 @@ def cmd_update(args):
     cmd_report(args)
 
 
+def _fmt_bytes(n):
+    for unit in ("B", "KB", "MB", "GB"):
+        if n < 1024:
+            return f"{n:.1f} {unit}"
+        n /= 1024
+    return f"{n:.1f} TB"
+
+
+def cmd_storage(args):
+    """Show how much database storage is used by each table and index."""
+    from src.db import DB_PATH
+    import sqlite3
+
+    if not os.path.exists(DB_PATH):
+        print("No database found. Run 'import' first.")
+        return
+
+    file_size = os.path.getsize(DB_PATH)
+    conn = sqlite3.connect(DB_PATH)
+
+    page_size  = conn.execute("PRAGMA page_size").fetchone()[0]
+    page_count = conn.execute("PRAGMA page_count").fetchone()[0]
+    freelist   = conn.execute("PRAGMA freelist_count").fetchone()[0]
+
+    snapshots = conn.execute(
+        "SELECT id, downloaded, row_count, skipped FROM snapshots ORDER BY id"
+    ).fetchall()
+    addr_rows = conn.execute("SELECT COUNT(*) FROM addresses").fetchone()[0]
+
+    # Delta rows actually written per snapshot (rows introduced, not extended)
+    delta_rows = {
+        sid: cnt for sid, cnt in conn.execute(
+            "SELECT min_snapshot_id, COUNT(*) FROM addresses GROUP BY min_snapshot_id"
+        ).fetchall()
+    }
+
+    indexes = conn.execute(
+        "SELECT name FROM sqlite_master WHERE type='index' ORDER BY name"
+    ).fetchall()
+    conn.close()
+
+    used_bytes = (page_count - freelist) * page_size
+    free_bytes = freelist * page_size
+
+    print(f"Database: {DB_PATH}")
+    print(f"  File size:   {_fmt_bytes(file_size)}")
+    print(f"  Used:        {_fmt_bytes(used_bytes)}  ({page_count - freelist:,} pages)")
+    print(f"  Free:        {_fmt_bytes(free_bytes)}  ({freelist:,} pages, reclaimable via VACUUM)")
+    print(f"  Page size:   {page_size:,} bytes")
+    print()
+    print(f"Snapshots ({len(snapshots)}):")
+    print(f"  {'ID':>4}  {'Date':<12} {'Source total':>13} {'DB rows written':>16}  Note")
+    print(f"  {'-'*4}  {'-'*12} {'-'*13} {'-'*16}  ----")
+    for sid, downloaded, row_count, skipped in snapshots:
+        date = downloaded[:10]
+        if skipped:
+            print(f"  {sid:>4}  {date:<12} {'':>13} {'':>16}  skipped")
+        else:
+            delta = delta_rows.get(sid, 0)
+            print(f"  {sid:>4}  {date:<12} {row_count:>13,} {delta:>16,}")
+    print()
+    print(f"  'Source total' = addresses in the city at that snapshot")
+    print(f"  'DB rows written' = new/changed rows actually inserted (delta)")
+    print(f"  addresses table total: {addr_rows:,} rows across all snapshots")
+    print()
+    print(f"Indexes ({len(indexes)}):")
+    for (name,) in indexes:
+        print(f"  {name}")
+
+    # Raw GeoJSON files
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    if os.path.isdir(data_dir):
+        files = [(f, os.path.getsize(os.path.join(data_dir, f)))
+                 for f in sorted(os.listdir(data_dir))
+                 if os.path.isfile(os.path.join(data_dir, f))]
+        if files:
+            total = sum(s for _, s in files)
+            print()
+            print(f"Raw GeoJSON files (data/): {len(files)} files, {_fmt_bytes(total)} total")
+            for name, size in files:
+                print(f"  {name:<55} {_fmt_bytes(size):>10}")
+
+
 def cmd_rebuild(args):
     """Delete the database and re-import all GeoJSON files in data/."""
     from src.db import DB_PATH
@@ -177,6 +260,8 @@ def main():
     up = sub.add_parser("update", help="Download + import + diff + report")
     up.add_argument("--force", action="store_true", help="Force re-download")
 
+    sub.add_parser("storage", help="Show database storage usage by table and index")
+
     sub.add_parser("rebuild", help="Delete DB and re-import all historical data")
 
     sub.add_parser("verify", help="Verify logic by comparing raw files")
@@ -195,6 +280,7 @@ def main():
         "report-all": cmd_report_all,
         "refresh-reports": lambda a: __import__("src.report").report.refresh_reports(),
         "update": cmd_update,
+        "storage": cmd_storage,
         "rebuild": cmd_rebuild,
         "verify": lambda a: __import__("src.verify_diff").verify_diff.verify_diff(
             *([s["id"] for s in  __import__("src.db").db.get_latest_snapshots(2)] if len(__import__("src.db").db.get_latest_snapshots(2)) >= 2 else [None, None])
