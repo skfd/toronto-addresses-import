@@ -393,6 +393,15 @@ def update_index():
     # Sort by date desc
     reports = sorted((entry for _, entry, _ in by_date.values()), key=lambda x: x["date"], reverse=True)
 
+    # Suppress zero-change (skipped) entries unless they are the most recent entry.
+    # Between real-data entries they are just noise; the date gap implies no updates.
+    if reports:
+        most_recent = reports[0]
+        reports = [
+            r for r in reports
+            if r["added"] + r["removed"] + r["modified"] > 0 or r is most_recent
+        ]
+
     # Add friendly dates and determine the latest report with changes
     found_latest = False
     for report in reports:
