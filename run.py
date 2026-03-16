@@ -64,25 +64,39 @@ def cmd_report(args):
 
 def cmd_update(args):
     """Download, import, diff, and generate a report in one go."""
+    import subprocess
+    from datetime import date
+
     print("=== Download ===")
     status, data, headers = download(force=args.force)
-    
+
     if status == "SKIPPED":
         print(f"\nSkipped: {data}")
         print("Recording skipped snapshot...")
         record_skipped_snapshot("skipped-download", data)
-        
+
         from src.report import generate_no_changes_report
         outpath = generate_no_changes_report()
         print(f"Report generated: {outpath}")
-        return
+    else:
+        print()
+        print("=== Import ===")
+        import_geojson(data, headers=headers)
+        print()
+        print("=== Diff & Report ===")
+        cmd_report(args)
 
     print()
-    print("=== Import ===")
-    import_geojson(data, headers=headers)
-    print()
-    print("=== Diff & Report ===")
-    cmd_report(args)
+    print("=== Git Commit & Push ===")
+    today = date.today().isoformat()
+    subprocess.run(["git", "add", "docs/"], check=True)
+    result = subprocess.run(["git", "commit", "-m", f"data {today}"], capture_output=True, text=True)
+    if result.returncode == 0:
+        print(result.stdout.strip())
+        subprocess.run(["git", "push"], check=True)
+        print("Changes pushed.")
+    else:
+        print("Nothing to commit.")
 
 
 def _fmt_bytes(n):
