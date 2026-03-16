@@ -1,5 +1,7 @@
 data/
 *.db
+*.db-shm
+*.db-wal
 *.geojson
 raw_data/
 __pycache__/
