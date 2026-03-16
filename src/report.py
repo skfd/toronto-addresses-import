@@ -191,7 +191,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
 
     # Update index
     # Use ID to ensure uniqueness
-    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result)
+    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location))
     update_index()
 
     return outpath
@@ -377,6 +377,23 @@ def update_index():
     with open(meta_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Backfill modified_location from data.js for entries that predate the field
+    metadata_changed = False
+    for entry in data.values():
+        if "modified_location" not in entry and entry.get("filename", "reports/#") != "reports/#":
+            basename = os.path.basename(entry["filename"])
+            data_js = os.path.join(REPORTS_DIR, basename.replace(".html", "-data.js"))
+            if os.path.exists(data_js):
+                with open(data_js, "r", encoding="utf-8") as f:
+                    raw = f.read()
+                json_str = raw.split("=", 1)[1].strip().rstrip(";")
+                rd = json.loads(json_str)
+                entry["modified_location"] = rd.get("modified_location_count", 0)
+                metadata_changed = True
+    if metadata_changed:
+        with open(meta_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+
     # Deduplicate by date: keep the entry with the most total changes;
     # if tied, keep the one with the highest key (latest run).
     by_date = {}
@@ -432,7 +449,7 @@ def update_index():
     print(f"Index updated: {outpath}")
 
 
-def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result):
+def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result, modified_location=0):
     """Update the JSON metadata file with stats for this report."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
     meta_path = os.path.join(REPORTS_DIR, "metadata.json")
@@ -452,6 +469,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result)
         "added": len(diff_result["added"]),
         "removed": len(diff_result["removed"]),
         "modified": len(diff_result["modified"]),
+        "modified_location": modified_location,
     }
 
     with open(meta_path, "w", encoding="utf-8") as f:
