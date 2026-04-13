@@ -349,5 +349,13 @@
     "removed": 0,
     "modified": 0,
     "modified_location": 0
+  },
+  "27": {
+    "date": "2026-04-13",
+    "filename": "reports/report-2026-04-13.html",
+    "added": 8,
+    "removed": 0,
+    "modified": 21,
+    "modified_location": 21
   }
 }
