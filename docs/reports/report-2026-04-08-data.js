@@ -40,20 +40,7 @@ window.REPORT_DATA = {
       "longitude": -79.39532,
       "latitude": 43.67235,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007652, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 126007, \"CENTRELINE_ID\": 30126052, \"CENTRELINE_MEASURE\": 46.41, \"CENTRELINE_OFFSET\": 22.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2924.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051836\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
-      "history": [
-        {
-          "date": "2025-04-01",
-          "kind": "added",
-          "snapshot_id": 1,
-          "current": false
-        },
-        {
-          "date": "2026-04-08",
-          "kind": "added",
-          "snapshot_id": 25,
-          "current": true
-        }
-      ]
+      "history": []
     }
   ],
   "removed": [],

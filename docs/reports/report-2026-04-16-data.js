@@ -40,14 +40,7 @@ window.REPORT_DATA = {
       "longitude": -79.43041,
       "latitude": 43.7568,
       "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007693, \"ADDRESS_ID_LINK\": 478321, \"ADDRESS_POINT_ID_LINK\": 9246594, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006289, \"CENTRELINE_ID\": 30035892, \"CENTRELINE_MEASURE\": 215.26, \"CENTRELINE_OFFSET\": 29.36, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5402.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051849\", \"PLACE_NAME\": \"Parking Lot - Earl Bales Park\", \"PLACE_NAME_ALL\": \"Parking Lot - Earl Bales Park\", \"WARD\": \"06\"}",
-      "history": [
-        {
-          "date": "2026-04-16",
-          "kind": "added",
-          "snapshot_id": 28,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 28,
@@ -68,20 +61,7 @@ window.REPORT_DATA = {
       "longitude": -79.45968,
       "latitude": 43.65847,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007694, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 61028, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 5.7, \"CENTRELINE_OFFSET\": 18.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051850\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
-      "history": [
-        {
-          "date": "2025-04-01",
-          "kind": "added",
-          "snapshot_id": 1,
-          "current": false
-        },
-        {
-          "date": "2026-04-16",
-          "kind": "added",
-          "snapshot_id": 28,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 28,
@@ -102,20 +82,7 @@ window.REPORT_DATA = {
       "longitude": -79.45974,
       "latitude": 43.65846,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007695, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60004893, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 10.73, \"CENTRELINE_OFFSET\": 17.94, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051851\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
-      "history": [
-        {
-          "date": "2025-04-01",
-          "kind": "added",
-          "snapshot_id": 1,
-          "current": false
-        },
-        {
-          "date": "2026-04-16",
-          "kind": "added",
-          "snapshot_id": 28,
-          "current": true
-        }
-      ]
+      "history": []
     }
   ],
   "removed": [],

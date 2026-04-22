@@ -40,14 +40,7 @@ window.REPORT_DATA = {
       "longitude": -79.45103,
       "latitude": 43.70862,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007335, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006223, \"CENTRELINE_ID\": 446247, \"CENTRELINE_MEASURE\": 72.56, \"CENTRELINE_OFFSET\": 24.3, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5692.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5661592\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -68,14 +61,7 @@ window.REPORT_DATA = {
       "longitude": -79.45111,
       "latitude": 43.70861,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007338, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006225, \"CENTRELINE_ID\": 446247, \"CENTRELINE_MEASURE\": 78.83, \"CENTRELINE_OFFSET\": 24.65, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5692.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5661595\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -96,14 +82,7 @@ window.REPORT_DATA = {
       "longitude": -79.45109,
       "latitude": 43.70876,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007341, \"ADDRESS_ID_LINK\": 60007335, \"ADDRESS_POINT_ID_LINK\": 60056345, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006224, \"CENTRELINE_ID\": 446247, \"CENTRELINE_MEASURE\": 72.11, \"CENTRELINE_OFFSET\": 40.23, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5692.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5661596\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -124,14 +103,7 @@ window.REPORT_DATA = {
       "longitude": -79.45117,
       "latitude": 43.70875,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007343, \"ADDRESS_ID_LINK\": 60007338, \"ADDRESS_POINT_ID_LINK\": 60056346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006226, \"CENTRELINE_ID\": 446247, \"CENTRELINE_MEASURE\": 78.89, \"CENTRELINE_OFFSET\": 40.74, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5692.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5661598\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -152,14 +124,7 @@ window.REPORT_DATA = {
       "longitude": -79.47343,
       "latitude": 43.752,
       "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007345, \"ADDRESS_ID_LINK\": 438361, \"ADDRESS_POINT_ID_LINK\": 6275805, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006227, \"CENTRELINE_ID\": 60052961, \"CENTRELINE_MEASURE\": 193.04, \"CENTRELINE_OFFSET\": 10.37, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30296.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5661600\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"06\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -180,14 +145,7 @@ window.REPORT_DATA = {
       "longitude": -79.33135,
       "latitude": 43.66413,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007346, \"ADDRESS_ID_LINK\": 238179, \"ADDRESS_POINT_ID_LINK\": 4786465, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006228, \"CENTRELINE_ID\": 20061817, \"CENTRELINE_MEASURE\": 74.7, \"CENTRELINE_OFFSET\": 8.23, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11109.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5661898\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -208,20 +166,7 @@ window.REPORT_DATA = {
       "longitude": -79.44842,
       "latitude": 43.65609,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007365, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 59703, \"CENTRELINE_ID\": 60041694, \"CENTRELINE_MEASURE\": 168.94, \"CENTRELINE_OFFSET\": 19.97, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4182.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5662920\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
-      "history": [
-        {
-          "date": "2025-04-01",
-          "kind": "added",
-          "snapshot_id": 1,
-          "current": false
-        },
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -242,14 +187,7 @@ window.REPORT_DATA = {
       "longitude": -79.44832,
       "latitude": 43.65599,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007366, \"ADDRESS_ID_LINK\": 60007365, \"ADDRESS_POINT_ID_LINK\": 60056383, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006229, \"CENTRELINE_ID\": 60041694, \"CENTRELINE_MEASURE\": 155.38, \"CENTRELINE_OFFSET\": 19.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4182.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5662922\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -270,14 +208,7 @@ window.REPORT_DATA = {
       "longitude": -79.44847,
       "latitude": 43.65615,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007368, \"ADDRESS_ID_LINK\": 60007365, \"ADDRESS_POINT_ID_LINK\": 60056383, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006230, \"CENTRELINE_ID\": 60041694, \"CENTRELINE_MEASURE\": 176.58, \"CENTRELINE_OFFSET\": 19.04, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4182.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5662923\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -298,14 +229,7 @@ window.REPORT_DATA = {
       "longitude": -79.44851,
       "latitude": 43.65619,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007370, \"ADDRESS_ID_LINK\": 60007365, \"ADDRESS_POINT_ID_LINK\": 60056383, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006231, \"CENTRELINE_ID\": 60041694, \"CENTRELINE_MEASURE\": 181.94, \"CENTRELINE_OFFSET\": 19.48, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4182.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5662925\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -326,14 +250,7 @@ window.REPORT_DATA = {
       "longitude": -79.44444,
       "latitude": 43.68023,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007372, \"ADDRESS_ID_LINK\": 127468, \"ADDRESS_POINT_ID_LINK\": 9779454, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006232, \"CENTRELINE_ID\": 14015702, \"CENTRELINE_MEASURE\": 36.54, \"CENTRELINE_OFFSET\": 20.26, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2904.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5662928\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -354,14 +271,7 @@ window.REPORT_DATA = {
       "longitude": -79.4405,
       "latitude": 43.69909,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007374, \"ADDRESS_ID_LINK\": 103262, \"ADDRESS_POINT_ID_LINK\": 51960, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006233, \"CENTRELINE_ID\": 7516, \"CENTRELINE_MEASURE\": 53.72, \"CENTRELINE_OFFSET\": 39.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 440.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"5663461\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -382,14 +292,7 @@ window.REPORT_DATA = {
       "longitude": -79.36717,
       "latitude": 43.65408,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007376, \"ADDRESS_ID_LINK\": 60003178, \"ADDRESS_POINT_ID_LINK\": 60030859, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006234, \"CENTRELINE_ID\": 14036625, \"CENTRELINE_MEASURE\": 79.26, \"CENTRELINE_OFFSET\": 26.28, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4276.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5664044\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -410,14 +313,7 @@ window.REPORT_DATA = {
       "longitude": -79.36712,
       "latitude": 43.6543,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007378, \"ADDRESS_ID_LINK\": 60003178, \"ADDRESS_POINT_ID_LINK\": 60030859, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006235, \"CENTRELINE_ID\": 8708505, \"CENTRELINE_MEASURE\": 48.99, \"CENTRELINE_OFFSET\": 19.51, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4108.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5664046\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -438,14 +334,7 @@ window.REPORT_DATA = {
       "longitude": -79.36768,
       "latitude": 43.6542,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007380, \"ADDRESS_ID_LINK\": 60003178, \"ADDRESS_POINT_ID_LINK\": 60030859, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006236, \"CENTRELINE_ID\": 20006071, \"CENTRELINE_MEASURE\": 66.36, \"CENTRELINE_OFFSET\": 9.99, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11083.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5664048\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -466,14 +355,7 @@ window.REPORT_DATA = {
       "longitude": -79.36734,
       "latitude": 43.65429,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007382, \"ADDRESS_ID_LINK\": 60003178, \"ADDRESS_POINT_ID_LINK\": 60030859, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60005459, \"CENTRELINE_ID\": 20006071, \"CENTRELINE_MEASURE\": 37.31, \"CENTRELINE_OFFSET\": 8.64, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11083.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5664051\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -494,14 +376,7 @@ window.REPORT_DATA = {
       "longitude": -79.28542,
       "latitude": 43.78651,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007386, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006237, \"CENTRELINE_ID\": 106607, \"CENTRELINE_MEASURE\": 57.48, \"CENTRELINE_OFFSET\": 27.39, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8789.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"5665556\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"22\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -522,14 +397,7 @@ window.REPORT_DATA = {
       "longitude": -79.28545,
       "latitude": 43.78658,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007389, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006239, \"CENTRELINE_ID\": 106607, \"CENTRELINE_MEASURE\": 65.29, \"CENTRELINE_OFFSET\": 27.39, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8789.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"5665560\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"22\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -550,14 +418,7 @@ window.REPORT_DATA = {
       "longitude": -79.28513,
       "latitude": 43.78657,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007392, \"ADDRESS_ID_LINK\": 60007386, \"ADDRESS_POINT_ID_LINK\": 60057128, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006238, \"CENTRELINE_ID\": 106607, \"CENTRELINE_MEASURE\": 56.68, \"CENTRELINE_OFFSET\": 51.94, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8789.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"5665563\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"22\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 10,
@@ -578,14 +439,7 @@ window.REPORT_DATA = {
       "longitude": -79.28516,
       "latitude": 43.78665,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007394, \"ADDRESS_ID_LINK\": 60007389, \"ADDRESS_POINT_ID_LINK\": 60057129, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006240, \"CENTRELINE_ID\": 106607, \"CENTRELINE_MEASURE\": 66.13, \"CENTRELINE_OFFSET\": 52.16, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8789.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"5665564\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"22\"}",
-      "history": [
-        {
-          "date": "2026-03-03",
-          "kind": "added",
-          "snapshot_id": 10,
-          "current": true
-        }
-      ]
+      "history": []
     }
   ],
   "removed": [

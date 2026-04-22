@@ -40,14 +40,7 @@ window.REPORT_DATA = {
       "longitude": -79.41719,
       "latitude": 43.7735,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007173, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006210, \"CENTRELINE_ID\": 30138158, \"CENTRELINE_MEASURE\": 21.57, \"CENTRELINE_OFFSET\": 1.41, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30165.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5643464\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
-      "history": [
-        {
-          "date": "2026-02-13",
-          "kind": "added",
-          "snapshot_id": 4,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 4,
@@ -68,20 +61,7 @@ window.REPORT_DATA = {
       "longitude": -79.56502,
       "latitude": 43.73944,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007175, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 485486, \"CENTRELINE_ID\": 8392799, \"CENTRELINE_MEASURE\": 139.13, \"CENTRELINE_OFFSET\": 21.05, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2733.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5644381\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}",
-      "history": [
-        {
-          "date": "2025-04-01",
-          "kind": "added",
-          "snapshot_id": 1,
-          "current": false
-        },
-        {
-          "date": "2026-02-13",
-          "kind": "added",
-          "snapshot_id": 4,
-          "current": true
-        }
-      ]
+      "history": []
     }
   ],
   "removed": [

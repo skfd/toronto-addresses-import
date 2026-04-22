@@ -40,14 +40,7 @@ window.REPORT_DATA = {
       "longitude": -79.35514,
       "latitude": 43.65345,
       "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007541, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60003648, \"CENTRELINE_ID\": 30043802, \"CENTRELINE_MEASURE\": 63.88, \"CENTRELINE_OFFSET\": 21.82, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3471.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051807\", \"PLACE_NAME\": \"Diamond Jubilee Promenade\", \"PLACE_NAME_ALL\": \"Diamond Jubilee Promenade\", \"WARD\": \"13\"}",
-      "history": [
-        {
-          "date": "2026-03-25",
-          "kind": "added",
-          "snapshot_id": 20,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 20,
@@ -68,14 +61,7 @@ window.REPORT_DATA = {
       "longitude": -79.42806,
       "latitude": 43.6746,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007529, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006259, \"CENTRELINE_ID\": 8007458, \"CENTRELINE_MEASURE\": 148.17, \"CENTRELINE_OFFSET\": 16.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3269.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051808\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
-      "history": [
-        {
-          "date": "2026-03-25",
-          "kind": "added",
-          "snapshot_id": 20,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 20,
@@ -96,14 +82,7 @@ window.REPORT_DATA = {
       "longitude": -79.42804,
       "latitude": 43.67445,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007531, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006260, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 0.82, \"CENTRELINE_OFFSET\": 11.14, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051809\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
-      "history": [
-        {
-          "date": "2026-03-25",
-          "kind": "added",
-          "snapshot_id": 20,
-          "current": true
-        }
-      ]
+      "history": []
     },
     {
       "min_snapshot_id": 20,
@@ -124,14 +103,7 @@ window.REPORT_DATA = {
       "longitude": -79.42805,
       "latitude": 43.67447,
       "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007533, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006261, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 2.98, \"CENTRELINE_OFFSET\": 11.13, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051810\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
-      "history": [
-        {
-          "date": "2026-03-25",
-          "kind": "added",
-          "snapshot_id": 20,
-          "current": true
-        }
-      ]
+      "history": []
     }
   ],
   "removed": [
