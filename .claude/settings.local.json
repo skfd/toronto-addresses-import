@@ -16,7 +16,8 @@
       "WebSearch",
       "WebFetch(domain:fluent2.microsoft.design)",
       "WebFetch(domain:react.fluentui.dev)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(winget search:*)"
     ]
   }
 }
