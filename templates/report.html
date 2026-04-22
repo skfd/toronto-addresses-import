@@ -272,6 +272,15 @@
       white-space: nowrap;
     }
 
+    .old-val a, .new-val a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    .old-val a:hover, .new-val a:hover {
+      text-decoration: underline;
+    }
+
     .change-field {
       color: var(--yellow);
       font-weight: 600;
@@ -646,9 +655,21 @@
                 <tr>
                   <td>{{ m.address_full or m.address_point_id }}</td>
                   {% for ch in m.changes %}
-                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="old-val">
+                    {% if ch.old and ',' in ch.old %}
+                      {% set o = ch.old.split(',') %}
+                      {% set olat = o[0].strip() %}{% set olon = o[1].strip() %}
+                      <a href="https://www.openstreetmap.org/?mlat={{ olat }}&mlon={{ olon }}#map=19/{{ olat }}/{{ olon }}" target="_blank" rel="noopener">{{ ch.old }}</a>
+                    {% else %}{{ ch.old if ch.old is not none else '—' }}{% endif %}
+                  </td>
                   <td class="arrow-val">{{ ch.arrow if ch.arrow else '' }}</td>
-                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
+                  <td class="new-val">
+                    {% if ch.new and ',' in ch.new %}
+                      {% set n = ch.new.split(',') %}
+                      {% set nlat = n[0].strip() %}{% set nlon = n[1].strip() %}
+                      <a href="https://www.openstreetmap.org/?mlat={{ nlat }}&mlon={{ nlon }}#map=19/{{ nlat }}/{{ nlon }}" target="_blank" rel="noopener">{{ ch.new }}</a>
+                    {% else %}{{ ch.new if ch.new is not none else '—' }}{% endif %}
+                  </td>
                   {% endfor %}
                 </tr>
                 {% endfor %}
