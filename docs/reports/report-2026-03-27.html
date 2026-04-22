@@ -272,13 +272,21 @@
       white-space: nowrap;
     }
 
-    .old-val a, .new-val a {
-      color: inherit;
-      text-decoration: inherit;
+    .map-link {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 0.4em;
+      color: var(--accent);
+      vertical-align: middle;
     }
 
-    .old-val a:hover, .new-val a:hover {
-      text-decoration: underline;
+    .map-link:hover {
+      color: var(--accent-hover);
+    }
+
+    .map-link svg {
+      width: 14px;
+      height: 14px;
     }
 
     .change-field {
@@ -521,21 +529,9 @@
                 <tr>
                   <td>2530 Birchmount Rd</td>
                   
-                  <td class="old-val">
-                    
-                      
-                      
-                      <a href="https://www.openstreetmap.org/?mlat=43.78768&mlon=-79.30213#map=19/43.78768/-79.30213" target="_blank" rel="noopener">43.78768, -79.30213</a>
-                    
-                  </td>
+                  <td class="old-val">43.78768, -79.30213<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.78768&mlon=-79.30213#map=19/43.78768/-79.30213" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
                   <td class="arrow-val">→ 37.8m</td>
-                  <td class="new-val">
-                    
-                      
-                      
-                      <a href="https://www.openstreetmap.org/?mlat=43.78767&mlon=-79.30166#map=19/43.78767/-79.30166" target="_blank" rel="noopener">43.78767, -79.30166</a>
-                    
-                  </td>
+                  <td class="new-val">43.78767, -79.30166<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.78767&mlon=-79.30166#map=19/43.78767/-79.30166" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
                   
                 </tr>
                 

@@ -272,13 +272,21 @@
       white-space: nowrap;
     }
 
-    .old-val a, .new-val a {
-      color: inherit;
-      text-decoration: inherit;
+    .map-link {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 0.4em;
+      color: var(--accent);
+      vertical-align: middle;
     }
 
-    .old-val a:hover, .new-val a:hover {
-      text-decoration: underline;
+    .map-link:hover {
+      color: var(--accent-hover);
+    }
+
+    .map-link svg {
+      width: 14px;
+      height: 14px;
     }
 
     .change-field {
@@ -655,21 +663,9 @@
                 <tr>
                   <td>{{ m.address_full or m.address_point_id }}</td>
                   {% for ch in m.changes %}
-                  <td class="old-val">
-                    {% if ch.old and ',' in ch.old %}
-                      {% set o = ch.old.split(',') %}
-                      {% set olat = o[0].strip() %}{% set olon = o[1].strip() %}
-                      <a href="https://www.openstreetmap.org/?mlat={{ olat }}&mlon={{ olon }}#map=19/{{ olat }}/{{ olon }}" target="_blank" rel="noopener">{{ ch.old }}</a>
-                    {% else %}{{ ch.old if ch.old is not none else '—' }}{% endif %}
-                  </td>
+                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}{% if ch.old and ',' in ch.old %}{% set o = ch.old.split(',') %}{% set olat = o[0].strip() %}{% set olon = o[1].strip() %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ olat }}&mlon={{ olon }}#map=19/{{ olat }}/{{ olon }}" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>{% endif %}</td>
                   <td class="arrow-val">{{ ch.arrow if ch.arrow else '' }}</td>
-                  <td class="new-val">
-                    {% if ch.new and ',' in ch.new %}
-                      {% set n = ch.new.split(',') %}
-                      {% set nlat = n[0].strip() %}{% set nlon = n[1].strip() %}
-                      <a href="https://www.openstreetmap.org/?mlat={{ nlat }}&mlon={{ nlon }}#map=19/{{ nlat }}/{{ nlon }}" target="_blank" rel="noopener">{{ ch.new }}</a>
-                    {% else %}{{ ch.new if ch.new is not none else '—' }}{% endif %}
-                  </td>
+                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}{% if ch.new and ',' in ch.new %}{% set n = ch.new.split(',') %}{% set nlat = n[0].strip() %}{% set nlon = n[1].strip() %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ nlat }}&mlon={{ nlon }}#map=19/{{ nlat }}/{{ nlon }}" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>{% endif %}</td>
                   {% endfor %}
                 </tr>
                 {% endfor %}

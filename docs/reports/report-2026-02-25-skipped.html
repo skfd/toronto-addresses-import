@@ -272,13 +272,21 @@
       white-space: nowrap;
     }
 
-    .old-val a, .new-val a {
-      color: inherit;
-      text-decoration: inherit;
+    .map-link {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 0.4em;
+      color: var(--accent);
+      vertical-align: middle;
     }
 
-    .old-val a:hover, .new-val a:hover {
-      text-decoration: underline;
+    .map-link:hover {
+      color: var(--accent-hover);
+    }
+
+    .map-link svg {
+      width: 14px;
+      height: 14px;
     }
 
     .change-field {
