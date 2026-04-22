@@ -20,7 +20,8 @@
       "Bash(winget search:*)",
       "Bash(grep 'json$')",
       "Bash(tasklist //FI \"IMAGENAME eq python.exe\")",
-      "Bash(start chrome *)"
+      "Bash(start chrome *)",
+      "Bash(tasklist //fi \"imagename eq python.exe\")"
     ]
   }
 }
