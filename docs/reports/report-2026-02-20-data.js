@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Feb 21, 2026 at 12:15 AM",
+  "generated": "Apr 22, 2026 at 03:06 AM",
   "old_snapshot": {
     "id": 4,
     "downloaded": "2026-02-14T20:17:42.265193",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 5,
-      "max_snapshot_id": 5,
+      "max_snapshot_id": 15,
       "address_point_id": 60054530,
       "address_full": "55A Florence Ave",
       "address_number": "55A",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 5,
-      "max_snapshot_id": 5,
+      "max_snapshot_id": 15,
       "address_point_id": 60054531,
       "address_full": "55B Florence Ave",
       "address_number": "55B",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 5,
-      "max_snapshot_id": 5,
+      "max_snapshot_id": 15,
       "address_point_id": 60054620,
       "address_full": "137 Park St",
       "address_number": "137",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 5,
-      "max_snapshot_id": 5,
+      "max_snapshot_id": 15,
       "address_point_id": 60054621,
       "address_full": "139 Park St",
       "address_number": "139",
@@ -630,7 +630,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69750, -79.53961",
-          "new": "43.69749, -79.53959 \u2198 2.0m",
+          "new": "43.69749, -79.53959",
+          "arrow": "\u2198 2.0m",
           "display_field": "Location"
         }
       ]
@@ -645,7 +646,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.65405, -79.56280",
-          "new": "43.65409, -79.56285 \u2196 6.0m",
+          "new": "43.65409, -79.56285",
+          "arrow": "\u2196 6.0m",
           "display_field": "Location"
         }
       ]
@@ -660,7 +662,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69770, -79.53975",
-          "new": "43.69772, -79.53974 \u2191 2.4m",
+          "new": "43.69772, -79.53974",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -675,7 +678,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72455, -79.56000",
-          "new": "43.72451, -79.55994 \u2198 6.6m",
+          "new": "43.72451, -79.55994",
+          "arrow": "\u2198 6.6m",
           "display_field": "Location"
         }
       ]
@@ -690,7 +694,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72494, -79.55858",
-          "new": "43.72443, -79.55897 \u2199 64.9m",
+          "new": "43.72443, -79.55897",
+          "arrow": "\u2199 64.9m",
           "display_field": "Location"
         }
       ]
@@ -705,7 +710,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72490, -79.55877",
-          "new": "43.72471, -79.55911 \u2199 34.6m",
+          "new": "43.72471, -79.55911",
+          "arrow": "\u2199 34.6m",
           "display_field": "Location"
         }
       ]
@@ -720,7 +726,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69743, -79.53938",
-          "new": "43.69742, -79.53937 \u2198 1.4m",
+          "new": "43.69742, -79.53937",
+          "arrow": "\u2198 1.4m",
           "display_field": "Location"
         }
       ]
@@ -735,7 +742,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69748, -79.53956",
-          "new": "43.69747, -79.53954 \u2198 2.0m",
+          "new": "43.69747, -79.53954",
+          "arrow": "\u2198 2.0m",
           "display_field": "Location"
         }
       ]
@@ -750,7 +758,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69785, -79.53964",
-          "new": "43.69788, -79.53964 \u2191 3.3m",
+          "new": "43.69788, -79.53964",
+          "arrow": "\u2191 3.3m",
           "display_field": "Location"
         }
       ]
@@ -765,7 +774,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72017, -79.24847",
-          "new": "43.72012, -79.24846 \u2193 5.6m",
+          "new": "43.72012, -79.24846",
+          "arrow": "\u2193 5.6m",
           "display_field": "Location"
         }
       ]
@@ -780,7 +790,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64600, -79.40704",
-          "new": "43.64597, -79.40704 \u2193 3.3m",
+          "new": "43.64597, -79.40704",
+          "arrow": "\u2193 3.3m",
           "display_field": "Location"
         }
       ]
@@ -795,7 +806,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69795, -79.53959",
-          "new": "43.69792, -79.53960 \u2193 3.4m",
+          "new": "43.69792, -79.53960",
+          "arrow": "\u2193 3.4m",
           "display_field": "Location"
         }
       ]
@@ -810,7 +822,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.65393, -79.56269",
-          "new": "43.65393, -79.56277 \u2190 6.4m",
+          "new": "43.65393, -79.56277",
+          "arrow": "\u2190 6.4m",
           "display_field": "Location"
         }
       ]
@@ -825,7 +838,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64567, -79.40682",
-          "new": "43.64567, -79.40679 \u2192 2.4m",
+          "new": "43.64567, -79.40679",
+          "arrow": "\u2192 2.4m",
           "display_field": "Location"
         }
       ]
@@ -840,7 +854,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69776, -79.53971",
-          "new": "43.69777, -79.53970 \u2197 1.4m",
+          "new": "43.69777, -79.53970",
+          "arrow": "\u2197 1.4m",
           "display_field": "Location"
         }
       ]
@@ -855,7 +870,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72496, -79.55850",
-          "new": "43.72431, -79.55848 \u2193 72.4m",
+          "new": "43.72431, -79.55848",
+          "arrow": "\u2193 72.4m",
           "display_field": "Location"
         }
       ]
@@ -870,7 +886,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69689, -79.53905",
-          "new": "43.69687, -79.53904 \u2193 2.4m",
+          "new": "43.69687, -79.53904",
+          "arrow": "\u2193 2.4m",
           "display_field": "Location"
         }
       ]
@@ -885,7 +902,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69712, -79.53865",
-          "new": "43.69714, -79.53866 \u2191 2.4m",
+          "new": "43.69714, -79.53866",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -900,7 +918,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64601, -79.40706",
-          "new": "43.64597, -79.40700 \u2198 6.6m",
+          "new": "43.64597, -79.40700",
+          "arrow": "\u2198 6.6m",
           "display_field": "Location"
         }
       ]
@@ -915,7 +934,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69745, -79.53948",
-          "new": "43.69744, -79.53943 \u2192 4.2m",
+          "new": "43.69744, -79.53943",
+          "arrow": "\u2192 4.2m",
           "display_field": "Location"
         }
       ]
@@ -930,7 +950,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72022, -79.24821",
-          "new": "43.72017, -79.24819 \u2193 5.8m",
+          "new": "43.72017, -79.24819",
+          "arrow": "\u2193 5.8m",
           "display_field": "Location"
         }
       ]
@@ -945,7 +966,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72009, -79.24881",
-          "new": "43.72004, -79.24879 \u2193 5.8m",
+          "new": "43.72004, -79.24879",
+          "arrow": "\u2193 5.8m",
           "display_field": "Location"
         }
       ]
@@ -960,7 +982,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69791, -79.53911",
-          "new": "43.69790, -79.53909 \u2198 2.0m",
+          "new": "43.69790, -79.53909",
+          "arrow": "\u2198 2.0m",
           "display_field": "Location"
         }
       ]
@@ -975,7 +998,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69797, -79.53929",
-          "new": "43.69797, -79.53931 \u2190 1.6m",
+          "new": "43.69797, -79.53931",
+          "arrow": "\u2190 1.6m",
           "display_field": "Location"
         }
       ]
@@ -990,7 +1014,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.69787, -79.53908",
-          "new": "43.69786, -79.53903 \u2192 4.2m",
+          "new": "43.69786, -79.53903",
+          "arrow": "\u2192 4.2m",
           "display_field": "Location"
         }
       ]
@@ -1005,7 +1030,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71933, -79.25125",
-          "new": "43.71935, -79.25113 \u2192 9.9m",
+          "new": "43.71935, -79.25113",
+          "arrow": "\u2192 9.9m",
           "display_field": "Location"
         }
       ]
@@ -1020,7 +1046,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71936, -79.25126",
-          "new": "43.71939, -79.25112 \u2192 11.7m",
+          "new": "43.71939, -79.25112",
+          "arrow": "\u2192 11.7m",
           "display_field": "Location"
         }
       ]
@@ -1035,7 +1062,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71947, -79.25131",
-          "new": "43.71950, -79.25118 \u2192 11.0m",
+          "new": "43.71950, -79.25118",
+          "arrow": "\u2192 11.0m",
           "display_field": "Location"
         }
       ]
@@ -1050,7 +1078,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71940, -79.25128",
-          "new": "43.71942, -79.25116 \u2192 9.9m",
+          "new": "43.71942, -79.25116",
+          "arrow": "\u2192 9.9m",
           "display_field": "Location"
         }
       ]
@@ -1065,7 +1094,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71955, -79.25134",
-          "new": "43.71957, -79.25120 \u2192 11.5m",
+          "new": "43.71957, -79.25120",
+          "arrow": "\u2192 11.5m",
           "display_field": "Location"
         }
       ]
@@ -1080,7 +1110,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71927, -79.25123",
-          "new": "43.71931, -79.25110 \u2197 11.4m",
+          "new": "43.71931, -79.25110",
+          "arrow": "\u2197 11.4m",
           "display_field": "Location"
         }
       ]
@@ -1095,7 +1126,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71951, -79.25132",
-          "new": "43.71953, -79.25119 \u2192 10.7m",
+          "new": "43.71953, -79.25119",
+          "arrow": "\u2192 10.7m",
           "display_field": "Location"
         }
       ]
@@ -1110,7 +1142,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71944, -79.25129",
-          "new": "43.71946, -79.25116 \u2192 10.7m",
+          "new": "43.71946, -79.25116",
+          "arrow": "\u2192 10.7m",
           "display_field": "Location"
         }
       ]
@@ -1125,7 +1158,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64507, -79.40644",
-          "new": "43.64510, -79.40648 \u2196 4.6m",
+          "new": "43.64510, -79.40648",
+          "arrow": "\u2196 4.6m",
           "display_field": "Location"
         }
       ]
@@ -1140,7 +1174,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64545, -79.40637",
-          "new": "43.64543, -79.40632 \u2198 4.6m",
+          "new": "43.64543, -79.40632",
+          "arrow": "\u2198 4.6m",
           "display_field": "Location"
         }
       ]
@@ -1155,7 +1190,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64525, -79.40712",
-          "new": "43.64523, -79.40710 \u2198 2.7m",
+          "new": "43.64523, -79.40710",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1170,7 +1206,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64498, -79.40867",
-          "new": "43.64491, -79.40853 \u2198 13.7m",
+          "new": "43.64491, -79.40853",
+          "arrow": "\u2198 13.7m",
           "display_field": "Location"
         }
       ]
@@ -1185,7 +1222,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64492, -79.40870",
-          "new": "43.64490, -79.40871 \u2193 2.4m",
+          "new": "43.64490, -79.40871",
+          "arrow": "\u2193 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1200,7 +1238,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64486, -79.40906",
-          "new": "43.64482, -79.40908 \u2193 4.7m",
+          "new": "43.64482, -79.40908",
+          "arrow": "\u2193 4.7m",
           "display_field": "Location"
         }
       ]
@@ -1215,7 +1254,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64500, -79.40863",
-          "new": "43.64490, -79.40856 \u2198 12.5m",
+          "new": "43.64490, -79.40856",
+          "arrow": "\u2198 12.5m",
           "display_field": "Location"
         }
       ]
@@ -1230,7 +1270,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64503, -79.40819",
-          "new": "43.64502, -79.40816 \u2198 2.7m",
+          "new": "43.64502, -79.40816",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1245,7 +1286,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64509, -79.40824",
-          "new": "43.64501, -79.40822 \u2193 9.1m",
+          "new": "43.64501, -79.40822",
+          "arrow": "\u2193 9.1m",
           "display_field": "Location"
         }
       ]
@@ -1260,7 +1302,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64500, -79.40835",
-          "new": "43.64498, -79.40833 \u2198 2.7m",
+          "new": "43.64498, -79.40833",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1275,7 +1318,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64478, -79.40812",
-          "new": "43.64478, -79.40810 \u2192 1.6m",
+          "new": "43.64478, -79.40810",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1290,7 +1334,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64477, -79.40801",
-          "new": "43.64480, -79.40799 \u2197 3.7m",
+          "new": "43.64480, -79.40799",
+          "arrow": "\u2197 3.7m",
           "display_field": "Location"
         }
       ]
@@ -1305,7 +1350,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64484, -79.40780",
-          "new": "43.64484, -79.40778 \u2192 1.6m",
+          "new": "43.64484, -79.40778",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1320,7 +1366,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64479, -79.40792",
-          "new": "43.64482, -79.40791 \u2191 3.4m",
+          "new": "43.64482, -79.40791",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -1335,7 +1382,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64515, -79.40757",
-          "new": "43.64516, -79.40755 \u2197 2.0m",
+          "new": "43.64516, -79.40755",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1350,7 +1398,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64517, -79.40749",
-          "new": "43.64517, -79.40746 \u2192 2.4m",
+          "new": "43.64517, -79.40746",
+          "arrow": "\u2192 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1365,7 +1414,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64520, -79.40735",
-          "new": "43.64519, -79.40731 \u2192 3.4m",
+          "new": "43.64519, -79.40731",
+          "arrow": "\u2192 3.4m",
           "display_field": "Location"
         }
       ]
@@ -1380,7 +1430,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64521, -79.40729",
-          "new": "43.64519, -79.40726 \u2198 3.3m",
+          "new": "43.64519, -79.40726",
+          "arrow": "\u2198 3.3m",
           "display_field": "Location"
         }
       ]
@@ -1395,7 +1446,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64502, -79.40680",
-          "new": "43.64504, -79.40679 \u2191 2.4m",
+          "new": "43.64504, -79.40679",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1410,7 +1462,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64470, -79.40831",
-          "new": "43.64472, -79.40830 \u2191 2.4m",
+          "new": "43.64472, -79.40830",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1425,7 +1478,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64375, -79.40643",
-          "new": "43.64376, -79.40641 \u2197 2.0m",
+          "new": "43.64376, -79.40641",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1440,7 +1494,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64403, -79.40633",
-          "new": "43.64402, -79.40631 \u2198 2.0m",
+          "new": "43.64402, -79.40631",
+          "arrow": "\u2198 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1455,7 +1510,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64400, -79.40651",
-          "new": "43.64397, -79.40648 \u2198 4.1m",
+          "new": "43.64397, -79.40648",
+          "arrow": "\u2198 4.1m",
           "display_field": "Location"
         }
       ]
@@ -1470,7 +1526,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64400, -79.40647",
-          "new": "43.64397, -79.40643 \u2198 4.6m",
+          "new": "43.64397, -79.40643",
+          "arrow": "\u2198 4.6m",
           "display_field": "Location"
         }
       ]
@@ -1485,7 +1542,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64398, -79.40655",
-          "new": "43.64396, -79.40653 \u2198 2.7m",
+          "new": "43.64396, -79.40653",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1500,7 +1558,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64394, -79.40675",
-          "new": "43.64391, -79.40672 \u2198 4.1m",
+          "new": "43.64391, -79.40672",
+          "arrow": "\u2198 4.1m",
           "display_field": "Location"
         }
       ]
@@ -1515,7 +1574,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64367, -79.40679",
-          "new": "43.64369, -79.40678 \u2191 2.4m",
+          "new": "43.64369, -79.40678",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1530,7 +1590,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64368, -79.40674",
-          "new": "43.64370, -79.40673 \u2191 2.4m",
+          "new": "43.64370, -79.40673",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1545,7 +1606,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64369, -79.40670",
-          "new": "43.64370, -79.40668 \u2197 2.0m",
+          "new": "43.64370, -79.40668",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1560,7 +1622,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64370, -79.40666",
-          "new": "43.64371, -79.40664 \u2197 2.0m",
+          "new": "43.64371, -79.40664",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1575,7 +1638,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64371, -79.40655",
-          "new": "43.64374, -79.40654 \u2191 3.4m",
+          "new": "43.64374, -79.40654",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -1590,7 +1654,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64372, -79.40649",
-          "new": "43.64375, -79.40648 \u2191 3.4m",
+          "new": "43.64375, -79.40648",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -1605,7 +1670,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64476, -79.40656",
-          "new": "43.64469, -79.40654 \u2193 8.0m",
+          "new": "43.64469, -79.40654",
+          "arrow": "\u2193 8.0m",
           "display_field": "Location"
         }
       ]
@@ -1620,7 +1686,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64473, -79.40652",
-          "new": "43.64469, -79.40646 \u2198 6.6m",
+          "new": "43.64469, -79.40646",
+          "arrow": "\u2198 6.6m",
           "display_field": "Location"
         }
       ]
@@ -1635,7 +1702,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64453, -79.40739",
-          "new": "43.64453, -79.40737 \u2192 1.6m",
+          "new": "43.64453, -79.40737",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1650,7 +1718,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64452, -79.40744",
-          "new": "43.64452, -79.40742 \u2192 1.6m",
+          "new": "43.64452, -79.40742",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1665,7 +1734,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64463, -79.40700",
-          "new": "43.64461, -79.40697 \u2198 3.3m",
+          "new": "43.64461, -79.40697",
+          "arrow": "\u2198 3.3m",
           "display_field": "Location"
         }
       ]
@@ -1680,7 +1750,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64467, -79.40680",
-          "new": "43.64465, -79.40677 \u2198 3.3m",
+          "new": "43.64465, -79.40677",
+          "arrow": "\u2198 3.3m",
           "display_field": "Location"
         }
       ]
@@ -1695,7 +1766,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64469, -79.40670",
-          "new": "43.64466, -79.40667 \u2198 4.1m",
+          "new": "43.64466, -79.40667",
+          "arrow": "\u2198 4.1m",
           "display_field": "Location"
         }
       ]
@@ -1710,7 +1782,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64434, -79.40661",
-          "new": "43.64434, -79.40659 \u2192 1.6m",
+          "new": "43.64434, -79.40659",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1725,7 +1798,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64431, -79.40679",
-          "new": "43.64432, -79.40677 \u2197 2.0m",
+          "new": "43.64432, -79.40677",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1740,7 +1814,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64430, -79.40686",
-          "new": "43.64431, -79.40683 \u2197 2.7m",
+          "new": "43.64431, -79.40683",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1755,7 +1830,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64429, -79.40692",
-          "new": "43.64430, -79.40689 \u2197 2.7m",
+          "new": "43.64430, -79.40689",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1770,7 +1846,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64424, -79.40705",
-          "new": "43.64427, -79.40704 \u2191 3.4m",
+          "new": "43.64427, -79.40704",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -1785,7 +1862,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64444, -79.40783",
-          "new": "43.64442, -79.40782 \u2193 2.4m",
+          "new": "43.64442, -79.40782",
+          "arrow": "\u2193 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1800,7 +1878,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64451, -79.40750",
-          "new": "43.64451, -79.40748 \u2192 1.6m",
+          "new": "43.64451, -79.40748",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1815,7 +1894,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64439, -79.40812",
-          "new": "43.64438, -79.40814 \u2199 2.0m",
+          "new": "43.64438, -79.40814",
+          "arrow": "\u2199 2.0m",
           "display_field": "Location"
         }
       ]
@@ -1830,7 +1910,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64437, -79.40645",
-          "new": "43.64437, -79.40644 \u2192 0.8m",
+          "new": "43.64437, -79.40644",
+          "arrow": "\u2192 0.8m",
           "display_field": "Location"
         }
       ]
@@ -1845,7 +1926,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64440, -79.40635",
-          "new": "43.64440, -79.40633 \u2192 1.6m",
+          "new": "43.64440, -79.40633",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1860,7 +1942,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64475, -79.40642",
-          "new": "43.64476, -79.40639 \u2197 2.7m",
+          "new": "43.64476, -79.40639",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -1875,7 +1958,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64478, -79.40641",
-          "new": "43.64472, -79.40640 \u2193 6.7m",
+          "new": "43.64472, -79.40640",
+          "arrow": "\u2193 6.7m",
           "display_field": "Location"
         }
       ]
@@ -1890,7 +1974,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64476, -79.40654",
-          "new": "43.64468, -79.40649 \u2198 9.8m",
+          "new": "43.64468, -79.40649",
+          "arrow": "\u2198 9.8m",
           "display_field": "Location"
         }
       ]
@@ -1905,7 +1990,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64535, -79.40848",
-          "new": "43.64535, -79.40846 \u2192 1.6m",
+          "new": "43.64535, -79.40846",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -1920,7 +2006,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64559, -79.40947",
-          "new": "43.64549, -79.40940 \u2198 12.5m",
+          "new": "43.64549, -79.40940",
+          "arrow": "\u2198 12.5m",
           "display_field": "Location"
         }
       ]
@@ -1935,7 +2022,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64555, -79.40958",
-          "new": "43.64547, -79.40951 \u2198 10.5m",
+          "new": "43.64547, -79.40951",
+          "arrow": "\u2198 10.5m",
           "display_field": "Location"
         }
       ]
@@ -1950,7 +2038,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64520, -79.40915",
-          "new": "43.64520, -79.40918 \u2190 2.4m",
+          "new": "43.64520, -79.40918",
+          "arrow": "\u2190 2.4m",
           "display_field": "Location"
         }
       ]
@@ -1965,7 +2054,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64586, -79.40774",
-          "new": "43.64582, -79.40770 \u2198 5.5m",
+          "new": "43.64582, -79.40770",
+          "arrow": "\u2198 5.5m",
           "display_field": "Location"
         }
       ]
@@ -1980,7 +2070,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64590, -79.40750",
-          "new": "43.64588, -79.40746 \u2198 3.9m",
+          "new": "43.64588, -79.40746",
+          "arrow": "\u2198 3.9m",
           "display_field": "Location"
         }
       ]
@@ -1995,7 +2086,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64595, -79.40726",
-          "new": "43.64593, -79.40722 \u2198 3.9m",
+          "new": "43.64593, -79.40722",
+          "arrow": "\u2198 3.9m",
           "display_field": "Location"
         }
       ]
@@ -2010,7 +2102,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64599, -79.40731",
-          "new": "43.64590, -79.40729 \u2193 10.1m",
+          "new": "43.64590, -79.40729",
+          "arrow": "\u2193 10.1m",
           "display_field": "Location"
         }
       ]
@@ -2025,7 +2118,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64545, -79.40789",
-          "new": "43.64547, -79.40787 \u2197 2.7m",
+          "new": "43.64547, -79.40787",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2040,7 +2134,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64547, -79.40780",
-          "new": "43.64547, -79.40778 \u2192 1.6m",
+          "new": "43.64547, -79.40778",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -2055,7 +2150,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64537, -79.40835",
-          "new": "43.64538, -79.40834 \u2197 1.4m",
+          "new": "43.64538, -79.40834",
+          "arrow": "\u2197 1.4m",
           "display_field": "Location"
         }
       ]
@@ -2070,7 +2166,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64543, -79.40798",
-          "new": "43.64545, -79.40796 \u2197 2.7m",
+          "new": "43.64545, -79.40796",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2085,7 +2182,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64543, -79.40808",
-          "new": "43.64544, -79.40806 \u2197 2.0m",
+          "new": "43.64544, -79.40806",
+          "arrow": "\u2197 2.0m",
           "display_field": "Location"
         }
       ]
@@ -2100,7 +2198,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64539, -79.40817",
-          "new": "43.64541, -79.40814 \u2197 3.3m",
+          "new": "43.64541, -79.40814",
+          "arrow": "\u2197 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2115,7 +2214,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64536, -79.40843",
-          "new": "43.64537, -79.40840 \u2197 2.7m",
+          "new": "43.64537, -79.40840",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2130,7 +2230,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64533, -79.40863",
-          "new": "43.64533, -79.40860 \u2192 2.4m",
+          "new": "43.64533, -79.40860",
+          "arrow": "\u2192 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2145,7 +2246,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64645, -79.40700",
-          "new": "43.64643, -79.40683 \u2192 13.9m",
+          "new": "43.64643, -79.40683",
+          "arrow": "\u2192 13.9m",
           "display_field": "Location"
         }
       ]
@@ -2160,7 +2262,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64644, -79.40704",
-          "new": "43.64640, -79.40702 \u2193 4.7m",
+          "new": "43.64640, -79.40702",
+          "arrow": "\u2193 4.7m",
           "display_field": "Location"
         }
       ]
@@ -2175,7 +2278,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64641, -79.40704",
-          "new": "43.64641, -79.40694 \u2192 8.1m",
+          "new": "43.64641, -79.40694",
+          "arrow": "\u2192 8.1m",
           "display_field": "Location"
         }
       ]
@@ -2190,7 +2294,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64637, -79.40721",
-          "new": "43.64641, -79.40721 \u2191 4.5m",
+          "new": "43.64641, -79.40721",
+          "arrow": "\u2191 4.5m",
           "display_field": "Location"
         }
       ]
@@ -2205,7 +2310,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64633, -79.40750",
-          "new": "43.64636, -79.40748 \u2197 3.7m",
+          "new": "43.64636, -79.40748",
+          "arrow": "\u2197 3.7m",
           "display_field": "Location"
         }
       ]
@@ -2220,7 +2326,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64632, -79.40746",
-          "new": "43.64636, -79.40752 \u2196 6.6m",
+          "new": "43.64636, -79.40752",
+          "arrow": "\u2196 6.6m",
           "display_field": "Location"
         }
       ]
@@ -2235,7 +2342,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64631, -79.40720",
-          "new": "43.64642, -79.40723 \u2191 12.5m",
+          "new": "43.64642, -79.40723",
+          "arrow": "\u2191 12.5m",
           "display_field": "Location"
         }
       ]
@@ -2250,7 +2358,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64632, -79.40716",
-          "new": "43.64643, -79.40719 \u2191 12.5m",
+          "new": "43.64643, -79.40719",
+          "arrow": "\u2191 12.5m",
           "display_field": "Location"
         }
       ]
@@ -2265,7 +2374,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64591, -79.40949",
-          "new": "43.64595, -79.40949 \u2191 4.5m",
+          "new": "43.64595, -79.40949",
+          "arrow": "\u2191 4.5m",
           "display_field": "Location"
         }
       ]
@@ -2280,7 +2390,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64617, -79.40834",
-          "new": "43.64617, -79.40832 \u2192 1.6m",
+          "new": "43.64617, -79.40832",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -2295,7 +2406,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64620, -79.40816",
-          "new": "43.64621, -79.40813 \u2197 2.7m",
+          "new": "43.64621, -79.40813",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2310,7 +2422,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64615, -79.40840",
-          "new": "43.64615, -79.40838 \u2192 1.6m",
+          "new": "43.64615, -79.40838",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -2325,7 +2438,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64613, -79.40846",
-          "new": "43.64615, -79.40844 \u2197 2.7m",
+          "new": "43.64615, -79.40844",
+          "arrow": "\u2197 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2340,7 +2454,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64611, -79.40871",
-          "new": "43.64611, -79.40869 \u2192 1.6m",
+          "new": "43.64611, -79.40869",
+          "arrow": "\u2192 1.6m",
           "display_field": "Location"
         }
       ]
@@ -2355,7 +2470,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64606, -79.40901",
-          "new": "43.64603, -79.40898 \u2198 4.1m",
+          "new": "43.64603, -79.40898",
+          "arrow": "\u2198 4.1m",
           "display_field": "Location"
         }
       ]
@@ -2370,7 +2486,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64603, -79.40914",
-          "new": "43.64603, -79.40911 \u2192 2.4m",
+          "new": "43.64603, -79.40911",
+          "arrow": "\u2192 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2385,7 +2502,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.64594, -79.40937",
-          "new": "43.64593, -79.40934 \u2198 2.7m",
+          "new": "43.64593, -79.40934",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2400,7 +2518,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.75757, -79.41216",
-          "new": "43.75757, -79.41221 \u2190 4.0m",
+          "new": "43.75757, -79.41221",
+          "arrow": "\u2190 4.0m",
           "display_field": "Location"
         }
       ]
@@ -2415,7 +2534,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72493, -79.55844",
-          "new": "43.72468, -79.55844 \u2193 27.8m",
+          "new": "43.72468, -79.55844",
+          "arrow": "\u2193 27.8m",
           "display_field": "Location"
         }
       ]
@@ -2430,7 +2550,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71187, -79.25070",
-          "new": "43.71186, -79.25079 \u2190 7.3m",
+          "new": "43.71186, -79.25079",
+          "arrow": "\u2190 7.3m",
           "display_field": "Location"
         }
       ]
@@ -2445,7 +2566,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71201, -79.25085",
-          "new": "43.71199, -79.25084 \u2193 2.4m",
+          "new": "43.71199, -79.25084",
+          "arrow": "\u2193 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2460,7 +2582,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71595, -79.25116",
-          "new": "43.71595, -79.25123 \u2190 5.6m",
+          "new": "43.71595, -79.25123",
+          "arrow": "\u2190 5.6m",
           "display_field": "Location"
         }
       ]
@@ -2475,7 +2598,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71605, -79.25182",
-          "new": "43.71608, -79.25180 \u2197 3.7m",
+          "new": "43.71608, -79.25180",
+          "arrow": "\u2197 3.7m",
           "display_field": "Location"
         }
       ]
@@ -2490,7 +2614,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71597, -79.25124",
-          "new": "43.71600, -79.25125 \u2191 3.4m",
+          "new": "43.71600, -79.25125",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2505,7 +2630,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71610, -79.25122",
-          "new": "43.71609, -79.25130 \u2190 6.5m",
+          "new": "43.71609, -79.25130",
+          "arrow": "\u2190 6.5m",
           "display_field": "Location"
         }
       ]
@@ -2520,7 +2646,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71618, -79.25187",
-          "new": "43.71621, -79.25185 \u2197 3.7m",
+          "new": "43.71621, -79.25185",
+          "arrow": "\u2197 3.7m",
           "display_field": "Location"
         }
       ]
@@ -2535,7 +2662,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71611, -79.25131",
-          "new": "43.71614, -79.25132 \u2191 3.4m",
+          "new": "43.71614, -79.25132",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2550,7 +2678,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71624, -79.25127",
-          "new": "43.71623, -79.25135 \u2190 6.5m",
+          "new": "43.71623, -79.25135",
+          "arrow": "\u2190 6.5m",
           "display_field": "Location"
         }
       ]
@@ -2565,7 +2694,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71631, -79.25139",
-          "new": "43.71628, -79.25138 \u2193 3.4m",
+          "new": "43.71628, -79.25138",
+          "arrow": "\u2193 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2580,7 +2710,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71727, -79.25035",
-          "new": "43.71729, -79.25036 \u2191 2.4m",
+          "new": "43.71729, -79.25036",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2595,7 +2726,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71744, -79.25043",
-          "new": "43.71746, -79.25044 \u2191 2.4m",
+          "new": "43.71746, -79.25044",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2610,7 +2742,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71760, -79.25048",
-          "new": "43.71762, -79.25049 \u2191 2.4m",
+          "new": "43.71762, -79.25049",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2625,7 +2758,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71737, -79.25120",
-          "new": "43.71730, -79.25117 \u2193 8.2m",
+          "new": "43.71730, -79.25117",
+          "arrow": "\u2193 8.2m",
           "display_field": "Location"
         }
       ]
@@ -2640,7 +2774,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71776, -79.25055",
-          "new": "43.71773, -79.25054 \u2193 3.4m",
+          "new": "43.71773, -79.25054",
+          "arrow": "\u2193 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2655,7 +2790,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71759, -79.25123",
-          "new": "43.71761, -79.25123 \u2191 2.2m",
+          "new": "43.71761, -79.25123",
+          "arrow": "\u2191 2.2m",
           "display_field": "Location"
         }
       ]
@@ -2670,7 +2806,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71792, -79.25061",
-          "new": "43.71789, -79.25061 \u2193 3.3m",
+          "new": "43.71789, -79.25061",
+          "arrow": "\u2193 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2685,7 +2822,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71774, -79.25129",
-          "new": "43.71772, -79.25127 \u2198 2.7m",
+          "new": "43.71772, -79.25127",
+          "arrow": "\u2198 2.7m",
           "display_field": "Location"
         }
       ]
@@ -2700,7 +2838,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71809, -79.25066",
-          "new": "43.71812, -79.25066 \u2191 3.3m",
+          "new": "43.71812, -79.25066",
+          "arrow": "\u2191 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2715,7 +2854,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71806, -79.25143",
-          "new": "43.71804, -79.25140 \u2198 3.3m",
+          "new": "43.71804, -79.25140",
+          "arrow": "\u2198 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2730,7 +2870,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71575, -79.25047",
-          "new": "43.71573, -79.25044 \u2198 3.3m",
+          "new": "43.71573, -79.25044",
+          "arrow": "\u2198 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2745,7 +2886,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71583, -79.25043",
-          "new": "43.71578, -79.25046 \u2199 6.1m",
+          "new": "43.71578, -79.25046",
+          "arrow": "\u2199 6.1m",
           "display_field": "Location"
         }
       ]
@@ -2760,7 +2902,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71608, -79.25059",
-          "new": "43.71610, -79.25060 \u2191 2.4m",
+          "new": "43.71610, -79.25060",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2775,7 +2918,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71624, -79.25068",
-          "new": "43.71627, -79.25069 \u2191 3.4m",
+          "new": "43.71627, -79.25069",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2790,7 +2934,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71640, -79.25075",
-          "new": "43.71643, -79.25075 \u2191 3.3m",
+          "new": "43.71643, -79.25075",
+          "arrow": "\u2191 3.3m",
           "display_field": "Location"
         }
       ]
@@ -2805,7 +2950,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71679, -79.25011",
-          "new": "43.71681, -79.25011 \u2191 2.2m",
+          "new": "43.71681, -79.25011",
+          "arrow": "\u2191 2.2m",
           "display_field": "Location"
         }
       ]
@@ -2820,7 +2966,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71657, -79.25080",
-          "new": "43.71660, -79.25081 \u2191 3.4m",
+          "new": "43.71660, -79.25081",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2835,7 +2982,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71674, -79.25088",
-          "new": "43.71676, -79.25087 \u2191 2.4m",
+          "new": "43.71676, -79.25087",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2850,7 +2998,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71711, -79.25029",
-          "new": "43.71713, -79.25030 \u2191 2.4m",
+          "new": "43.71713, -79.25030",
+          "arrow": "\u2191 2.4m",
           "display_field": "Location"
         }
       ]
@@ -2865,7 +3014,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71690, -79.25095",
-          "new": "43.71693, -79.25096 \u2191 3.4m",
+          "new": "43.71693, -79.25096",
+          "arrow": "\u2191 3.4m",
           "display_field": "Location"
         }
       ]
@@ -2880,7 +3030,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71168, -79.25068",
-          "new": "43.71163, -79.25066 \u2193 5.8m",
+          "new": "43.71163, -79.25066",
+          "arrow": "\u2193 5.8m",
           "display_field": "Location"
         }
       ]
@@ -2895,7 +3046,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71173, -79.25047",
-          "new": "43.71167, -79.25048 \u2193 6.7m",
+          "new": "43.71167, -79.25048",
+          "arrow": "\u2193 6.7m",
           "display_field": "Location"
         }
       ]
@@ -2910,7 +3062,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71176, -79.25030",
-          "new": "43.71171, -79.25029 \u2193 5.6m",
+          "new": "43.71171, -79.25029",
+          "arrow": "\u2193 5.6m",
           "display_field": "Location"
         }
       ]
@@ -2925,7 +3078,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71180, -79.25011",
-          "new": "43.71176, -79.25011 \u2193 4.5m",
+          "new": "43.71176, -79.25011",
+          "arrow": "\u2193 4.5m",
           "display_field": "Location"
         }
       ]
@@ -2940,7 +3094,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71182, -79.25002",
-          "new": "43.71178, -79.24999 \u2198 5.1m",
+          "new": "43.71178, -79.24999",
+          "arrow": "\u2198 5.1m",
           "display_field": "Location"
         }
       ]
@@ -2955,7 +3110,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71180, -79.24996",
-          "new": "43.71179, -79.24991 \u2192 4.2m",
+          "new": "43.71179, -79.24991",
+          "arrow": "\u2192 4.2m",
           "display_field": "Location"
         }
       ]
@@ -2970,7 +3126,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71969, -79.25058",
-          "new": "43.71965, -79.25057 \u2193 4.5m",
+          "new": "43.71965, -79.25057",
+          "arrow": "\u2193 4.5m",
           "display_field": "Location"
         }
       ]
@@ -2985,7 +3142,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71971, -79.25050",
-          "new": "43.71966, -79.25048 \u2193 5.8m",
+          "new": "43.71966, -79.25048",
+          "arrow": "\u2193 5.8m",
           "display_field": "Location"
         }
       ]
@@ -3000,7 +3158,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71972, -79.25042",
-          "new": "43.71968, -79.25040 \u2193 4.7m",
+          "new": "43.71968, -79.25040",
+          "arrow": "\u2193 4.7m",
           "display_field": "Location"
         }
       ]
@@ -3015,7 +3174,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71974, -79.25034",
-          "new": "43.71969, -79.25032 \u2193 5.8m",
+          "new": "43.71969, -79.25032",
+          "arrow": "\u2193 5.8m",
           "display_field": "Location"
         }
       ]
@@ -3030,7 +3190,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71976, -79.25026",
-          "new": "43.71970, -79.25023 \u2193 7.1m",
+          "new": "43.71970, -79.25023",
+          "arrow": "\u2193 7.1m",
           "display_field": "Location"
         }
       ]
@@ -3045,7 +3206,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71979, -79.25019",
-          "new": "43.71973, -79.25016 \u2193 7.1m",
+          "new": "43.71973, -79.25016",
+          "arrow": "\u2193 7.1m",
           "display_field": "Location"
         }
       ]
@@ -3060,7 +3222,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71982, -79.25008",
-          "new": "43.71975, -79.25005 \u2193 8.2m",
+          "new": "43.71975, -79.25005",
+          "arrow": "\u2193 8.2m",
           "display_field": "Location"
         }
       ]
@@ -3075,7 +3238,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71984, -79.24999",
-          "new": "43.71976, -79.24996 \u2193 9.2m",
+          "new": "43.71976, -79.24996",
+          "arrow": "\u2193 9.2m",
           "display_field": "Location"
         }
       ]
@@ -3090,7 +3254,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71986, -79.24992",
-          "new": "43.71979, -79.24988 \u2193 8.4m",
+          "new": "43.71979, -79.24988",
+          "arrow": "\u2193 8.4m",
           "display_field": "Location"
         }
       ]
@@ -3105,7 +3270,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71987, -79.24984",
-          "new": "43.71981, -79.24981 \u2193 7.1m",
+          "new": "43.71981, -79.24981",
+          "arrow": "\u2193 7.1m",
           "display_field": "Location"
         }
       ]
@@ -3120,7 +3286,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71989, -79.24975",
-          "new": "43.71982, -79.24973 \u2193 8.0m",
+          "new": "43.71982, -79.24973",
+          "arrow": "\u2193 8.0m",
           "display_field": "Location"
         }
       ]
@@ -3135,7 +3302,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71967, -79.25071",
-          "new": "43.71963, -79.25070 \u2193 4.5m",
+          "new": "43.71963, -79.25070",
+          "arrow": "\u2193 4.5m",
           "display_field": "Location"
         }
       ]
@@ -3150,7 +3318,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71966, -79.25079",
-          "new": "43.71960, -79.25077 \u2193 6.9m",
+          "new": "43.71960, -79.25077",
+          "arrow": "\u2193 6.9m",
           "display_field": "Location"
         }
       ]
@@ -3165,7 +3334,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.71964, -79.25088",
-          "new": "43.71958, -79.25086 \u2193 6.9m",
+          "new": "43.71958, -79.25086",
+          "arrow": "\u2193 6.9m",
           "display_field": "Location"
         }
       ]
@@ -3180,7 +3350,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.74840, -79.59556",
-          "new": "43.74864, -79.59536 \u2197 31.2m",
+          "new": "43.74864, -79.59536",
+          "arrow": "\u2197 31.2m",
           "display_field": "Location"
         }
       ]
@@ -3195,7 +3366,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.72569, -79.55702",
-          "new": "43.72580, -79.55704 \u2191 12.4m",
+          "new": "43.72580, -79.55704",
+          "arrow": "\u2191 12.4m",
           "display_field": "Location"
         }
       ]
@@ -3210,7 +3382,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.74980, -79.59853",
-          "new": "43.74966, -79.59844 \u2198 17.2m",
+          "new": "43.74966, -79.59844",
+          "arrow": "\u2198 17.2m",
           "display_field": "Location"
         }
       ]
@@ -3225,7 +3398,8 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.75024, -79.59911",
-          "new": "43.75018, -79.59871 \u2192 32.9m",
+          "new": "43.75018, -79.59871",
+          "arrow": "\u2192 32.9m",
           "display_field": "Location"
         }
       ]
@@ -3240,12 +3414,14 @@ window.REPORT_DATA = {
         {
           "field": "location",
           "old": "43.75014, -79.59867",
-          "new": "43.75032, -79.59877 \u2191 21.6m",
+          "new": "43.75032, -79.59877",
+          "arrow": "\u2191 21.6m",
           "display_field": "Location"
         }
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "North York": 2,
@@ -3268,10 +3444,40 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 164,
       "Location (latitude)": 152
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {
+      "Danforth Ave": 11
     }
   },
   "added_count": 4,
   "removed_count": 15,
   "modified_count": 0,
-  "modified_location_count": 175
+  "modified_location_count": 175,
+  "sparklines": {
+    "added": [
+      532,
+      293,
+      2,
+      4
+    ],
+    "removed": [
+      623,
+      457,
+      3,
+      15
+    ],
+    "modified": [
+      3436,
+      2291,
+      14,
+      0
+    ],
+    "modified_location": [
+      3294,
+      2275,
+      14,
+      175
+    ]
+  }
 }

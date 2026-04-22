@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 03, 2026 at 07:05 PM",
+  "generated": "Apr 22, 2026 at 03:07 AM",
   "old_snapshot": {
     "id": 9,
     "downloaded": "2026-02-28T02:58:55.680798",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056345,
       "address_full": "372A Glen Park Ave",
       "address_number": "372A",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056346,
       "address_full": "372C Glen Park Ave",
       "address_number": "372C",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056347,
       "address_full": "372B Glen Park Ave",
       "address_number": "372B",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056348,
       "address_full": "372D Glen Park Ave",
       "address_number": "372D",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056350,
       "address_full": "81 YZD Lane",
       "address_number": "81",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056351,
       "address_full": "20 Leslie Garden Lane",
       "address_number": "20",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056383,
       "address_full": "72 Perth Ave",
       "address_number": "72",
@@ -170,7 +170,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056384,
       "address_full": "70 Perth Ave",
       "address_number": "70",
@@ -191,7 +191,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056385,
       "address_full": "74 Perth Ave",
       "address_number": "74",
@@ -212,7 +212,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056386,
       "address_full": "76 Perth Ave",
       "address_number": "76",
@@ -233,7 +233,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056388,
       "address_full": "4 Ascot Ave",
       "address_number": "4",
@@ -254,7 +254,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056389,
       "address_full": "17R Belgravia Ave",
       "address_number": "17R",
@@ -275,7 +275,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056405,
       "address_full": "390 Richmond St E",
       "address_number": "390",
@@ -296,7 +296,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056406,
       "address_full": "100 Ontario St",
       "address_number": "100",
@@ -317,7 +317,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056407,
       "address_full": "25 Brigden Pl",
       "address_number": "25",
@@ -338,7 +338,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60056408,
       "address_full": "35 Brigden Pl",
       "address_number": "35",
@@ -359,7 +359,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60057128,
       "address_full": "33A Reidmount Ave",
       "address_number": "33A",
@@ -380,7 +380,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60057129,
       "address_full": "33C Reidmount Ave",
       "address_number": "33C",
@@ -401,7 +401,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60057130,
       "address_full": "33B Reidmount Ave",
       "address_number": "33B",
@@ -422,7 +422,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 10,
-      "max_snapshot_id": 10,
+      "max_snapshot_id": 15,
       "address_point_id": 60057131,
       "address_full": "33D Reidmount Ave",
       "address_number": "33D",
@@ -1665,6 +1665,15 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [
+    {
+      "street": "YZD Lane",
+      "count": 1,
+      "municipality": "North York",
+      "latitude": 43.752,
+      "longitude": -79.47343
+    }
+  ],
   "stats": {
     "muni_added": {
       "former Toronto": 10,
@@ -1689,10 +1698,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 70,
       "Location (latitude)": 52
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 20,
   "removed_count": 1,
   "modified_count": 0,
-  "modified_location_count": 74
+  "modified_location_count": 74,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      20
+    ],
+    "removed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "modified": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_location": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      74
+    ]
+  }
 }

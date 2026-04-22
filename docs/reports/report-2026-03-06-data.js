@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 06, 2026 at 09:56 PM",
+  "generated": "Apr 22, 2026 at 03:07 AM",
   "old_snapshot": {
     "id": 11,
     "downloaded": "2026-03-04T23:59:04.476599",
@@ -672,6 +672,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {},
     "muni_removed": {
@@ -684,10 +685,52 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 17,
       "Location (latitude)": 17
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {
+      "Queen St E": 11
     }
   },
   "added_count": 0,
   "removed_count": 11,
   "modified_count": 0,
-  "modified_location_count": 17
+  "modified_location_count": 17,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    "removed": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      11
+    ],
+    "modified": [
+      0,
+      0,
+      0,
+      0,
+      74,
+      23,
+      0
+    ],
+    "modified_location": [
+      0,
+      0,
+      0,
+      0,
+      74,
+      23,
+      17
+    ]
+  }
 }

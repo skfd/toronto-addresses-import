@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 02, 2026 at 10:50 PM",
+  "generated": "Apr 22, 2026 at 03:14 AM",
   "old_snapshot": {
     "id": 22,
     "downloaded": "2026-03-27T18:11:37.514930",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068024,
       "address_full": "61 Brawley Ave",
       "address_number": "61",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068037,
       "address_full": "485 Parliament St",
       "address_number": "485",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068036,
       "address_full": "172 Sandown Lane",
       "address_number": "172",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068035,
       "address_full": "170 Sandown Lane",
       "address_number": "170",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068039,
       "address_full": "438 Pacific Ave",
       "address_number": "438",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068038,
       "address_full": "436 Pacific Ave",
       "address_number": "436",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 23,
-      "max_snapshot_id": 23,
+      "max_snapshot_id": 29,
       "address_point_id": 60068041,
       "address_full": "170 Croft St",
       "address_number": "170",
@@ -1490,6 +1490,15 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [
+    {
+      "street": "Sandown Lane",
+      "count": 2,
+      "municipality": "Scarborough",
+      "latitude": 43.706475,
+      "longitude": -79.25215499999999
+    }
+  ],
   "stats": {
     "muni_added": {
       "former Toronto": 4,
@@ -1516,10 +1525,52 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (latitude)": 42,
       "Location (longitude)": 34
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {
+      "Secord Ave": 11
     }
   },
   "added_count": 7,
   "removed_count": 18,
   "modified_count": 0,
-  "modified_location_count": 44
+  "modified_location_count": 44,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      4,
+      6,
+      0,
+      0,
+      7
+    ],
+    "removed": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      18
+    ],
+    "modified": [
+      7,
+      3,
+      10,
+      5,
+      1,
+      0,
+      0
+    ],
+    "modified_location": [
+      7,
+      3,
+      10,
+      5,
+      1,
+      0,
+      44
+    ]
+  }
 }

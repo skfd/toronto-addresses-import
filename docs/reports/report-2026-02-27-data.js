@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Feb 28, 2026 at 02:59 AM",
+  "generated": "Apr 22, 2026 at 03:07 AM",
   "old_snapshot": {
     "id": 7,
     "downloaded": "2026-02-24T14:46:14.805556",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056291,
       "address_full": "34 Fairfield Ave",
       "address_number": "34",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056292,
       "address_full": "36 Fairfield Ave",
       "address_number": "36",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056323,
       "address_full": "400R Unwin Ave",
       "address_number": "400R",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056324,
       "address_full": "23 Pura Vida Lane",
       "address_number": "23",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056325,
       "address_full": "2271 Bloor St W",
       "address_number": "2271",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056326,
       "address_full": "2273 Bloor St W",
       "address_number": "2273",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056333,
       "address_full": "27 Anson Ave",
       "address_number": "27",
@@ -170,7 +170,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056334,
       "address_full": "29 Anson Ave",
       "address_number": "29",
@@ -191,7 +191,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056336,
       "address_full": "35 Brownlow Ave",
       "address_number": "35",
@@ -212,7 +212,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056337,
       "address_full": "75 Brownlow Ave",
       "address_number": "75",
@@ -233,7 +233,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056338,
       "address_full": "81 Brownlow Ave",
       "address_number": "81",
@@ -254,7 +254,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 9,
-      "max_snapshot_id": 9,
+      "max_snapshot_id": 15,
       "address_point_id": 60056340,
       "address_full": "25 Brownlow Ave",
       "address_number": "25",
@@ -422,6 +422,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 8,
@@ -441,10 +442,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (latitude)": 9,
       "Location (longitude)": 8
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 12,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 9
+  "modified_location_count": 9,
+  "sparklines": {
+    "added": [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "removed": [
+      15,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified": [
+      175,
+      16,
+      6,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_location": [
+      175,
+      16,
+      6,
+      0,
+      0,
+      0,
+      9
+    ]
+  }
 }

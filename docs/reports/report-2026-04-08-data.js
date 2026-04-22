@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 10, 2026 at 02:20 AM",
+  "generated": "Apr 22, 2026 at 03:15 AM",
   "old_snapshot": {
     "id": 24,
     "downloaded": "2026-04-03T13:00:08.881855",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 25,
-      "max_snapshot_id": 25,
+      "max_snapshot_id": 29,
       "address_point_id": 60068080,
       "address_full": "89 Avenue Rd",
       "address_number": "89",
@@ -46,6 +46,7 @@ window.REPORT_DATA = {
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 1
@@ -55,10 +56,50 @@ window.REPORT_DATA = {
       "University-Rosedale": 1
     },
     "ward_removed": {},
-    "field_changes": {}
+    "field_changes": {},
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 1,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 0
+  "modified_location_count": 0,
+  "sparklines": {
+    "added": [
+      7,
+      12,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "removed": [
+      18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified": [
+      44,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_location": [
+      44,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
 }

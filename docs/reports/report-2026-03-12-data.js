@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 12, 2026 at 08:57 PM",
+  "generated": "Apr 22, 2026 at 03:08 AM",
   "old_snapshot": {
     "id": 14,
     "downloaded": "2026-03-10T13:29:14.706454",
@@ -14,8 +14,8 @@ window.REPORT_DATA = {
     "downloaded": "2026-03-12T20:56:53.836630",
     "row_count": 525370,
     "filename": "address-points-2026-03-12.geojson",
-    "remote_last_modified": "Thu, 12 Mar 2026 11:39:09 GMT",
-    "remote_content_length": 589665158,
+    "remote_last_modified": "Fri, 13 Mar 2026 11:40:10 GMT",
+    "remote_content_length": 589664081,
     "skipped": 0
   },
   "old_date_friendly": "Tuesday, Mar 10, 2026",
@@ -502,6 +502,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "North York": 5
@@ -519,10 +520,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 19,
       "Location (latitude)": 19
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 5,
   "removed_count": 1,
   "modified_count": 0,
-  "modified_location_count": 21
+  "modified_location_count": 21,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "removed": [
+      0,
+      0,
+      11,
+      0,
+      0,
+      1,
+      1
+    ],
+    "modified": [
+      23,
+      0,
+      17,
+      5,
+      0,
+      14,
+      0
+    ],
+    "modified_location": [
+      23,
+      0,
+      17,
+      5,
+      0,
+      14,
+      21
+    ]
+  }
 }

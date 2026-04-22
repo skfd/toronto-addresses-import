@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Feb 15, 2026 at 02:13 AM",
+  "generated": "Apr 22, 2026 at 03:06 AM",
   "old_snapshot": {
     "id": 3,
     "downloaded": "2026-02-14T20:17:03.113195",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 4,
-      "max_snapshot_id": 4,
+      "max_snapshot_id": 15,
       "address_point_id": 60054187,
       "address_full": "23 Flax Field Lane",
       "address_number": "23",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 4,
-      "max_snapshot_id": 4,
+      "max_snapshot_id": 15,
       "address_point_id": 60054188,
       "address_full": "9 Wardlaw Cres",
       "address_number": "9",
@@ -179,8 +179,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.660170, -79.504130",
-          "new": "43.660190, -79.504050 \u2192 6.8m",
+          "old": "43.66017, -79.50413",
+          "new": "43.66019, -79.50405",
+          "arrow": "\u2192 6.8m",
           "display_field": "Location"
         }
       ]
@@ -194,8 +195,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.660200, -79.503950",
-          "new": "43.660200, -79.503990 \u2190 3.2m",
+          "old": "43.66020, -79.50395",
+          "new": "43.66020, -79.50399",
+          "arrow": "\u2190 3.2m",
           "display_field": "Location"
         }
       ]
@@ -209,8 +211,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.738910, -79.565680",
-          "new": "43.738920, -79.565590 \u2192 7.3m",
+          "old": "43.73891, -79.56568",
+          "new": "43.73892, -79.56559",
+          "arrow": "\u2192 7.3m",
           "display_field": "Location"
         }
       ]
@@ -224,8 +227,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.739070, -79.565890",
-          "new": "43.739130, -79.565720 \u2197 15.2m",
+          "old": "43.73907, -79.56589",
+          "new": "43.73913, -79.56572",
+          "arrow": "\u2197 15.2m",
           "display_field": "Location"
         }
       ]
@@ -239,8 +243,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.739080, -79.566490",
-          "new": "43.739020, -79.566520 \u2193 7.1m",
+          "old": "43.73908, -79.56649",
+          "new": "43.73902, -79.56652",
+          "arrow": "\u2193 7.1m",
           "display_field": "Location"
         }
       ]
@@ -254,8 +259,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.739150, -79.566680",
-          "new": "43.739180, -79.566600 \u2197 7.2m",
+          "old": "43.73915, -79.56668",
+          "new": "43.73918, -79.56660",
+          "arrow": "\u2197 7.2m",
           "display_field": "Location"
         }
       ]
@@ -269,8 +275,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.661260, -79.504970",
-          "new": "43.661330, -79.504760 \u2197 18.6m",
+          "old": "43.66126, -79.50497",
+          "new": "43.66133, -79.50476",
+          "arrow": "\u2197 18.6m",
           "display_field": "Location"
         }
       ]
@@ -284,8 +291,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.661230, -79.505650",
-          "new": "43.661500, -79.505650 \u2191 30.1m",
+          "old": "43.66123, -79.50565",
+          "new": "43.66150, -79.50565",
+          "arrow": "\u2191 30.1m",
           "display_field": "Location"
         }
       ]
@@ -299,8 +307,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.661370, -79.505050",
-          "new": "43.661430, -79.505010 \u2197 7.4m",
+          "old": "43.66137, -79.50505",
+          "new": "43.66143, -79.50501",
+          "arrow": "\u2197 7.4m",
           "display_field": "Location"
         }
       ]
@@ -314,8 +323,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.659710, -79.504210",
-          "new": "43.659750, -79.504130 \u2197 7.8m",
+          "old": "43.65971, -79.50421",
+          "new": "43.65975, -79.50413",
+          "arrow": "\u2197 7.8m",
           "display_field": "Location"
         }
       ]
@@ -329,8 +339,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.738810, -79.565640",
-          "new": "43.738830, -79.565550 \u2192 7.6m",
+          "old": "43.73881, -79.56564",
+          "new": "43.73883, -79.56555",
+          "arrow": "\u2192 7.6m",
           "display_field": "Location"
         }
       ]
@@ -344,8 +355,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.637130, -79.533140",
-          "new": "43.637130, -79.533060 \u2192 6.4m",
+          "old": "43.63713, -79.53314",
+          "new": "43.63713, -79.53306",
+          "arrow": "\u2192 6.4m",
           "display_field": "Location"
         }
       ]
@@ -359,8 +371,9 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.670240, -79.571890",
-          "new": "43.670120, -79.571870 \u2193 13.5m",
+          "old": "43.67024, -79.57189",
+          "new": "43.67012, -79.57187",
+          "arrow": "\u2193 13.5m",
           "display_field": "Location"
         }
       ]
@@ -374,13 +387,15 @@ window.REPORT_DATA = {
       "changes": [
         {
           "field": "location",
-          "old": "43.700680, -79.596650",
-          "new": "43.700490, -79.596830 \u2199 25.6m",
+          "old": "43.70068, -79.59665",
+          "new": "43.70049, -79.59683",
+          "arrow": "\u2199 25.6m",
           "display_field": "Location"
         }
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "North York": 1,
@@ -400,10 +415,34 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 13,
       "Location (latitude)": 12
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 2,
   "removed_count": 3,
   "modified_count": 0,
-  "modified_location_count": 14
+  "modified_location_count": 14,
+  "sparklines": {
+    "added": [
+      532,
+      293,
+      2
+    ],
+    "removed": [
+      623,
+      457,
+      3
+    ],
+    "modified": [
+      3436,
+      2291,
+      0
+    ],
+    "modified_location": [
+      3294,
+      2275,
+      14
+    ]
+  }
 }

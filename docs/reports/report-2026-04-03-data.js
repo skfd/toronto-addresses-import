@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 03, 2026 at 01:01 PM",
+  "generated": "Apr 22, 2026 at 03:15 AM",
   "old_snapshot": {
     "id": 23,
     "downloaded": "2026-04-02T22:48:23.801407",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068044,
       "address_full": "30 Bazalgette Dr",
       "address_number": "30",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068047,
       "address_full": "27 Bazalgette Dr",
       "address_number": "27",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068068,
       "address_full": "30 Norwood Rd",
       "address_number": "30",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068075,
       "address_full": "42 Album Lane",
       "address_number": "42",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068046,
       "address_full": "34 Bazalgette Dr",
       "address_number": "34",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068067,
       "address_full": "30A Norwood Rd",
       "address_number": "30A",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068071,
       "address_full": "155A Poyntz Ave",
       "address_number": "155A",
@@ -170,7 +170,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068043,
       "address_full": "11 Willowlea Dr",
       "address_number": "11",
@@ -191,7 +191,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068048,
       "address_full": "29 Bazalgette Dr",
       "address_number": "29",
@@ -212,7 +212,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068045,
       "address_full": "32 Bazalgette Dr",
       "address_number": "32",
@@ -233,7 +233,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068074,
       "address_full": "885R Caledonia Rd",
       "address_number": "885R",
@@ -254,7 +254,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 24,
+      "max_snapshot_id": 29,
       "address_point_id": 60068072,
       "address_full": "155B Poyntz Ave",
       "address_number": "155B",
@@ -838,6 +838,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "Scarborough": 6,
@@ -856,10 +857,52 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (latitude)": 35,
       "Location (longitude)": 33
-    }
+    },
+    "top_streets_added": {
+      "Bazalgette Dr": 5
+    },
+    "top_streets_removed": {}
   },
   "added_count": 12,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 35
+  "modified_location_count": 35,
+  "sparklines": {
+    "added": [
+      0,
+      4,
+      6,
+      0,
+      0,
+      7,
+      12
+    ],
+    "removed": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      18,
+      0
+    ],
+    "modified": [
+      3,
+      10,
+      5,
+      1,
+      0,
+      44,
+      0
+    ],
+    "modified_location": [
+      3,
+      10,
+      5,
+      1,
+      0,
+      44,
+      35
+    ]
+  }
 }

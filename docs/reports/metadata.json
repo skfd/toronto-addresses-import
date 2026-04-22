@@ -4,7 +4,8 @@
     "filename": "reports/#",
     "added": 525613,
     "removed": 0,
-    "modified": 0
+    "modified": 0,
+    "modified_location": 0
   },
   "2": {
     "date": "2025-09-09",
@@ -12,7 +13,37 @@
     "added": 532,
     "removed": 623,
     "modified": 3436,
-    "modified_location": 3294
+    "modified_location": 3294,
+    "new_streets": [
+      {
+        "street": "McCaul St",
+        "count": 122
+      },
+      {
+        "street": "Ookwemin St",
+        "count": 6
+      },
+      {
+        "street": "Signal St",
+        "count": 5
+      },
+      {
+        "street": "Old Foundry Rd",
+        "count": 4
+      },
+      {
+        "street": "Thane Murray Way",
+        "count": 2
+      },
+      {
+        "street": "Entrance Rd",
+        "count": 1
+      },
+      {
+        "street": "McDonald's Pl",
+        "count": 1
+      }
+    ]
   },
   "3": {
     "date": "2026-02-12",
@@ -20,7 +51,33 @@
     "added": 293,
     "removed": 457,
     "modified": 2291,
-    "modified_location": 2275
+    "modified_location": 2275,
+    "new_streets": [
+      {
+        "street": "Assembly Lane",
+        "count": 14
+      },
+      {
+        "street": "Green Trail Crt",
+        "count": 10
+      },
+      {
+        "street": "Allan Reynolds Lane",
+        "count": 3
+      },
+      {
+        "street": "Shady Lane",
+        "count": 1
+      },
+      {
+        "street": "Slow Lane",
+        "count": 1
+      },
+      {
+        "street": "Tom Longboat Lane",
+        "count": 1
+      }
+    ]
   },
   "4": {
     "date": "2026-02-13",
@@ -28,7 +85,8 @@
     "added": 2,
     "removed": 3,
     "modified": 14,
-    "modified_location": 14
+    "modified_location": 14,
+    "new_streets": []
   },
   "5": {
     "date": "2026-02-20",
@@ -36,7 +94,8 @@
     "added": 4,
     "removed": 15,
     "modified": 175,
-    "modified_location": 175
+    "modified_location": 175,
+    "new_streets": []
   },
   "6": {
     "date": "2026-02-23",
@@ -44,7 +103,8 @@
     "added": 2,
     "removed": 1,
     "modified": 16,
-    "modified_location": 16
+    "modified_location": 16,
+    "new_streets": []
   },
   "7": {
     "date": "2026-02-24",
@@ -52,7 +112,8 @@
     "added": 0,
     "removed": 0,
     "modified": 6,
-    "modified_location": 6
+    "modified_location": 6,
+    "new_streets": []
   },
   "1772000905": {
     "date": "2026-02-25",
@@ -60,7 +121,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1772038802": {
     "date": "2026-02-25",
@@ -68,7 +130,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1772070320": {
     "date": "2026-02-25",
@@ -76,7 +139,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "9": {
     "date": "2026-02-27",
@@ -84,7 +148,8 @@
     "added": 12,
     "removed": 0,
     "modified": 9,
-    "modified_location": 9
+    "modified_location": 9,
+    "new_streets": []
   },
   "1772265611": {
     "date": "2026-02-28",
@@ -92,7 +157,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1772306796": {
     "date": "2026-02-28",
@@ -100,7 +166,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1772384409": {
     "date": "2026-03-01",
@@ -108,7 +175,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1772523324": {
     "date": "2026-03-03",
@@ -116,7 +184,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "10": {
     "date": "2026-03-03",
@@ -124,7 +193,13 @@
     "added": 20,
     "removed": 1,
     "modified": 74,
-    "modified_location": 74
+    "modified_location": 74,
+    "new_streets": [
+      {
+        "street": "YZD Lane",
+        "count": 1
+      }
+    ]
   },
   "11": {
     "date": "2026-03-04",
@@ -132,7 +207,8 @@
     "added": 0,
     "removed": 0,
     "modified": 23,
-    "modified_location": 23
+    "modified_location": 23,
+    "new_streets": []
   },
   "1772781753": {
     "date": "2026-03-06",
@@ -140,7 +216,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "12": {
     "date": "2026-03-06",
@@ -148,7 +225,8 @@
     "added": 0,
     "removed": 11,
     "modified": 17,
-    "modified_location": 17
+    "modified_location": 17,
+    "new_streets": []
   },
   "13": {
     "date": "2026-03-07",
@@ -156,7 +234,8 @@
     "added": 0,
     "removed": 0,
     "modified": 5,
-    "modified_location": 5
+    "modified_location": 5,
+    "new_streets": []
   },
   "1772989202": {
     "date": "2026-03-08",
@@ -164,7 +243,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "14": {
     "date": "2026-03-10",
@@ -172,7 +252,8 @@
     "added": 0,
     "removed": 1,
     "modified": 14,
-    "modified_location": 14
+    "modified_location": 14,
+    "new_streets": []
   },
   "15": {
     "date": "2026-03-12",
@@ -180,7 +261,8 @@
     "added": 5,
     "removed": 1,
     "modified": 21,
-    "modified_location": 21
+    "modified_location": 21,
+    "new_streets": []
   },
   "1773363705": {
     "date": "2026-03-12",
@@ -188,7 +270,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "16": {
     "date": "2026-03-17",
@@ -196,7 +279,8 @@
     "added": 7,
     "removed": 3,
     "modified": 924,
-    "modified_location": 792
+    "modified_location": 792,
+    "new_streets": []
   },
   "17": {
     "date": "2026-03-20",
@@ -204,7 +288,8 @@
     "added": 8,
     "removed": 3,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1774124787": {
     "date": "2026-03-21",
@@ -212,7 +297,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1774198804": {
     "date": "2026-03-22",
@@ -220,7 +306,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "18": {
     "date": "2026-03-23",
@@ -228,7 +315,8 @@
     "added": 0,
     "removed": 0,
     "modified": 7,
-    "modified_location": 7
+    "modified_location": 7,
+    "new_streets": []
   },
   "19": {
     "date": "2026-03-24",
@@ -236,7 +324,8 @@
     "added": 0,
     "removed": 0,
     "modified": 3,
-    "modified_location": 3
+    "modified_location": 3,
+    "new_streets": []
   },
   "20": {
     "date": "2026-03-25",
@@ -244,7 +333,8 @@
     "added": 4,
     "removed": 2,
     "modified": 10,
-    "modified_location": 10
+    "modified_location": 10,
+    "new_streets": []
   },
   "21": {
     "date": "2026-03-26",
@@ -252,7 +342,8 @@
     "added": 6,
     "removed": 0,
     "modified": 5,
-    "modified_location": 5
+    "modified_location": 5,
+    "new_streets": []
   },
   "22": {
     "date": "2026-03-27",
@@ -260,7 +351,8 @@
     "added": 0,
     "removed": 0,
     "modified": 1,
-    "modified_location": 1
+    "modified_location": 1,
+    "new_streets": []
   },
   "1774717202": {
     "date": "2026-03-28",
@@ -268,7 +360,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "23": {
     "date": "2026-04-02",
@@ -276,7 +369,13 @@
     "added": 7,
     "removed": 18,
     "modified": 44,
-    "modified_location": 44
+    "modified_location": 44,
+    "new_streets": [
+      {
+        "street": "Sandown Lane",
+        "count": 2
+      }
+    ]
   },
   "24": {
     "date": "2026-04-03",
@@ -284,7 +383,8 @@
     "added": 12,
     "removed": 0,
     "modified": 35,
-    "modified_location": 35
+    "modified_location": 35,
+    "new_streets": []
   },
   "1775322003": {
     "date": "2026-04-04",
@@ -292,7 +392,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1775408403": {
     "date": "2026-04-05",
@@ -300,7 +401,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1775494804": {
     "date": "2026-04-06",
@@ -308,7 +410,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1775582541": {
     "date": "2026-04-07",
@@ -316,7 +419,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "25": {
     "date": "2026-04-08",
@@ -324,7 +428,8 @@
     "added": 1,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "26": {
     "date": "2026-04-10",
@@ -332,7 +437,8 @@
     "added": 4,
     "removed": 0,
     "modified": 10,
-    "modified_location": 10
+    "modified_location": 10,
+    "new_streets": []
   },
   "1775926805": {
     "date": "2026-04-11",
@@ -340,7 +446,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1776015567": {
     "date": "2026-04-12",
@@ -348,7 +455,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "27": {
     "date": "2026-04-13",
@@ -356,7 +464,17 @@
     "added": 8,
     "removed": 0,
     "modified": 21,
-    "modified_location": 21
+    "modified_location": 21,
+    "new_streets": [
+      {
+        "street": "Everwood Gdns",
+        "count": 3
+      },
+      {
+        "street": "Commerce Trl",
+        "count": 2
+      }
+    ]
   },
   "1776186002": {
     "date": "2026-04-14",
@@ -364,7 +482,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "28": {
     "date": "2026-04-16",
@@ -372,7 +491,8 @@
     "added": 3,
     "removed": 0,
     "modified": 12,
-    "modified_location": 12
+    "modified_location": 12,
+    "new_streets": []
   },
   "1776540143": {
     "date": "2026-04-18",
@@ -380,7 +500,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1776618003": {
     "date": "2026-04-19",
@@ -388,7 +509,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "1776714513": {
     "date": "2026-04-20",
@@ -396,7 +518,8 @@
     "added": 0,
     "removed": 0,
     "modified": 0,
-    "modified_location": 0
+    "modified_location": 0,
+    "new_streets": []
   },
   "29": {
     "date": "2026-04-21",
@@ -404,6 +527,7 @@
     "added": 0,
     "removed": 0,
     "modified": 10,
-    "modified_location": 10
+    "modified_location": 10,
+    "new_streets": []
   }
 }

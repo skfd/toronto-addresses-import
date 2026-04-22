@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 17, 2026 at 04:44 PM",
+  "generated": "Apr 22, 2026 at 03:09 AM",
   "old_snapshot": {
     "id": 15,
     "downloaded": "2026-03-12T20:56:53.836630",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064208,
       "address_full": "2430 Dundas St W",
       "address_number": "2430",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064210,
       "address_full": "2432 Dundas St W",
       "address_number": "2432",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064206,
       "address_full": "2424 Dundas St W",
       "address_number": "2424",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064205,
       "address_full": "2428 Dundas St W",
       "address_number": "2428",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064211,
       "address_full": "46R Grandview Ave",
       "address_number": "46R",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064332,
       "address_full": "367 Woodmount Ave",
       "address_number": "367",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 16,
+      "max_snapshot_id": 29,
       "address_point_id": 60064333,
       "address_full": "155R Gilmour Ave",
       "address_number": "155R",
@@ -16441,6 +16441,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 6,
@@ -16473,10 +16474,50 @@ window.REPORT_DATA = {
       "Street Type": 2,
       "High Number": 2,
       "Ward": 1
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 7,
   "removed_count": 3,
   "modified_count": 132,
-  "modified_location_count": 792
+  "modified_location_count": 792,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      7
+    ],
+    "removed": [
+      11,
+      0,
+      0,
+      1,
+      1,
+      0,
+      3
+    ],
+    "modified": [
+      17,
+      5,
+      0,
+      14,
+      21,
+      0,
+      132
+    ],
+    "modified_location": [
+      17,
+      5,
+      0,
+      14,
+      21,
+      0,
+      792
+    ]
+  }
 }

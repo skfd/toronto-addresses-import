@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 13, 2026 at 01:00 PM",
+  "generated": "Apr 22, 2026 at 03:17 AM",
   "old_snapshot": {
     "id": 26,
     "downloaded": "2026-04-10T16:07:14.829339",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068835,
       "address_full": "35 Everwood Gdns",
       "address_number": "35",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068836,
       "address_full": "25 Everwood Gdns",
       "address_number": "25",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068831,
       "address_full": "30 Commerce Trl",
       "address_number": "30",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068832,
       "address_full": "50 Commerce Trl",
       "address_number": "50",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068830,
       "address_full": "2650 St Clair Ave W",
       "address_number": "2650",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068839,
       "address_full": "152A Pinegrove Ave",
       "address_number": "152A",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068834,
       "address_full": "15 Everwood Gdns",
       "address_number": "15",
@@ -170,7 +170,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 27,
-      "max_snapshot_id": 27,
+      "max_snapshot_id": 29,
       "address_point_id": 60068840,
       "address_full": "152B Pinegrove Ave",
       "address_number": "152B",
@@ -530,6 +530,22 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [
+    {
+      "street": "Everwood Gdns",
+      "count": 3,
+      "municipality": "York",
+      "latitude": 43.66775666666666,
+      "longitude": -79.49577333333333
+    },
+    {
+      "street": "Commerce Trl",
+      "count": 2,
+      "municipality": "York",
+      "latitude": 43.667305,
+      "longitude": -79.49582
+    }
+  ],
   "stats": {
     "muni_added": {
       "York": 6,
@@ -544,10 +560,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 21,
       "Location (latitude)": 20
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 8,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 21
+  "modified_location_count": 21,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      1,
+      4,
+      0,
+      0,
+      8
+    ],
+    "removed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    "modified_location": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      21
+    ]
+  }
 }

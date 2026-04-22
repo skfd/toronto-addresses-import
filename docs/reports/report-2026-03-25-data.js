@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 25, 2026 at 06:39 PM",
+  "generated": "Apr 22, 2026 at 03:12 AM",
   "old_snapshot": {
     "id": 19,
     "downloaded": "2026-03-24T13:00:08.449133",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 20,
+      "max_snapshot_id": 29,
       "address_point_id": 60066705,
       "address_full": "476 Front St E",
       "address_number": "476",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 20,
+      "max_snapshot_id": 29,
       "address_point_id": 60066701,
       "address_full": "1085A Davenport Rd",
       "address_number": "1085A",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 20,
+      "max_snapshot_id": 29,
       "address_point_id": 60066702,
       "address_full": "1241 Shaw St",
       "address_number": "1241",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 20,
+      "max_snapshot_id": 29,
       "address_point_id": 60066703,
       "address_full": "1243 Shaw St",
       "address_number": "1243",
@@ -339,6 +339,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 4
@@ -358,10 +359,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 10,
       "Location (latitude)": 10
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 4,
   "removed_count": 2,
   "modified_count": 0,
-  "modified_location_count": 10
+  "modified_location_count": 10,
+  "sparklines": {
+    "added": [
+      7,
+      8,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "removed": [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    "modified": [
+      924,
+      0,
+      0,
+      0,
+      7,
+      3,
+      0
+    ],
+    "modified_location": [
+      792,
+      0,
+      0,
+      0,
+      7,
+      3,
+      10
+    ]
+  }
 }

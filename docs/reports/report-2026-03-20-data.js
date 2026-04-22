@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 21, 2026 at 04:25 PM",
+  "generated": "Apr 22, 2026 at 03:09 AM",
   "old_snapshot": {
     "id": 16,
     "downloaded": "2026-03-17T16:40:20.343378",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065342,
       "address_full": "11 Graystone Gdns",
       "address_number": "11",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065346,
       "address_full": "1456 King St W",
       "address_number": "1456",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065343,
       "address_full": "13 Graystone Gdns",
       "address_number": "13",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065349,
       "address_full": "1452 King St W",
       "address_number": "1452",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065345,
       "address_full": "250 High Park Ave",
       "address_number": "250",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065351,
       "address_full": "10 Maynard Ave",
       "address_number": "10",
@@ -149,7 +149,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065348,
       "address_full": "1454 King St W",
       "address_number": "1454",
@@ -170,7 +170,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 17,
+      "max_snapshot_id": 29,
       "address_point_id": 60065347,
       "address_full": "1458 King St W",
       "address_number": "1458",
@@ -296,6 +296,7 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 6,
@@ -311,10 +312,50 @@ window.REPORT_DATA = {
     "ward_removed": {
       "Toronto Centre": 3
     },
-    "field_changes": {}
+    "field_changes": {},
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 8,
   "removed_count": 3,
   "modified_count": 0,
-  "modified_location_count": 0
+  "modified_location_count": 0,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      0,
+      5,
+      0,
+      7,
+      8
+    ],
+    "removed": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      3,
+      3
+    ],
+    "modified": [
+      5,
+      0,
+      14,
+      21,
+      0,
+      924,
+      0
+    ],
+    "modified_location": [
+      5,
+      0,
+      14,
+      21,
+      0,
+      792,
+      0
+    ]
+  }
 }

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Mar 27, 2026 at 01:32 PM",
+  "generated": "Apr 22, 2026 at 03:13 AM",
   "old_snapshot": {
     "id": 20,
     "downloaded": "2026-03-25T18:38:19.007138",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067024,
       "address_full": "6E Shorncliffe Rd",
       "address_number": "6E",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067022,
       "address_full": "6C Shorncliffe Rd",
       "address_number": "6C",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067023,
       "address_full": "6D Shorncliffe Rd",
       "address_number": "6D",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067018,
       "address_full": "5507 Dundas St W",
       "address_number": "5507",
@@ -107,7 +107,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067021,
       "address_full": "6B Shorncliffe Rd",
       "address_number": "6B",
@@ -128,7 +128,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 21,
-      "max_snapshot_id": 21,
+      "max_snapshot_id": 29,
       "address_point_id": 60067020,
       "address_full": "6A Shorncliffe Rd",
       "address_number": "6A",
@@ -232,6 +232,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "Etobicoke": 6
@@ -244,10 +245,52 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 5,
       "Location (latitude)": 4
-    }
+    },
+    "top_streets_added": {
+      "Shorncliffe Rd": 5
+    },
+    "top_streets_removed": {}
   },
   "added_count": 6,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 5
+  "modified_location_count": 5,
+  "sparklines": {
+    "added": [
+      8,
+      0,
+      0,
+      0,
+      0,
+      4,
+      6
+    ],
+    "removed": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "modified": [
+      0,
+      0,
+      0,
+      7,
+      3,
+      10,
+      0
+    ],
+    "modified_location": [
+      0,
+      0,
+      0,
+      7,
+      3,
+      10,
+      5
+    ]
+  }
 }

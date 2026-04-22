@@ -183,6 +183,18 @@
       color: var(--accent);
     }
 
+    .sparkline {
+      display: block;
+      margin-top: 6px;
+      overflow: visible;
+      opacity: 0.9;
+    }
+    .sparkline-label {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
     .section {
       margin-bottom: 24px;
     }
@@ -438,18 +450,34 @@
     <div class="card">
       <div class="label">New Addresses</div>
       <div class="value green">+1</div>
+      
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#107c10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,8.7 19.7,2.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,16.7"/><circle cx="108.0" cy="16.7" r="2" fill="#107c10"/></svg>
+      <div class="sparkline-label">7-day trend</div>
+      
     </div>
     <div class="card">
       <div class="label">Retired Addresses</div>
       <div class="value red">−0</div>
+      
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#c50f1f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,18.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#c50f1f"/></svg>
+      <div class="sparkline-label">7-day trend</div>
+      
     </div>
     <div class="card">
       <div class="label">Updated Addresses</div>
       <div class="value yellow">0</div>
+      
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,5.3 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#eaa300"/></svg>
+      <div class="sparkline-label">7-day trend</div>
+      
     </div>
     <div class="card">
       <div class="label">Location Adjustments</div>
       <div class="value" style="color: var(--text-dim)">0</div>
+      
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#808080" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,5.3 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#808080"/></svg>
+      <div class="sparkline-label">7-day trend</div>
+      
     </div>
   </div>
 
@@ -458,6 +486,10 @@
   <div class="section">
     <h2>Change Breakdown</h2>
     <div class="stats-grid">
+
+      
+
+      
 
       
       <div class="card">
@@ -483,6 +515,9 @@
 
     </div>
   </div>
+  
+
+  <!-- New Streets -->
   
 
   <!-- Added -->
@@ -547,7 +582,7 @@
         </div>
 
         <div class="generated-at">
-          Report generated Apr 10, 2026 at 02:20 AM
+          Report generated Apr 22, 2026 at 03:15 AM
         </div>
 
         <script>

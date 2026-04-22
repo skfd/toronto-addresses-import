@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 17, 2026 at 10:47 PM",
+  "generated": "Apr 22, 2026 at 03:17 AM",
   "old_snapshot": {
     "id": 27,
     "downloaded": "2026-04-13T13:00:05.584921",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 28,
+      "max_snapshot_id": 29,
       "address_point_id": 60068938,
       "address_full": "9 Don River Blvd",
       "address_number": "9",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 28,
+      "max_snapshot_id": 29,
       "address_point_id": 60068939,
       "address_full": "127 Glenlake Ave",
       "address_number": "127",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 28,
+      "max_snapshot_id": 29,
       "address_point_id": 60068940,
       "address_full": "129 Glenlake Ave",
       "address_number": "129",
@@ -281,6 +281,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "former Toronto": 2,
@@ -295,10 +296,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 12,
       "Location (latitude)": 11
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 3,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 12
+  "modified_location_count": 12,
+  "sparklines": {
+    "added": [
+      1,
+      4,
+      0,
+      0,
+      8,
+      0,
+      3
+    ],
+    "removed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified": [
+      0,
+      10,
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    "modified_location": [
+      0,
+      10,
+      0,
+      0,
+      21,
+      0,
+      12
+    ]
+  }
 }

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 10, 2026 at 04:08 PM",
+  "generated": "Apr 22, 2026 at 03:16 AM",
   "old_snapshot": {
     "id": 25,
     "downloaded": "2026-04-08T13:35:54.768955",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 26,
-      "max_snapshot_id": 26,
+      "max_snapshot_id": 29,
       "address_point_id": 60068084,
       "address_full": "5933 Steeles Ave E",
       "address_number": "5933",
@@ -44,7 +44,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 26,
-      "max_snapshot_id": 26,
+      "max_snapshot_id": 29,
       "address_point_id": 60068085,
       "address_full": "5951 Steeles Ave E",
       "address_number": "5951",
@@ -65,7 +65,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 26,
-      "max_snapshot_id": 26,
+      "max_snapshot_id": 29,
       "address_point_id": 60068087,
       "address_full": "105 State Crown Blvd",
       "address_number": "105",
@@ -86,7 +86,7 @@ window.REPORT_DATA = {
     },
     {
       "min_snapshot_id": 26,
-      "max_snapshot_id": 26,
+      "max_snapshot_id": 29,
       "address_point_id": 60068083,
       "address_full": "5855 Steeles Ave E",
       "address_number": "5855",
@@ -270,6 +270,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "new_streets": [],
   "stats": {
     "muni_added": {
       "Scarborough": 4
@@ -282,10 +283,50 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 10,
       "Location (latitude)": 10
-    }
+    },
+    "top_streets_added": {},
+    "top_streets_removed": {}
   },
   "added_count": 4,
   "removed_count": 0,
   "modified_count": 0,
-  "modified_location_count": 10
+  "modified_location_count": 10,
+  "sparklines": {
+    "added": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4
+    ],
+    "removed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified": [
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_location": [
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  }
 }
