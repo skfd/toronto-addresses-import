@@ -156,6 +156,14 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
     else:
         date_part = new_snapshot["downloaded"][:10]
 
+    current_counts = {
+        "added": len(diff_result["added"]),
+        "removed": len(diff_result["removed"]),
+        "modified": len(modified_significant),
+        "modified_location": len(modified_location),
+    }
+    sparklines = _compute_sparklines(date_part, current_counts)
+
     # Save template context as data file (for re-rendering without DB)
     context = {
         "generated": datetime.now().strftime("%b %d, %Y at %I:%M %p"),
@@ -167,11 +175,13 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "removed": diff_result["removed"],
         "modified": modified_significant,
         "modified_location": modified_location,
+        "new_streets": diff_result.get("new_streets", []),
         "stats": stats,
         "added_count": len(diff_result["added"]),
         "removed_count": len(diff_result["removed"]),
         "modified_count": len(modified_significant),
         "modified_location_count": len(modified_location),
+        "sparklines": sparklines,
     }
 
     data_path = os.path.join(REPORTS_DIR, f"report-{date_part}-data.js")
@@ -293,12 +303,31 @@ def _compute_stats(diff_result):
         for ch in mod["changes"]:
             field_changes[ch["field"]] += 1
 
+    # Streets with the most adds / removes today.
+    # Surfaces subdivisions/developments (adds) and renumberings/demolitions (removes).
+    street_added = Counter()
+    street_removed = Counter()
+    for row in diff_result["added"]:
+        s = row.get("linear_name_full")
+        if s:
+            street_added[s] += 1
+    for row in diff_result["removed"]:
+        s = row.get("linear_name_full")
+        if s:
+            street_removed[s] += 1
+
+    MIN_CHURN = 5
+    top_streets_added = dict((s, n) for s, n in street_added.most_common(10) if n >= MIN_CHURN)
+    top_streets_removed = dict((s, n) for s, n in street_removed.most_common(10) if n >= MIN_CHURN)
+
     return {
         "muni_added": dict(muni_added.most_common()),
         "muni_removed": dict(muni_removed.most_common()),
         "ward_added": dict(ward_added.most_common()),
         "ward_removed": dict(ward_removed.most_common()),
         "field_changes": dict(field_changes.most_common()),
+        "top_streets_added": top_streets_added,
+        "top_streets_removed": top_streets_removed,
     }
 
 
@@ -308,8 +337,103 @@ def _render_report_html(context):
         loader=FileSystemLoader(TEMPLATES_DIR),
         autoescape=True,
     )
+    env.globals["sparkline_svg"] = _sparkline_svg
     template = env.get_template("report.html")
     return template.render(**context)
+
+
+SPARKLINE_KEYS = ("added", "removed", "modified", "modified_location")
+
+
+def _compute_sparklines(current_date, current_counts):
+    """Return {key: [int, ...]} trailing 7 non-skipped days ending at current_date."""
+    meta_path = os.path.join(REPORTS_DIR, "metadata.json")
+    entries = []
+    if os.path.exists(meta_path):
+        with open(meta_path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                data = {}
+        for entry in data.values():
+            if entry.get("filename") == "reports/#":
+                continue
+            d = entry.get("date")
+            if not d or d >= current_date:
+                continue
+            entries.append(entry)
+
+    entries.sort(key=lambda e: e["date"])
+    prev = entries[-6:]
+
+    def val(e, k):
+        try:
+            return int(e.get(k, 0) or 0)
+        except (TypeError, ValueError):
+            return 0
+
+    out = {}
+    for k in SPARKLINE_KEYS:
+        out[k] = [val(e, k) for e in prev] + [int(current_counts.get(k, 0) or 0)]
+    return out
+
+
+def _sparkline_svg(values, color, width=110, height=20, pad=2):
+    """Render a tiny inline SVG line sparkline. Last point is emphasized."""
+    if not values:
+        return ""
+    n = len(values)
+    vmax = max(values) if max(values) > 0 else 1
+    inner_w = width - 2 * pad
+    inner_h = height - 2 * pad
+    if n == 1:
+        xs = [pad + inner_w]
+    else:
+        xs = [pad + i * inner_w / (n - 1) for i in range(n)]
+    ys = [pad + inner_h - (v / vmax) * inner_h for v in values]
+    points = " ".join(f"{x:.1f},{y:.1f}" for x, y in zip(xs, ys))
+    last_x, last_y = xs[-1], ys[-1]
+    return (
+        f'<svg class="sparkline" viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
+        f'preserveAspectRatio="none" aria-hidden="true">'
+        f'<polyline fill="none" stroke="{color}" stroke-width="1.5" '
+        f'stroke-linecap="round" stroke-linejoin="round" points="{points}"/>'
+        f'<circle cx="{last_x:.1f}" cy="{last_y:.1f}" r="2" fill="{color}"/>'
+        f'</svg>'
+    )
+
+
+def _enrich_context(context):
+    """Backfill stats.top_streets and sparklines on contexts loaded from data.js."""
+    diff_like = {
+        "added": context.get("added", []),
+        "removed": context.get("removed", []),
+        "modified": list(context.get("modified", [])) + list(context.get("modified_location", [])),
+    }
+    stats = _compute_stats(diff_like)
+    if stats.get("field_changes"):
+        stats["field_changes"] = {
+            FIELD_DISPLAY_NAMES.get(k, k): v
+            for k, v in stats["field_changes"].items()
+        }
+    context["stats"] = stats
+
+    ns = context.get("new_snapshot", {}) or {}
+    date_part = None
+    if ns.get("filename"):
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", ns["filename"])
+        if m:
+            date_part = m.group(1)
+    if not date_part and ns.get("downloaded"):
+        date_part = ns["downloaded"][:10]
+    if date_part:
+        current_counts = {
+            "added": context.get("added_count", 0),
+            "removed": context.get("removed_count", 0),
+            "modified": context.get("modified_count", 0),
+            "modified_location": context.get("modified_location_count", 0),
+        }
+        context["sparklines"] = _compute_sparklines(date_part, current_counts)
 
 
 _ARROW_SUFFIX_RE = re.compile(r" ([↗↑↖←↙↓↘→] \d+\.\d+m)$")
@@ -385,6 +509,7 @@ def rebuild_histories(affected_point_ids=None):
 
         _migrate_location_arrow(context.get("modified", []))
         _migrate_location_arrow(context.get("modified_location", []))
+        _enrich_context(context)
         html = _render_report_html(context)
         outpath = os.path.join(REPORTS_DIR, html_name)
         with open(outpath, "w", encoding="utf-8") as f:
@@ -435,6 +560,7 @@ def refresh_reports():
             context["modified_count"] = len(sig)
             context["modified_location_count"] = len(loc)
 
+        _enrich_context(context)
         html = _render_report_html(context)
         outpath = os.path.join(REPORTS_DIR, html_name)
         with open(outpath, "w", encoding="utf-8") as f:
@@ -454,19 +580,32 @@ def update_index():
     with open(meta_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Backfill modified_location from data.js for entries that predate the field
+    # Backfill fields from data.js for entries that predate them
     metadata_changed = False
     for entry in data.values():
-        if "modified_location" not in entry and entry.get("filename", "reports/#") != "reports/#":
-            basename = os.path.basename(entry["filename"])
-            data_js = os.path.join(REPORTS_DIR, basename.replace(".html", "-data.js"))
-            if os.path.exists(data_js):
-                with open(data_js, "r", encoding="utf-8") as f:
-                    raw = f.read()
-                json_str = raw.split("=", 1)[1].strip().rstrip(";")
-                rd = json.loads(json_str)
-                entry["modified_location"] = rd.get("modified_location_count", 0)
-                metadata_changed = True
+        if entry.get("filename", "reports/#") == "reports/#":
+            continue
+        needs_mod_loc = "modified_location" not in entry
+        needs_streets = "new_streets" not in entry
+        if not (needs_mod_loc or needs_streets):
+            continue
+        basename = os.path.basename(entry["filename"])
+        data_js = os.path.join(REPORTS_DIR, basename.replace(".html", "-data.js"))
+        if not os.path.exists(data_js):
+            continue
+        with open(data_js, "r", encoding="utf-8") as f:
+            raw = f.read()
+        json_str = raw.split("=", 1)[1].strip().rstrip(";")
+        rd = json.loads(json_str)
+        if needs_mod_loc:
+            entry["modified_location"] = rd.get("modified_location_count", 0)
+            metadata_changed = True
+        if needs_streets:
+            entry["new_streets"] = [
+                {"street": s.get("street"), "count": s.get("count", 0)}
+                for s in (rd.get("new_streets") or [])
+            ]
+            metadata_changed = True
     if metadata_changed:
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
@@ -501,11 +640,27 @@ def update_index():
     for report in reports:
         report["friendly_date"] = _friendly_date(report["date"])
         report["total_changes"] = report["added"] + report["removed"] + report["modified"]
+        report["new_streets_count"] = sum(
+            s.get("count", 0) for s in (report.get("new_streets") or [])
+        )
         if not found_latest and report["total_changes"] > 0:
             report["is_latest"] = True
             found_latest = True
         else:
             report["is_latest"] = False
+
+    # Flatten all new-street appearances across reports, newest first, cap at 15
+    recent_new_streets = []
+    for report in reports:
+        for s in (report.get("new_streets") or []):
+            recent_new_streets.append({
+                "street": s.get("street"),
+                "count": s.get("count", 0),
+                "date": report["date"],
+                "friendly_date": report["friendly_date"],
+                "filename": report["filename"],
+            })
+    recent_new_streets = recent_new_streets[:15]
 
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
@@ -513,7 +668,7 @@ def update_index():
     )
     template = env.get_template("index.html")
 
-    html = template.render(reports=reports)
+    html = template.render(reports=reports, recent_new_streets=recent_new_streets)
 
     # Write to index.html (which is where GitHub Pages would serve from usually, or just root)
     # The user has index.html so let's overwrite that.
@@ -540,6 +695,11 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result,
     else:
         data = {}
 
+    new_streets = [
+        {"street": s.get("street"), "count": s.get("count", 0)}
+        for s in (diff_result.get("new_streets") or [])
+    ]
+
     data[str(snapshot_id)] = {
         "date": date_str,
         "filename": f"reports/{filename}",  # Relative path from index.html
@@ -547,6 +707,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result,
         "removed": len(diff_result["removed"]),
         "modified": len(diff_result["modified"]),
         "modified_location": modified_location,
+        "new_streets": new_streets,
     }
 
     with open(meta_path, "w", encoding="utf-8") as f:

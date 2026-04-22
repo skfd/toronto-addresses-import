@@ -124,13 +124,53 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
                 "changes": changes,
             })
 
+    new_streets = find_new_streets(new_snapshot_id)
+
     return {
         "old_snapshot_id": old_snapshot_id,
         "new_snapshot_id": new_snapshot_id,
         "added": added_rows,
         "removed": removed_rows,
         "modified": modified,
+        "new_streets": new_streets,
     }
+
+
+def find_new_streets(new_snapshot_id):
+    """Return streets whose earliest appearance in any snapshot is new_snapshot_id.
+
+    Skipped for the very first snapshot (everything is "new" on first import).
+    Each entry: {street, count, municipality, latitude, longitude}.
+    """
+    conn = _connect()
+    first_id = conn.execute(
+        "SELECT MIN(id) FROM snapshots WHERE skipped = 0"
+    ).fetchone()[0]
+    if first_id is None or new_snapshot_id == first_id:
+        conn.close()
+        return []
+
+    rows = conn.execute("""
+        WITH first_seen AS (
+            SELECT linear_name_full, MIN(min_snapshot_id) AS first_sid
+            FROM addresses
+            WHERE linear_name_full IS NOT NULL
+            GROUP BY linear_name_full
+            HAVING MIN(min_snapshot_id) = ?
+        )
+        SELECT a.linear_name_full AS street,
+               COUNT(*) AS count,
+               MIN(a.municipality_name) AS municipality,
+               AVG(a.latitude) AS latitude,
+               AVG(a.longitude) AS longitude
+        FROM addresses a
+        JOIN first_seen f ON f.linear_name_full = a.linear_name_full
+        WHERE a.min_snapshot_id <= ? AND a.max_snapshot_id >= ?
+        GROUP BY a.linear_name_full
+        ORDER BY count DESC, street ASC
+    """, (new_snapshot_id, new_snapshot_id, new_snapshot_id)).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
 
 
 def _values_differ(a, b):

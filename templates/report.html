@@ -183,6 +183,18 @@
       color: var(--accent);
     }
 
+    .sparkline {
+      display: block;
+      margin-top: 6px;
+      overflow: visible;
+      opacity: 0.9;
+    }
+    .sparkline-label {
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
     .section {
       margin-bottom: 24px;
     }
@@ -457,26 +469,78 @@
     <div class="card">
       <div class="label">New Addresses</div>
       <div class="value green">+{{ "{:,}".format(added_count) }}</div>
+      {% if sparklines and sparklines.added %}
+      {{ sparkline_svg(sparklines.added, '#107c10')|safe }}
+      <div class="sparkline-label">7-day trend</div>
+      {% endif %}
     </div>
     <div class="card">
       <div class="label">Retired Addresses</div>
       <div class="value red">−{{ "{:,}".format(removed_count) }}</div>
+      {% if sparklines and sparklines.removed %}
+      {{ sparkline_svg(sparklines.removed, '#c50f1f')|safe }}
+      <div class="sparkline-label">7-day trend</div>
+      {% endif %}
     </div>
     <div class="card">
       <div class="label">Updated Addresses</div>
       <div class="value yellow">{{ "{:,}".format(modified_count) }}</div>
+      {% if sparklines and sparklines.modified %}
+      {{ sparkline_svg(sparklines.modified, '#eaa300')|safe }}
+      <div class="sparkline-label">7-day trend</div>
+      {% endif %}
     </div>
     <div class="card">
       <div class="label">Location Adjustments</div>
       <div class="value" style="color: var(--text-dim)">{{ "{:,}".format(modified_location_count|default(0)) }}</div>
+      {% if sparklines and sparklines.modified_location %}
+      {{ sparkline_svg(sparklines.modified_location, '#808080')|safe }}
+      <div class="sparkline-label">7-day trend</div>
+      {% endif %}
     </div>
   </div>
 
   <!-- Stats breakdown -->
-  {% if stats.muni_added or stats.muni_removed or stats.field_changes %}
+  {% if stats.muni_added or stats.muni_removed or stats.field_changes or stats.top_streets_added or stats.top_streets_removed %}
   <div class="section">
     <h2>Change Breakdown</h2>
     <div class="stats-grid">
+
+      {% if stats.top_streets_added %}
+      <div class="card">
+        <div class="label">Top Streets by New Addresses</div>
+        <div class="bar-chart">
+          {% set max_val = stats.top_streets_added.values()|max %}
+          {% for name, count in stats.top_streets_added.items() %}
+          <div class="bar-row">
+            <span class="bar-label">{{ name }}</span>
+            <div class="bar-track">
+              <div class="bar-fill green" style="width:{{ (count / max_val * 100)|round }}%"></div>
+            </div>
+            <span class="bar-count">{{ count }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if stats.top_streets_removed %}
+      <div class="card">
+        <div class="label">Top Streets by Retired Addresses</div>
+        <div class="bar-chart">
+          {% set max_val = stats.top_streets_removed.values()|max %}
+          {% for name, count in stats.top_streets_removed.items() %}
+          <div class="bar-row">
+            <span class="bar-label">{{ name }}</span>
+            <div class="bar-track">
+              <div class="bar-fill red" style="width:{{ (count / max_val * 100)|round }}%"></div>
+            </div>
+            <span class="bar-count">{{ count }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
 
       {% if stats.muni_added %}
       <div class="card">
@@ -533,6 +597,34 @@
       {% endif %}
 
     </div>
+  </div>
+  {% endif %}
+
+  <!-- New Streets -->
+  {% if new_streets %}
+  <div class="section">
+    <h2>New Streets <span class="badge badge-green">{{ new_streets|length }}</span></h2>
+    <p class="explainer" style="margin-bottom:12px">Streets appearing in the dataset for the first time — typically new developments or subdivisions.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Street</th>
+          <th>Municipality</th>
+          <th># Addresses</th>
+          <th>Map</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for s in new_streets %}
+        <tr>
+          <td>{{ s.street }}</td>
+          <td>{{ s.municipality or '' }}</td>
+          <td>{{ s.count }}</td>
+          <td>{% if s.latitude and s.longitude %}{% set lat = "%.5f"|format(s.latitude) %}{% set lon = "%.5f"|format(s.longitude) %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=17/{{ lat }}/{{ lon }}" target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
   {% endif %}
 
