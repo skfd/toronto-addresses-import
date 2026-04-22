@@ -74,26 +74,22 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
     added_rows = [dict(r) for r in added]
     removed_rows = [dict(r) for r in removed]
 
-    _, snap_dates = get_snapshot_timeline(conn)
     histories = compute_histories(
         conn,
-        {(r["address_full"], r["municipality_name"]) for r in added_rows}
-        | {(r["address_full"], r["municipality_name"]) for r in removed_rows},
+        {r["address_point_id"] for r in added_rows}
+        | {r["address_point_id"] for r in removed_rows},
     )
-    current_date = snap_dates.get(new_snapshot_id, "")
     for r in added_rows:
         r["history"] = _mark_current(
-            histories.get((r["address_full"], r["municipality_name"]), []),
+            histories.get(r["address_point_id"], []),
             new_snapshot_id,
             "added",
-            current_date,
         )
     for r in removed_rows:
         r["history"] = _mark_current(
-            histories.get((r["address_full"], r["municipality_name"]), []),
+            histories.get(r["address_point_id"], []),
             new_snapshot_id,
             "removed",
-            current_date,
         )
 
     conn.close()
@@ -173,38 +169,36 @@ def get_snapshot_timeline(conn):
     return ids, dates
 
 
-def compute_histories(conn, keys):
-    """For each (address_full, municipality_name) key, return the list of
-    added/removed events across the snapshot timeline.
+def compute_histories(conn, point_ids):
+    """For each address_point_id, return the list of added/removed events
+    across the snapshot timeline.
 
     Event: {"date": "YYYY-MM-DD", "kind": "added"|"removed", "snapshot_id": int}
     """
-    if not keys:
+    if not point_ids:
         return {}
 
     ids, dates = get_snapshot_timeline(conn)
 
-    ranges_by_key = defaultdict(list)
-    keys_list = list(keys)
+    ranges_by_pid = defaultdict(list)
+    pids_list = list(point_ids)
     BATCH = 400
-    for i in range(0, len(keys_list), BATCH):
-        batch = keys_list[i:i + BATCH]
-        placeholders = ",".join(["(?,?)"] * len(batch))
-        params = []
-        for af, muni in batch:
-            params.extend([af, muni])
+    for i in range(0, len(pids_list), BATCH):
+        batch = pids_list[i:i + BATCH]
+        placeholders = ",".join(["?"] * len(batch))
         query = f"""
-            SELECT address_full, municipality_name, min_snapshot_id, max_snapshot_id
+            SELECT address_point_id, min_snapshot_id, max_snapshot_id
             FROM addresses
-            WHERE (address_full, municipality_name) IN (VALUES {placeholders})
+            WHERE address_point_id IN ({placeholders})
         """
-        for row in conn.execute(query, params):
-            k = (row["address_full"], row["municipality_name"])
-            ranges_by_key[k].append((row["min_snapshot_id"], row["max_snapshot_id"]))
+        for row in conn.execute(query, batch):
+            ranges_by_pid[row["address_point_id"]].append(
+                (row["min_snapshot_id"], row["max_snapshot_id"])
+            )
 
     histories = {}
-    for key in keys:
-        ranges = ranges_by_key.get(key, [])
+    for pid in point_ids:
+        ranges = ranges_by_pid.get(pid, [])
         events = []
         prev = False
         for sid in ids:
@@ -214,31 +208,28 @@ def compute_histories(conn, keys):
             elif not present and prev:
                 events.append({"date": dates[sid], "kind": "removed", "snapshot_id": sid})
             prev = present
-        histories[key] = events
+        histories[pid] = events
     return histories
 
 
-def _mark_current(events, current_snapshot_id, current_kind, current_date):
+def _mark_current(events, current_snapshot_id, current_kind):
     """Return a copy of events with current=True on the event that matches this report.
 
-    If no matching event exists (e.g. an 'added' row for a duplicate point ID on an
-    address that was already present at the key level), insert a synthetic current
-    event so the timeline always shows what this report did.
+    Histories are keyed by address_point_id, so the current row's event is always
+    present in the computed timeline.
+
+    For 'added' rows whose only event is the current one, return [] so the
+    template renders "First appearance" instead of a lone underlined date.
     """
     out = [dict(e) for e in events]
     for ev in out:
-        if ev["snapshot_id"] == current_snapshot_id and ev["kind"] == current_kind:
-            ev["current"] = True
-            for other in out:
-                other.setdefault("current", False)
-            return out
-    for ev in out:
-        ev["current"] = False
-    out.append({
-        "date": current_date,
-        "kind": current_kind,
-        "snapshot_id": current_snapshot_id,
-        "current": True,
-    })
-    out.sort(key=lambda e: e["snapshot_id"])
+        ev["current"] = (
+            ev["snapshot_id"] == current_snapshot_id and ev["kind"] == current_kind
+        )
+    if (
+        current_kind == "added"
+        and len(out) == 1
+        and out[0]["current"]
+    ):
+        return []
     return out
