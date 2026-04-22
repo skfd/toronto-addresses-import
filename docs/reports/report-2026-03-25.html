@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -538,6 +547,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -548,6 +558,7 @@
               <td>Front St E</td>
               <td>former Toronto</td>
               <td>Toronto Centre</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-25</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.65345&mlon=-79.35514#map=18/43.65345/-79.35514"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -558,6 +569,7 @@
               <td>Davenport Rd</td>
               <td>former Toronto</td>
               <td>Toronto-St. Paul&#39;s</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-25</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.67460&mlon=-79.42806#map=18/43.67460/-79.42806"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -568,6 +580,7 @@
               <td>Shaw St</td>
               <td>former Toronto</td>
               <td>Toronto-St. Paul&#39;s</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-25</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.67445&mlon=-79.42804#map=18/43.67445/-79.42804"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -578,6 +591,7 @@
               <td>Shaw St</td>
               <td>former Toronto</td>
               <td>Toronto-St. Paul&#39;s</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-25</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.67447&mlon=-79.42805#map=18/43.67447/-79.42805"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -603,6 +617,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -613,6 +628,7 @@
                 <td>Albion Rd</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke North</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-25</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.73980&mlon=-79.58381#map=18/43.73980/-79.58381"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -623,6 +639,7 @@
                 <td>Willowdale Ave</td>
                 <td>North York</td>
                 <td>Willowdale</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-25</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.76985&mlon=-79.40248#map=18/43.76985/-79.40248"
                     target="_blank" rel="noopener">View ↗</a></td>

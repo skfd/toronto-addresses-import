@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -562,6 +571,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -572,6 +582,7 @@
               <td>Brawley Ave</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.62564&mlon=-79.52326#map=18/43.62564/-79.52326"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -582,6 +593,7 @@
               <td>Parliament St</td>
               <td>former Toronto</td>
               <td>Toronto Centre</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66421&mlon=-79.36775#map=18/43.66421/-79.36775"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -592,6 +604,7 @@
               <td>Sandown Lane</td>
               <td>Scarborough</td>
               <td>Scarborough Southwest</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.70650&mlon=-79.25213#map=18/43.70650/-79.25213"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -602,6 +615,7 @@
               <td>Sandown Lane</td>
               <td>Scarborough</td>
               <td>Scarborough Southwest</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.70645&mlon=-79.25218#map=18/43.70645/-79.25218"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -612,6 +626,7 @@
               <td>Pacific Ave</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66615&mlon=-79.46886#map=18/43.66615/-79.46886"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -622,6 +637,7 @@
               <td>Pacific Ave</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66610&mlon=-79.46885#map=18/43.66610/-79.46885"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -632,6 +648,7 @@
               <td>Croft St</td>
               <td>former Toronto</td>
               <td>University-Rosedale</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-04-02</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66100&mlon=-79.40758#map=18/43.66100/-79.40758"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -657,6 +674,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -667,6 +685,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69340&mlon=-79.30078#map=18/43.69340/-79.30078"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -677,6 +696,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69326&mlon=-79.30042#map=18/43.69326/-79.30042"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -687,6 +707,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69335&mlon=-79.30048#map=18/43.69335/-79.30048"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -697,6 +718,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69346&mlon=-79.30078#map=18/43.69346/-79.30078"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -707,6 +729,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69329&mlon=-79.30075#map=18/43.69329/-79.30075"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -717,6 +740,7 @@
                 <td>Willowlea Dr</td>
                 <td>Scarborough</td>
                 <td>Scarborough-Rouge Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.79706&mlon=-79.17501#map=18/43.79706/-79.17501"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -727,6 +751,7 @@
                 <td>Bazalgette Dr</td>
                 <td>Scarborough</td>
                 <td>Scarborough-Rouge Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span><span class="dot">·</span><span class="a">+ <span class="">2026-04-03</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.79657&mlon=-79.17451#map=18/43.79657/-79.17451"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -737,6 +762,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69350&mlon=-79.30059#map=18/43.69350/-79.30059"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -747,6 +773,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69330&mlon=-79.30045#map=18/43.69330/-79.30045"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -757,6 +784,7 @@
                 <td>Bazalgette Dr</td>
                 <td>Scarborough</td>
                 <td>Scarborough-Rouge Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span><span class="dot">·</span><span class="a">+ <span class="">2026-04-03</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.79649&mlon=-79.17500#map=18/43.79649/-79.17500"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -767,6 +795,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69323&mlon=-79.30074#map=18/43.69323/-79.30074"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -777,6 +806,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69334&mlon=-79.30076#map=18/43.69334/-79.30076"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -787,6 +817,7 @@
                 <td>Willowlea Dr</td>
                 <td>Scarborough</td>
                 <td>Scarborough-Rouge Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.79678&mlon=-79.17485#map=18/43.79678/-79.17485"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -797,6 +828,7 @@
                 <td>Harbord St</td>
                 <td>former Toronto</td>
                 <td>University-Rosedale</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66169&mlon=-79.40820#map=18/43.66169/-79.40820"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -807,6 +839,7 @@
                 <td>Harbord St</td>
                 <td>former Toronto</td>
                 <td>University-Rosedale</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66170&mlon=-79.40815#map=18/43.66170/-79.40815"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -817,6 +850,7 @@
                 <td>Bazalgette Dr</td>
                 <td>Scarborough</td>
                 <td>Scarborough-Rouge Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span><span class="dot">·</span><span class="a">+ <span class="">2026-04-03</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.79670&mlon=-79.17456#map=18/43.79670/-79.17456"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -827,6 +861,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69346&mlon=-79.30055#map=18/43.69346/-79.30055"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -837,6 +872,7 @@
                 <td>Secord Ave</td>
                 <td>East York</td>
                 <td>Beaches-East York</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-04-02</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69340&mlon=-79.30051#map=18/43.69340/-79.30051"
                     target="_blank" rel="noopener">View ↗</a></td>

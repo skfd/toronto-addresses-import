@@ -39,7 +39,15 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.41719,
       "latitude": 43.7735,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007173, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006210, \"CENTRELINE_ID\": 30138158, \"CENTRELINE_MEASURE\": 21.57, \"CENTRELINE_OFFSET\": 1.41, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30165.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5643464\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007173, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006210, \"CENTRELINE_ID\": 30138158, \"CENTRELINE_MEASURE\": 21.57, \"CENTRELINE_OFFSET\": 1.41, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30165.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5643464\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "history": [
+        {
+          "date": "2026-02-13",
+          "kind": "added",
+          "snapshot_id": 4,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 4,
@@ -59,7 +67,21 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke North",
       "longitude": -79.56502,
       "latitude": 43.73944,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007175, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 485486, \"CENTRELINE_ID\": 8392799, \"CENTRELINE_MEASURE\": 139.13, \"CENTRELINE_OFFSET\": 21.05, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2733.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5644381\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007175, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 485486, \"CENTRELINE_ID\": 8392799, \"CENTRELINE_MEASURE\": 139.13, \"CENTRELINE_OFFSET\": 21.05, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2733.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5644381\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-02-13",
+          "kind": "added",
+          "snapshot_id": 4,
+          "current": true
+        }
+      ]
     }
   ],
   "removed": [
@@ -81,7 +103,21 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke North",
       "longitude": -79.55504,
       "latitude": 43.72063,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 26180, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 29251, \"CENTRELINE_ID\": 10035766, \"CENTRELINE_MEASURE\": 287.32, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2473.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"2130895\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 26180, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 29251, \"CENTRELINE_ID\": 10035766, \"CENTRELINE_MEASURE\": 287.32, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2473.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"2130895\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-02-13",
+          "kind": "removed",
+          "snapshot_id": 4,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 2,
@@ -101,7 +137,21 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke Centre",
       "longitude": -79.52018,
       "latitude": 43.68598,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 32993, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 36517, \"CENTRELINE_ID\": 9345057, \"CENTRELINE_MEASURE\": 44.19, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1949.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"2844170\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 32993, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 36517, \"CENTRELINE_ID\": 9345057, \"CENTRELINE_MEASURE\": 44.19, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1949.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"2844170\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-02-13",
+          "kind": "removed",
+          "snapshot_id": 4,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 2,
@@ -121,7 +171,21 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke Centre",
       "longitude": -79.57188,
       "latitude": 43.67018,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 302591, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 315797, \"CENTRELINE_ID\": 30007958, \"CENTRELINE_MEASURE\": 157.79, \"CENTRELINE_OFFSET\": 35.44, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2597.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5164725\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 302591, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 315797, \"CENTRELINE_ID\": 30007958, \"CENTRELINE_MEASURE\": 157.79, \"CENTRELINE_OFFSET\": 35.44, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2597.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5164725\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-02-13",
+          "kind": "removed",
+          "snapshot_id": 4,
+          "current": true
+        }
+      ]
     }
   ],
   "modified": [],

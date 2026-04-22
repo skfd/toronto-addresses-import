@@ -39,7 +39,15 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49609,
       "latitude": 43.66762,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007678, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006286, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 52.27, \"CENTRELINE_OFFSET\": 18.5, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051841\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007678, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006286, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 52.27, \"CENTRELINE_OFFSET\": 18.5, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051841\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -59,7 +67,15 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49563,
       "latitude": 43.66793,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007680, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006285, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 77.14, \"CENTRELINE_OFFSET\": 25.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051842\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007680, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006285, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 77.14, \"CENTRELINE_OFFSET\": 25.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051842\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -79,7 +95,15 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49555,
       "latitude": 43.66734,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007672, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006282, \"CENTRELINE_ID\": 60068808, \"CENTRELINE_MEASURE\": 78.92, \"CENTRELINE_OFFSET\": 11.33, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30304.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051843\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007672, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006282, \"CENTRELINE_ID\": 60068808, \"CENTRELINE_MEASURE\": 78.92, \"CENTRELINE_OFFSET\": 11.33, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30304.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051843\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -99,7 +123,15 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49609,
       "latitude": 43.66727,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007674, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006283, \"CENTRELINE_ID\": 60068808, \"CENTRELINE_MEASURE\": 122.91, \"CENTRELINE_OFFSET\": 15.88, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30304.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051844\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007674, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006283, \"CENTRELINE_ID\": 60068808, \"CENTRELINE_MEASURE\": 122.91, \"CENTRELINE_OFFSET\": 15.88, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30304.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051844\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -119,7 +151,21 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49578,
       "latitude": 43.66695,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007671, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 51297, \"CENTRELINE_ID\": 60068724, \"CENTRELINE_MEASURE\": 54.65, \"CENTRELINE_OFFSET\": 25.88, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 890.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051845\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007671, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 51297, \"CENTRELINE_ID\": 60068724, \"CENTRELINE_MEASURE\": 54.65, \"CENTRELINE_OFFSET\": 25.88, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 890.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051845\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -139,7 +185,15 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Southwest",
       "longitude": -79.25704,
       "latitude": 43.70151,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007683, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006287, \"CENTRELINE_ID\": 112739, \"CENTRELINE_MEASURE\": 315.04, \"CENTRELINE_OFFSET\": 23.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8702.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051846\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007683, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006287, \"CENTRELINE_ID\": 112739, \"CENTRELINE_MEASURE\": 315.04, \"CENTRELINE_OFFSET\": 23.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8702.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051846\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -159,7 +213,15 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.4956,
       "latitude": 43.66772,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007676, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006284, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 53.87, \"CENTRELINE_OFFSET\": 22.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051847\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007676, \"ADDRESS_ID_LINK\": 60007671, \"ADDRESS_POINT_ID_LINK\": 60068830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006284, \"CENTRELINE_ID\": 60068819, \"CENTRELINE_MEASURE\": 53.87, \"CENTRELINE_OFFSET\": 22.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30305.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051847\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 27,
@@ -179,7 +241,15 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Southwest",
       "longitude": -79.257,
       "latitude": 43.70156,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007686, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006288, \"CENTRELINE_ID\": 112739, \"CENTRELINE_MEASURE\": 321.16, \"CENTRELINE_OFFSET\": 23.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8702.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051848\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007686, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006288, \"CENTRELINE_ID\": 112739, \"CENTRELINE_MEASURE\": 321.16, \"CENTRELINE_OFFSET\": 23.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8702.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051848\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "history": [
+        {
+          "date": "2026-04-13",
+          "kind": "added",
+          "snapshot_id": 27,
+          "current": true
+        }
+      ]
     }
   ],
   "removed": [],

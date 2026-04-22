@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -546,6 +555,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -556,6 +566,7 @@
               <td>Florence Ave</td>
               <td>North York</td>
               <td>Willowdale</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-02-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.75743&mlon=-79.41272#map=18/43.75743/-79.41272"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -566,6 +577,7 @@
               <td>Florence Ave</td>
               <td>North York</td>
               <td>Willowdale</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-02-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.75740&mlon=-79.41280#map=18/43.75740/-79.41280"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -576,6 +588,7 @@
               <td>Park St</td>
               <td>Scarborough</td>
               <td>Scarborough Southwest</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-02-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.71141&mlon=-79.25002#map=18/43.71141/-79.25002"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -586,6 +599,7 @@
               <td>Park St</td>
               <td>Scarborough</td>
               <td>Scarborough Southwest</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-02-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.71143&mlon=-79.24995#map=18/43.71143/-79.24995"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -611,6 +625,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -621,6 +636,7 @@
                 <td>Lake Promenade</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke-Lakeshore</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.58994&mlon=-79.52744#map=18/43.58994/-79.52744"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -631,6 +647,7 @@
                 <td>Dixon Rd</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke Centre</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.69843&mlon=-79.53969#map=18/43.69843/-79.53969"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -641,6 +658,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67935&mlon=-79.34393#map=18/43.67935/-79.34393"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -651,6 +669,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67939&mlon=-79.34343#map=18/43.67939/-79.34343"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -661,6 +680,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67951&mlon=-79.34358#map=18/43.67951/-79.34358"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -671,6 +691,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67946&mlon=-79.34377#map=18/43.67946/-79.34377"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -681,6 +702,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67947&mlon=-79.34382#map=18/43.67947/-79.34382"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -691,6 +713,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67931&mlon=-79.34386#map=18/43.67931/-79.34386"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -701,6 +724,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67935&mlon=-79.34414#map=18/43.67935/-79.34414"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -711,6 +735,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67933&mlon=-79.34419#map=18/43.67933/-79.34419"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -721,6 +746,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67932&mlon=-79.34422#map=18/43.67932/-79.34422"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -731,6 +757,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67931&mlon=-79.34430#map=18/43.67931/-79.34430"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -741,6 +768,7 @@
                 <td>Danforth Ave</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.67929&mlon=-79.34443#map=18/43.67929/-79.34443"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -751,6 +779,7 @@
                 <td>Irwin Rd</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke North</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.72630&mlon=-79.55487#map=18/43.72630/-79.55487"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -761,6 +790,7 @@
                 <td>Irwin Rd</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke North</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-02-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.72607&mlon=-79.55557#map=18/43.72607/-79.55557"
                     target="_blank" rel="noopener">View ↗</a></td>

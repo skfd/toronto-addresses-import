@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -626,6 +635,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -636,6 +646,7 @@
               <td>Dundas St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.65903&mlon=-79.45303#map=18/43.65903/-79.45303"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -646,6 +657,7 @@
               <td>Dundas St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.65920&mlon=-79.45311#map=18/43.65920/-79.45311"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -656,6 +668,7 @@
               <td>Dundas St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.65879&mlon=-79.45292#map=18/43.65879/-79.45292"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -666,6 +679,7 @@
               <td>Dundas St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.65889&mlon=-79.45295#map=18/43.65889/-79.45295"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -676,6 +690,7 @@
               <td>Grandview Ave</td>
               <td>former Toronto</td>
               <td>Toronto-Danforth</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.67416&mlon=-79.34915#map=18/43.67416/-79.34915"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -686,6 +701,7 @@
               <td>Woodmount Ave</td>
               <td>East York</td>
               <td>Beaches-East York</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.69925&mlon=-79.32109#map=18/43.69925/-79.32109"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -696,6 +712,7 @@
               <td>Gilmour Ave</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-17</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66235&mlon=-79.47789#map=18/43.66235/-79.47789"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -721,6 +738,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -731,6 +749,7 @@
                 <td>Sammon Ave</td>
                 <td>East York</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-17</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.68645&mlon=-79.33577#map=18/43.68645/-79.33577"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -741,6 +760,7 @@
                 <td>Lake Shore Blvd W</td>
                 <td>Etobicoke</td>
                 <td>Etobicoke-Lakeshore</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-17</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.61015&mlon=-79.48925#map=18/43.61015/-79.48925"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -751,6 +771,7 @@
                 <td>Dundas St W</td>
                 <td>former Toronto</td>
                 <td>Parkdale-High Park</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-17</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.65913&mlon=-79.45307#map=18/43.65913/-79.45307"
                     target="_blank" rel="noopener">View ↗</a></td>

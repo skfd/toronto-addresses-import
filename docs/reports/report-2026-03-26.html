@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -514,6 +523,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -524,6 +534,7 @@
               <td>Shorncliffe Rd</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63146&mlon=-79.54462#map=18/43.63146/-79.54462"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -534,6 +545,7 @@
               <td>Shorncliffe Rd</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63154&mlon=-79.54466#map=18/43.63154/-79.54466"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -544,6 +556,7 @@
               <td>Shorncliffe Rd</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63151&mlon=-79.54464#map=18/43.63151/-79.54464"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -554,6 +567,7 @@
               <td>Dundas St W</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63176&mlon=-79.54477#map=18/43.63176/-79.54477"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -564,6 +578,7 @@
               <td>Shorncliffe Rd</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63160&mlon=-79.54469#map=18/43.63160/-79.54469"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -574,6 +589,7 @@
               <td>Shorncliffe Rd</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-26</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63167&mlon=-79.54472#map=18/43.63167/-79.54472"
                   target="_blank" rel="noopener">View ↗</a></td>

@@ -39,7 +39,15 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.38829,
       "latitude": 43.7042,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007297, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006214, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 99.35, \"CENTRELINE_OFFSET\": 17.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658273\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007297, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006214, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 99.35, \"CENTRELINE_OFFSET\": 17.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658273\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "history": [
+        {
+          "date": "2026-02-23",
+          "kind": "added",
+          "snapshot_id": 6,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 6,
@@ -59,7 +67,15 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.38805,
       "latitude": 43.70423,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007299, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006215, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 98.19, \"CENTRELINE_OFFSET\": 37.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658274\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007299, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006215, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 98.19, \"CENTRELINE_OFFSET\": 37.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658274\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "history": [
+        {
+          "date": "2026-02-23",
+          "kind": "added",
+          "snapshot_id": 6,
+          "current": true
+        }
+      ]
     }
   ],
   "removed": [
@@ -81,7 +97,21 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53433,
       "latitude": 43.61963,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 9778, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 630008, \"CENTRELINE_ID\": 913562, \"CENTRELINE_MEASURE\": -2.81, \"CENTRELINE_OFFSET\": 18.46, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2709.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5580884\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 9778, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 630008, \"CENTRELINE_ID\": 913562, \"CENTRELINE_MEASURE\": -2.81, \"CENTRELINE_OFFSET\": 18.46, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2709.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5580884\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-02-23",
+          "kind": "removed",
+          "snapshot_id": 6,
+          "current": true
+        }
+      ]
     }
   ],
   "modified": [],

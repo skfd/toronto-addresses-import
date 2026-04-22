@@ -40,7 +40,21 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.37111,
       "latitude": 43.71088,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1483960, \"ADDRESS_ID_LINK\": 561550, \"ADDRESS_POINT_ID_LINK\": 11915539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 381829, \"CENTRELINE_ID\": 3244890, \"CENTRELINE_MEASURE\": 177.77, \"CENTRELINE_OFFSET\": 36.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 187.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1613219\", \"PLACE_NAME\": \"Howard Talbot Park\", \"PLACE_NAME_ALL\": \"Howard Talbot Park\", \"WARD\": \"15\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1483960, \"ADDRESS_ID_LINK\": 561550, \"ADDRESS_POINT_ID_LINK\": 11915539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 381829, \"CENTRELINE_ID\": 3244890, \"CENTRELINE_MEASURE\": 177.77, \"CENTRELINE_OFFSET\": 36.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 187.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1613219\", \"PLACE_NAME\": \"Howard Talbot Park\", \"PLACE_NAME_ALL\": \"Howard Talbot Park\", \"WARD\": \"15\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-03-10",
+          "kind": "removed",
+          "snapshot_id": 14,
+          "current": true
+        }
+      ]
     }
   ],
   "modified": [],

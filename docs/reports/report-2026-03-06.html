@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -522,6 +531,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -532,6 +542,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66349&mlon=-79.33011#map=18/43.66349/-79.33011"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -542,6 +553,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66354&mlon=-79.32986#map=18/43.66354/-79.32986"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -552,6 +564,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66353&mlon=-79.32993#map=18/43.66353/-79.32993"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -562,6 +575,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66350&mlon=-79.33005#map=18/43.66350/-79.33005"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -572,6 +586,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66364&mlon=-79.32941#map=18/43.66364/-79.32941"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -582,6 +597,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66366&mlon=-79.32936#map=18/43.66366/-79.32936"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -592,6 +608,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66351&mlon=-79.32999#map=18/43.66351/-79.32999"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -602,6 +619,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66356&mlon=-79.32980#map=18/43.66356/-79.32980"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -612,6 +630,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66359&mlon=-79.32966#map=18/43.66359/-79.32966"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -622,6 +641,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66362&mlon=-79.32954#map=18/43.66362/-79.32954"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -632,6 +652,7 @@
                 <td>Queen St E</td>
                 <td>former Toronto</td>
                 <td>Toronto-Danforth</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-06</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66363&mlon=-79.32948#map=18/43.66363/-79.32948"
                     target="_blank" rel="noopener">View ↗</a></td>

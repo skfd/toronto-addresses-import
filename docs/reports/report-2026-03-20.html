@@ -399,8 +399,17 @@
       font-size: 12px;
       color: var(--text-dim);
     }
+
+    .history { font-size: 12.5px; color: var(--text-secondary); white-space: nowrap; }
+    .history .a { color: var(--green); font-weight: 500; }
+    .history .r { color: var(--red); font-weight: 500; }
+    .history .now { text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 2px; }
+    .history .dot { color: var(--text-dim); margin: 0 4px; }
+    .history-none { color: var(--text-dim); font-style: italic; font-size: 12.5px; }
   </style>
 </head>
+
+
 
 <body>
 
@@ -514,6 +523,7 @@
               <th onclick="sortTable('tbl-added-t',1)">Street</th>
               <th onclick="sortTable('tbl-added-t',2)">Municipality</th>
               <th onclick="sortTable('tbl-added-t',3)">Ward</th>
+              <th>History</th>
               <th>Map</th>
             </tr>
           </thead>
@@ -524,6 +534,7 @@
               <td>Graystone Gdns</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.64003&mlon=-79.52282#map=18/43.64003/-79.52282"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -534,6 +545,7 @@
               <td>King St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63702&mlon=-79.43781#map=18/43.63702/-79.43781"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -544,6 +556,7 @@
               <td>Graystone Gdns</td>
               <td>Etobicoke</td>
               <td>Etobicoke-Lakeshore</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.64003&mlon=-79.52290#map=18/43.64003/-79.52290"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -554,6 +567,7 @@
               <td>King St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63705&mlon=-79.43759#map=18/43.63705/-79.43759"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -564,6 +578,7 @@
               <td>High Park Ave</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.66227&mlon=-79.46940#map=18/43.66227/-79.46940"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -574,6 +589,7 @@
               <td>Maynard Ave</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63715&mlon=-79.43754#map=18/43.63715/-79.43754"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -584,6 +600,7 @@
               <td>King St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63704&mlon=-79.43770#map=18/43.63704/-79.43770"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -594,6 +611,7 @@
               <td>King St W</td>
               <td>former Toronto</td>
               <td>Parkdale-High Park</td>
+              <td><span class="history"><span class="a">+ <span class="now">2026-03-20</span></span></span></td>
               <td><a class="map-link"
                   href="https://www.openstreetmap.org/?mlat=43.63714&mlon=-79.43791#map=18/43.63714/-79.43791"
                   target="_blank" rel="noopener">View ↗</a></td>
@@ -619,6 +637,7 @@
                 <th onclick="sortTable('tbl-removed-t',1)">Street</th>
                 <th onclick="sortTable('tbl-removed-t',2)">Municipality</th>
                 <th onclick="sortTable('tbl-removed-t',3)">Ward</th>
+                <th>History</th>
                 <th>Map</th>
               </tr>
             </thead>
@@ -629,6 +648,7 @@
                 <td>Gerrard St E</td>
                 <td>former Toronto</td>
                 <td>Toronto Centre</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66212&mlon=-79.36473#map=18/43.66212/-79.36473"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -639,6 +659,7 @@
                 <td>Sackville St</td>
                 <td>former Toronto</td>
                 <td>Toronto Centre</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66156&mlon=-79.36413#map=18/43.66156/-79.36413"
                     target="_blank" rel="noopener">View ↗</a></td>
@@ -649,6 +670,7 @@
                 <td>Gerrard St E</td>
                 <td>former Toronto</td>
                 <td>Toronto Centre</td>
+                <td><span class="history"><span class="a">+ <span class="">2025-04-01</span></span><span class="dot">·</span><span class="r">− <span class="now">2026-03-20</span></span></span></td>
                 <td><a class="map-link"
                     href="https://www.openstreetmap.org/?mlat=43.66194&mlon=-79.36534#map=18/43.66194/-79.36534"
                     target="_blank" rel="noopener">View ↗</a></td>

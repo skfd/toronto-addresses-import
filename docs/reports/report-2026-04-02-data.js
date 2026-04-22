@@ -39,7 +39,15 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.52326,
       "latitude": 43.62564,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007565, \"ADDRESS_ID_LINK\": 14561, \"ADDRESS_POINT_ID_LINK\": 989474, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006268, \"CENTRELINE_ID\": 913323, \"CENTRELINE_MEASURE\": 199.28, \"CENTRELINE_OFFSET\": 21.03, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1215.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051817\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007565, \"ADDRESS_ID_LINK\": 14561, \"ADDRESS_POINT_ID_LINK\": 989474, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006268, \"CENTRELINE_ID\": 913323, \"CENTRELINE_MEASURE\": 199.28, \"CENTRELINE_OFFSET\": 21.03, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1215.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051817\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -59,7 +67,15 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.36775,
       "latitude": 43.66421,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007572, \"ADDRESS_ID_LINK\": 250280, \"ADDRESS_POINT_ID_LINK\": 9980648, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006271, \"CENTRELINE_ID\": 20004375, \"CENTRELINE_MEASURE\": 28.07, \"CENTRELINE_OFFSET\": 15.35, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051818\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007572, \"ADDRESS_ID_LINK\": 250280, \"ADDRESS_POINT_ID_LINK\": 9980648, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006271, \"CENTRELINE_ID\": 20004375, \"CENTRELINE_MEASURE\": 28.07, \"CENTRELINE_OFFSET\": 15.35, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051818\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -79,7 +95,15 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Southwest",
       "longitude": -79.25213,
       "latitude": 43.7065,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007570, \"ADDRESS_ID_LINK\": 1595640, \"ADDRESS_POINT_ID_LINK\": 30133508, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006270, \"CENTRELINE_ID\": 112534, \"CENTRELINE_MEASURE\": 280.3, \"CENTRELINE_OFFSET\": 9.98, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051819\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007570, \"ADDRESS_ID_LINK\": 1595640, \"ADDRESS_POINT_ID_LINK\": 30133508, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006270, \"CENTRELINE_ID\": 112534, \"CENTRELINE_MEASURE\": 280.3, \"CENTRELINE_OFFSET\": 9.98, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051819\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -99,7 +123,15 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Southwest",
       "longitude": -79.25218,
       "latitude": 43.70645,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007568, \"ADDRESS_ID_LINK\": 1595637, \"ADDRESS_POINT_ID_LINK\": 30133506, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006269, \"CENTRELINE_ID\": 112534, \"CENTRELINE_MEASURE\": 272.97, \"CENTRELINE_OFFSET\": 10.54, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051820\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007568, \"ADDRESS_ID_LINK\": 1595637, \"ADDRESS_POINT_ID_LINK\": 30133506, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006269, \"CENTRELINE_ID\": 112534, \"CENTRELINE_MEASURE\": 272.97, \"CENTRELINE_OFFSET\": 10.54, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051820\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -119,7 +151,21 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.46886,
       "latitude": 43.66615,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007606, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 64737, \"CENTRELINE_ID\": 14020593, \"CENTRELINE_MEASURE\": 12.76, \"CENTRELINE_OFFSET\": 19.0, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4137.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051821\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007606, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 64737, \"CENTRELINE_ID\": 14020593, \"CENTRELINE_MEASURE\": 12.76, \"CENTRELINE_OFFSET\": 19.0, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4137.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051821\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -139,7 +185,21 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.46885,
       "latitude": 43.6661,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007605, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 64739, \"CENTRELINE_ID\": 14020593, \"CENTRELINE_MEASURE\": 6.84, \"CENTRELINE_OFFSET\": 18.06, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4137.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051822\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007605, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 64739, \"CENTRELINE_ID\": 14020593, \"CENTRELINE_MEASURE\": 6.84, \"CENTRELINE_OFFSET\": 18.06, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4137.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051822\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 23,
@@ -159,7 +219,15 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.40758,
       "latitude": 43.661,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007607, \"ADDRESS_ID_LINK\": 146829, \"ADDRESS_POINT_ID_LINK\": 10906291, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006272, \"CENTRELINE_ID\": 14022016, \"CENTRELINE_MEASURE\": 53.95, \"CENTRELINE_OFFSET\": 6.93, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3243.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051823\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007607, \"ADDRESS_ID_LINK\": 146829, \"ADDRESS_POINT_ID_LINK\": 10906291, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006272, \"CENTRELINE_ID\": 14022016, \"CENTRELINE_MEASURE\": 53.95, \"CENTRELINE_OFFSET\": 6.93, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3243.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051823\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "history": [
+        {
+          "date": "2026-04-02",
+          "kind": "added",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     }
   ],
   "removed": [
@@ -181,7 +249,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30078,
       "latitude": 43.6934,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599223, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002654, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 12.2, \"CENTRELINE_OFFSET\": 41.34, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"548808\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599223, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002654, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 12.2, \"CENTRELINE_OFFSET\": 41.34, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"548808\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -201,7 +283,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30042,
       "latitude": 43.69326,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599225, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 212142, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 35.35, \"CENTRELINE_OFFSET\": 18.24, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"576432\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599225, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 212142, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 35.35, \"CENTRELINE_OFFSET\": 18.24, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"576432\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -221,7 +317,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30048,
       "latitude": 43.69335,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599234, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002659, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 33.16, \"CENTRELINE_OFFSET\": 29.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"636685\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599234, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002659, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 33.16, \"CENTRELINE_OFFSET\": 29.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"636685\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -241,7 +351,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30078,
       "latitude": 43.69346,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599219, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002655, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 13.99, \"CENTRELINE_OFFSET\": 47.75, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"640106\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599219, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002655, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 13.99, \"CENTRELINE_OFFSET\": 47.75, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"640106\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -261,7 +385,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30075,
       "latitude": 43.69329,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599217, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002652, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 10.56, \"CENTRELINE_OFFSET\": 29.3, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"698464\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599217, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002652, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 10.56, \"CENTRELINE_OFFSET\": 29.3, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"698464\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -281,7 +419,21 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17501,
       "latitude": 43.79706,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521559, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 376854, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 98.48, \"CENTRELINE_OFFSET\": 31.63, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"748726\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521559, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 376854, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 98.48, \"CENTRELINE_OFFSET\": 31.63, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"748726\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -301,7 +453,27 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17451,
       "latitude": 43.79657,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521562, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615647, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 163.05, \"CENTRELINE_OFFSET\": 25.37, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"762285\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521562, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615647, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 163.05, \"CENTRELINE_OFFSET\": 25.37, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"762285\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        },
+        {
+          "date": "2026-04-03",
+          "kind": "added",
+          "snapshot_id": 24,
+          "current": false
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -321,7 +493,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30059,
       "latitude": 43.6935,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599226, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002656, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 30.2, \"CENTRELINE_OFFSET\": 47.73, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"780771\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599226, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002656, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 30.2, \"CENTRELINE_OFFSET\": 47.73, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"780771\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -341,7 +527,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30045,
       "latitude": 43.6933,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599230, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002660, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 34.02, \"CENTRELINE_OFFSET\": 22.91, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"796670\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599230, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002660, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 34.02, \"CENTRELINE_OFFSET\": 22.91, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"796670\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -361,7 +561,27 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.175,
       "latitude": 43.79649,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521573, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615646, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 167.18, \"CENTRELINE_OFFSET\": 15.17, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"862263\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521573, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615646, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 167.18, \"CENTRELINE_OFFSET\": 15.17, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"862263\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        },
+        {
+          "date": "2026-04-03",
+          "kind": "added",
+          "snapshot_id": 24,
+          "current": false
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -381,7 +601,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30074,
       "latitude": 43.69323,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599215, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002651, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 9.74, \"CENTRELINE_OFFSET\": 23.4, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"909139\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599215, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002651, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 9.74, \"CENTRELINE_OFFSET\": 23.4, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"909139\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -401,7 +635,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30076,
       "latitude": 43.69334,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599221, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002653, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 11.42, \"CENTRELINE_OFFSET\": 35.56, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"918732\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599221, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002653, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 11.42, \"CENTRELINE_OFFSET\": 35.56, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"918732\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -421,7 +669,21 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17485,
       "latitude": 43.79678,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521568, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615645, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 101.15, \"CENTRELINE_OFFSET\": 64.99, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"922868\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521568, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615645, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 101.15, \"CENTRELINE_OFFSET\": 64.99, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"922868\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -441,7 +703,21 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.4082,
       "latitude": 43.66169,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474706, \"ADDRESS_ID_LINK\": 632999, \"ADDRESS_POINT_ID_LINK\": 10906319, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 155852, \"CENTRELINE_ID\": 9109358, \"CENTRELINE_MEASURE\": 32.5, \"CENTRELINE_OFFSET\": 16.51, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3605.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"935331\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474706, \"ADDRESS_ID_LINK\": 632999, \"ADDRESS_POINT_ID_LINK\": 10906319, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 155852, \"CENTRELINE_ID\": 9109358, \"CENTRELINE_MEASURE\": 32.5, \"CENTRELINE_OFFSET\": 16.51, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3605.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"935331\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -461,7 +737,21 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.40815,
       "latitude": 43.6617,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474707, \"ADDRESS_ID_LINK\": 632999, \"ADDRESS_POINT_ID_LINK\": 10906319, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 155853, \"CENTRELINE_ID\": 9109358, \"CENTRELINE_MEASURE\": 28.61, \"CENTRELINE_OFFSET\": 16.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3605.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"960412\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474707, \"ADDRESS_ID_LINK\": 632999, \"ADDRESS_POINT_ID_LINK\": 10906319, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 155853, \"CENTRELINE_ID\": 9109358, \"CENTRELINE_MEASURE\": 28.61, \"CENTRELINE_OFFSET\": 16.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3605.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"960412\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -481,7 +771,27 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17456,
       "latitude": 43.7967,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521565, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615648, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 177.88, \"CENTRELINE_OFFSET\": 25.8, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"972221\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 1521565, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615648, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 177.88, \"CENTRELINE_OFFSET\": 25.8, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"972221\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        },
+        {
+          "date": "2026-04-03",
+          "kind": "added",
+          "snapshot_id": 24,
+          "current": false
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -501,7 +811,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30055,
       "latitude": 43.69346,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599228, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002657, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 31.23, \"CENTRELINE_OFFSET\": 42.57, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1025221\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599228, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002657, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 31.23, \"CENTRELINE_OFFSET\": 42.57, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1025221\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     },
     {
       "min_snapshot_id": 16,
@@ -521,7 +845,21 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30051,
       "latitude": 43.6934,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599232, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002658, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 32.64, \"CENTRELINE_OFFSET\": 35.82, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1043092\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}"
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1599232, \"ADDRESS_ID_LINK\": 202301, \"ADDRESS_POINT_ID_LINK\": 33933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60002658, \"CENTRELINE_ID\": 1324, \"CENTRELINE_MEASURE\": 32.64, \"CENTRELINE_OFFSET\": 35.82, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 324.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1043092\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-04-02",
+          "kind": "removed",
+          "snapshot_id": 23,
+          "current": true
+        }
+      ]
     }
   ],
   "modified": [],
