@@ -1,7 +1,9 @@
 """Diff two snapshots to find added, removed, and modified addresses."""
 
+import re
 import sqlite3
 import os
+from collections import defaultdict
 
 DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "addresses.db")
 
@@ -68,6 +70,32 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
           AND o.min_snapshot_id != n.min_snapshot_id
     """, (old_snapshot_id, old_snapshot_id, new_snapshot_id, new_snapshot_id)).fetchall()
 
+    # Attach history events to each added/removed row
+    added_rows = [dict(r) for r in added]
+    removed_rows = [dict(r) for r in removed]
+
+    _, snap_dates = get_snapshot_timeline(conn)
+    histories = compute_histories(
+        conn,
+        {(r["address_full"], r["municipality_name"]) for r in added_rows}
+        | {(r["address_full"], r["municipality_name"]) for r in removed_rows},
+    )
+    current_date = snap_dates.get(new_snapshot_id, "")
+    for r in added_rows:
+        r["history"] = _mark_current(
+            histories.get((r["address_full"], r["municipality_name"]), []),
+            new_snapshot_id,
+            "added",
+            current_date,
+        )
+    for r in removed_rows:
+        r["history"] = _mark_current(
+            histories.get((r["address_full"], r["municipality_name"]), []),
+            new_snapshot_id,
+            "removed",
+            current_date,
+        )
+
     conn.close()
 
     # Build structured modifications
@@ -103,8 +131,8 @@ def compute_diff(old_snapshot_id, new_snapshot_id):
     return {
         "old_snapshot_id": old_snapshot_id,
         "new_snapshot_id": new_snapshot_id,
-        "added": [dict(r) for r in added],
-        "removed": [dict(r) for r in removed],
+        "added": added_rows,
+        "removed": removed_rows,
         "modified": modified,
     }
 
@@ -130,3 +158,87 @@ def _is_projected(val):
     if isinstance(val, (int, float)):
         return abs(val) > 180
     return False
+
+
+def get_snapshot_timeline(conn):
+    """Return (ordered_snapshot_ids, snapshot_id -> YYYY-MM-DD) for non-skipped snapshots."""
+    rows = conn.execute(
+        "SELECT id, filename, downloaded FROM snapshots WHERE skipped = 0 ORDER BY id"
+    ).fetchall()
+    ids = [r["id"] for r in rows]
+    dates = {}
+    for r in rows:
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", r["filename"] or "")
+        dates[r["id"]] = m.group(1) if m else (r["downloaded"] or "")[:10]
+    return ids, dates
+
+
+def compute_histories(conn, keys):
+    """For each (address_full, municipality_name) key, return the list of
+    added/removed events across the snapshot timeline.
+
+    Event: {"date": "YYYY-MM-DD", "kind": "added"|"removed", "snapshot_id": int}
+    """
+    if not keys:
+        return {}
+
+    ids, dates = get_snapshot_timeline(conn)
+
+    ranges_by_key = defaultdict(list)
+    keys_list = list(keys)
+    BATCH = 400
+    for i in range(0, len(keys_list), BATCH):
+        batch = keys_list[i:i + BATCH]
+        placeholders = ",".join(["(?,?)"] * len(batch))
+        params = []
+        for af, muni in batch:
+            params.extend([af, muni])
+        query = f"""
+            SELECT address_full, municipality_name, min_snapshot_id, max_snapshot_id
+            FROM addresses
+            WHERE (address_full, municipality_name) IN (VALUES {placeholders})
+        """
+        for row in conn.execute(query, params):
+            k = (row["address_full"], row["municipality_name"])
+            ranges_by_key[k].append((row["min_snapshot_id"], row["max_snapshot_id"]))
+
+    histories = {}
+    for key in keys:
+        ranges = ranges_by_key.get(key, [])
+        events = []
+        prev = False
+        for sid in ids:
+            present = any(mn <= sid <= mx for mn, mx in ranges)
+            if present and not prev:
+                events.append({"date": dates[sid], "kind": "added", "snapshot_id": sid})
+            elif not present and prev:
+                events.append({"date": dates[sid], "kind": "removed", "snapshot_id": sid})
+            prev = present
+        histories[key] = events
+    return histories
+
+
+def _mark_current(events, current_snapshot_id, current_kind, current_date):
+    """Return a copy of events with current=True on the event that matches this report.
+
+    If no matching event exists (e.g. an 'added' row for a duplicate point ID on an
+    address that was already present at the key level), insert a synthetic current
+    event so the timeline always shows what this report did.
+    """
+    out = [dict(e) for e in events]
+    for ev in out:
+        if ev["snapshot_id"] == current_snapshot_id and ev["kind"] == current_kind:
+            ev["current"] = True
+            for other in out:
+                other.setdefault("current", False)
+            return out
+    for ev in out:
+        ev["current"] = False
+    out.append({
+        "date": current_date,
+        "kind": current_kind,
+        "snapshot_id": current_snapshot_id,
+        "current": True,
+    })
+    out.sort(key=lambda e: e["snapshot_id"])
+    return out

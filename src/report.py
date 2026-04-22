@@ -194,6 +194,12 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
     _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location))
     update_index()
 
+    # Regenerate past reports whose added/removed rows share an address key with this one.
+    # Their histories now gain this new report's event.
+    affected_keys = {(r.get("address_full"), r.get("municipality_name")) for r in diff_result["added"] + diff_result["removed"]}
+    if affected_keys:
+        rebuild_histories(affected_keys=affected_keys)
+
     return outpath
 
 
@@ -317,6 +323,77 @@ def _migrate_location_arrow(mods):
                 if m:
                     ch["arrow"] = m.group(1)
                     ch["new"] = ch["new"][:m.start()]
+
+
+def rebuild_histories(affected_keys=None):
+    """Recompute history for every non-skipped report's added/removed rows.
+
+    If affected_keys is provided (set of (address_full, municipality_name) tuples),
+    only reports with at least one added/removed row matching those keys are touched.
+    Otherwise, all non-skipped reports are regenerated.
+    """
+    import glob as globmod
+    import sqlite3
+
+    from src.diff import compute_histories, get_snapshot_timeline, _mark_current
+    from src.db import DB_PATH
+
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    _, snap_dates = get_snapshot_timeline(conn)
+
+    data_files = sorted(globmod.glob(os.path.join(REPORTS_DIR, "report-*-data.js")))
+    touched = 0
+    for data_path in data_files:
+        basename = os.path.basename(data_path)
+        if "-skipped-data.js" in basename:
+            continue
+        html_name = basename.replace("-data.js", ".html")
+
+        with open(data_path, "r", encoding="utf-8") as f:
+            raw = f.read()
+        json_str = raw.split("=", 1)[1].strip().rstrip(";")
+        context = json.loads(json_str)
+
+        added = context.get("added", [])
+        removed = context.get("removed", [])
+        if not added and not removed:
+            continue
+
+        keys_here = {(r.get("address_full"), r.get("municipality_name")) for r in added + removed}
+        if affected_keys is not None and keys_here.isdisjoint(affected_keys):
+            continue
+
+        new_snap_id = context["new_snapshot"]["id"]
+        current_date = snap_dates.get(new_snap_id, context["new_snapshot"].get("downloaded", "")[:10])
+
+        histories = compute_histories(conn, keys_here)
+        for r in added:
+            r["history"] = _mark_current(
+                histories.get((r.get("address_full"), r.get("municipality_name")), []),
+                new_snap_id, "added", current_date,
+            )
+        for r in removed:
+            r["history"] = _mark_current(
+                histories.get((r.get("address_full"), r.get("municipality_name")), []),
+                new_snap_id, "removed", current_date,
+            )
+
+        with open(data_path, "w", encoding="utf-8") as f:
+            f.write("window.REPORT_DATA = ")
+            json.dump(context, f, indent=2, default=str)
+
+        _migrate_location_arrow(context.get("modified", []))
+        _migrate_location_arrow(context.get("modified_location", []))
+        html = _render_report_html(context)
+        outpath = os.path.join(REPORTS_DIR, html_name)
+        with open(outpath, "w", encoding="utf-8") as f:
+            f.write(html)
+        touched += 1
+        print(f"History updated: {html_name}")
+
+    conn.close()
+    print(f"History updated in {touched} report(s).")
 
 
 def refresh_reports():

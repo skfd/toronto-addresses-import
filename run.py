@@ -271,6 +271,8 @@ def main():
     
     sub.add_parser("refresh-reports", help="Regenerate HTML shells and index from JSON data")
 
+    sub.add_parser("rebuild-histories", help="Recompute add/remove history for all reports and re-render them")
+
     up = sub.add_parser("update", help="Download + import + diff + report")
     up.add_argument("--force", action="store_true", help="Force re-download")
 
@@ -293,6 +295,7 @@ def main():
         "report": cmd_report,
         "report-all": cmd_report_all,
         "refresh-reports": lambda a: __import__("src.report").report.refresh_reports(),
+        "rebuild-histories": lambda a: (__import__("src.report").report.rebuild_histories(), __import__("src.report").report.update_index()),
         "update": cmd_update,
         "storage": cmd_storage,
         "rebuild": cmd_rebuild,
