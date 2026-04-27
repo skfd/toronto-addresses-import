@@ -556,5 +556,14 @@
     "modified": 54,
     "modified_location": 54,
     "new_streets": []
+  },
+  "1777256510": {
+    "date": "2026-04-26",
+    "filename": "reports/report-2026-04-26-skipped.html",
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "modified_location": 0,
+    "new_streets": []
   }
 }
