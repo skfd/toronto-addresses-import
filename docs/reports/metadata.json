@@ -592,5 +592,14 @@
     "modified": 9,
     "modified_location": 9,
     "new_streets": []
+  },
+  "36": {
+    "date": "2026-04-30",
+    "filename": "reports/report-2026-04-30.html",
+    "added": 0,
+    "removed": 0,
+    "modified": 34,
+    "modified_location": 34,
+    "new_streets": []
   }
 }
