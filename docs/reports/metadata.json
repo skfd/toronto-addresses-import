@@ -601,5 +601,14 @@
     "modified": 34,
     "modified_location": 34,
     "new_streets": []
+  },
+  "37": {
+    "date": "2026-05-01",
+    "filename": "reports/report-2026-05-01.html",
+    "added": 1,
+    "removed": 3,
+    "modified": 98,
+    "modified_location": 98,
+    "new_streets": []
   }
 }
