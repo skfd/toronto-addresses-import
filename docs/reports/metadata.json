@@ -754,5 +754,14 @@
     "modified": 0,
     "modified_location": 0,
     "new_streets": []
+  },
+  "47": {
+    "date": "2026-05-20",
+    "filename": "reports/report-2026-05-20.html",
+    "added": 3,
+    "removed": 2,
+    "modified": 0,
+    "modified_location": 0,
+    "new_streets": []
   }
 }
