@@ -808,5 +808,19 @@
     "modified": 0,
     "modified_location": 0,
     "new_streets": []
+  },
+  "50": {
+    "date": "2026-05-26",
+    "filename": "reports/report-2026-05-26.html",
+    "added": 7,
+    "removed": 0,
+    "modified": 0,
+    "modified_location": 0,
+    "new_streets": [
+      {
+        "street": "Chloe Cooley St",
+        "count": 6
+      }
+    ]
   }
 }
