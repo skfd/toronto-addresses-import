@@ -822,5 +822,14 @@
         "count": 6
       }
     ]
+  },
+  "51": {
+    "date": "2026-05-27",
+    "filename": "reports/report-2026-05-27.html",
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "modified_location": 0,
+    "new_streets": []
   }
 }
