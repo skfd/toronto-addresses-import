@@ -867,5 +867,14 @@
     "modified": 0,
     "modified_location": 0,
     "new_streets": []
+  },
+  "1780333204": {
+    "date": "2026-06-01",
+    "filename": "reports/report-2026-06-01-skipped.html",
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "modified_location": 0,
+    "new_streets": []
   }
 }
