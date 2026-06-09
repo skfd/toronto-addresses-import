@@ -110,6 +110,13 @@ def init_db():
             
         CREATE INDEX IF NOT EXISTS idx_addr_active
             ON addresses(max_snapshot_id);
+
+        -- Covering index for "last seen snapshot per point" (retirement scan).
+        -- Without it, MAX(max_snapshot_id) GROUP BY address_point_id can't use
+        -- the PK (ordered by min_snapshot_id) and degrades to a full table
+        -- lookup — ~8s on the citywide feed vs ~1s with this index.
+        CREATE INDEX IF NOT EXISTS idx_addr_point_max
+            ON addresses(address_point_id, max_snapshot_id);
     """)
     conn.commit()
     conn.close()
