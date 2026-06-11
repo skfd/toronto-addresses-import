@@ -1,4 +1,4 @@
-$taskName  = "TorontoAddressImport"
+$taskName  = "kk-toronto-import"
 $projectDir = $PSScriptRoot
 $logFile    = "$projectDir\logs\scheduler.log"
 

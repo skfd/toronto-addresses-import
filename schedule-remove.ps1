@@ -1,4 +1,4 @@
-$taskName = "TorontoAddressImport"
+$taskName = "kk-toronto-import"
 
 if (Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) {
     Unregister-ScheduledTask -TaskName $taskName -Confirm:$false

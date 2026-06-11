@@ -72,6 +72,6 @@ Two PowerShell scripts manage the Windows Task Scheduler entry. Run them as Admi
 .\schedule-remove.ps1
 ```
 
-The task is named `TorontoAddressImport` and can also be managed via the Task Scheduler GUI (`taskschd.msc`).
+The task is named `kk-toronto-import` and can also be managed via the Task Scheduler GUI (`taskschd.msc`).
 
 > If the task fails with a "python not found" error, replace `python` in `schedule-add.ps1` with the full path (e.g. `C:\Python312\python.exe`). Run `where python` in a terminal to find it.
