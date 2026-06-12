@@ -26,6 +26,7 @@ FIELD_DISPLAY_NAMES = {
     "linear_name_dir": "Street Direction",
     "municipality_name": "Municipality",
     "ward_name": "Ward",
+    "place_name": "Place Name",
     "longitude": "Location (longitude)",
     "latitude": "Location (latitude)",
 }
@@ -126,14 +127,17 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             if "display_field" not in ch:
                 ch["display_field"] = FIELD_DISPLAY_NAMES.get(ch["field"], ch["field"])
 
-    # Split modified into location-only vs significant changes
+    # Split modified into location-only / place-name-only vs significant changes
     # If an address has both location and other changes, it goes into significant
     modified_location = []
+    modified_place_name = []
     modified_significant = []
     for mod in diff_result["modified"]:
         fields = {c["field"] for c in mod["changes"]}
         if fields == {"location"}:
             modified_location.append(mod)
+        elif fields == {"place_name"}:
+            modified_place_name.append(mod)
         else:
             modified_significant.append(mod)
 
@@ -161,6 +165,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "removed": len(diff_result["removed"]),
         "modified": len(modified_significant),
         "modified_location": len(modified_location),
+        "modified_place_name": len(modified_place_name),
     }
     sparklines = _compute_sparklines(date_part, current_counts)
 
@@ -175,12 +180,14 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "removed": diff_result["removed"],
         "modified": modified_significant,
         "modified_location": modified_location,
+        "modified_place_name": modified_place_name,
         "new_streets": diff_result.get("new_streets", []),
         "stats": stats,
         "added_count": len(diff_result["added"]),
         "removed_count": len(diff_result["removed"]),
         "modified_count": len(modified_significant),
         "modified_location_count": len(modified_location),
+        "modified_place_name_count": len(modified_place_name),
         "sparklines": sparklines,
     }
 
@@ -201,7 +208,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
 
     # Update index
     # Use ID to ensure uniqueness
-    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location))
+    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location), modified_place_name=len(modified_place_name))
     update_index()
 
     # Regenerate past reports whose added/removed rows share an address_point_id
@@ -342,7 +349,7 @@ def _render_report_html(context):
     return template.render(**context)
 
 
-SPARKLINE_KEYS = ("added", "removed", "modified", "modified_location")
+SPARKLINE_KEYS = ("added", "removed", "modified", "modified_location", "modified_place_name")
 
 
 def _compute_sparklines(current_date, current_counts):
@@ -408,7 +415,9 @@ def _enrich_context(context):
     diff_like = {
         "added": context.get("added", []),
         "removed": context.get("removed", []),
-        "modified": list(context.get("modified", [])) + list(context.get("modified_location", [])),
+        "modified": list(context.get("modified", []))
+        + list(context.get("modified_location", []))
+        + list(context.get("modified_place_name", [])),
     }
     stats = _compute_stats(diff_like)
     if stats.get("field_changes"):
@@ -432,6 +441,7 @@ def _enrich_context(context):
             "removed": context.get("removed_count", 0),
             "modified": context.get("modified_count", 0),
             "modified_location": context.get("modified_location_count", 0),
+            "modified_place_name": context.get("modified_place_name_count", 0),
         }
         context["sparklines"] = _compute_sparklines(date_part, current_counts)
 
@@ -681,7 +691,7 @@ def update_index():
     print(f"Index updated: {outpath}")
 
 
-def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result, modified_location=0):
+def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result, modified_location=0, modified_place_name=0):
     """Update the JSON metadata file with stats for this report."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
     meta_path = os.path.join(REPORTS_DIR, "metadata.json")
@@ -707,6 +717,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result,
         "removed": len(diff_result["removed"]),
         "modified": len(diff_result["modified"]),
         "modified_location": modified_location,
+        "modified_place_name": modified_place_name,
         "new_streets": new_streets,
     }
 

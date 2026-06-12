@@ -21,6 +21,7 @@ COMPARE_COLUMNS = [
     "linear_name_dir",
     "municipality_name",
     "ward_name",
+    "place_name",
     "longitude",
     "latitude",
 ]

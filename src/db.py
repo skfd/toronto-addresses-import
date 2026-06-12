@@ -37,6 +37,7 @@ TRACKED_COLUMNS = [
     "LINEAR_NAME_DIR",
     "MUNICIPALITY_NAME",
     "WARD_NAME",
+    "PLACE_NAME",
 ]
 # Extracted from geometry coordinates
 GEO_COLUMNS = ["LONGITUDE", "LATITUDE"]
@@ -72,6 +73,16 @@ def init_db():
             # Table might not exist yet, which is fine, create it below
             pass
 
+    try:
+        conn.execute("SELECT place_name FROM addresses LIMIT 1")
+    except sqlite3.OperationalError:
+        try:
+            conn.execute("ALTER TABLE addresses ADD COLUMN place_name TEXT")
+            _migrate_place_name(conn)
+        except sqlite3.OperationalError:
+            # Table might not exist yet, which is fine, create it below
+            pass
+
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS snapshots (
             id          INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -99,6 +110,7 @@ def init_db():
             linear_name_dir     TEXT,
             municipality_name   TEXT,
             ward_name           TEXT,
+            place_name          TEXT,
             longitude           REAL,
             latitude            REAL,
             extra               TEXT,
@@ -120,6 +132,44 @@ def init_db():
     """)
     conn.commit()
     conn.close()
+
+
+def _migrate_place_name(conn):
+    """One-time: move PLACE_NAME out of the extra JSON blob into its own column.
+
+    extra is compared byte-for-byte against freshly imported rows, so it must
+    be rewritten exactly as import_geojson now serializes it (PLACE_NAME
+    excluded) — otherwise the next import would flag every address as modified.
+    """
+    print("Migrating place_name out of extra ...")
+    migrated = 0
+    last_rowid = 0
+    while True:
+        rows = conn.execute(
+            "SELECT rowid, extra FROM addresses WHERE rowid > ? ORDER BY rowid LIMIT 50000",
+            (last_rowid,),
+        ).fetchall()
+        if not rows:
+            break
+        last_rowid = rows[-1]["rowid"]
+        updates = []
+        for row in rows:
+            if not row["extra"]:
+                continue
+            extra = json.loads(row["extra"])
+            if "PLACE_NAME" not in extra:
+                continue
+            place_name = _clean_str(extra.pop("PLACE_NAME"))
+            updates.append(
+                (place_name, json.dumps(extra) if extra else None, row["rowid"])
+            )
+        conn.executemany(
+            "UPDATE addresses SET place_name = ?, extra = ? WHERE rowid = ?",
+            updates,
+        )
+        migrated += len(updates)
+        print(f"  Migrated {migrated:,} rows ...")
+    conn.commit()
 
 
 def _parse_int(val):
@@ -246,6 +296,7 @@ def import_geojson(filepath, headers=None):
             linear_name_dir     TEXT,
             municipality_name   TEXT,
             ward_name           TEXT,
+            place_name          TEXT,
             longitude           REAL,
             latitude            REAL,
             extra               TEXT
@@ -296,6 +347,7 @@ def import_geojson(filepath, headers=None):
                 _clean_str(props.get("LINEAR_NAME_DIR")),
                 _clean_str(props.get("MUNICIPALITY_NAME")),
                 _clean_str(props.get("WARD_NAME")),
+                _clean_str(props.get("PLACE_NAME")),
                 lon,
                 lat
             ]

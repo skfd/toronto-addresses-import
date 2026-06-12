@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 07:42 PM",
   "old_snapshot": {
     "id": 58,
     "downloaded": "2026-06-09T13:00:14.328891",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.38671,
       "latitude": 43.67388,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 124716, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125643, \"CENTRELINE_ID\": 1141465, \"CENTRELINE_MEASURE\": 279.19, \"CENTRELINE_OFFSET\": 13.86, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2930.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"645586\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 124716, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125643, \"CENTRELINE_ID\": 1141465, \"CENTRELINE_MEASURE\": 279.19, \"CENTRELINE_OFFSET\": 13.86, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2930.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"645586\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -59,6 +60,173 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 30114653,
+      "address_full": "120 Elder St",
+      "municipality_name": "North York",
+      "latitude": 43.76148,
+      "longitude": -79.45416,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Irving W. Chapley Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7963989,
+      "address_full": "20 Scholfield Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68305,
+      "longitude": -79.37947,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rosedale Park",
+          "new": "Rosedale Park, Rosedale Tennis Club",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10364406,
+      "address_full": "2650 Finch Ave W",
+      "municipality_name": "North York",
+      "latitude": 43.74744,
+      "longitude": -79.56655,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Gord And Irene Risk Park",
+          "new": "Gord and Irene Risk Park, Gord and Irene Risk Community Recreation Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 835429,
+      "address_full": "200 Lytton Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71462,
+      "longitude": -79.41123,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lytton Park",
+          "new": "Lytton Park, North Toronto Lawn Bowling & Croquet Club",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 307348,
+      "address_full": "120 Berner Trl",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80143,
+      "longitude": -79.22114,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Berner Trail Junior Public School",
+          "new": "Berner Trail Junior Public School, Berner Trail Community Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30041077,
+      "address_full": "165 Maxwell St",
+      "municipality_name": "North York",
+      "latitude": 43.76175,
+      "longitude": -79.44847,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "West Don Parkland",
+          "new": "Maxwell Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30059394,
+      "address_full": "100 Ethennonnhawahstihnen' Lane",
+      "municipality_name": "North York",
+      "latitude": 43.76872,
+      "longitude": -79.3758,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Ethennonnhawahstihnen' Community Recreation Centre and Library",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14038310,
+      "address_full": "21 Chisholm Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68882,
+      "longitude": -79.30304,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Stanley G. Grizzle Park,Main Street Parkette",
+          "new": "Stanley G. Grizzle Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6807205,
+      "address_full": "37 Marquis Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65835,
+      "longitude": -79.50788,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lambton - Kingsway Park",
+          "new": "Lambton - Kingsway Park, Lambton - Kingsway Park Outdoor Pool",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10363749,
+      "address_full": "1260 Dufferin St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66736,
+      "longitude": -79.43922,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Wallace Emerson Park",
+          "new": "Wallace Emerson Park, Wallace Emerson Community Recreation Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10034958,
+      "address_full": "610 Broadview Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67244,
+      "longitude": -79.35711,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Riverdale Park East Rink",
+          "new": "Riverdale Park East Outdoor Pool and Rink",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -69,7 +237,9 @@ window.REPORT_DATA = {
     "ward_removed": {
       "University-Rosedale": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 11
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -77,6 +247,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 11,
   "sparklines": {
     "added": [
       2,
@@ -113,6 +284,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11
     ]
   }
 }
