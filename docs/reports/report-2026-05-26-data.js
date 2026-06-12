@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:41 PM",
+  "generated": "Jun 11, 2026 at 09:07 PM",
   "old_snapshot": {
     "id": 49,
     "downloaded": "2026-05-22T13:00:13.362517",
@@ -180,6 +180,7 @@ window.REPORT_DATA = {
   "modified": [],
   "modified_location": [],
   "modified_place_name": [],
+  "modified_address_number": [],
   "new_streets": [
     {
       "street": "Chloe Cooley St",
@@ -209,6 +210,7 @@ window.REPORT_DATA = {
   "modified_count": 0,
   "modified_location_count": 0,
   "modified_place_name_count": 0,
+  "modified_address_number_count": 0,
   "sparklines": {
     "added": [
       3,
@@ -250,6 +252,15 @@ window.REPORT_DATA = {
       1,
       4,
       3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_address_number": [
+      0,
+      0,
+      0,
       0,
       0,
       0,

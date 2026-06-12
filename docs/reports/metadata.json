@@ -7,6 +7,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "2": {
@@ -17,6 +18,7 @@
     "modified": 3718,
     "modified_location": 3246,
     "modified_place_name": 282,
+    "modified_address_number": 7,
     "new_streets": [
       {
         "street": "McCaul St",
@@ -56,6 +58,7 @@
     "modified": 2373,
     "modified_location": 2233,
     "modified_place_name": 82,
+    "modified_address_number": 4,
     "new_streets": [
       {
         "street": "Assembly Lane",
@@ -91,6 +94,7 @@
     "modified": 14,
     "modified_location": 14,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "5": {
@@ -101,6 +105,7 @@
     "modified": 176,
     "modified_location": 175,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "6": {
@@ -111,6 +116,7 @@
     "modified": 17,
     "modified_location": 16,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "7": {
@@ -121,6 +127,7 @@
     "modified": 6,
     "modified_location": 6,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1772000905": {
@@ -158,6 +165,7 @@
     "modified": 13,
     "modified_location": 8,
     "modified_place_name": 4,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1772265611": {
@@ -204,6 +212,7 @@
     "modified": 74,
     "modified_location": 74,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": [
       {
         "street": "YZD Lane",
@@ -219,6 +228,7 @@
     "modified": 23,
     "modified_location": 23,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1772781753": {
@@ -238,6 +248,7 @@
     "modified": 17,
     "modified_location": 17,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "13": {
@@ -248,6 +259,7 @@
     "modified": 5,
     "modified_location": 5,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1772989202": {
@@ -267,6 +279,7 @@
     "modified": 14,
     "modified_location": 12,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "15": {
@@ -277,6 +290,7 @@
     "modified": 24,
     "modified_location": 20,
     "modified_place_name": 3,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1773363705": {
@@ -296,6 +310,7 @@
     "modified": 1304,
     "modified_location": 762,
     "modified_place_name": 380,
+    "modified_address_number": 8,
     "new_streets": []
   },
   "17": {
@@ -306,6 +321,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1774124787": {
@@ -334,6 +350,7 @@
     "modified": 7,
     "modified_location": 7,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "19": {
@@ -344,6 +361,7 @@
     "modified": 3,
     "modified_location": 3,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "20": {
@@ -354,6 +372,7 @@
     "modified": 10,
     "modified_location": 10,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "21": {
@@ -364,6 +383,7 @@
     "modified": 5,
     "modified_location": 5,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "22": {
@@ -374,6 +394,7 @@
     "modified": 1,
     "modified_location": 1,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1774717202": {
@@ -393,6 +414,7 @@
     "modified": 44,
     "modified_location": 44,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": [
       {
         "street": "Sandown Lane",
@@ -408,6 +430,7 @@
     "modified": 35,
     "modified_location": 35,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1775322003": {
@@ -454,6 +477,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "26": {
@@ -464,6 +488,7 @@
     "modified": 10,
     "modified_location": 10,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1775926805": {
@@ -492,6 +517,7 @@
     "modified": 21,
     "modified_location": 21,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": [
       {
         "street": "Everwood Gdns",
@@ -520,6 +546,7 @@
     "modified": 12,
     "modified_location": 12,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1776540143": {
@@ -557,6 +584,7 @@
     "modified": 10,
     "modified_location": 10,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "30": {
@@ -567,6 +595,7 @@
     "modified": 4,
     "modified_location": 4,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "31": {
@@ -577,6 +606,7 @@
     "modified": 64,
     "modified_location": 64,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "32": {
@@ -587,6 +617,7 @@
     "modified": 54,
     "modified_location": 54,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1777256510": {
@@ -606,6 +637,7 @@
     "modified": 13,
     "modified_location": 13,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "34": {
@@ -616,6 +648,7 @@
     "modified": 3,
     "modified_location": 3,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "35": {
@@ -626,6 +659,7 @@
     "modified": 9,
     "modified_location": 9,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "36": {
@@ -636,6 +670,7 @@
     "modified": 34,
     "modified_location": 34,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "37": {
@@ -646,6 +681,7 @@
     "modified": 98,
     "modified_location": 98,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1777741203": {
@@ -674,6 +710,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1778000404": {
@@ -693,6 +730,7 @@
     "modified": 5,
     "modified_location": 0,
     "modified_place_name": 5,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "40": {
@@ -703,6 +741,7 @@
     "modified": 4,
     "modified_location": 0,
     "modified_place_name": 4,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1778355022": {
@@ -731,6 +770,7 @@
     "modified": 5,
     "modified_location": 0,
     "modified_place_name": 5,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "42": {
@@ -741,6 +781,7 @@
     "modified": 4,
     "modified_location": 0,
     "modified_place_name": 4,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "43": {
@@ -751,6 +792,7 @@
     "modified": 2,
     "modified_location": 0,
     "modified_place_name": 2,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "44": {
@@ -761,6 +803,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "45": {
@@ -771,6 +814,7 @@
     "modified": 1,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1778959428": {
@@ -799,6 +843,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "47": {
@@ -809,6 +854,7 @@
     "modified": 1,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "48": {
@@ -819,6 +865,7 @@
     "modified": 4,
     "modified_location": 0,
     "modified_place_name": 4,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "49": {
@@ -829,6 +876,7 @@
     "modified": 3,
     "modified_location": 0,
     "modified_place_name": 3,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1779557829": {
@@ -866,6 +914,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": [
       {
         "street": "Chloe Cooley St",
@@ -881,6 +930,7 @@
     "modified": 0,
     "modified_location": 0,
     "modified_place_name": 0,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "52": {
@@ -891,6 +941,7 @@
     "modified": 2,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 1,
     "new_streets": []
   },
   "53": {
@@ -901,6 +952,7 @@
     "modified": 2,
     "modified_location": 0,
     "modified_place_name": 2,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1780160404": {
@@ -938,6 +990,7 @@
     "modified": 1,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1780506006": {
@@ -957,6 +1010,7 @@
     "modified": 1,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "56": {
@@ -967,6 +1021,7 @@
     "modified": 1,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "1780765204": {
@@ -995,6 +1050,7 @@
     "modified": 2,
     "modified_location": 0,
     "modified_place_name": 1,
+    "modified_address_number": 1,
     "new_streets": []
   },
   "58": {
@@ -1005,6 +1061,7 @@
     "modified": 3,
     "modified_location": 0,
     "modified_place_name": 3,
+    "modified_address_number": 0,
     "new_streets": []
   },
   "59": {
@@ -1015,6 +1072,7 @@
     "modified": 11,
     "modified_location": 0,
     "modified_place_name": 11,
+    "modified_address_number": 0,
     "new_streets": []
   }
 }

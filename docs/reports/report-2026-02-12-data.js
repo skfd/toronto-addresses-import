@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:34 PM",
+  "generated": "Jun 11, 2026 at 08:59 PM",
   "old_snapshot": {
     "id": 2,
     "downloaded": "2026-02-14T20:16:21.556008",
@@ -22809,33 +22809,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 9011520,
-      "address_full": "26 Balding Crt",
-      "municipality_name": "North York",
-      "latitude": 43.75405,
-      "longitude": -79.39374,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "24 Balding Crt",
-          "new": "26 Balding Crt",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "24",
-          "new": "26",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 24,
-          "new": 26,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 842767,
       "address_full": "28 Belle Ayre Blvd",
       "municipality_name": "former Toronto",
@@ -23443,33 +23416,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 14070892,
-      "address_full": "100 Briar Hill Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.71323,
-      "longitude": -79.40289,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "102 Briar Hill Ave",
-          "new": "100 Briar Hill Ave",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "102",
-          "new": "100",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 102,
-          "new": 100,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 7754566,
       "address_full": "16 Wellesley St E",
       "municipality_name": "former Toronto",
@@ -23610,33 +23556,6 @@ window.REPORT_DATA = {
           "new": "43.73654, -79.43681",
           "arrow": "\u2193 3.4m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 30112915,
-      "address_full": "187 Front St E",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65034,
-      "longitude": -79.36717,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "185 Front St E",
-          "new": "187 Front St E",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "185",
-          "new": "187",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 185,
-          "new": 187,
-          "display_field": "Low Number"
         }
       ]
     },
@@ -23791,33 +23710,6 @@ window.REPORT_DATA = {
           "new": "43.65965, -79.39082",
           "arrow": "\u2190 4.2m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 9212796,
-      "address_full": "35 Commissioners St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.64602,
-      "longitude": -79.35002,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "39 Commissioners St",
-          "new": "35 Commissioners St",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "39",
-          "new": "35",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 39,
-          "new": 35,
-          "display_field": "Low Number"
         }
       ]
     }
@@ -60784,6 +60676,116 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_address_number": [
+    {
+      "address_point_id": 9011520,
+      "address_full": "26 Balding Crt",
+      "municipality_name": "North York",
+      "latitude": 43.75405,
+      "longitude": -79.39374,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "24 Balding Crt",
+          "new": "26 Balding Crt",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "24",
+          "new": "26",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 24,
+          "new": 26,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14070892,
+      "address_full": "100 Briar Hill Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71323,
+      "longitude": -79.40289,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "102 Briar Hill Ave",
+          "new": "100 Briar Hill Ave",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "102",
+          "new": "100",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 102,
+          "new": 100,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30112915,
+      "address_full": "187 Front St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65034,
+      "longitude": -79.36717,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "185 Front St E",
+          "new": "187 Front St E",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "185",
+          "new": "187",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 185,
+          "new": 187,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9212796,
+      "address_full": "35 Commissioners St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64602,
+      "longitude": -79.35002,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "39 Commissioners St",
+          "new": "35 Commissioners St",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "39",
+          "new": "35",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 39,
+          "new": 35,
+          "display_field": "Low Number"
+        }
+      ]
+    }
+  ],
   "new_streets": [
     {
       "street": "Assembly Lane",
@@ -60929,9 +60931,10 @@ window.REPORT_DATA = {
   },
   "added_count": 293,
   "removed_count": 457,
-  "modified_count": 58,
+  "modified_count": 54,
   "modified_location_count": 2233,
   "modified_place_name_count": 82,
+  "modified_address_number_count": 4,
   "sparklines": {
     "added": [
       532,
@@ -60943,7 +60946,7 @@ window.REPORT_DATA = {
     ],
     "modified": [
       3718,
-      58
+      54
     ],
     "modified_location": [
       3246,
@@ -60952,6 +60955,10 @@ window.REPORT_DATA = {
     "modified_place_name": [
       282,
       82
+    ],
+    "modified_address_number": [
+      7,
+      4
     ]
   }
 }

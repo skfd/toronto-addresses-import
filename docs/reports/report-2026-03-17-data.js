@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:36 PM",
+  "generated": "Jun 11, 2026 at 09:02 PM",
   "old_snapshot": {
     "id": 15,
     "downloaded": "2026-03-12T20:56:53.836630",
@@ -348,33 +348,6 @@ window.REPORT_DATA = {
           "new": "43.73797, -79.46671",
           "arrow": "\u2192 2.4m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 30150963,
-      "address_full": "95 Haynes Ave",
-      "municipality_name": "North York",
-      "latitude": 43.76951,
-      "longitude": -79.49929,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "99 Haynes Ave",
-          "new": "95 Haynes Ave",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "99",
-          "new": "95",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 99,
-          "new": 95,
-          "display_field": "Low Number"
         }
       ]
     },
@@ -3457,33 +3430,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 9011520,
-      "address_full": "24 Balding Crt",
-      "municipality_name": "North York",
-      "latitude": 43.75405,
-      "longitude": -79.39374,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "26 Balding Crt",
-          "new": "24 Balding Crt",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "26",
-          "new": "24",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 26,
-          "new": 24,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 536804,
       "address_full": "5760 Leslie St",
       "municipality_name": "North York",
@@ -3502,60 +3448,6 @@ window.REPORT_DATA = {
           "new": "43.79437, -79.36939",
           "arrow": "\u2197 177.6m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14078278,
-      "address_full": "151 Hudson Dr",
-      "municipality_name": "former Toronto",
-      "latitude": 43.6929,
-      "longitude": -79.37844,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "157 Hudson Dr",
-          "new": "151 Hudson Dr",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "157",
-          "new": "151",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 157,
-          "new": 151,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14070892,
-      "address_full": "102 Briar Hill Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.71323,
-      "longitude": -79.40289,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "100 Briar Hill Ave",
-          "new": "102 Briar Hill Ave",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "100",
-          "new": "102",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 100,
-          "new": 102,
-          "display_field": "Low Number"
         }
       ]
     },
@@ -4275,60 +4167,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 30112915,
-      "address_full": "185 Front St E",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65034,
-      "longitude": -79.36717,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "187 Front St E",
-          "new": "185 Front St E",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "187",
-          "new": "185",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 187,
-          "new": 185,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
-      "address_point_id": 9212796,
-      "address_full": "39 Commissioners St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.64602,
-      "longitude": -79.35002,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "35 Commissioners St",
-          "new": "39 Commissioners St",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "35",
-          "new": "39",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 35,
-          "new": 39,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 5495484,
       "address_full": "149 Elmcrest Rd",
       "municipality_name": "Etobicoke",
@@ -4391,60 +4229,6 @@ window.REPORT_DATA = {
           "new": "43.65692, -79.58633",
           "arrow": "\u2196 94.4m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 8005385,
-      "address_full": "355-367 Wilson Ave",
-      "municipality_name": "North York",
-      "latitude": 43.73654,
-      "longitude": -79.43681,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "355 Wilson Ave",
-          "new": "355-367 Wilson Ave",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "355",
-          "new": "355-367",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "hi_num",
-          "old": null,
-          "new": 367,
-          "display_field": "High Number"
-        }
-      ]
-    },
-    {
-      "address_point_id": 10558835,
-      "address_full": "282-310 Silverstone Dr",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.75057,
-      "longitude": -79.59905,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "282 Silverstone Dr",
-          "new": "282-310 Silverstone Dr",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "282",
-          "new": "282-310",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "hi_num",
-          "old": null,
-          "new": 310,
-          "display_field": "High Number"
         }
       ]
     }
@@ -22345,6 +22129,224 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_address_number": [
+    {
+      "address_point_id": 30150963,
+      "address_full": "95 Haynes Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76951,
+      "longitude": -79.49929,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "99 Haynes Ave",
+          "new": "95 Haynes Ave",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "99",
+          "new": "95",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 99,
+          "new": 95,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9011520,
+      "address_full": "24 Balding Crt",
+      "municipality_name": "North York",
+      "latitude": 43.75405,
+      "longitude": -79.39374,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "26 Balding Crt",
+          "new": "24 Balding Crt",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "26",
+          "new": "24",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 26,
+          "new": 24,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14078278,
+      "address_full": "151 Hudson Dr",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6929,
+      "longitude": -79.37844,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "157 Hudson Dr",
+          "new": "151 Hudson Dr",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "157",
+          "new": "151",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 157,
+          "new": 151,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14070892,
+      "address_full": "102 Briar Hill Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71323,
+      "longitude": -79.40289,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "100 Briar Hill Ave",
+          "new": "102 Briar Hill Ave",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "100",
+          "new": "102",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 100,
+          "new": 102,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30112915,
+      "address_full": "185 Front St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65034,
+      "longitude": -79.36717,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "187 Front St E",
+          "new": "185 Front St E",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "187",
+          "new": "185",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 187,
+          "new": 185,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9212796,
+      "address_full": "39 Commissioners St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64602,
+      "longitude": -79.35002,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "35 Commissioners St",
+          "new": "39 Commissioners St",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "35",
+          "new": "39",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 35,
+          "new": 39,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8005385,
+      "address_full": "355-367 Wilson Ave",
+      "municipality_name": "North York",
+      "latitude": 43.73654,
+      "longitude": -79.43681,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "355 Wilson Ave",
+          "new": "355-367 Wilson Ave",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "355",
+          "new": "355-367",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "hi_num",
+          "old": null,
+          "new": 367,
+          "display_field": "High Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10558835,
+      "address_full": "282-310 Silverstone Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.75057,
+      "longitude": -79.59905,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "282 Silverstone Dr",
+          "new": "282-310 Silverstone Dr",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "282",
+          "new": "282-310",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "hi_num",
+          "old": null,
+          "new": 310,
+          "display_field": "High Number"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -22385,9 +22387,10 @@ window.REPORT_DATA = {
   },
   "added_count": 7,
   "removed_count": 3,
-  "modified_count": 162,
+  "modified_count": 154,
   "modified_location_count": 762,
   "modified_place_name_count": 380,
+  "modified_address_number_count": 8,
   "sparklines": {
     "added": [
       0,
@@ -22414,7 +22417,7 @@ window.REPORT_DATA = {
       14,
       24,
       0,
-      162
+      154
     ],
     "modified_location": [
       17,
@@ -22433,6 +22436,15 @@ window.REPORT_DATA = {
       3,
       0,
       380
+    ],
+    "modified_address_number": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8
     ]
   }
 }

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:42 PM",
+  "generated": "Jun 11, 2026 at 09:08 PM",
   "old_snapshot": {
     "id": 56,
     "downloaded": "2026-06-05T13:00:09.796634",
@@ -67,7 +67,26 @@ window.REPORT_DATA = {
     }
   ],
   "removed": [],
-  "modified": [
+  "modified": [],
+  "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 7777334,
+      "address_full": "19 Maryland Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69167,
+      "longitude": -79.2954,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Maryland Park",
+          "new": "Maryland Park, Dentonia Park Tennis Club",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
+  "modified_address_number": [
     {
       "address_point_id": 30123125,
       "address_full": "303 Manning Ave",
@@ -96,24 +115,6 @@ window.REPORT_DATA = {
       ]
     }
   ],
-  "modified_location": [],
-  "modified_place_name": [
-    {
-      "address_point_id": 7777334,
-      "address_full": "19 Maryland Blvd",
-      "municipality_name": "former Toronto",
-      "latitude": 43.69167,
-      "longitude": -79.2954,
-      "changes": [
-        {
-          "field": "place_name",
-          "old": "Maryland Park",
-          "new": "Maryland Park, Dentonia Park Tennis Club",
-          "display_field": "Place Name"
-        }
-      ]
-    }
-  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -136,9 +137,10 @@ window.REPORT_DATA = {
   },
   "added_count": 2,
   "removed_count": 0,
-  "modified_count": 1,
+  "modified_count": 0,
   "modified_location_count": 0,
   "modified_place_name_count": 1,
+  "modified_address_number_count": 1,
   "sparklines": {
     "added": [
       2,
@@ -165,7 +167,7 @@ window.REPORT_DATA = {
       1,
       0,
       0,
-      1
+      0
     ],
     "modified_location": [
       0,
@@ -181,6 +183,15 @@ window.REPORT_DATA = {
       0,
       1,
       1,
+      0,
+      0,
+      1
+    ],
+    "modified_address_number": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       1

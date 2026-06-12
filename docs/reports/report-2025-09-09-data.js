@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:34 PM",
+  "generated": "Jun 11, 2026 at 08:59 PM",
   "old_snapshot": {
     "id": 1,
     "downloaded": "2026-02-14T20:15:36.887953",
@@ -33820,39 +33820,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 345375,
-      "address_full": "2B Horizon Cres",
-      "municipality_name": "Scarborough",
-      "latitude": 43.77873,
-      "longitude": -79.29883,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "4 Horizon Cres",
-          "new": "2B Horizon Cres",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "4",
-          "new": "2B",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 4,
-          "new": 2,
-          "display_field": "Low Number"
-        },
-        {
-          "field": "lo_num_suf",
-          "old": null,
-          "new": "B",
-          "display_field": "Low Number Suffix"
-        }
-      ]
-    },
-    {
       "address_point_id": 10144658,
       "address_full": "147 Thompson Ave",
       "municipality_name": "Etobicoke",
@@ -34723,33 +34690,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 11297211,
-      "address_full": "53 John St",
-      "municipality_name": "York",
-      "latitude": 43.7033,
-      "longitude": -79.51587,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "55 John St",
-          "new": "53 John St",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "55",
-          "new": "53",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 55,
-          "new": 53,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 30033318,
       "address_full": "1 McDonald's Pl",
       "municipality_name": "North York",
@@ -34961,33 +34901,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 30091612,
-      "address_full": "2114 Bloor St W",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65223,
-      "longitude": -79.47205,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "2112 Bloor St W",
-          "new": "2114 Bloor St W",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "2112",
-          "new": "2114",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 2112,
-          "new": 2114,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
       "address_point_id": 9212690,
       "address_full": "455 Lake Shore Blvd E",
       "municipality_name": "former Toronto",
@@ -35057,87 +34970,6 @@ window.REPORT_DATA = {
           "new": "43.82954, -79.19057",
           "arrow": "\u2196 82.4m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7324146,
-      "address_full": "246 Hillsdale Ave E",
-      "municipality_name": "former Toronto",
-      "latitude": 43.70502,
-      "longitude": -79.39052,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "244 Hillsdale Ave E",
-          "new": "246 Hillsdale Ave E",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "244",
-          "new": "246",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 244,
-          "new": 246,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
-      "address_point_id": 30150963,
-      "address_full": "99 Haynes Ave",
-      "municipality_name": "North York",
-      "latitude": 43.76951,
-      "longitude": -79.49929,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "95 Haynes Ave",
-          "new": "99 Haynes Ave",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "95",
-          "new": "99",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 95,
-          "new": 99,
-          "display_field": "Low Number"
-        }
-      ]
-    },
-    {
-      "address_point_id": 797945,
-      "address_full": "55 Dunvegan Rd",
-      "municipality_name": "former Toronto",
-      "latitude": 43.68797,
-      "longitude": -79.40523,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "53 Dunvegan Rd",
-          "new": "55 Dunvegan Rd",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "53",
-          "new": "55",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num",
-          "old": 53,
-          "new": 55,
-          "display_field": "Low Number"
         }
       ]
     },
@@ -38650,33 +38482,6 @@ window.REPORT_DATA = {
           "new": "43.82667, -79.18408",
           "arrow": "\u2196 29.9m",
           "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 383748,
-      "address_full": "29A Scotland Rd",
-      "municipality_name": "Scarborough",
-      "latitude": 43.79509,
-      "longitude": -79.28363,
-      "changes": [
-        {
-          "field": "address_full",
-          "old": "29 Scotland Rd",
-          "new": "29A Scotland Rd",
-          "display_field": "Full Address"
-        },
-        {
-          "field": "address_number",
-          "old": "29",
-          "new": "29A",
-          "display_field": "Address Number"
-        },
-        {
-          "field": "lo_num_suf",
-          "old": null,
-          "new": "A",
-          "display_field": "Low Number Suffix"
         }
       ]
     }
@@ -94851,6 +94656,203 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_address_number": [
+    {
+      "address_point_id": 345375,
+      "address_full": "2B Horizon Cres",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77873,
+      "longitude": -79.29883,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "4 Horizon Cres",
+          "new": "2B Horizon Cres",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "4",
+          "new": "2B",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 4,
+          "new": 2,
+          "display_field": "Low Number"
+        },
+        {
+          "field": "lo_num_suf",
+          "old": null,
+          "new": "B",
+          "display_field": "Low Number Suffix"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11297211,
+      "address_full": "53 John St",
+      "municipality_name": "York",
+      "latitude": 43.7033,
+      "longitude": -79.51587,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "55 John St",
+          "new": "53 John St",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "55",
+          "new": "53",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 55,
+          "new": 53,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30091612,
+      "address_full": "2114 Bloor St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65223,
+      "longitude": -79.47205,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "2112 Bloor St W",
+          "new": "2114 Bloor St W",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "2112",
+          "new": "2114",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 2112,
+          "new": 2114,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7324146,
+      "address_full": "246 Hillsdale Ave E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70502,
+      "longitude": -79.39052,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "244 Hillsdale Ave E",
+          "new": "246 Hillsdale Ave E",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "244",
+          "new": "246",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 244,
+          "new": 246,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30150963,
+      "address_full": "99 Haynes Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76951,
+      "longitude": -79.49929,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "95 Haynes Ave",
+          "new": "99 Haynes Ave",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "95",
+          "new": "99",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 95,
+          "new": 99,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 797945,
+      "address_full": "55 Dunvegan Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68797,
+      "longitude": -79.40523,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "53 Dunvegan Rd",
+          "new": "55 Dunvegan Rd",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "53",
+          "new": "55",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num",
+          "old": 53,
+          "new": 55,
+          "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 383748,
+      "address_full": "29A Scotland Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.79509,
+      "longitude": -79.28363,
+      "changes": [
+        {
+          "field": "address_full",
+          "old": "29 Scotland Rd",
+          "new": "29A Scotland Rd",
+          "display_field": "Full Address"
+        },
+        {
+          "field": "address_number",
+          "old": "29",
+          "new": "29A",
+          "display_field": "Address Number"
+        },
+        {
+          "field": "lo_num_suf",
+          "old": null,
+          "new": "A",
+          "display_field": "Low Number Suffix"
+        }
+      ]
+    }
+  ],
   "new_streets": [
     {
       "street": "McCaul St",
@@ -95015,9 +95017,10 @@ window.REPORT_DATA = {
   },
   "added_count": 532,
   "removed_count": 623,
-  "modified_count": 190,
+  "modified_count": 183,
   "modified_location_count": 3246,
   "modified_place_name_count": 282,
+  "modified_address_number_count": 7,
   "sparklines": {
     "added": [
       532
@@ -95026,13 +95029,16 @@ window.REPORT_DATA = {
       623
     ],
     "modified": [
-      190
+      183
     ],
     "modified_location": [
       3246
     ],
     "modified_place_name": [
       282
+    ],
+    "modified_address_number": [
+      7
     ]
   }
 }

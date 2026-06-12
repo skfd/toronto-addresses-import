@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:35 PM",
+  "generated": "Jun 11, 2026 at 09:00 PM",
   "old_snapshot": {
     "id": 9,
     "downloaded": "2026-02-28T02:58:55.680798",
@@ -1687,6 +1687,7 @@ window.REPORT_DATA = {
     }
   ],
   "modified_place_name": [],
+  "modified_address_number": [],
   "new_streets": [
     {
       "street": "YZD Lane",
@@ -1729,6 +1730,7 @@ window.REPORT_DATA = {
   "modified_count": 0,
   "modified_location_count": 74,
   "modified_place_name_count": 0,
+  "modified_address_number_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -1770,6 +1772,15 @@ window.REPORT_DATA = {
       0,
       0,
       4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_address_number": [
+      0,
+      0,
+      0,
       0,
       0,
       0,

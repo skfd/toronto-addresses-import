@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 11, 2026 at 08:41 PM",
+  "generated": "Jun 11, 2026 at 09:08 PM",
   "old_snapshot": {
     "id": 51,
     "downloaded": "2026-05-27T18:58:00.501294",
@@ -111,7 +111,26 @@ window.REPORT_DATA = {
     }
   ],
   "removed": [],
-  "modified": [
+  "modified": [],
+  "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 30110884,
+      "address_full": "20 Adelaide Pl",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64502,
+      "longitude": -79.4018,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Adelaide Place Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
+  "modified_address_number": [
     {
       "address_point_id": 14078278,
       "address_full": "157 Hudson Dr",
@@ -140,24 +159,6 @@ window.REPORT_DATA = {
       ]
     }
   ],
-  "modified_location": [],
-  "modified_place_name": [
-    {
-      "address_point_id": 30110884,
-      "address_full": "20 Adelaide Pl",
-      "municipality_name": "former Toronto",
-      "latitude": 43.64502,
-      "longitude": -79.4018,
-      "changes": [
-        {
-          "field": "place_name",
-          "old": null,
-          "new": "Adelaide Place Parkette",
-          "display_field": "Place Name"
-        }
-      ]
-    }
-  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -179,9 +180,10 @@ window.REPORT_DATA = {
   },
   "added_count": 4,
   "removed_count": 0,
-  "modified_count": 1,
+  "modified_count": 0,
   "modified_location_count": 0,
   "modified_place_name_count": 1,
+  "modified_address_number_count": 1,
   "sparklines": {
     "added": [
       14,
@@ -208,7 +210,7 @@ window.REPORT_DATA = {
       0,
       0,
       0,
-      1
+      0
     ],
     "modified_location": [
       0,
@@ -221,6 +223,15 @@ window.REPORT_DATA = {
     ],
     "modified_place_name": [
       3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "modified_address_number": [
+      0,
       0,
       0,
       0,
