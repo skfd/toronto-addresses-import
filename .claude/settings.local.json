@@ -23,7 +23,9 @@
       "Bash(start chrome *)",
       "Bash(tasklist //fi \"imagename eq python.exe\")",
       "PowerShell(Get-ScheduledTask *)",
-      "PowerShell(Register-ScheduledTask *)"
+      "PowerShell(Register-ScheduledTask *)",
+      "PowerShell(Select-String -Path \"data\\\\address-points-2026-02-12.geojson\" -Pattern 'PLACE_NAME' -List | Select-Object -First 1 | ForEach-Object { $_.Line.Substring\\(0, [Math]::Min\\(600, $_.Line.Length\\)\\) })",
+      "PowerShell(python -c \"import sys; sys.path.insert\\(0, '.'\\); from src.db import init_db; init_db\\(\\)\")"
     ]
   }
 }
