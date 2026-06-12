@@ -748,6 +748,7 @@
                   <th>Before</th>
                   <th></th>
                   <th>After</th>
+                  <th>Map</th>
                 </tr>
               </thead>
               <tbody>
@@ -757,9 +758,10 @@
                   {% if loop.first %}<td rowspan="{{ m.changes|length }}">{{ m.address_full or m.address_point_id }}
                   </td>{% endif %}
                   <td class="change-field">{{ ch.display_field or ch.field }}</td>
-                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}{% if ch.field == 'location' and ch.old and ',' in ch.old %}{% set o = ch.old.split(',') %}{% set olat = o[0].strip() %}{% set olon = o[1].strip() %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ olat }}&mlon={{ olon }}#map=19/{{ olat }}/{{ olon }}" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>{% endif %}</td>
                   <td class="arrow-val">{{ ch.arrow if ch.arrow else '' }}</td>
-                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
+                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}{% if ch.field == 'location' and ch.new and ',' in ch.new %}{% set n = ch.new.split(',') %}{% set nlat = n[0].strip() %}{% set nlon = n[1].strip() %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ nlat }}&mlon={{ nlon }}#map=19/{{ nlat }}/{{ nlon }}" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>{% endif %}</td>
+                  {% if loop.first %}<td rowspan="{{ m.changes|length }}">{% if m.latitude and m.longitude %}{% set lat = "%.5f"|format(m.latitude) %}{% set lon = "%.5f"|format(m.longitude) %}<a class="map-link" href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}" target="_blank" rel="noopener">View ↗</a>{% endif %}</td>{% endif %}
                 </tr>
                 {% endfor %}
                 {% endfor %}
