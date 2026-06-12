@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 09, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:42 PM",
   "old_snapshot": {
     "id": 57,
     "downloaded": "2026-06-08T13:00:10.483107",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 58,
-      "max_snapshot_id": 58,
+      "max_snapshot_id": 59,
       "address_point_id": 60074307,
       "address_full": "2725 Brimley Rd",
       "address_number": "2725",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.27722,
       "latitude": 43.8064,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008870, \"ADDRESS_ID_LINK\": 60008867, \"ADDRESS_POINT_ID_LINK\": 60074306, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006337, \"CENTRELINE_ID\": 30108578, \"CENTRELINE_MEASURE\": 69.72, \"CENTRELINE_OFFSET\": 36.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7435.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051914\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008870, \"ADDRESS_ID_LINK\": 60008867, \"ADDRESS_POINT_ID_LINK\": 60074306, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006337, \"CENTRELINE_ID\": 30108578, \"CENTRELINE_MEASURE\": 69.72, \"CENTRELINE_OFFSET\": 36.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7435.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051914\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 58,
-      "max_snapshot_id": 58,
+      "max_snapshot_id": 59,
       "address_point_id": 60074306,
       "address_full": "4610 Finch Ave E",
       "address_number": "4610",
@@ -60,13 +61,61 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.27705,
       "latitude": 43.80633,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008867, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 506869, \"CENTRELINE_ID\": 60074289, \"CENTRELINE_MEASURE\": 43.59, \"CENTRELINE_OFFSET\": 59.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5589.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051915\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008867, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 506869, \"CENTRELINE_ID\": 60074289, \"CENTRELINE_MEASURE\": 43.59, \"CENTRELINE_OFFSET\": 59.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5589.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051915\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     }
   ],
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 30060763,
+      "address_full": "1856 Victoria Park Ave",
+      "municipality_name": "North York",
+      "latitude": 43.74153,
+      "longitude": -79.3101,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Wexford Cemetery",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1371241,
+      "address_full": "197 Blantyre Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.68205,
+      "longitude": -79.28113,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Carpark 701",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 511505,
+      "address_full": "182 Ellerslie Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76991,
+      "longitude": -79.42179,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Abbotsford Park",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -77,7 +126,9 @@ window.REPORT_DATA = {
       "Scarborough North": 2
     },
     "ward_removed": {},
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 3
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -85,6 +136,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 3,
   "sparklines": {
     "added": [
       0,
@@ -106,11 +158,11 @@ window.REPORT_DATA = {
     ],
     "modified": [
       0,
-      0,
-      0,
-      0,
-      0,
       1,
+      1,
+      0,
+      0,
+      2,
       0
     ],
     "modified_location": [
@@ -121,6 +173,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      3
     ]
   }
 }

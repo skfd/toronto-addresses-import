@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 23, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:38 PM",
   "old_snapshot": {
     "id": 30,
     "downloaded": "2026-04-22T15:26:02.458149",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069550,
       "address_full": "32 Jopling Ave S",
       "address_number": "32",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53814,
       "latitude": 43.63901,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007776, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006294, \"CENTRELINE_ID\": 60051228, \"CENTRELINE_MEASURE\": 229.46, \"CENTRELINE_OFFSET\": 19.91, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1882.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051852\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007776, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006294, \"CENTRELINE_ID\": 60051228, \"CENTRELINE_MEASURE\": 229.46, \"CENTRELINE_OFFSET\": 19.91, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1882.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051852\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069552,
       "address_full": "5240 Dundas St W",
       "address_number": "5240",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53812,
       "latitude": 43.63886,
-      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007780, \"ADDRESS_ID_LINK\": 60007776, \"ADDRESS_POINT_ID_LINK\": 60069550, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006293, \"CENTRELINE_ID\": 10636395, \"CENTRELINE_MEASURE\": 34.82, \"CENTRELINE_OFFSET\": 28.11, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051853\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007780, \"ADDRESS_ID_LINK\": 60007776, \"ADDRESS_POINT_ID_LINK\": 60069550, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006293, \"CENTRELINE_ID\": 10636395, \"CENTRELINE_MEASURE\": 34.82, \"CENTRELINE_OFFSET\": 28.11, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051853\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069546,
       "address_full": "59 Cedar Brae Blvd",
       "address_number": "59",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Centre",
       "longitude": -79.23513,
       "latitude": 43.74829,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007759, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006291, \"CENTRELINE_ID\": 4232512, \"CENTRELINE_MEASURE\": 169.9, \"CENTRELINE_OFFSET\": 23.4, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7540.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051854\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"21\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007759, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006291, \"CENTRELINE_ID\": 4232512, \"CENTRELINE_MEASURE\": 169.9, \"CENTRELINE_OFFSET\": 23.4, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7540.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051854\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"21\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069549,
       "address_full": "1038 The Queensway",
       "address_number": "1038",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.51627,
       "latitude": 43.62357,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007765, \"ADDRESS_ID_LINK\": 60007764, \"ADDRESS_POINT_ID_LINK\": 20102344, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006292, \"CENTRELINE_ID\": 20040308, \"CENTRELINE_MEASURE\": 118.31, \"CENTRELINE_OFFSET\": 33.66, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051855\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007765, \"ADDRESS_ID_LINK\": 60007764, \"ADDRESS_POINT_ID_LINK\": 20102344, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006292, \"CENTRELINE_ID\": 20040308, \"CENTRELINE_MEASURE\": 118.31, \"CENTRELINE_OFFSET\": 33.66, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051855\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069554,
       "address_full": "31C Parliament St",
       "address_number": "31C",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36073,
       "latitude": 43.64907,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007781, \"ADDRESS_ID_LINK\": 1589989, \"ADDRESS_POINT_ID_LINK\": 30129811, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006295, \"CENTRELINE_ID\": 60034445, \"CENTRELINE_MEASURE\": 58.33, \"CENTRELINE_OFFSET\": 71.4, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051856\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007781, \"ADDRESS_ID_LINK\": 1589989, \"ADDRESS_POINT_ID_LINK\": 30129811, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006295, \"CENTRELINE_ID\": 60034445, \"CENTRELINE_MEASURE\": 58.33, \"CENTRELINE_OFFSET\": 71.4, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051856\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069551,
       "address_full": "5238 Dundas St W",
       "address_number": "5238",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53808,
       "latitude": 43.63892,
-      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007779, \"ADDRESS_ID_LINK\": 60007776, \"ADDRESS_POINT_ID_LINK\": 60069550, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 11957, \"CENTRELINE_ID\": 10636395, \"CENTRELINE_MEASURE\": 26.65, \"CENTRELINE_OFFSET\": 29.34, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051857\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007779, \"ADDRESS_ID_LINK\": 60007776, \"ADDRESS_POINT_ID_LINK\": 60069550, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 11957, \"CENTRELINE_ID\": 10636395, \"CENTRELINE_MEASURE\": 26.65, \"CENTRELINE_OFFSET\": 29.34, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051857\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069544,
       "address_full": "1 Braeburn Blvd",
       "address_number": "1",
@@ -165,12 +171,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Centre",
       "longitude": -79.23522,
       "latitude": 43.74856,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007758, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 339592, \"CENTRELINE_ID\": 110038, \"CENTRELINE_MEASURE\": 24.45, \"CENTRELINE_OFFSET\": 27.62, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7408.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051858\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"21\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007758, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 339592, \"CENTRELINE_ID\": 110038, \"CENTRELINE_MEASURE\": 24.45, \"CENTRELINE_OFFSET\": 27.62, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7408.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051858\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"21\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 31,
-      "max_snapshot_id": 31,
+      "max_snapshot_id": 59,
       "address_point_id": 60069542,
       "address_full": "316 Martin Grove Rd",
       "address_number": "316",
@@ -186,7 +193,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke Centre",
       "longitude": -79.55602,
       "latitude": 43.65826,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007754, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006290, \"CENTRELINE_ID\": 30010726, \"CENTRELINE_MEASURE\": 23.27, \"CENTRELINE_OFFSET\": 18.77, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2066.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051859\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007754, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006290, \"CENTRELINE_ID\": 30010726, \"CENTRELINE_MEASURE\": 23.27, \"CENTRELINE_OFFSET\": 18.77, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2066.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051859\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -209,7 +217,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.50054,
       "latitude": 43.5975,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1485533, \"ADDRESS_ID_LINK\": 669785, \"ADDRESS_POINT_ID_LINK\": 1013693, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 500729, \"CENTRELINE_ID\": 914625, \"CENTRELINE_MEASURE\": 12.19, \"CENTRELINE_OFFSET\": 20.51, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1963.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"925350\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1485533, \"ADDRESS_ID_LINK\": 669785, \"ADDRESS_POINT_ID_LINK\": 1013693, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 500729, \"CENTRELINE_ID\": 914625, \"CENTRELINE_MEASURE\": 12.19, \"CENTRELINE_OFFSET\": 20.51, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1963.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"925350\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -243,7 +252,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.5163,
       "latitude": 43.62356,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1471260, \"ADDRESS_ID_LINK\": 1462550, \"ADDRESS_POINT_ID_LINK\": 20102344, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 77334, \"CENTRELINE_ID\": 20040308, \"CENTRELINE_MEASURE\": 121.06, \"CENTRELINE_OFFSET\": 33.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"962725\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1471260, \"ADDRESS_ID_LINK\": 1462550, \"ADDRESS_POINT_ID_LINK\": 20102344, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 77334, \"CENTRELINE_ID\": 20040308, \"CENTRELINE_MEASURE\": 121.06, \"CENTRELINE_OFFSET\": 33.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"962725\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -1287,6 +1297,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -1317,6 +1328,7 @@ window.REPORT_DATA = {
   "removed_count": 2,
   "modified_count": 0,
   "modified_location_count": 64,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       3,
@@ -1353,6 +1365,15 @@ window.REPORT_DATA = {
       10,
       4,
       64
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

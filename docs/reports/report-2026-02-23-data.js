@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:06 AM",
+  "generated": "Jun 11, 2026 at 08:35 PM",
   "old_snapshot": {
     "id": 5,
     "downloaded": "2026-02-21T00:14:36.723538",
@@ -39,7 +39,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.38829,
       "latitude": 43.7042,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007297, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006214, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 99.35, \"CENTRELINE_OFFSET\": 17.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658273\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007297, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006214, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 99.35, \"CENTRELINE_OFFSET\": 17.15, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658273\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "place_name": null,
       "history": []
     },
     {
@@ -60,7 +61,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.38805,
       "latitude": 43.70423,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007299, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006215, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 98.19, \"CENTRELINE_OFFSET\": 37.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658274\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007299, \"ADDRESS_ID_LINK\": 110707, \"ADDRESS_POINT_ID_LINK\": 844933, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006215, \"CENTRELINE_ID\": 1138526, \"CENTRELINE_MEASURE\": 98.19, \"CENTRELINE_OFFSET\": 37.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4022.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5658274\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"15\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -83,7 +85,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53433,
       "latitude": 43.61963,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 9778, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 630008, \"CENTRELINE_ID\": 913562, \"CENTRELINE_MEASURE\": -2.81, \"CENTRELINE_OFFSET\": 18.46, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2709.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5580884\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 9778, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 630008, \"CENTRELINE_ID\": 913562, \"CENTRELINE_MEASURE\": -2.81, \"CENTRELINE_OFFSET\": 18.46, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2709.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"5580884\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -359,6 +362,23 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [
+    {
+      "address_point_id": 996578,
+      "address_full": "40 Dixington Cres",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.69716,
+      "longitude": -79.54016,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dixington Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -375,7 +395,8 @@ window.REPORT_DATA = {
     },
     "field_changes": {
       "Location (latitude)": 16,
-      "Location (longitude)": 15
+      "Location (longitude)": 15,
+      "Place Name": 1
     },
     "top_streets_added": {},
     "top_streets_removed": {}
@@ -384,6 +405,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 16,
+  "modified_place_name_count": 1,
   "sparklines": {
     "added": [
       532,
@@ -400,18 +422,25 @@ window.REPORT_DATA = {
       1
     ],
     "modified": [
-      3436,
-      2291,
+      3718,
+      2373,
       14,
-      175,
+      176,
       0
     ],
     "modified_location": [
-      3294,
-      2275,
+      3246,
+      2233,
       14,
       175,
       16
+    ],
+    "modified_place_name": [
+      282,
+      82,
+      0,
+      1,
+      1
     ]
   }
 }

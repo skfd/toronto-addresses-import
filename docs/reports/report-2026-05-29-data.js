@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 29, 2026 at 01:00 PM",
+  "generated": "Jun 11, 2026 at 08:41 PM",
   "old_snapshot": {
     "id": 52,
     "downloaded": "2026-05-28T13:00:12.477990",
@@ -24,13 +24,47 @@ window.REPORT_DATA = {
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 305425,
+      "address_full": "19 Beare Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83814,
+      "longitude": -79.17282,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "TRCA Lands (19)",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 305420,
+      "address_full": "9 Beare Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83465,
+      "longitude": -79.17134,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "TRCA Lands ( 9)",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
     "muni_removed": {},
     "ward_added": {},
     "ward_removed": {},
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 2
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -38,6 +72,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 2,
   "sparklines": {
     "added": [
       0,
@@ -63,7 +98,7 @@ window.REPORT_DATA = {
       0,
       0,
       0,
-      1,
+      2,
       0
     ],
     "modified_location": [
@@ -74,6 +109,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
     ]
   }
 }

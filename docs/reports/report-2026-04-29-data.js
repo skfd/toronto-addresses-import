@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 29, 2026 at 02:34 PM",
+  "generated": "Jun 11, 2026 at 08:39 PM",
   "old_snapshot": {
     "id": 34,
     "downloaded": "2026-04-28T13:00:44.179622",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 35,
-      "max_snapshot_id": 35,
+      "max_snapshot_id": 59,
       "address_point_id": 60069724,
       "address_full": "17 Kingsley Ave",
       "address_number": "17",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Davenport",
       "longitude": -79.45287,
       "latitude": 43.66821,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007951, \"ADDRESS_ID_LINK\": 1618851, \"ADDRESS_POINT_ID_LINK\": 30157966, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 63274, \"CENTRELINE_ID\": 14013297, \"CENTRELINE_MEASURE\": 0.82, \"CENTRELINE_OFFSET\": 18.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3783.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051865\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007951, \"ADDRESS_ID_LINK\": 1618851, \"ADDRESS_POINT_ID_LINK\": 30157966, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 63274, \"CENTRELINE_ID\": 14013297, \"CENTRELINE_MEASURE\": 0.82, \"CENTRELINE_OFFSET\": 18.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3783.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051865\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 35,
-      "max_snapshot_id": 35,
+      "max_snapshot_id": 59,
       "address_point_id": 60069725,
       "address_full": "400 William R Allen Rd",
       "address_number": "400",
@@ -60,7 +61,8 @@ window.REPORT_DATA = {
       "ward_name": "York Centre",
       "longitude": -79.46051,
       "latitude": 43.74625,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007953, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006298, \"CENTRELINE_ID\": 60007071, \"CENTRELINE_MEASURE\": 710.26, \"CENTRELINE_OFFSET\": 47.07, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11008.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051866\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"06\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007953, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006298, \"CENTRELINE_ID\": 60007071, \"CENTRELINE_MEASURE\": 710.26, \"CENTRELINE_OFFSET\": 47.07, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11008.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051866\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"06\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -83,7 +85,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.48927,
       "latitude": 43.63391,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 180101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188570, \"CENTRELINE_ID\": 60000275, \"CENTRELINE_MEASURE\": 275.68, \"CENTRELINE_OFFSET\": 24.9, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1291.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"698399\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 180101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188570, \"CENTRELINE_ID\": 60000275, \"CENTRELINE_MEASURE\": 275.68, \"CENTRELINE_OFFSET\": 24.9, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1291.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"698399\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -247,6 +250,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -274,6 +278,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 9,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -310,6 +315,15 @@ window.REPORT_DATA = {
       13,
       3,
       9
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

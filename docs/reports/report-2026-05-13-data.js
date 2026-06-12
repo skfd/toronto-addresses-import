@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 14, 2026 at 05:40 AM",
+  "generated": "Jun 11, 2026 at 08:40 PM",
   "old_snapshot": {
     "id": 42,
     "downloaded": "2026-05-12T13:00:12.805671",
@@ -24,13 +24,47 @@ window.REPORT_DATA = {
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 13972790,
+      "address_full": "111 Grand River Blvd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80225,
+      "longitude": -79.1602,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rouge Community Park",
+          "new": "Irma Burman Greenbelt Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6069329,
+      "address_full": "10 Rampart Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.73479,
+      "longitude": -79.5887,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Masseygrove Park",
+          "new": "Masseygrove Park, Elmbank Community Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
     "muni_removed": {},
     "ward_added": {},
     "ward_removed": {},
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 2
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -38,6 +72,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 2,
   "sparklines": {
     "added": [
       6,
@@ -58,12 +93,12 @@ window.REPORT_DATA = {
       0
     ],
     "modified": [
+      5,
+      4,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
+      5,
+      4,
       0
     ],
     "modified_location": [
@@ -74,6 +109,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      5,
+      4,
+      0,
+      0,
+      5,
+      4,
+      2
     ]
   }
 }

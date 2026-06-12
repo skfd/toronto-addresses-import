@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 28, 2026 at 01:02 PM",
+  "generated": "Jun 11, 2026 at 08:39 PM",
   "old_snapshot": {
     "id": 33,
     "downloaded": "2026-04-27T19:20:20.598064",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 34,
-      "max_snapshot_id": 34,
+      "max_snapshot_id": 59,
       "address_point_id": 60069721,
       "address_full": "88 Isabella St",
       "address_number": "88",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.38131,
       "latitude": 43.66877,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007943, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 159166, \"CENTRELINE_ID\": 20079096, \"CENTRELINE_MEASURE\": 20.54, \"CENTRELINE_OFFSET\": 29.64, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3734.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051862\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007943, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 159166, \"CENTRELINE_ID\": 20079096, \"CENTRELINE_MEASURE\": 20.54, \"CENTRELINE_OFFSET\": 29.64, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3734.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051862\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 34,
-      "max_snapshot_id": 34,
+      "max_snapshot_id": 59,
       "address_point_id": 60069723,
       "address_full": "251 Staines Rd",
       "address_number": "251",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.22141,
       "latitude": 43.82798,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60001835, \"CENTRELINE_ID\": 60007828, \"CENTRELINE_MEASURE\": 79.44, \"CENTRELINE_OFFSET\": 88.09, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8994.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051863\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60001835, \"CENTRELINE_ID\": 60007828, \"CENTRELINE_MEASURE\": 79.44, \"CENTRELINE_OFFSET\": 88.09, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8994.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051863\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 34,
-      "max_snapshot_id": 34,
+      "max_snapshot_id": 59,
       "address_point_id": 60069722,
       "address_full": "77 Clarendon Ave",
       "address_number": "77",
@@ -81,7 +83,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-St. Paul's",
       "longitude": -79.40601,
       "latitude": 43.6823,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007944, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 129137, \"CENTRELINE_ID\": 1139997, \"CENTRELINE_MEASURE\": 81.95, \"CENTRELINE_OFFSET\": 34.31, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3174.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051864\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007944, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 129137, \"CENTRELINE_ID\": 1139997, \"CENTRELINE_MEASURE\": 81.95, \"CENTRELINE_OFFSET\": 34.31, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3174.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051864\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -137,6 +140,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -161,6 +165,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 3,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -197,6 +202,15 @@ window.REPORT_DATA = {
       0,
       13,
       3
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

@@ -441,10 +441,6 @@
   </div>
 
   
-  <div class="no-changes-banner">
-    ✓ Everything matches — no address changes were found.
-  </div>
-  
 
   <div class="cards">
     <div class="card">
@@ -471,7 +467,7 @@
       <div class="label">Updated Addresses</div>
       <div class="value yellow">0</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#eaa300"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,2.0 72.7,18.0 90.3,2.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#eaa300"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
@@ -485,15 +481,48 @@
     </div>
     <div class="card">
       <div class="label">Place Name Changes</div>
-      <div class="value accent">0</div>
+      <div class="value accent">1</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#0078d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#0078d4"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#0078d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,2.0 72.7,18.0 90.3,2.0 108.0,2.0"/><circle cx="108.0" cy="2.0" r="2" fill="#0078d4"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
   </div>
 
   <!-- Stats breakdown -->
+  
+  <div class="section">
+    <h2>Change Breakdown</h2>
+    <div class="stats-grid">
+
+      
+
+      
+
+      
+
+      
+
+      
+      <div class="card">
+        <div class="label">Most Frequently Updated Fields</div>
+        <div class="bar-chart">
+          
+          
+          <div class="bar-row">
+            <span class="bar-label">Place Name</span>
+            <div class="bar-track">
+              <div class="bar-fill green" style="width:100.0%"></div>
+            </div>
+            <span class="bar-count">1</span>
+          </div>
+          
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
   
 
   <!-- New Streets -->
@@ -525,9 +554,37 @@
 
       <!-- Place Name Changes -->
       <div class="section">
-        <h2>Place Name Changes <span class="badge" style="background: var(--accent-bg); color: var(--accent)">0</span></h2>
+        <h2>Place Name Changes <span class="badge" style="background: var(--accent-bg); color: var(--accent)">1</span></h2>
         
-          <p class="empty">No place name changes.</p>
+        <p class="explainer" style="margin-bottom:12px">Changes to the place or building name attached to an address — e.g. schools, parks, businesses.</p>
+        
+          <div id="tbl-place-name">
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>Before</th>
+                  <th>After</th>
+                  <th>Map</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                
+                <tr>
+                  <td>550 Mortimer Ave</td>
+                  <td class="old-val">—</td>
+                  <td class="new-val">Centennial College Early Childhood Education Centre</td>
+                  <td><a class="map-link"
+                      href="https://www.openstreetmap.org/?mlat=43.69065&mlon=-79.32731#map=18/43.69065/-79.32731"
+                      target="_blank" rel="noopener">View ↗</a></td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
           
         </div>
 
@@ -540,7 +597,7 @@
         </div>
 
         <div class="generated-at">
-          Report generated Jun 05, 2026 at 01:01 PM
+          Report generated Jun 11, 2026 at 08:42 PM
         </div>
 
         <script>

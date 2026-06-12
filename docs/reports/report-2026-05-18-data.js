@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 18, 2026 at 03:19 PM",
+  "generated": "Jun 11, 2026 at 08:40 PM",
   "old_snapshot": {
     "id": 45,
     "downloaded": "2026-05-15T17:09:52.069862",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 46,
-      "max_snapshot_id": 46,
+      "max_snapshot_id": 59,
       "address_point_id": 60071501,
       "address_full": "71 Lloyd Manor Rd",
       "address_number": "71",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke Centre",
       "longitude": -79.55053,
       "latitude": 43.66485,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008471, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 43238, \"CENTRELINE_ID\": 910248, \"CENTRELINE_MEASURE\": 44.07, \"CENTRELINE_OFFSET\": 23.92, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2008.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051877\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008471, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 43238, \"CENTRELINE_ID\": 910248, \"CENTRELINE_MEASURE\": 44.07, \"CENTRELINE_OFFSET\": 23.92, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2008.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051877\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 46,
-      "max_snapshot_id": 46,
+      "max_snapshot_id": 59,
       "address_point_id": 60071500,
       "address_full": "69 Lloyd Manor Rd",
       "address_number": "69",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke Centre",
       "longitude": -79.55035,
       "latitude": 43.66472,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008468, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006312, \"CENTRELINE_ID\": 910248, \"CENTRELINE_MEASURE\": 23.2, \"CENTRELINE_OFFSET\": 24.56, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2008.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051878\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008468, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006312, \"CENTRELINE_ID\": 910248, \"CENTRELINE_MEASURE\": 23.2, \"CENTRELINE_OFFSET\": 24.56, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2008.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051878\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"02\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 46,
-      "max_snapshot_id": 46,
+      "max_snapshot_id": 59,
       "address_point_id": 60071503,
       "address_full": "457R Valermo Dr",
       "address_number": "457R",
@@ -81,13 +83,15 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.54391,
       "latitude": 43.60633,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008472, \"ADDRESS_ID_LINK\": 8555, \"ADDRESS_POINT_ID_LINK\": 1041078, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006313, \"CENTRELINE_ID\": 914212, \"CENTRELINE_MEASURE\": 30.14, \"CENTRELINE_OFFSET\": 45.7, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051879\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008472, \"ADDRESS_ID_LINK\": 8555, \"ADDRESS_POINT_ID_LINK\": 1041078, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006313, \"CENTRELINE_ID\": 914212, \"CENTRELINE_MEASURE\": 30.14, \"CENTRELINE_OFFSET\": 45.7, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051879\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     }
   ],
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -107,6 +111,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -127,10 +132,10 @@ window.REPORT_DATA = {
       0
     ],
     "modified": [
+      4,
+      2,
       0,
-      0,
-      0,
-      0,
+      1,
       0,
       0,
       0
@@ -140,6 +145,15 @@ window.REPORT_DATA = {
       0,
       0,
       0,
+      0,
+      0,
+      0
+    ],
+    "modified_place_name": [
+      4,
+      2,
+      0,
+      1,
       0,
       0,
       0

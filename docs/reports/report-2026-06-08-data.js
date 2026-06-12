@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 08, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:42 PM",
   "old_snapshot": {
     "id": 56,
     "downloaded": "2026-06-05T13:00:09.796634",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 57,
-      "max_snapshot_id": 57,
+      "max_snapshot_id": 59,
       "address_point_id": 60074288,
       "address_full": "61 Colgate Ave",
       "address_number": "61",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.34111,
       "latitude": 43.66205,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008846, \"ADDRESS_ID_LINK\": 243775, \"ADDRESS_POINT_ID_LINK\": 7577029, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006336, \"CENTRELINE_ID\": 7577028, \"CENTRELINE_MEASURE\": 13.33, \"CENTRELINE_OFFSET\": 10.24, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3199.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051912\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008846, \"ADDRESS_ID_LINK\": 243775, \"ADDRESS_POINT_ID_LINK\": 7577029, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006336, \"CENTRELINE_ID\": 7577028, \"CENTRELINE_MEASURE\": 13.33, \"CENTRELINE_OFFSET\": 10.24, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3199.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051912\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 57,
-      "max_snapshot_id": 57,
+      "max_snapshot_id": 59,
       "address_point_id": 60073895,
       "address_full": "98R Primrose Ave",
       "address_number": "98R",
@@ -60,7 +61,8 @@ window.REPORT_DATA = {
       "ward_name": "Davenport",
       "longitude": -79.44614,
       "latitude": 43.67089,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008836, \"ADDRESS_ID_LINK\": 64125, \"ADDRESS_POINT_ID_LINK\": 8418189, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006335, \"CENTRELINE_ID\": 30068182, \"CENTRELINE_MEASURE\": 154.37, \"CENTRELINE_OFFSET\": 41.49, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 9781.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051913\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008836, \"ADDRESS_ID_LINK\": 64125, \"ADDRESS_POINT_ID_LINK\": 8418189, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006335, \"CENTRELINE_ID\": 30068182, \"CENTRELINE_MEASURE\": 154.37, \"CENTRELINE_OFFSET\": 41.49, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 9781.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051913\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -95,6 +97,23 @@ window.REPORT_DATA = {
     }
   ],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 7777334,
+      "address_full": "19 Maryland Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69167,
+      "longitude": -79.2954,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Maryland Park",
+          "new": "Maryland Park, Dentonia Park Tennis Club",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -109,7 +128,8 @@ window.REPORT_DATA = {
     "field_changes": {
       "Full Address": 1,
       "Address Number": 1,
-      "Low Number": 1
+      "Low Number": 1,
+      "Place Name": 1
     },
     "top_streets_added": {},
     "top_streets_removed": {}
@@ -118,6 +138,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 1,
   "modified_location_count": 0,
+  "modified_place_name_count": 1,
   "sparklines": {
     "added": [
       2,
@@ -138,10 +159,10 @@ window.REPORT_DATA = {
       0
     ],
     "modified": [
+      1,
       0,
-      0,
-      0,
-      0,
+      1,
+      1,
       0,
       0,
       1
@@ -154,6 +175,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
     ]
   }
 }

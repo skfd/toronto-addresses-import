@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 15, 2026 at 05:11 PM",
+  "generated": "Jun 11, 2026 at 08:40 PM",
   "old_snapshot": {
     "id": 44,
     "downloaded": "2026-05-14T13:00:11.165559",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "Davenport",
       "longitude": -79.44295,
       "latitude": 43.66605,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474122, \"ADDRESS_ID_LINK\": 623447, \"ADDRESS_POINT_ID_LINK\": 10363749, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 145913, \"CENTRELINE_ID\": 30101046, \"CENTRELINE_MEASURE\": 20.43, \"CENTRELINE_OFFSET\": 59.06, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3396.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"922804\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1474122, \"ADDRESS_ID_LINK\": 623447, \"ADDRESS_POINT_ID_LINK\": 10363749, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 145913, \"CENTRELINE_ID\": 30101046, \"CENTRELINE_MEASURE\": 20.43, \"CENTRELINE_OFFSET\": 59.06, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3396.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"922804\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -59,6 +60,23 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 30039696,
+      "address_full": "737 Kennedy Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73081,
+      "longitude": -79.26691,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Bethel Pioneer Cemetery",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -69,7 +87,9 @@ window.REPORT_DATA = {
     "ward_removed": {
       "Davenport": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 1
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -77,6 +97,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 1,
   "sparklines": {
     "added": [
       0,
@@ -99,9 +120,9 @@ window.REPORT_DATA = {
     "modified": [
       0,
       0,
-      0,
-      0,
-      0,
+      5,
+      4,
+      2,
       0,
       0
     ],
@@ -113,6 +134,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      5,
+      4,
+      2,
+      0,
+      1
     ]
   }
 }

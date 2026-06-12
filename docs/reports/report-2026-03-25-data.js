@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:12 AM",
+  "generated": "Jun 11, 2026 at 08:37 PM",
   "old_snapshot": {
     "id": 19,
     "downloaded": "2026-03-24T13:00:08.449133",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60066705,
       "address_full": "476 Front St E",
       "address_number": "476",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.35514,
       "latitude": 43.65345,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007541, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60003648, \"CENTRELINE_ID\": 30043802, \"CENTRELINE_MEASURE\": 63.88, \"CENTRELINE_OFFSET\": 21.82, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3471.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051807\", \"PLACE_NAME\": \"Diamond Jubilee Promenade\", \"PLACE_NAME_ALL\": \"Diamond Jubilee Promenade\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007541, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60003648, \"CENTRELINE_ID\": 30043802, \"CENTRELINE_MEASURE\": 63.88, \"CENTRELINE_OFFSET\": 21.82, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3471.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051807\", \"PLACE_NAME_ALL\": \"Diamond Jubilee Promenade\", \"WARD\": \"13\"}",
+      "place_name": "Diamond Jubilee Promenade",
       "history": []
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60066701,
       "address_full": "1085A Davenport Rd",
       "address_number": "1085A",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-St. Paul's",
       "longitude": -79.42806,
       "latitude": 43.6746,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007529, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006259, \"CENTRELINE_ID\": 8007458, \"CENTRELINE_MEASURE\": 148.17, \"CENTRELINE_OFFSET\": 16.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3269.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051808\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007529, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006259, \"CENTRELINE_ID\": 8007458, \"CENTRELINE_MEASURE\": 148.17, \"CENTRELINE_OFFSET\": 16.13, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3269.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051808\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60066702,
       "address_full": "1241 Shaw St",
       "address_number": "1241",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-St. Paul's",
       "longitude": -79.42804,
       "latitude": 43.67445,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007531, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006260, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 0.82, \"CENTRELINE_OFFSET\": 11.14, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051809\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007531, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006260, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 0.82, \"CENTRELINE_OFFSET\": 11.14, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051809\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 20,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60066703,
       "address_full": "1243 Shaw St",
       "address_number": "1243",
@@ -102,7 +105,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-St. Paul's",
       "longitude": -79.42805,
       "latitude": 43.67447,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007533, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006261, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 2.98, \"CENTRELINE_OFFSET\": 11.13, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051810\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007533, \"ADDRESS_ID_LINK\": 131186, \"ADDRESS_POINT_ID_LINK\": 8007482, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006261, \"CENTRELINE_ID\": 14004027, \"CENTRELINE_MEASURE\": 2.98, \"CENTRELINE_OFFSET\": 11.13, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4388.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051810\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -125,7 +129,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke North",
       "longitude": -79.58381,
       "latitude": 43.7398,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 76568, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 614163, \"CENTRELINE_ID\": 906946, \"CENTRELINE_MEASURE\": 276.63, \"CENTRELINE_OFFSET\": 48.24, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1012.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"620368\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 76568, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 614163, \"CENTRELINE_ID\": 906946, \"CENTRELINE_MEASURE\": 276.63, \"CENTRELINE_OFFSET\": 48.24, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1012.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"620368\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"01\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -159,7 +164,8 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.40248,
       "latitude": 43.76985,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 418928, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 435267, \"CENTRELINE_ID\": 438829, \"CENTRELINE_MEASURE\": 18.74, \"CENTRELINE_OFFSET\": 24.91, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7093.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1036308\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 418928, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 435267, \"CENTRELINE_ID\": 438829, \"CENTRELINE_MEASURE\": 18.74, \"CENTRELINE_OFFSET\": 24.91, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7093.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1036308\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -339,6 +345,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -367,6 +374,7 @@ window.REPORT_DATA = {
   "removed_count": 2,
   "modified_count": 0,
   "modified_location_count": 10,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       7,
@@ -387,7 +395,7 @@ window.REPORT_DATA = {
       2
     ],
     "modified": [
-      924,
+      1304,
       0,
       0,
       0,
@@ -396,13 +404,22 @@ window.REPORT_DATA = {
       0
     ],
     "modified_location": [
-      792,
+      762,
       0,
       0,
       0,
       7,
       3,
       10
+    ],
+    "modified_place_name": [
+      380,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

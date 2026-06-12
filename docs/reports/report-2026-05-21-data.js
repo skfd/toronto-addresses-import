@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 21, 2026 at 03:30 PM",
+  "generated": "Jun 11, 2026 at 08:41 PM",
   "old_snapshot": {
     "id": 47,
     "downloaded": "2026-05-20T17:20:22.790784",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.47642,
       "latitude": 43.70895,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1540388, \"ADDRESS_ID_LINK\": 83851, \"ADDRESS_POINT_ID_LINK\": 14073776, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 624123, \"CENTRELINE_ID\": 446206, \"CENTRELINE_MEASURE\": 170.69, \"CENTRELINE_OFFSET\": 38.25, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 732.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"609489\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1540388, \"ADDRESS_ID_LINK\": 83851, \"ADDRESS_POINT_ID_LINK\": 14073776, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 624123, \"CENTRELINE_ID\": 446206, \"CENTRELINE_MEASURE\": 170.69, \"CENTRELINE_OFFSET\": 38.25, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 732.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"609489\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -74,7 +75,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.36339,
       "latitude": 43.65103,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1479173, \"ADDRESS_ID_LINK\": 670214, \"ADDRESS_POINT_ID_LINK\": 8354026, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198979, \"CENTRELINE_ID\": 8354022, \"CENTRELINE_MEASURE\": 40.03, \"CENTRELINE_OFFSET\": 40.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3471.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1009140\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1479173, \"ADDRESS_ID_LINK\": 670214, \"ADDRESS_POINT_ID_LINK\": 8354026, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198979, \"CENTRELINE_ID\": 8354022, \"CENTRELINE_MEASURE\": 40.03, \"CENTRELINE_OFFSET\": 40.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3471.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1009140\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -108,7 +110,8 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30057,
       "latitude": 43.68772,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1461085, \"ADDRESS_ID_LINK\": 200273, \"ADDRESS_POINT_ID_LINK\": 8211499, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 215056, \"CENTRELINE_ID\": 30074090, \"CENTRELINE_MEASURE\": 162.88, \"CENTRELINE_OFFSET\": 81.25, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 234.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1033531\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1461085, \"ADDRESS_ID_LINK\": 200273, \"ADDRESS_POINT_ID_LINK\": 8211499, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 215056, \"CENTRELINE_ID\": 30074090, \"CENTRELINE_MEASURE\": 162.88, \"CENTRELINE_OFFSET\": 81.25, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 234.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1033531\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -127,6 +130,68 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 6427684,
+      "address_full": "373 Cedarvale Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69817,
+      "longitude": -79.31509,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Stan Wadlow Community Centre",
+          "new": "Stan Wadlow Clubhouse",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7204531,
+      "address_full": "155 Culford Rd",
+      "municipality_name": "North York",
+      "latitude": 43.70594,
+      "longitude": -79.48716,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Amesbury Sports Complex",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114120,
+      "address_full": "3180 Kennedy Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.81481,
+      "longitude": -79.30342,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Bell Canada Structure",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6427686,
+      "address_full": "888 Cosburn Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69742,
+      "longitude": -79.31529,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Stan Wadlow Park",
+          "new": "Stan Wadlow Park, East York Memorial Arena",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -140,7 +205,9 @@ window.REPORT_DATA = {
       "Toronto Centre": 1,
       "Beaches-East York": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 4
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -148,6 +215,7 @@ window.REPORT_DATA = {
   "removed_count": 3,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 4,
   "sparklines": {
     "added": [
       0,
@@ -169,11 +237,11 @@ window.REPORT_DATA = {
     ],
     "modified": [
       0,
+      1,
       0,
       0,
       0,
-      0,
-      0,
+      1,
       0
     ],
     "modified_location": [
@@ -184,6 +252,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      4
     ]
   }
 }

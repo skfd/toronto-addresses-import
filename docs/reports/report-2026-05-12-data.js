@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 12, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:40 PM",
   "old_snapshot": {
     "id": 41,
     "downloaded": "2026-05-11T13:00:12.495461",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.22478,
       "latitude": 43.80908,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 347830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 368251, \"CENTRELINE_ID\": 30094019, \"CENTRELINE_MEASURE\": 153.7, \"CENTRELINE_OFFSET\": 33.65, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 16208.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"549649\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 347830, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 368251, \"CENTRELINE_ID\": 30094019, \"CENTRELINE_MEASURE\": 153.7, \"CENTRELINE_OFFSET\": 33.65, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11100, \"CLASS_FAMILY_DESC\": \"Land, Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 16208.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"549649\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -59,6 +60,68 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 8432102,
+      "address_full": "9 Salem Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6613,
+      "longitude": -79.43156,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Salem Parkette",
+          "new": "Salem Parkette, Carpark 84",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20229243,
+      "address_full": "170 Princes' Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63266,
+      "longitude": -79.41861,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "CNE BMO Field",
+          "new": "Toronto Stadium, BMO Field",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4792360,
+      "address_full": "3700 Don Mills Rd",
+      "municipality_name": "North York",
+      "latitude": 43.80056,
+      "longitude": -79.35424,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Duncan Creek Park,Francine Greenbelt",
+          "new": "Duncan Creek Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20082204,
+      "address_full": "80 Thyra Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69414,
+      "longitude": -79.29279,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dentonia Park",
+          "new": "Dentonia Park, Dentonia Park Clubhouse",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -69,7 +132,9 @@ window.REPORT_DATA = {
     "ward_removed": {
       "Scarborough North": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 4
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -77,6 +142,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 4,
   "sparklines": {
     "added": [
       0,
@@ -98,11 +164,11 @@ window.REPORT_DATA = {
     ],
     "modified": [
       0,
+      5,
+      4,
       0,
       0,
-      0,
-      0,
-      0,
+      5,
       0
     ],
     "modified_location": [
@@ -113,6 +179,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      5,
+      4,
+      0,
+      0,
+      5,
+      4
     ]
   }
 }

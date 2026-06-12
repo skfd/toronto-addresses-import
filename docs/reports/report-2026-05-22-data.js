@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 22, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:41 PM",
   "old_snapshot": {
     "id": 48,
     "downloaded": "2026-05-21T15:28:03.640002",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071769,
       "address_full": "104 Guestville Ave",
       "address_number": "104",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49031,
       "latitude": 43.68533,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008634, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006316, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 22.47, \"CENTRELINE_OFFSET\": 21.67, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051883\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008634, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006316, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 22.47, \"CENTRELINE_OFFSET\": 21.67, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051883\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071778,
       "address_full": "2288 Markham Rd",
       "address_number": "2288",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.24518,
       "latitude": 43.81192,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008648, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006320, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 1058.38, \"CENTRELINE_OFFSET\": 195.03, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051884\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008648, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006320, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 1058.38, \"CENTRELINE_OFFSET\": 195.03, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051884\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071774,
       "address_full": "2250 Markham Rd",
       "address_number": "2250",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.24439,
       "latitude": 43.81088,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008643, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 367273, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 944.4, \"CENTRELINE_OFFSET\": 118.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051885\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008643, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 367273, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 944.4, \"CENTRELINE_OFFSET\": 118.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051885\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071768,
       "address_full": "102 Guestville Ave",
       "address_number": "102",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49029,
       "latitude": 43.68528,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008633, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 75630, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 16.52, \"CENTRELINE_OFFSET\": 21.76, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051886\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008633, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 75630, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 16.52, \"CENTRELINE_OFFSET\": 21.76, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051886\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071773,
       "address_full": "226 Simcoe St",
       "address_number": "226",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.38885,
       "latitude": 43.65313,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008641, \"ADDRESS_ID_LINK\": 1608249, \"ADDRESS_POINT_ID_LINK\": 30141986, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006318, \"CENTRELINE_ID\": 14121636, \"CENTRELINE_MEASURE\": 90.73, \"CENTRELINE_OFFSET\": 21.97, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4411.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051887\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008641, \"ADDRESS_ID_LINK\": 1608249, \"ADDRESS_POINT_ID_LINK\": 30141986, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006318, \"CENTRELINE_ID\": 14121636, \"CENTRELINE_MEASURE\": 90.73, \"CENTRELINE_OFFSET\": 21.97, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4411.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051887\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071772,
       "address_full": "104R Guestville Ave",
       "address_number": "104R",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49051,
       "latitude": 43.6853,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008639, \"ADDRESS_ID_LINK\": 60008634, \"ADDRESS_POINT_ID_LINK\": 60071769, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006317, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 23.15, \"CENTRELINE_OFFSET\": 37.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051888\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008639, \"ADDRESS_ID_LINK\": 60008634, \"ADDRESS_POINT_ID_LINK\": 60071769, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006317, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 23.15, \"CENTRELINE_OFFSET\": 37.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051888\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071777,
       "address_full": "2252 Markham Rd",
       "address_number": "2252",
@@ -165,12 +171,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.24501,
       "latitude": 43.81109,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008646, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006304, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 974.85, \"CENTRELINE_OFFSET\": 171.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051889\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008646, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006304, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 974.85, \"CENTRELINE_OFFSET\": 171.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051889\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071767,
       "address_full": "140 The Queensway",
       "address_number": "140",
@@ -186,12 +193,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.48358,
       "latitude": 43.63069,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008630, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188136, \"CENTRELINE_ID\": 912868, \"CENTRELINE_MEASURE\": 37.17, \"CENTRELINE_OFFSET\": 17.26, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051890\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008630, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188136, \"CENTRELINE_ID\": 912868, \"CENTRELINE_MEASURE\": 37.17, \"CENTRELINE_OFFSET\": 17.26, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051890\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071775,
       "address_full": "2256 Markham Rd",
       "address_number": "2256",
@@ -207,12 +215,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.24567,
       "latitude": 43.811,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008644, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006305, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 923.96, \"CENTRELINE_OFFSET\": 221.02, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051891\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008644, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006305, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 923.96, \"CENTRELINE_OFFSET\": 221.02, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051891\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071765,
       "address_full": "63 Burnhamthorpe Cres",
       "address_number": "63",
@@ -228,12 +237,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.53217,
       "latitude": 43.64819,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008626, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006314, \"CENTRELINE_ID\": 30141394, \"CENTRELINE_MEASURE\": 161.7, \"CENTRELINE_OFFSET\": 25.53, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1265.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051892\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008626, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006314, \"CENTRELINE_ID\": 30141394, \"CENTRELINE_MEASURE\": 161.7, \"CENTRELINE_OFFSET\": 25.53, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1265.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051892\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071780,
       "address_full": "2280 Markham Rd",
       "address_number": "2280",
@@ -249,12 +259,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough North",
       "longitude": -79.24412,
       "latitude": 43.81145,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008650, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006319, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 1017.11, \"CENTRELINE_OFFSET\": 103.48, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051893\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008650, \"ADDRESS_ID_LINK\": 60008643, \"ADDRESS_POINT_ID_LINK\": 60071774, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006319, \"CENTRELINE_ID\": 60010154, \"CENTRELINE_MEASURE\": 1017.11, \"CENTRELINE_OFFSET\": 103.48, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8429.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051893\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"23\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071771,
       "address_full": "102R Guestville Ave",
       "address_number": "102R",
@@ -270,12 +281,13 @@ window.REPORT_DATA = {
       "ward_name": "York South-Weston",
       "longitude": -79.49048,
       "latitude": 43.68525,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008637, \"ADDRESS_ID_LINK\": 60008633, \"ADDRESS_POINT_ID_LINK\": 60071768, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006315, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 17.4, \"CENTRELINE_OFFSET\": 37.11, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051894\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008637, \"ADDRESS_ID_LINK\": 60008633, \"ADDRESS_POINT_ID_LINK\": 60071768, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006315, \"CENTRELINE_ID\": 10313241, \"CENTRELINE_MEASURE\": 17.4, \"CENTRELINE_OFFSET\": 37.11, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 637.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"YK\", \"OBJECTID\": \"1051894\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"05\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071764,
       "address_full": "61 Burnhamthorpe Cres",
       "address_number": "61",
@@ -291,12 +303,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.5321,
       "latitude": 43.64827,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008625, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 15610, \"CENTRELINE_ID\": 30141394, \"CENTRELINE_MEASURE\": 151.09, \"CENTRELINE_OFFSET\": 25.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1265.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051895\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008625, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 15610, \"CENTRELINE_ID\": 30141394, \"CENTRELINE_MEASURE\": 151.09, \"CENTRELINE_OFFSET\": 25.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1265.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051895\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 49,
-      "max_snapshot_id": 49,
+      "max_snapshot_id": 59,
       "address_point_id": 60071825,
       "address_full": "33B Parliament St",
       "address_number": "33B",
@@ -312,7 +325,8 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36144,
       "latitude": 43.64913,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008654, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006321, \"CENTRELINE_ID\": 60034445, \"CENTRELINE_MEASURE\": 81.92, \"CENTRELINE_OFFSET\": 18.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051896\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008654, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006321, \"CENTRELINE_ID\": 60034445, \"CENTRELINE_MEASURE\": 81.92, \"CENTRELINE_OFFSET\": 18.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4162.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051896\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -335,7 +349,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.48356,
       "latitude": 43.63075,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1460617, \"ADDRESS_ID_LINK\": 181077, \"ADDRESS_POINT_ID_LINK\": 1036987, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188137, \"CENTRELINE_ID\": 912868, \"CENTRELINE_MEASURE\": 33.64, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"921841\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1460617, \"ADDRESS_ID_LINK\": 181077, \"ADDRESS_POINT_ID_LINK\": 1036987, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 188137, \"CENTRELINE_ID\": 912868, \"CENTRELINE_MEASURE\": 33.64, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2603.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"921841\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -369,7 +384,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32715,
       "latitude": 43.66929,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1480997, \"ADDRESS_ID_LINK\": 726510, \"ADDRESS_POINT_ID_LINK\": 7795987, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 250457, \"CENTRELINE_ID\": 7795874, \"CENTRELINE_MEASURE\": 14.64, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2913.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"932499\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1480997, \"ADDRESS_ID_LINK\": 726510, \"ADDRESS_POINT_ID_LINK\": 7795987, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 250457, \"CENTRELINE_ID\": 7795874, \"CENTRELINE_MEASURE\": 14.64, \"CENTRELINE_OFFSET\": 23.0, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2913.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"932499\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -388,6 +404,53 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 12697721,
+      "address_full": "160 Borough Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77305,
+      "longitude": -79.25648,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Toronto Public Health",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 539579,
+      "address_full": "15 Mallow Rd",
+      "municipality_name": "North York",
+      "latitude": 43.74106,
+      "longitude": -79.34156,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Mallow Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30058755,
+      "address_full": "158 Borough Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.7727,
+      "longitude": -79.25668,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Carpark 711",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -410,7 +473,9 @@ window.REPORT_DATA = {
       "Etobicoke-Lakeshore": 1,
       "Toronto-Danforth": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 3
+    },
     "top_streets_added": {
       "Markham Rd": 5
     },
@@ -420,6 +485,7 @@ window.REPORT_DATA = {
   "removed_count": 2,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 3,
   "sparklines": {
     "added": [
       0,
@@ -440,12 +506,12 @@ window.REPORT_DATA = {
       2
     ],
     "modified": [
+      1,
       0,
       0,
       0,
-      0,
-      0,
-      0,
+      1,
+      4,
       0
     ],
     "modified_location": [
@@ -456,6 +522,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      4,
+      3
     ]
   }
 }

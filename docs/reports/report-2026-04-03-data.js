@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:15 AM",
+  "generated": "Jun 11, 2026 at 08:37 PM",
   "old_snapshot": {
     "id": 23,
     "downloaded": "2026-04-02T22:48:23.801407",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068044,
       "address_full": "30 Bazalgette Dr",
       "address_number": "30",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.1745,
       "latitude": 43.79657,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007619, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615647, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 162.51, \"CENTRELINE_OFFSET\": 26.14, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051824\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007619, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615647, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 162.51, \"CENTRELINE_OFFSET\": 26.14, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051824\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068047,
       "address_full": "27 Bazalgette Dr",
       "address_number": "27",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17499,
       "latitude": 43.79645,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007628, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006273, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 163.4, \"CENTRELINE_OFFSET\": 15.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051825\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007628, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006273, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 163.4, \"CENTRELINE_OFFSET\": 15.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051825\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068068,
       "address_full": "30 Norwood Rd",
       "address_number": "30",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30335,
       "latitude": 43.6839,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007638, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 233588, \"CENTRELINE_ID\": 1139671, \"CENTRELINE_MEASURE\": 68.46, \"CENTRELINE_OFFSET\": 21.65, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4076.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051826\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007638, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 233588, \"CENTRELINE_ID\": 1139671, \"CENTRELINE_MEASURE\": 68.46, \"CENTRELINE_OFFSET\": 21.65, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4076.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051826\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068075,
       "address_full": "42 Album Lane",
       "address_number": "42",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "Davenport",
       "longitude": -79.44014,
       "latitude": 43.66786,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007648, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006279, \"CENTRELINE_ID\": 30145971, \"CENTRELINE_MEASURE\": 32.77, \"CENTRELINE_OFFSET\": 12.16, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30193.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051827\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007648, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006279, \"CENTRELINE_ID\": 30145971, \"CENTRELINE_MEASURE\": 32.77, \"CENTRELINE_OFFSET\": 12.16, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30193.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051827\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"09\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068046,
       "address_full": "34 Bazalgette Dr",
       "address_number": "34",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17486,
       "latitude": 43.79677,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007625, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006274, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 193.56, \"CENTRELINE_OFFSET\": 6.34, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051828\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007625, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006274, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 193.56, \"CENTRELINE_OFFSET\": 6.34, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051828\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068067,
       "address_full": "30A Norwood Rd",
       "address_number": "30A",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.30333,
       "latitude": 43.68384,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007635, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006275, \"CENTRELINE_ID\": 1139671, \"CENTRELINE_MEASURE\": 61.12, \"CENTRELINE_OFFSET\": 22.77, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4076.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051829\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007635, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006275, \"CENTRELINE_ID\": 1139671, \"CENTRELINE_MEASURE\": 61.12, \"CENTRELINE_OFFSET\": 22.77, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4076.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051829\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068071,
       "address_full": "155A Poyntz Ave",
       "address_number": "155A",
@@ -165,12 +171,13 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.41762,
       "latitude": 43.75819,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007640, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006276, \"CENTRELINE_ID\": 440206, \"CENTRELINE_MEASURE\": 167.75, \"CENTRELINE_OFFSET\": 21.36, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6463.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051830\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007640, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006276, \"CENTRELINE_ID\": 440206, \"CENTRELINE_MEASURE\": 167.75, \"CENTRELINE_OFFSET\": 21.36, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6463.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051830\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068043,
       "address_full": "11 Willowlea Dr",
       "address_number": "11",
@@ -186,12 +193,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17503,
       "latitude": 43.79709,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007618, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 376854, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 98.03, \"CENTRELINE_OFFSET\": 28.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051831\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007618, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 376854, \"CENTRELINE_ID\": 105184, \"CENTRELINE_MEASURE\": 98.03, \"CENTRELINE_OFFSET\": 28.2, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 9237.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051831\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068048,
       "address_full": "29 Bazalgette Dr",
       "address_number": "29",
@@ -207,12 +215,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17505,
       "latitude": 43.79659,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007631, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615646, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 179.46, \"CENTRELINE_OFFSET\": 15.27, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051832\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007631, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615646, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 179.46, \"CENTRELINE_OFFSET\": 15.27, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051832\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068045,
       "address_full": "32 Bazalgette Dr",
       "address_number": "32",
@@ -228,12 +237,13 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17456,
       "latitude": 43.7967,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007622, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615648, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 178.03, \"CENTRELINE_OFFSET\": 26.07, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051833\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007622, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 615648, \"CENTRELINE_ID\": 20102627, \"CENTRELINE_MEASURE\": 178.03, \"CENTRELINE_OFFSET\": 26.07, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 18908.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"1051833\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068074,
       "address_full": "885R Caledonia Rd",
       "address_number": "885R",
@@ -249,12 +259,13 @@ window.REPORT_DATA = {
       "ward_name": "Eglinton-Lawrence",
       "longitude": -79.46366,
       "latitude": 43.70424,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007646, \"ADDRESS_ID_LINK\": 92963, \"ADDRESS_POINT_ID_LINK\": 570731, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006278, \"CENTRELINE_ID\": 8032813, \"CENTRELINE_MEASURE\": 99.95, \"CENTRELINE_OFFSET\": 78.61, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 481.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051834\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007646, \"ADDRESS_ID_LINK\": 92963, \"ADDRESS_POINT_ID_LINK\": 570731, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006278, \"CENTRELINE_ID\": 8032813, \"CENTRELINE_MEASURE\": 99.95, \"CENTRELINE_OFFSET\": 78.61, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 481.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051834\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"08\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 24,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068072,
       "address_full": "155B Poyntz Ave",
       "address_number": "155B",
@@ -270,7 +281,8 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.41768,
       "latitude": 43.75817,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007643, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006277, \"CENTRELINE_ID\": 440206, \"CENTRELINE_MEASURE\": 172.87, \"CENTRELINE_OFFSET\": 21.95, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6463.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051835\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007643, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006277, \"CENTRELINE_ID\": 440206, \"CENTRELINE_MEASURE\": 172.87, \"CENTRELINE_OFFSET\": 21.95, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6463.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051835\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -838,6 +850,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -867,6 +880,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 35,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -903,6 +917,15 @@ window.REPORT_DATA = {
       0,
       44,
       35
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:08 AM",
+  "generated": "Jun 11, 2026 at 08:36 PM",
   "old_snapshot": {
     "id": 14,
     "downloaded": "2026-03-10T13:29:14.706454",
@@ -39,7 +39,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley East",
       "longitude": -79.35708,
       "latitude": 43.74655,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007450, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006241, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 128.13, \"CENTRELINE_OFFSET\": 26.08, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678828\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007450, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006241, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 128.13, \"CENTRELINE_OFFSET\": 26.08, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678828\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "place_name": null,
       "history": []
     },
     {
@@ -60,7 +61,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley East",
       "longitude": -79.35704,
       "latitude": 43.74655,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007452, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006242, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 131.05, \"CENTRELINE_OFFSET\": 26.08, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678830\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007452, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006242, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 131.05, \"CENTRELINE_OFFSET\": 26.08, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678830\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "place_name": null,
       "history": []
     },
     {
@@ -81,7 +83,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley East",
       "longitude": -79.357,
       "latitude": 43.74656,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007454, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006243, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 134.17, \"CENTRELINE_OFFSET\": 25.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678831\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007454, \"ADDRESS_ID_LINK\": 274534, \"ADDRESS_POINT_ID_LINK\": 563856, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006243, \"CENTRELINE_ID\": 441580, \"CENTRELINE_MEASURE\": 134.17, \"CENTRELINE_OFFSET\": 25.89, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 6753.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5678831\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"16\"}",
+      "place_name": null,
       "history": []
     },
     {
@@ -102,7 +105,8 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.41755,
       "latitude": 43.75944,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007456, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 432924, \"CENTRELINE_ID\": 11529919, \"CENTRELINE_MEASURE\": 121.29, \"CENTRELINE_OFFSET\": 23.65, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4992.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5679027\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007456, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 432924, \"CENTRELINE_ID\": 11529919, \"CENTRELINE_MEASURE\": 121.29, \"CENTRELINE_OFFSET\": 23.65, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4992.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5679027\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "place_name": null,
       "history": []
     },
     {
@@ -123,7 +127,8 @@ window.REPORT_DATA = {
       "ward_name": "Willowdale",
       "longitude": -79.41762,
       "latitude": 43.75943,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007457, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006244, \"CENTRELINE_ID\": 11529919, \"CENTRELINE_MEASURE\": 126.91, \"CENTRELINE_OFFSET\": 23.98, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4992.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5679029\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007457, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006244, \"CENTRELINE_ID\": 11529919, \"CENTRELINE_MEASURE\": 126.91, \"CENTRELINE_OFFSET\": 23.98, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4992.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"5679029\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"18\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -146,7 +151,8 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough-Rouge Park",
       "longitude": -79.17623,
       "latitude": 43.76919,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1298455, \"ADDRESS_ID_LINK\": 812249, \"ADDRESS_POINT_ID_LINK\": 9135077, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 345922, \"CENTRELINE_ID\": 9135125, \"CENTRELINE_MEASURE\": 95.17, \"CENTRELINE_OFFSET\": 38.03, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8411.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"3040637\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1298455, \"ADDRESS_ID_LINK\": 812249, \"ADDRESS_POINT_ID_LINK\": 9135077, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 345922, \"CENTRELINE_ID\": 9135125, \"CENTRELINE_MEASURE\": 95.17, \"CENTRELINE_OFFSET\": 38.03, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 8411.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"3040637\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"25\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -163,7 +169,30 @@ window.REPORT_DATA = {
       ]
     }
   ],
-  "modified": [],
+  "modified": [
+    {
+      "address_point_id": 10280124,
+      "address_full": "4777 Dufferin St",
+      "municipality_name": "North York",
+      "latitude": 43.77714,
+      "longitude": -79.46182,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "G Ross Lord Park",
+          "new": "Community Association for Riding for the Disabled",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.77754, -79.46856",
+          "new": "43.77714, -79.46182",
+          "arrow": "\u2192 543.6m",
+          "display_field": "Location"
+        }
+      ]
+    }
+  ],
   "modified_location": [
     {
       "address_point_id": 398444,
@@ -454,22 +483,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 10280124,
-      "address_full": "4777 Dufferin St",
-      "municipality_name": "North York",
-      "latitude": 43.77714,
-      "longitude": -79.46182,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.77754, -79.46856",
-          "new": "43.77714, -79.46182",
-          "arrow": "\u2192 543.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 8120455,
       "address_full": "42 Mercury Rd",
       "municipality_name": "Etobicoke",
@@ -502,6 +515,53 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [
+    {
+      "address_point_id": 1370675,
+      "address_full": "173 Fairglen Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.78637,
+      "longitude": -79.32603,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Fairglen Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 482523,
+      "address_full": "45 Ancaster Rd",
+      "municipality_name": "North York",
+      "latitude": 43.73303,
+      "longitude": -79.46601,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Ancaster Early Learning And Child Care Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30100348,
+      "address_full": "51 Neptune Dr",
+      "municipality_name": "North York",
+      "latitude": 43.7316,
+      "longitude": -79.43541,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Elijah Park",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -519,15 +579,17 @@ window.REPORT_DATA = {
     },
     "field_changes": {
       "Location (longitude)": 19,
-      "Location (latitude)": 19
+      "Location (latitude)": 19,
+      "Place Name": 4
     },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
   "added_count": 5,
   "removed_count": 1,
-  "modified_count": 0,
-  "modified_location_count": 21,
+  "modified_count": 1,
+  "modified_location_count": 20,
+  "modified_place_name_count": 3,
   "sparklines": {
     "added": [
       0,
@@ -554,7 +616,7 @@ window.REPORT_DATA = {
       5,
       0,
       14,
-      0
+      1
     ],
     "modified_location": [
       23,
@@ -562,8 +624,17 @@ window.REPORT_DATA = {
       17,
       5,
       0,
-      14,
-      21
+      12,
+      20
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
     ]
   }
 }

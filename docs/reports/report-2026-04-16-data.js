@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:17 AM",
+  "generated": "Jun 11, 2026 at 08:38 PM",
   "old_snapshot": {
     "id": 27,
     "downloaded": "2026-04-13T13:00:05.584921",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068938,
       "address_full": "9 Don River Blvd",
       "address_number": "9",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "York Centre",
       "longitude": -79.43041,
       "latitude": 43.7568,
-      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007693, \"ADDRESS_ID_LINK\": 478321, \"ADDRESS_POINT_ID_LINK\": 9246594, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006289, \"CENTRELINE_ID\": 30035892, \"CENTRELINE_MEASURE\": 215.26, \"CENTRELINE_OFFSET\": 29.36, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5402.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051849\", \"PLACE_NAME\": \"Parking Lot - Earl Bales Park\", \"PLACE_NAME_ALL\": \"Parking Lot - Earl Bales Park\", \"WARD\": \"06\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007693, \"ADDRESS_ID_LINK\": 478321, \"ADDRESS_POINT_ID_LINK\": 9246594, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006289, \"CENTRELINE_ID\": 30035892, \"CENTRELINE_MEASURE\": 215.26, \"CENTRELINE_OFFSET\": 29.36, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 5402.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"1051849\", \"PLACE_NAME_ALL\": \"Parking Lot - Earl Bales Park\", \"WARD\": \"06\"}",
+      "place_name": "Parking Lot - Earl Bales Park",
       "history": []
     },
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068939,
       "address_full": "127 Glenlake Ave",
       "address_number": "127",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45968,
       "latitude": 43.65847,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007694, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 61028, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 5.7, \"CENTRELINE_OFFSET\": 18.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051850\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007694, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 61028, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 5.7, \"CENTRELINE_OFFSET\": 18.21, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051850\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 28,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068940,
       "address_full": "129 Glenlake Ave",
       "address_number": "129",
@@ -81,7 +83,8 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45974,
       "latitude": 43.65846,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007695, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60004893, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 10.73, \"CENTRELINE_OFFSET\": 17.94, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051851\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007695, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60004893, \"CENTRELINE_ID\": 14013850, \"CENTRELINE_MEASURE\": 10.73, \"CENTRELINE_OFFSET\": 17.94, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3546.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051851\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -281,6 +284,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -304,6 +308,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 12,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       1,
@@ -340,6 +345,15 @@ window.REPORT_DATA = {
       21,
       0,
       12
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

@@ -465,17 +465,17 @@
     </div>
     <div class="card">
       <div class="label">Updated Addresses</div>
-      <div class="value yellow">0</div>
+      <div class="value yellow">2</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,13.0 37.3,18.0 55.0,14.3 72.7,16.9 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#eaa300"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,13.0 37.3,18.0 55.0,14.3 72.7,16.9 90.3,18.0 108.0,17.6"/><circle cx="108.0" cy="17.6" r="2" fill="#eaa300"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
     <div class="card">
       <div class="label">Location Adjustments</div>
-      <div class="value" style="color: var(--text-dim)">14</div>
+      <div class="value" style="color: var(--text-dim)">12</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#808080" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,13.0 37.3,18.0 55.0,14.3 72.7,16.9 90.3,18.0 108.0,15.0"/><circle cx="108.0" cy="15.0" r="2" fill="#808080"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#808080" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,13.0 37.3,18.0 55.0,14.3 72.7,16.9 90.3,18.0 108.0,15.4"/><circle cx="108.0" cy="15.4" r="2" fill="#808080"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
@@ -531,6 +531,14 @@
               <div class="bar-fill green" style="width:100.0%"></div>
             </div>
             <span class="bar-count">14</span>
+          </div>
+          
+          <div class="bar-row">
+            <span class="bar-label">Place Name</span>
+            <div class="bar-track">
+              <div class="bar-fill green" style="width:14.0%"></div>
+            </div>
+            <span class="bar-count">2</span>
           </div>
           
         </div>
@@ -591,9 +599,64 @@
 
       <!-- Modified -->
       <div class="section">
-        <h2>Updated Addresses <span class="badge badge-yellow">0</span></h2>
+        <h2>Updated Addresses <span class="badge badge-yellow">2</span></h2>
         
-          <p class="empty">No addresses updated.</p>
+        
+          <div id="tbl-modified">
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>What Changed</th>
+                  <th>Before</th>
+                  <th></th>
+                  <th>After</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                
+                <tr>
+                  <td rowspan="2">110 Eastdale Ave
+                  </td>
+                  <td class="change-field">Place Name</td>
+                  <td class="old-val">Eastdale Parkette</td>
+                  <td class="arrow-val"></td>
+                  <td class="new-val">—</td>
+                </tr>
+                
+                <tr>
+                  
+                  <td class="change-field">Location</td>
+                  <td class="old-val">43.69536, -79.30159</td>
+                  <td class="arrow-val">→ 11.3m</td>
+                  <td class="new-val">43.69537, -79.30145</td>
+                </tr>
+                
+                
+                
+                <tr>
+                  <td rowspan="2">651 Fleet St
+                  </td>
+                  <td class="change-field">Place Name</td>
+                  <td class="old-val">—</td>
+                  <td class="arrow-val"></td>
+                  <td class="new-val">Queen&#39;s Wharf Lighthouse</td>
+                </tr>
+                
+                <tr>
+                  
+                  <td class="change-field">Location</td>
+                  <td class="old-val">43.63589, -79.40478</td>
+                  <td class="arrow-val">← 11.3m</td>
+                  <td class="new-val">43.63589, -79.40492</td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
           
         </div>
 
@@ -607,7 +670,7 @@
 
       <!-- Location Adjustments -->
       <div class="section">
-        <h2>Location Adjustments <span class="badge" style="background: var(--surface2); color: var(--text-dim)">14</span></h2>
+        <h2>Location Adjustments <span class="badge" style="background: var(--surface2); color: var(--text-dim)">12</span></h2>
         
         
           <div id="tbl-location">
@@ -687,15 +750,6 @@
                 </tr>
                 
                 <tr>
-                  <td>110 Eastdale Ave</td>
-                  
-                  <td class="old-val">43.69536, -79.30159<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.69536&mlon=-79.30159#map=19/43.69536/-79.30159" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  <td class="arrow-val">→ 11.3m</td>
-                  <td class="new-val">43.69537, -79.30145<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.69537&mlon=-79.30145#map=19/43.69537/-79.30145" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  
-                </tr>
-                
-                <tr>
                   <td>184 Lake Promenade</td>
                   
                   <td class="old-val">43.59047, -79.52849<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.59047&mlon=-79.52849#map=19/43.59047/-79.52849" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
@@ -719,15 +773,6 @@
                   <td class="old-val">43.70988, -79.37187<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.70988&mlon=-79.37187#map=19/43.70988/-79.37187" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
                   <td class="arrow-val">→ 14.8m</td>
                   <td class="new-val">43.70993, -79.37170<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.70993&mlon=-79.37170#map=19/43.70993/-79.37170" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  
-                </tr>
-                
-                <tr>
-                  <td>651 Fleet St</td>
-                  
-                  <td class="old-val">43.63589, -79.40478<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.63589&mlon=-79.40478#map=19/43.63589/-79.40478" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  <td class="arrow-val">← 11.3m</td>
-                  <td class="new-val">43.63589, -79.40492<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.63589&mlon=-79.40492#map=19/43.63589/-79.40492" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
                   
                 </tr>
                 
@@ -756,7 +801,7 @@
         </div>
 
         <div class="generated-at">
-          Report generated Apr 22, 2026 at 03:08 AM
+          Report generated Jun 11, 2026 at 08:36 PM
         </div>
 
         <script>

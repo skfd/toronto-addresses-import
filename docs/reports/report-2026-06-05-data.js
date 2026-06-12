@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 05, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:42 PM",
   "old_snapshot": {
     "id": 55,
     "downloaded": "2026-06-04T13:00:11.778361",
@@ -24,13 +24,32 @@ window.REPORT_DATA = {
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 29702,
+      "address_full": "550 Mortimer Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69065,
+      "longitude": -79.32731,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Centennial College Early Childhood Education Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {},
     "muni_removed": {},
     "ward_added": {},
     "ward_removed": {},
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 1
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -38,6 +57,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 1,
   "sparklines": {
     "added": [
       0,
@@ -61,9 +81,9 @@ window.REPORT_DATA = {
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0,
+      1,
       0
     ],
     "modified_location": [
@@ -74,6 +94,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
     ]
   }
 }

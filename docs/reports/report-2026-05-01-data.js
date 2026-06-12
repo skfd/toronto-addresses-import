@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 01, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:39 PM",
   "old_snapshot": {
     "id": 36,
     "downloaded": "2026-04-30T15:26:03.111137",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 37,
-      "max_snapshot_id": 37,
+      "max_snapshot_id": 59,
       "address_point_id": 60069741,
       "address_full": "133 Wilton St",
       "address_number": "133",
@@ -39,7 +39,8 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36888,
       "latitude": 43.64812,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008027, \"ADDRESS_ID_LINK\": 184971, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198599, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 53.39, \"CENTRELINE_OFFSET\": 12.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051867\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008027, \"ADDRESS_ID_LINK\": 184971, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198599, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 53.39, \"CENTRELINE_OFFSET\": 12.53, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051867\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -62,7 +63,8 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36957,
       "latitude": 43.64742,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 184969, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198552, \"CENTRELINE_ID\": 6168193, \"CENTRELINE_MEASURE\": 21.91, \"CENTRELINE_OFFSET\": 27.75, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3645.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"752682\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 184969, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198552, \"CENTRELINE_ID\": 6168193, \"CENTRELINE_MEASURE\": 21.91, \"CENTRELINE_OFFSET\": 27.75, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3645.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"752682\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -96,7 +98,8 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36936,
       "latitude": 43.64798,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1470068, \"ADDRESS_ID_LINK\": 671171, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 23603, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 11.22, \"CENTRELINE_OFFSET\": 16.02, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"798156\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1470068, \"ADDRESS_ID_LINK\": 671171, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 23603, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 11.22, \"CENTRELINE_OFFSET\": 16.02, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"798156\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -130,7 +133,8 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36893,
       "latitude": 43.64807,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1478932, \"ADDRESS_ID_LINK\": 671171, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198591, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 47.75, \"CENTRELINE_OFFSET\": 16.6, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"861084\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1478932, \"ADDRESS_ID_LINK\": 671171, \"ADDRESS_POINT_ID_LINK\": 8351455, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 198591, \"CENTRELINE_ID\": 30126310, \"CENTRELINE_MEASURE\": 47.75, \"CENTRELINE_OFFSET\": 16.6, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4695.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"861084\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -1718,6 +1722,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -1743,6 +1748,7 @@ window.REPORT_DATA = {
   "removed_count": 3,
   "modified_count": 0,
   "modified_location_count": 98,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -1779,6 +1785,15 @@ window.REPORT_DATA = {
       9,
       34,
       98
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

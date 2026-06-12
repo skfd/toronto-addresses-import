@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:09 AM",
+  "generated": "Jun 11, 2026 at 08:36 PM",
   "old_snapshot": {
     "id": 15,
     "downloaded": "2026-03-12T20:56:53.836630",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064208,
       "address_full": "2430 Dundas St W",
       "address_number": "2430",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45303,
       "latitude": 43.65903,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007468, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006247, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 95.03, \"CENTRELINE_OFFSET\": 18.65, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051792\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007468, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006247, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 95.03, \"CENTRELINE_OFFSET\": 18.65, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051792\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064210,
       "address_full": "2432 Dundas St W",
       "address_number": "2432",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45311,
       "latitude": 43.6592,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007470, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006248, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 115.02, \"CENTRELINE_OFFSET\": 18.45, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051793\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007470, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006248, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 115.02, \"CENTRELINE_OFFSET\": 18.45, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051793\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064206,
       "address_full": "2424 Dundas St W",
       "address_number": "2424",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45292,
       "latitude": 43.65879,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007466, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006245, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 66.72, \"CENTRELINE_OFFSET\": 19.17, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051794\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007466, \"ADDRESS_ID_LINK\": 60007463, \"ADDRESS_POINT_ID_LINK\": 60064205, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006245, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 66.72, \"CENTRELINE_OFFSET\": 19.17, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051794\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064205,
       "address_full": "2428 Dundas St W",
       "address_number": "2428",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45295,
       "latitude": 43.65889,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007463, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006246, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 78.1, \"CENTRELINE_OFFSET\": 19.99, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051795\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007463, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006246, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 78.1, \"CENTRELINE_OFFSET\": 19.99, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051795\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064211,
       "address_full": "46R Grandview Ave",
       "address_number": "46R",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.34915,
       "latitude": 43.67416,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007472, \"ADDRESS_ID_LINK\": 247827, \"ADDRESS_POINT_ID_LINK\": 815185, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006250, \"CENTRELINE_ID\": 14021422, \"CENTRELINE_MEASURE\": 178.2, \"CENTRELINE_OFFSET\": 39.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1705.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051796\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007472, \"ADDRESS_ID_LINK\": 247827, \"ADDRESS_POINT_ID_LINK\": 815185, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006250, \"CENTRELINE_ID\": 14021422, \"CENTRELINE_MEASURE\": 178.2, \"CENTRELINE_OFFSET\": 39.61, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1705.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051796\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064332,
       "address_full": "367 Woodmount Ave",
       "address_number": "367",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "Beaches-East York",
       "longitude": -79.32109,
       "latitude": 43.69925,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007494, \"ADDRESS_ID_LINK\": 262571, \"ADDRESS_POINT_ID_LINK\": 30738, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006252, \"CENTRELINE_ID\": 996, \"CENTRELINE_MEASURE\": 176.25, \"CENTRELINE_OFFSET\": 15.64, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 396.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1051797\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007494, \"ADDRESS_ID_LINK\": 262571, \"ADDRESS_POINT_ID_LINK\": 30738, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006252, \"CENTRELINE_ID\": 996, \"CENTRELINE_MEASURE\": 176.25, \"CENTRELINE_OFFSET\": 15.64, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 396.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1051797\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"19\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 16,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60064333,
       "address_full": "155R Gilmour Ave",
       "address_number": "155R",
@@ -165,7 +171,8 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.47789,
       "latitude": 43.66235,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007496, \"ADDRESS_ID_LINK\": 56790, \"ADDRESS_POINT_ID_LINK\": 8006381, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006251, \"CENTRELINE_ID\": 14015022, \"CENTRELINE_MEASURE\": 146.07, \"CENTRELINE_OFFSET\": 41.33, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3504.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051798\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007496, \"ADDRESS_ID_LINK\": 56790, \"ADDRESS_POINT_ID_LINK\": 8006381, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006251, \"CENTRELINE_ID\": 14015022, \"CENTRELINE_MEASURE\": 146.07, \"CENTRELINE_OFFSET\": 41.33, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3504.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051798\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -188,7 +195,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.33577,
       "latitude": 43.68645,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 228602, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 239824, \"CENTRELINE_ID\": 1815, \"CENTRELINE_MEASURE\": 64.37, \"CENTRELINE_OFFSET\": 22.47, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 321.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"2386397\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 228602, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 239824, \"CENTRELINE_ID\": 1815, \"CENTRELINE_MEASURE\": 64.37, \"CENTRELINE_OFFSET\": 22.47, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 321.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"2386397\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -222,7 +230,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.48925,
       "latitude": 43.61015,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 481513, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 499299, \"CENTRELINE_ID\": 7963929, \"CENTRELINE_MEASURE\": 26.18, \"CENTRELINE_OFFSET\": 75.04, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1962.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"4402625\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 481513, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 499299, \"CENTRELINE_ID\": 7963929, \"CENTRELINE_MEASURE\": 26.18, \"CENTRELINE_OFFSET\": 75.04, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1962.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"4402625\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -256,7 +265,8 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.45307,
       "latitude": 43.65913,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60002855, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60769, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 106.35, \"CENTRELINE_OFFSET\": 18.7, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5166434\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60002855, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60769, \"CENTRELINE_ID\": 8260283, \"CENTRELINE_MEASURE\": 106.35, \"CENTRELINE_OFFSET\": 18.7, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 558.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5166434\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -316,6 +326,28 @@ window.REPORT_DATA = {
           "old": "Ave",
           "new": "Rd",
           "display_field": "Street Type"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14077473,
+      "address_full": "3 Hanover Rd",
+      "municipality_name": "North York",
+      "latitude": 43.73797,
+      "longitude": -79.46671,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Robert Leek Memorial Park",
+          "new": "Robert Leek Park,Hanover Park",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.73797, -79.46674",
+          "new": "43.73797, -79.46671",
+          "arrow": "\u2192 2.4m",
+          "display_field": "Location"
         }
       ]
     },
@@ -3382,6 +3414,12 @@ window.REPORT_DATA = {
           "old": "Willowdale",
           "new": "York Centre",
           "display_field": "Ward"
+        },
+        {
+          "field": "place_name",
+          "old": "Hinder Area",
+          "new": "Hinder Area,West Don Parkland",
+          "display_field": "Place Name"
         }
       ]
     },
@@ -3409,6 +3447,12 @@ window.REPORT_DATA = {
           "old": "McDonald's",
           "new": "Mcdonald's",
           "display_field": "Street"
+        },
+        {
+          "field": "place_name",
+          "old": "Wynford Park",
+          "new": null,
+          "display_field": "Place Name"
         }
       ]
     },
@@ -3436,6 +3480,28 @@ window.REPORT_DATA = {
           "old": 26,
           "new": 24,
           "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 536804,
+      "address_full": "5760 Leslie St",
+      "municipality_name": "North York",
+      "latitude": 43.79437,
+      "longitude": -79.36939,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Old Cummer GO Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.79369, -79.37139",
+          "new": "43.79437, -79.36939",
+          "arrow": "\u2197 177.6m",
+          "display_field": "Location"
         }
       ]
     },
@@ -3659,6 +3725,556 @@ window.REPORT_DATA = {
       ]
     },
     {
+      "address_point_id": 10335151,
+      "address_full": "695 Lansdowne Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65913,
+      "longitude": -79.44281,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 81",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65920, -79.44282",
+          "new": "43.65913, -79.44281",
+          "arrow": "\u2193 7.8m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 870227,
+      "address_full": "85 Spadina Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67041,
+      "longitude": -79.40507,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Spadina Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.67039, -79.40507",
+          "new": "43.67041, -79.40507",
+          "arrow": "\u2191 2.2m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 395735,
+      "address_full": "701 Warden Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.7116,
+      "longitude": -79.27947,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Warden Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.71129, -79.27944",
+          "new": "43.71160, -79.27947",
+          "arrow": "\u2191 34.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 769481,
+      "address_full": "8 Bedford Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66873,
+      "longitude": -79.39786,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St George Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.66868, -79.39785",
+          "new": "43.66873, -79.39786",
+          "arrow": "\u2191 5.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6913359,
+      "address_full": "370 St Clair Ave W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68405,
+      "longitude": -79.41509,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St Clair West Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.68395, -79.41548",
+          "new": "43.68405, -79.41509",
+          "arrow": "\u2192 33.3m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7754566,
+      "address_full": "16 Wellesley St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66529,
+      "longitude": -79.38394,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Wellesley Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.66526, -79.38374",
+          "new": "43.66529, -79.38394",
+          "arrow": "\u2190 16.4m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7950531,
+      "address_full": "15 Jane St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64988,
+      "longitude": -79.48438,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Jane Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.64983, -79.48436",
+          "new": "43.64988, -79.48438",
+          "arrow": "\u2191 5.8m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7963482,
+      "address_full": "265 Runnymede Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65174,
+      "longitude": -79.47597,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Runnymede Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65170, -79.47595",
+          "new": "43.65174, -79.47597",
+          "arrow": "\u2191 4.7m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13497752,
+      "address_full": "1240 Bay St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67034,
+      "longitude": -79.39013,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bay Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.67039, -79.39001",
+          "new": "43.67034, -79.39013",
+          "arrow": "\u2199 11.2m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7792705,
+      "address_full": "671 University Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6598,
+      "longitude": -79.39007,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Queen's Park Station",
+          "new": "Queen's Park Subway Entrance",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65973, -79.39006",
+          "new": "43.65980, -79.39007",
+          "arrow": "\u2191 7.8m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7793104,
+      "address_full": "129 College St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65966,
+      "longitude": -79.39077,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Queen's Park Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65965, -79.39082",
+          "new": "43.65966, -79.39077",
+          "arrow": "\u2192 4.2m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6345159,
+      "address_full": "3 Queen's Park",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66019,
+      "longitude": -79.39027,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ontario Fallen Fire Fighter Memorial",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.66033, -79.38992",
+          "new": "43.66019, -79.39027",
+          "arrow": "\u2199 32.2m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10335150,
+      "address_full": "691 Lansdowne Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65911,
+      "longitude": -79.44269,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lansdowne Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65908, -79.44279",
+          "new": "43.65911, -79.44269",
+          "arrow": "\u2197 8.7m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10387252,
+      "address_full": "716 Pape Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67954,
+      "longitude": -79.34537,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 17",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.67960, -79.34539",
+          "new": "43.67954, -79.34537",
+          "arrow": "\u2193 6.9m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13977809,
+      "address_full": "2365 Dundas St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65693,
+      "longitude": -79.45324,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dundas West Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65689, -79.45324",
+          "new": "43.65693, -79.45324",
+          "arrow": "\u2191 4.5m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14043670,
+      "address_full": "550 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.7671,
+      "longitude": -79.38753,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bayview Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.76712, -79.38759",
+          "new": "43.76710, -79.38753",
+          "arrow": "\u2198 5.3m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1008938,
+      "address_full": "1226 Islington Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64522,
+      "longitude": -79.52404,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Islington Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.64531, -79.52400",
+          "new": "43.64522, -79.52404",
+          "arrow": "\u2193 10.5m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14076438,
+      "address_full": "15 St Clair Ave E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68811,
+      "longitude": -79.39298,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St Clair Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.68812, -79.39316",
+          "new": "43.68811, -79.39298",
+          "arrow": "\u2192 14.5m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14172695,
+      "address_full": "21 Keele St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65559,
+      "longitude": -79.46006,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Keele Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65556, -79.45999",
+          "new": "43.65559, -79.46006",
+          "arrow": "\u2196 6.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9311869,
+      "address_full": "3933 Keele St",
+      "municipality_name": "North York",
+      "latitude": 43.763,
+      "longitude": -79.49026,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Finch West Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.76320, -79.49042",
+          "new": "43.76300, -79.49026",
+          "arrow": "\u2198 25.7m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30017900,
+      "address_full": "3950 Keele St",
+      "municipality_name": "North York",
+      "latitude": 43.76395,
+      "longitude": -79.49166,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Finch West Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.76399, -79.49154",
+          "new": "43.76395, -79.49166",
+          "arrow": "\u2199 10.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30095692,
+      "address_full": "120 Ian Macdonald Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.77385,
+      "longitude": -79.50015,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "York University Station",
+          "new": "TTC York University Station",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.77392, -79.49982",
+          "new": "43.77385, -79.50015",
+          "arrow": "\u2190 27.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 60031895,
+      "address_full": "271 Royal York Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.61329,
+      "longitude": -79.49667,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St. Leo Catholic School",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.61402, -79.49667",
+          "new": "43.61329, -79.49667",
+          "arrow": "\u2193 81.3m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8408493,
+      "address_full": "1234 Bay St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67028,
+      "longitude": -79.39011,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bay Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.67031, -79.38997",
+          "new": "43.67028, -79.39011",
+          "arrow": "\u2190 11.8m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14043658,
+      "address_full": "1209 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.77101,
+      "longitude": -79.36714,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Leslie Station",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.77100, -79.36715",
+          "new": "43.77101, -79.36714",
+          "arrow": "\u2197 1.4m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
       "address_point_id": 30112915,
       "address_full": "185 Front St E",
       "municipality_name": "former Toronto",
@@ -3709,6 +4325,72 @@ window.REPORT_DATA = {
           "old": 35,
           "new": 39,
           "display_field": "Low Number"
+        }
+      ]
+    },
+    {
+      "address_point_id": 5495484,
+      "address_full": "149 Elmcrest Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64924,
+      "longitude": -79.58878,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Centennial Park Conservatory",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.64898, -79.58754",
+          "new": "43.64924, -79.58878",
+          "arrow": "\u2190 104.0m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 5495486,
+      "address_full": "149A Elmcrest Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64962,
+      "longitude": -79.58933,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Centennial Park Conservatory",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.64936, -79.58728",
+          "new": "43.64962, -79.58933",
+          "arrow": "\u2190 167.6m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7472096,
+      "address_full": "156 Centennial Park Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65692,
+      "longitude": -79.58633,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Centennial Park Arena",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.65615, -79.58584",
+          "new": "43.65692, -79.58633",
+          "arrow": "\u2196 94.4m",
+          "display_field": "Location"
         }
       ]
     },
@@ -6825,22 +7507,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 14077473,
-      "address_full": "3 Hanover Rd",
-      "municipality_name": "North York",
-      "latitude": 43.73797,
-      "longitude": -79.46671,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.73797, -79.46674",
-          "new": "43.73797, -79.46671",
-          "arrow": "\u2192 2.4m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 30014256,
       "address_full": "135 Village Green Sq",
       "municipality_name": "Scarborough",
@@ -7433,22 +8099,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 536804,
-      "address_full": "5760 Leslie St",
-      "municipality_name": "North York",
-      "latitude": 43.79437,
-      "longitude": -79.36939,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.79369, -79.37139",
-          "new": "43.79437, -79.36939",
-          "arrow": "\u2197 177.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 1027269,
       "address_full": "18 Rexdale Blvd",
       "municipality_name": "Etobicoke",
@@ -7609,22 +8259,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 10335151,
-      "address_full": "695 Lansdowne Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65913,
-      "longitude": -79.44281,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65920, -79.44282",
-          "new": "43.65913, -79.44281",
-          "arrow": "\u2193 7.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 10561028,
       "address_full": "1035 Sheppard Ave W",
       "municipality_name": "North York",
@@ -7652,22 +8286,6 @@ window.REPORT_DATA = {
           "old": "43.68809, -79.39323",
           "new": "43.68793, -79.39302",
           "arrow": "\u2198 24.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 870227,
-      "address_full": "85 Spadina Rd",
-      "municipality_name": "former Toronto",
-      "latitude": 43.67041,
-      "longitude": -79.40507,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.67039, -79.40507",
-          "new": "43.67041, -79.40507",
-          "arrow": "\u2191 2.2m",
           "display_field": "Location"
         }
       ]
@@ -7705,54 +8323,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 395735,
-      "address_full": "701 Warden Ave",
-      "municipality_name": "Scarborough",
-      "latitude": 43.7116,
-      "longitude": -79.27947,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.71129, -79.27944",
-          "new": "43.71160, -79.27947",
-          "arrow": "\u2191 34.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 769481,
-      "address_full": "8 Bedford Rd",
-      "municipality_name": "former Toronto",
-      "latitude": 43.66873,
-      "longitude": -79.39786,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.66868, -79.39785",
-          "new": "43.66873, -79.39786",
-          "arrow": "\u2191 5.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 6913359,
-      "address_full": "370 St Clair Ave W",
-      "municipality_name": "former Toronto",
-      "latitude": 43.68405,
-      "longitude": -79.41509,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.68395, -79.41548",
-          "new": "43.68405, -79.41509",
-          "arrow": "\u2192 33.3m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 14121091,
       "address_full": "396 St Clair Ave W",
       "municipality_name": "former Toronto",
@@ -7764,54 +8334,6 @@ window.REPORT_DATA = {
           "old": "43.68393, -79.41575",
           "new": "43.68408, -79.41530",
           "arrow": "\u2197 39.9m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7754566,
-      "address_full": "16 Wellesley St E",
-      "municipality_name": "former Toronto",
-      "latitude": 43.66529,
-      "longitude": -79.38394,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.66526, -79.38374",
-          "new": "43.66529, -79.38394",
-          "arrow": "\u2190 16.4m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7950531,
-      "address_full": "15 Jane St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.64988,
-      "longitude": -79.48438,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.64983, -79.48436",
-          "new": "43.64988, -79.48438",
-          "arrow": "\u2191 5.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7963482,
-      "address_full": "265 Runnymede Rd",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65174,
-      "longitude": -79.47597,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65170, -79.47595",
-          "new": "43.65174, -79.47597",
-          "arrow": "\u2191 4.7m",
           "display_field": "Location"
         }
       ]
@@ -7844,22 +8366,6 @@ window.REPORT_DATA = {
           "old": "43.67030, -79.39057",
           "new": "43.67026, -79.39049",
           "arrow": "\u2198 7.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 13497752,
-      "address_full": "1240 Bay St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.67034,
-      "longitude": -79.39013,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.67039, -79.39001",
-          "new": "43.67034, -79.39013",
-          "arrow": "\u2199 11.2m",
           "display_field": "Location"
         }
       ]
@@ -7977,38 +8483,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 7792705,
-      "address_full": "671 University Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.6598,
-      "longitude": -79.39007,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65973, -79.39006",
-          "new": "43.65980, -79.39007",
-          "arrow": "\u2191 7.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7793104,
-      "address_full": "129 College St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65966,
-      "longitude": -79.39077,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65965, -79.39082",
-          "new": "43.65966, -79.39077",
-          "arrow": "\u2192 4.2m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 30122868,
       "address_full": "124 College St",
       "municipality_name": "former Toronto",
@@ -8025,102 +8499,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 6345159,
-      "address_full": "3 Queen's Park",
-      "municipality_name": "former Toronto",
-      "latitude": 43.66019,
-      "longitude": -79.39027,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.66033, -79.38992",
-          "new": "43.66019, -79.39027",
-          "arrow": "\u2199 32.2m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 10335150,
-      "address_full": "691 Lansdowne Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65911,
-      "longitude": -79.44269,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65908, -79.44279",
-          "new": "43.65911, -79.44269",
-          "arrow": "\u2197 8.7m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 10387252,
-      "address_full": "716 Pape Ave",
-      "municipality_name": "former Toronto",
-      "latitude": 43.67954,
-      "longitude": -79.34537,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.67960, -79.34539",
-          "new": "43.67954, -79.34537",
-          "arrow": "\u2193 6.9m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 13977809,
-      "address_full": "2365 Dundas St W",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65693,
-      "longitude": -79.45324,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65689, -79.45324",
-          "new": "43.65693, -79.45324",
-          "arrow": "\u2191 4.5m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14043670,
-      "address_full": "550 Sheppard Ave E",
-      "municipality_name": "North York",
-      "latitude": 43.7671,
-      "longitude": -79.38753,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.76712, -79.38759",
-          "new": "43.76710, -79.38753",
-          "arrow": "\u2198 5.3m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 1008938,
-      "address_full": "1226 Islington Ave",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.64522,
-      "longitude": -79.52404,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.64531, -79.52400",
-          "new": "43.64522, -79.52404",
-          "arrow": "\u2193 10.5m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 14659976,
       "address_full": "60 Brian Harrison Way",
       "municipality_name": "Scarborough",
@@ -8132,102 +8510,6 @@ window.REPORT_DATA = {
           "old": "43.77398, -79.25753",
           "new": "43.77402, -79.25801",
           "arrow": "\u2190 38.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14076438,
-      "address_full": "15 St Clair Ave E",
-      "municipality_name": "former Toronto",
-      "latitude": 43.68811,
-      "longitude": -79.39298,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.68812, -79.39316",
-          "new": "43.68811, -79.39298",
-          "arrow": "\u2192 14.5m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14172695,
-      "address_full": "21 Keele St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.65559,
-      "longitude": -79.46006,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65556, -79.45999",
-          "new": "43.65559, -79.46006",
-          "arrow": "\u2196 6.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 9311869,
-      "address_full": "3933 Keele St",
-      "municipality_name": "North York",
-      "latitude": 43.763,
-      "longitude": -79.49026,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.76320, -79.49042",
-          "new": "43.76300, -79.49026",
-          "arrow": "\u2198 25.7m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 30017900,
-      "address_full": "3950 Keele St",
-      "municipality_name": "North York",
-      "latitude": 43.76395,
-      "longitude": -79.49166,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.76399, -79.49154",
-          "new": "43.76395, -79.49166",
-          "arrow": "\u2199 10.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 30095692,
-      "address_full": "120 Ian Macdonald Blvd",
-      "municipality_name": "North York",
-      "latitude": 43.77385,
-      "longitude": -79.50015,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.77392, -79.49982",
-          "new": "43.77385, -79.50015",
-          "arrow": "\u2190 27.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 60031895,
-      "address_full": "271 Royal York Rd",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.61329,
-      "longitude": -79.49667,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.61402, -79.49667",
-          "new": "43.61329, -79.49667",
-          "arrow": "\u2193 81.3m",
           "display_field": "Location"
         }
       ]
@@ -9273,22 +9555,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 8408493,
-      "address_full": "1234 Bay St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.67028,
-      "longitude": -79.39011,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.67031, -79.38997",
-          "new": "43.67028, -79.39011",
-          "arrow": "\u2190 11.8m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 5963649,
       "address_full": "1395 Royal York Rd",
       "municipality_name": "Etobicoke",
@@ -10100,22 +10366,6 @@ window.REPORT_DATA = {
           "old": "43.65698, -79.46476",
           "new": "43.65706, -79.46474",
           "arrow": "\u2191 9.1m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 14043658,
-      "address_full": "1209 Sheppard Ave E",
-      "municipality_name": "North York",
-      "latitude": 43.77101,
-      "longitude": -79.36714,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.77100, -79.36715",
-          "new": "43.77101, -79.36714",
-          "arrow": "\u2197 1.4m",
           "display_field": "Location"
         }
       ]
@@ -14009,38 +14259,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 5495484,
-      "address_full": "149 Elmcrest Rd",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.64924,
-      "longitude": -79.58878,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.64898, -79.58754",
-          "new": "43.64924, -79.58878",
-          "arrow": "\u2190 104.0m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 5495486,
-      "address_full": "149A Elmcrest Rd",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.64962,
-      "longitude": -79.58933,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.64936, -79.58728",
-          "new": "43.64962, -79.58933",
-          "arrow": "\u2190 167.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 7472090,
       "address_full": "256 Centennial Park Rd",
       "municipality_name": "Etobicoke",
@@ -14068,22 +14286,6 @@ window.REPORT_DATA = {
           "old": "43.65597, -79.58837",
           "new": "43.65712, -79.58660",
           "arrow": "\u2197 191.6m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
-      "address_point_id": 7472096,
-      "address_full": "156 Centennial Park Rd",
-      "municipality_name": "Etobicoke",
-      "latitude": 43.65692,
-      "longitude": -79.58633,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.65615, -79.58584",
-          "new": "43.65692, -79.58633",
-          "arrow": "\u2196 94.4m",
           "display_field": "Location"
         }
       ]
@@ -16441,6 +16643,5708 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [
+    {
+      "address_point_id": 13972590,
+      "address_full": "30 Empringham Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.8116,
+      "longitude": -79.21029,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Shawn 'Blu' Rose Park",
+          "new": "Shawn 'Blu' Rose Park,Empringham Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7635750,
+      "address_full": "485 Shuter St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65842,
+      "longitude": -79.35888,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Louis March Parkette, Sumach - Shuter Parkette",
+          "new": "Sumach - Shuter Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11048267,
+      "address_full": "885 Pharmacy Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.72907,
+      "longitude": -79.29822,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Eglinton Pumping Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11048269,
+      "address_full": "887 Pharmacy Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.72955,
+      "longitude": -79.29853,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ambulance Station 44",
+          "new": "Ambulance Station 21",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30104716,
+      "address_full": "250 Fort York Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63786,
+      "longitude": -79.40631,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Fort York National Historic Site",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 807841,
+      "address_full": "100 Garrison Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63849,
+      "longitude": -79.40628,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Garrison Common",
+          "new": "Fort York National Historic Site",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8714154,
+      "address_full": "115 St Andrews Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76013,
+      "longitude": -79.25168,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St. Andrews Presbyterian Church Scarborough",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9217308,
+      "address_full": "405 Dufferin St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64336,
+      "longitude": -79.42872,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pessoa Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14048476,
+      "address_full": "101 Bridgeport Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77779,
+      "longitude": -79.14015,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bill Hancox Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 798223,
+      "address_full": "900 Duplex Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.72093,
+      "longitude": -79.40453,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Chatsworth Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30019292,
+      "address_full": "1020 Bay St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66586,
+      "longitude": -79.38821,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Clover Hill Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30122272,
+      "address_full": "34 Lorene Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64533,
+      "longitude": -79.55608,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cronin Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30079207,
+      "address_full": "250 Manor Rd E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70532,
+      "longitude": -79.38523,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cudmore Creek Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30079786,
+      "address_full": "190 Manor Rd E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70462,
+      "longitude": -79.38785,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Manor Community Green",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30136727,
+      "address_full": "125 Consumers Rd",
+      "municipality_name": "North York",
+      "latitude": 43.77412,
+      "longitude": -79.33219,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "David Caplan Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8566549,
+      "address_full": "1717 Dundas St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64986,
+      "longitude": -79.43877,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dundas - St. Clarens Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14209169,
+      "address_full": "225 Dunn Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63949,
+      "longitude": -79.43363,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dunn Avenue Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972585,
+      "address_full": "2281 Eglinton Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73064,
+      "longitude": -79.27297,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Eglinton Ravine Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972605,
+      "address_full": "110 Foxridge Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.72388,
+      "longitude": -79.26633,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Farlinger Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30088183,
+      "address_full": "33 Kingsbury Cres",
+      "municipality_name": "Scarborough",
+      "latitude": 43.68968,
+      "longitude": -79.26267,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Harding Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30123116,
+      "address_full": "150 Harrison St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65047,
+      "longitude": -79.42477,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Harrison-Dovercourt Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30122858,
+      "address_full": "135 St Clair Ave E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68926,
+      "longitude": -79.38745,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Inglewood Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30121874,
+      "address_full": "25 Ackley Hts",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.66069,
+      "longitude": -79.51327,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Joshua Glover Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14651783,
+      "address_full": "40 Cecil St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65668,
+      "longitude": -79.39703,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Julius Deutsch Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30088927,
+      "address_full": "573 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.76706,
+      "longitude": -79.38565,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kenaston Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14194379,
+      "address_full": "57 Coldstream Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71744,
+      "longitude": -79.4162,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kimbark - Coldstream Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 784868,
+      "address_full": "65 Coldstream Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71732,
+      "longitude": -79.41655,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kimbark - Coldstream Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1372546,
+      "address_full": "27 Lambeth Cres",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.66258,
+      "longitude": -79.52232,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lambeth Crescent Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6523116,
+      "address_full": "240 Maria St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66659,
+      "longitude": -79.48057,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Maria Street Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30076112,
+      "address_full": "150 McCowan Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73452,
+      "longitude": -79.23747,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "McCowan District Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30027072,
+      "address_full": "80 Parkway Forest Dr",
+      "municipality_name": "North York",
+      "latitude": 43.77174,
+      "longitude": -79.34134,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Parkway Forest Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30138489,
+      "address_full": "305 Martin Grove Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65879,
+      "longitude": -79.55542,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ravenscrest Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370461,
+      "address_full": "65 Royal Rouge Trl",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80098,
+      "longitude": -79.14679,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Royal Rouge Tot Lot",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11981540,
+      "address_full": "1114 St Clair Ave W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67863,
+      "longitude": -79.44119,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Santa Chiara Parkette, Anne Marie D'Amico Square",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30056961,
+      "address_full": "181 Scott Rd",
+      "municipality_name": "York",
+      "latitude": 43.68753,
+      "longitude": -79.47107,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Silverthorn Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30139064,
+      "address_full": "10 Earldown Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.6756,
+      "longitude": -79.57198,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Willowridge Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12388781,
+      "address_full": "1611 Bathurst St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69006,
+      "longitude": -79.42071,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cedarvale Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30139052,
+      "address_full": "175 Chesterton Shores",
+      "municipality_name": "Scarborough",
+      "latitude": 43.78105,
+      "longitude": -79.12899,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Port Union Waterfront Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30120932,
+      "address_full": "270 Bessborough Dr",
+      "municipality_name": "East York",
+      "latitude": 43.71182,
+      "longitude": -79.37459,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bessborough Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10494325,
+      "address_full": "45 Bracken Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67841,
+      "longitude": -79.28339,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Neville Park Blvd Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30092462,
+      "address_full": "86 Soudan Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70513,
+      "longitude": -79.3951,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Raccoon Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30099988,
+      "address_full": "25 Wellesley St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66439,
+      "longitude": -79.38603,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dr. Lillian McGregor Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30151103,
+      "address_full": "219 Glengarry Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.72339,
+      "longitude": -79.41344,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Glengarry Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30022193,
+      "address_full": "255 Bremner Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64173,
+      "longitude": -79.38538,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Roundhouse Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9445897,
+      "address_full": "3 Ellis Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6368,
+      "longitude": -79.46532,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sunnyside Bike Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30083237,
+      "address_full": "75 Atria Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.77435,
+      "longitude": -79.32901,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Atria North Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30082566,
+      "address_full": "63 Ann O'Reilly Rd",
+      "municipality_name": "North York",
+      "latitude": 43.77377,
+      "longitude": -79.32889,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Atria South Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30110884,
+      "address_full": "20 Adelaide Pl",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64502,
+      "longitude": -79.4018,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Adelaide Place Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30098432,
+      "address_full": "160 Fairview Mall Dr",
+      "municipality_name": "North York",
+      "latitude": 43.78027,
+      "longitude": -79.34319,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Allenbury Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30113440,
+      "address_full": "21 Ballyconnor Crt",
+      "municipality_name": "North York",
+      "latitude": 43.79989,
+      "longitude": -79.3863,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ballyconnor Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13977351,
+      "address_full": "68A Hilldale Rd",
+      "municipality_name": "York",
+      "latitude": 43.67745,
+      "longitude": -79.48266,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Black Creek Site East",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370036,
+      "address_full": "345 Alliance Ave",
+      "municipality_name": "York",
+      "latitude": 43.67784,
+      "longitude": -79.48358,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Black Creek Site East",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7665451,
+      "address_full": "1200 Mount Pleasant Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.7194,
+      "longitude": -79.39488,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Blythwood Ravine Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30138811,
+      "address_full": "80 Canon Jackson Dr",
+      "municipality_name": "York",
+      "latitude": 43.69824,
+      "longitude": -79.47209,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Canon Jackson Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6888053,
+      "address_full": "65 Dickens St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66484,
+      "longitude": -79.34193,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carlaw-Dundas Triangle Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7705519,
+      "address_full": "32B Carscadden Dr",
+      "municipality_name": "North York",
+      "latitude": 43.76609,
+      "longitude": -79.44265,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carscadden Greenbelt",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30112977,
+      "address_full": "19 Glen Agar Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.66158,
+      "longitude": -79.55094,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Chimney Swift Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972423,
+      "address_full": "10 Delano Pl",
+      "municipality_name": "Scarborough",
+      "latitude": 43.704,
+      "longitude": -79.24741,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cliffside Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114882,
+      "address_full": "14 Inn on The Park Dr",
+      "municipality_name": "North York",
+      "latitude": 43.71935,
+      "longitude": -79.34881,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Don-Leslie Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30080085,
+      "address_full": "60 Howard St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67152,
+      "longitude": -79.37314,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dr. Gordon Chong Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8491686,
+      "address_full": "19 Draper St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64245,
+      "longitude": -79.39773,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Draper Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30073780,
+      "address_full": "1200 Briar Hill Ave",
+      "municipality_name": "York",
+      "latitude": 43.70266,
+      "longitude": -79.45179,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dufferin Hill Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972650,
+      "address_full": "3000 Ellesmere Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.7847,
+      "longitude": -79.1973,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ellesmere Ravine Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972765,
+      "address_full": "100 Ferncroft Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.68896,
+      "longitude": -79.27695,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Golf Club Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30041115,
+      "address_full": "303 Adelaide St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64752,
+      "longitude": -79.39126,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grasett Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30102778,
+      "address_full": "100 Manse Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.7603,
+      "longitude": -79.17249,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grey Abbey Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973130,
+      "address_full": "136 Milford Haven Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77746,
+      "longitude": -79.21703,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Heather Heights Woods",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10154888,
+      "address_full": "33 Soudan Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70441,
+      "longitude": -79.3967,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Hillsdale Avenue Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30023689,
+      "address_full": "55 Isaac Devins Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.72967,
+      "longitude": -79.53214,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Isaac Devins Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30106312,
+      "address_full": "965 Ellesmere Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76582,
+      "longitude": -79.27832,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Jolly Way Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30138634,
+      "address_full": "636 Fleet St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63612,
+      "longitude": -79.40406,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "June Callwood Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14077871,
+      "address_full": "66 Norwood Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68476,
+      "longitude": -79.30372,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kildonan Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30073934,
+      "address_full": "625 Brimley Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.74279,
+      "longitude": -79.25027,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Knob Hill Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30059677,
+      "address_full": "21 Centennial Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77349,
+      "longitude": -79.14468,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lower Highland Creek",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 539768,
+      "address_full": "8 Manorpark Crt",
+      "municipality_name": "North York",
+      "latitude": 43.7686,
+      "longitude": -79.3593,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Manor Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30105597,
+      "address_full": "160 Village Green Sq",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77881,
+      "longitude": -79.28219,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Metrogate Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973271,
+      "address_full": "111 Midland Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.70669,
+      "longitude": -79.24661,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Midland Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 68691,
+      "address_full": "261 Nairn Ave",
+      "municipality_name": "York",
+      "latitude": 43.68411,
+      "longitude": -79.45135,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Nairn Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 3121364,
+      "address_full": "10 Ordnance St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63925,
+      "longitude": -79.40853,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ordnance Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30119572,
+      "address_full": "29R Queens Quay E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64089,
+      "longitude": -79.37249,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pier 27 Promenade Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14190824,
+      "address_full": "10 Plowshare Cres",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.75654,
+      "longitude": -79.59697,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Plowshare Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370985,
+      "address_full": "141 Thicketwood Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.74472,
+      "longitude": -79.24312,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pringdale Ravine, Pringdale Dream Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30032428,
+      "address_full": "28 Rean Dr",
+      "municipality_name": "North York",
+      "latitude": 43.76755,
+      "longitude": -79.3833,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rean Drive Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30122594,
+      "address_full": "3 Hanover Rd",
+      "municipality_name": "North York",
+      "latitude": 43.73787,
+      "longitude": -79.46707,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Robert Leek Memorial Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8540480,
+      "address_full": "450 Bloor St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6727,
+      "longitude": -79.37619,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rosedale Ravine Lands",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30056788,
+      "address_full": "801 Wellington St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64091,
+      "longitude": -79.40962,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "South Stanley Extension Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30091187,
+      "address_full": "123 Spring Garden Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76502,
+      "longitude": -79.40608,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Spring Garden Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30011548,
+      "address_full": "144 Sunfield Rd",
+      "municipality_name": "North York",
+      "latitude": 43.74319,
+      "longitude": -79.49276,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sunfield Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8104709,
+      "address_full": "350 College St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65749,
+      "longitude": -79.40391,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "The Doctors Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30089510,
+      "address_full": "701 Fleet St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63601,
+      "longitude": -79.40831,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "The Gore",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7641694,
+      "address_full": "25 Gould St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65759,
+      "longitude": -79.3798,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Toronto Metropolitan University Square",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7587251,
+      "address_full": "103 Morningside Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64437,
+      "longitude": -79.47985,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Waller Avenue Ravine Lands",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20062860,
+      "address_full": "1457 Bloor St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65673,
+      "longitude": -79.44945,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "West Toronto Railpath",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10558225,
+      "address_full": "1680 Gerrard St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67631,
+      "longitude": -79.31736,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Williamson Park Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8456674,
+      "address_full": "111 Hocken Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68068,
+      "longitude": -79.42272,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Wychwood Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075812,
+      "address_full": "68 Wellesworth Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.66587,
+      "longitude": -79.58105,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Briarcrest Park",
+          "new": "Briarcrest park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 860612,
+      "address_full": "550 Roehampton Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71172,
+      "longitude": -79.38086,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Charlotte Maher Park",
+          "new": "Charlotte Maher Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9949976,
+      "address_full": "2170 Weston Rd",
+      "municipality_name": "York",
+      "latitude": 43.70287,
+      "longitude": -79.52567,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cruickshank Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20170113,
+      "address_full": "75 Asterfield Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77476,
+      "longitude": -79.17482,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Asterfield-Plumrose Blvd Parkette",
+          "new": "Asterfield - Plumrose Blvd Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20032675,
+      "address_full": "15 Coulter Ave",
+      "municipality_name": "York",
+      "latitude": 43.70479,
+      "longitude": -79.52679,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Coulter Ave Parkette",
+          "new": "Coulter Ave Parkette,Coulter Ave Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 772765,
+      "address_full": "248 Bloor St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66821,
+      "longitude": -79.3981,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bloor-Bedford Parkette",
+          "new": "Bloor - Bedford Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20028561,
+      "address_full": "1521 Royal York Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.69269,
+      "longitude": -79.53089,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Douglas B. Ford Park",
+          "new": "Douglas Ford Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14077519,
+      "address_full": "1629 Wilson Ave",
+      "municipality_name": "North York",
+      "latitude": 43.71931,
+      "longitude": -79.51255,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Downsview Park and Lawn Bowling Greens",
+          "new": "Downsview Park And Lawn Bowling Greens",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8985359,
+      "address_full": "1 Third St",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59884,
+      "longitude": -79.49928,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Prince of Wales Park",
+          "new": "Prince Of Wales Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 22780,
+      "address_full": "10 Everett Cres",
+      "municipality_name": "East York",
+      "latitude": 43.69564,
+      "longitude": -79.31028,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Everett Park",
+          "new": "Everett Open Space",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30104984,
+      "address_full": "100 Cleanside Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.71813,
+      "longitude": -79.27917,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "GECo Park",
+          "new": "Geco Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6947477,
+      "address_full": "100 Silver Springs Blvd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80333,
+      "longitude": -79.30434,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "L'Amoreaux Sports Complex",
+          "new": "L'Amoreaux Sports Complex,L'Amoreaux South Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 786518,
+      "address_full": "115 Condor Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6775,
+      "longitude": -79.33612,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Phin Park",
+          "new": "Phin Avenue Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14228760,
+      "address_full": "115 Sanwood Blvd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.81624,
+      "longitude": -79.30575,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Shepton Way Park",
+          "new": "Shepton Way Park,Kennedy - Purcell Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10759019,
+      "address_full": "12 Drumoak Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.66078,
+      "longitude": -79.52886,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Drumoak Road Parkette",
+          "new": "Drumoak Road Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973129,
+      "address_full": "125 Milford Haven Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77732,
+      "longitude": -79.21618,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Heather Heights Park",
+          "new": "Heather Heights Woods",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 349429,
+      "address_full": "146 Kalmar Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.69442,
+      "longitude": -79.27058,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Hollis Kalmar Park",
+          "new": "Hollis - Kalmar Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7754925,
+      "address_full": "15 Gloucester St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66658,
+      "longitude": -79.3843,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "James Canning Gardens",
+          "new": "James Canning Gardens,Dundonald Street Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30028601,
+      "address_full": "150 Bayview Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65496,
+      "longitude": -79.35411,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lawren Harris Square",
+          "new": "River Square Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11048159,
+      "address_full": "150 Gamble Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69107,
+      "longitude": -79.34701,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Gamble Playground",
+          "new": "Gamble Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1371089,
+      "address_full": "1501 Victoria Park Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.72426,
+      "longitude": -79.30168,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Victoria Park - Eglinton Parkette",
+          "new": "Victoria Prk - Eglinton Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14209884,
+      "address_full": "1555 Danforth Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68305,
+      "longitude": -79.32408,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Robertson Parkette",
+          "new": "Robertson Parkette,1555 Danforth Road Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30018338,
+      "address_full": "160 Memorial Park Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69202,
+      "longitude": -79.33023,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "True Davidson Park",
+          "new": "True Davidson Park,170 Memorial Ave",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973406,
+      "address_full": "164 Treverton Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.74119,
+      "longitude": -79.26806,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Mooregate Park",
+          "new": "Mooregate Tot Lot",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30041077,
+      "address_full": "165 Maxwell St",
+      "municipality_name": "North York",
+      "latitude": 43.76175,
+      "longitude": -79.44847,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Maxwell Park",
+          "new": "West Don Parkland",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12623446,
+      "address_full": "180 Huron St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65772,
+      "longitude": -79.39826,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lillian H. Smith Park",
+          "new": "Lillian H. Smith Park,Lillian H. Smith Library Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30022451,
+      "address_full": "20 Viella St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67263,
+      "longitude": -79.47292,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Maple Claire Park",
+          "new": "Maple Claire Park,Viella - Tarragona Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075752,
+      "address_full": "203 Staines Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82593,
+      "longitude": -79.22015,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Point Rouge Trail Park",
+          "new": "Point Rouge Trail park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14307476,
+      "address_full": "200 Staines Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82556,
+      "longitude": -79.22073,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Point Rouge Trail Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 857990,
+      "address_full": "22 Relmar Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69067,
+      "longitude": -79.41409,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Suydam Park",
+          "new": "Suydam Park,Relmar Gardens",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 791368,
+      "address_full": "220 Davisville Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70028,
+      "longitude": -79.38822,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "June Rowlands Park",
+          "new": "June Rowlands Park,Davisville Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13977191,
+      "address_full": "222 Bremner Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64263,
+      "longitude": -79.38465,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Olympic Park",
+          "new": "Olympic Park,Olympic Gardens",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11226855,
+      "address_full": "238 Queens Quay W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63943,
+      "longitude": -79.38459,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rees Street Parkette",
+          "new": "Rees Street Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10250346,
+      "address_full": "24 Kennedy Park Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6524,
+      "longitude": -79.47269,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kennedy-Margdon Parkette",
+          "new": "Kennedy - Margdon Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20089537,
+      "address_full": "2750 Islington Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.74533,
+      "longitude": -79.5695,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Finch-Islington Park",
+          "new": "Finch - Islington Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30158888,
+      "address_full": "2750 St Clair Ave W",
+      "municipality_name": "York",
+      "latitude": 43.66638,
+      "longitude": -79.49901,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Scarlett-St. Clair Parkette",
+          "new": "Scarlett - St. Clair Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8007409,
+      "address_full": "285 Melita Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67392,
+      "longitude": -79.42408,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Marian Engel Park",
+          "new": "Marian Engel Park,Lamport Lodge",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 5729345,
+      "address_full": "295 Lake Promenade",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.58813,
+      "longitude": -79.53384,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Len Ford Park",
+          "new": "Lenford Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973190,
+      "address_full": "30 Littles Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.81642,
+      "longitude": -79.20373,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Littles Road Park",
+          "new": "Littles Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1372389,
+      "address_full": "31 Lavington Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.68942,
+      "longitude": -79.56359,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Martingrove Gardens Park",
+          "new": "Martin Grove Gardens Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2893463,
+      "address_full": "33 St Lawrence St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65535,
+      "longitude": -79.35541,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Underpass Park",
+          "new": "Underpass Park - east of St Lawrence St",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 879395,
+      "address_full": "33 Walmer Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66872,
+      "longitude": -79.40624,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Gwendolyn MacEwen Parkette",
+          "new": "Gwendolyn Macewen Parkette,Walmer Road Circle",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7929911,
+      "address_full": "350 Lake Shore Blvd W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63957,
+      "longitude": -79.39013,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Southern Linear Park",
+          "new": "Southern Linear Park,Southern Linear Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14258228,
+      "address_full": "36 Centre Island Pk",
+      "municipality_name": "former Toronto",
+      "latitude": 43.61808,
+      "longitude": -79.3788,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Toronto Islands - Forestry Island",
+          "new": "Toronto Islands-Forestry Island",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14069053,
+      "address_full": "375 Queens Quay W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63781,
+      "longitude": -79.39023,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "HTO Park West",
+          "new": "Hto Park West",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30039902,
+      "address_full": "4 Sandra Rd",
+      "municipality_name": "East York",
+      "latitude": 43.70492,
+      "longitude": -79.31405,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Parkview Gardens",
+          "new": "Sandra - St Clair Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14602420,
+      "address_full": "40 Pogonia St",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82637,
+      "longitude": -79.22752,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Knotwood Park",
+          "new": "Knottwood Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14198192,
+      "address_full": "40 Vradenberg Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77479,
+      "longitude": -79.31026,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Vradenburg Park",
+          "new": "Vradenberg Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30139294,
+      "address_full": "4015 Lawrence Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76443,
+      "longitude": -79.20249,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Highland Creek",
+          "new": "Highland Creek Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14646977,
+      "address_full": "415 Black Creek Dr",
+      "municipality_name": "York",
+      "latitude": 43.69021,
+      "longitude": -79.48231,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "North Keelesdale Park",
+          "new": "Keelesdale North Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2936418,
+      "address_full": "42 Flindon Rd",
+      "municipality_name": "North York",
+      "latitude": 43.72131,
+      "longitude": -79.54087,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Louise Russo Park",
+          "new": "Louise Russo Park,Flindon Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7274485,
+      "address_full": "45 Imperial St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69933,
+      "longitude": -79.39833,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Fiona Nelson Parkette",
+          "new": "Fiona Nelson Parkette,Imperial Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 352365,
+      "address_full": "4670 Kingston Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77629,
+      "longitude": -79.17502,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Highland Creek Sports Pad",
+          "new": "Highland Creek Bowling Green And Fieldhouse",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8032748,
+      "address_full": "47 Denison Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64978,
+      "longitude": -79.40103,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Randy Padmore Park",
+          "new": "Randy Padmore Park,Carr Street Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 765505,
+      "address_full": "480 Avenue Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68682,
+      "longitude": -79.40194,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Glenn Gould Park",
+          "new": "Glenn Gould Park,Peter Pan Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 790683,
+      "address_full": "486 Davenport Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67762,
+      "longitude": -79.4083,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Spadina Park",
+          "new": "Spadina Park,Castle Hill Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10154239,
+      "address_full": "490 Silverstone Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.73938,
+      "longitude": -79.59572,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Len Braithwaite Park",
+          "new": "Len Braithwaite Park,Melody Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10367534,
+      "address_full": "504 Dawes Rd",
+      "municipality_name": "East York",
+      "latitude": 43.70375,
+      "longitude": -79.29735,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Joshua Cronkwright Parkette",
+          "new": "Joshua Cronkwright Parkette,Treasure Island Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7665448,
+      "address_full": "51 Alexander Muir Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.72079,
+      "longitude": -79.39902,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lawrence Park Ravine",
+          "new": "Lawrence Park And Ravine",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20038491,
+      "address_full": "514 Midwest Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76582,
+      "longitude": -79.27241,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "West Birkdale Park",
+          "new": "West Birkdale Park,Midwest Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30107716,
+      "address_full": "55 Stanley Greene Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.73452,
+      "longitude": -79.47731,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Stanley Greene Park",
+          "new": "Stanley Greene Public Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2261413,
+      "address_full": "55 Sunnypoint Cres",
+      "municipality_name": "Scarborough",
+      "latitude": 43.71421,
+      "longitude": -79.23106,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sunnypoint - Neilson Park",
+          "new": "Sunnypoint - Neilson Park,Sunnypoint Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14629847,
+      "address_full": "55 Sylvan Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73051,
+      "longitude": -79.21408,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sylvan Park",
+          "new": "Sylvan Park - Gates Gully",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30028598,
+      "address_full": "555 Queen St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65731,
+      "longitude": -79.35609,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "King - Queen Triangle",
+          "new": "King/Queen Triangle",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9857156,
+      "address_full": "576 Wilson Heights Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.75473,
+      "longitude": -79.45978,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Michael Feldman Parkette",
+          "new": "Wilson Heights Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7753813,
+      "address_full": "589 Sherbourne St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6708,
+      "longitude": -79.37593,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St. James Town West Park",
+          "new": "St. Jamestown West Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14257337,
+      "address_full": "60 San Gabriele Pl",
+      "municipality_name": "North York",
+      "latitude": 43.76414,
+      "longitude": -79.56615,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Knights of Columbus Park",
+          "new": "Knights Of Columbus Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1369838,
+      "address_full": "605 Ridelle Ave",
+      "municipality_name": "York",
+      "latitude": 43.7016,
+      "longitude": -79.45035,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "J.T. Watson Parkette",
+          "new": "J.T. Watson Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13973536,
+      "address_full": "61 Guildwood Pkwy",
+      "municipality_name": "Scarborough",
+      "latitude": 43.74609,
+      "longitude": -79.2025,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rosa And Spencer Clark Parkette",
+          "new": "Rosa And Spencer Clarke Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9638118,
+      "address_full": "620 Brock Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65965,
+      "longitude": -79.43917,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Susan Tibaldi Parkette",
+          "new": "Susan Tibaldi Parkette,Margueretta Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4321850,
+      "address_full": "625 Bloor St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67206,
+      "longitude": -79.37018,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rekai Family Parkette",
+          "new": "Bloor - Parliament Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4570684,
+      "address_full": "65 Norfinch Dr",
+      "municipality_name": "North York",
+      "latitude": 43.75812,
+      "longitude": -79.52841,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Remberto Navia Sport Fields",
+          "new": "Remberto Navia Sport Fields,Norfinch Sports Fields",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4723727,
+      "address_full": "69 Heathrow Dr",
+      "municipality_name": "North York",
+      "latitude": 43.7265,
+      "longitude": -79.50546,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Heathrow Park",
+          "new": "Giovanni Caboto Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1371955,
+      "address_full": "701 Glengrove Ave",
+      "municipality_name": "North York",
+      "latitude": 43.71041,
+      "longitude": -79.44484,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Glengrove Avenue Park",
+          "new": "Glengrove Ave Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7705469,
+      "address_full": "725 Logan Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67584,
+      "longitude": -79.34801,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Withrow Park and Clubhouse",
+          "new": "Withrow Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20355887,
+      "address_full": "725 Vaughan Rd",
+      "municipality_name": "York",
+      "latitude": 43.69442,
+      "longitude": -79.44536,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Senator Peter Bosa Parkette",
+          "new": "Senator Peter Bosa Parkette,Greyton Site",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30042379,
+      "address_full": "74 Oakvale Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67958,
+      "longitude": -79.3334,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "The Pocket",
+          "new": "Oakvale Green Community Gardens",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8456610,
+      "address_full": "750 Davenport Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6769,
+      "longitude": -79.41638,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "The Tollkeeper's Park",
+          "new": "The Tollkeeper's Park,Tollkeeper'S Cottage Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6628996,
+      "address_full": "80 Cottingham St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68041,
+      "longitude": -79.39463,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lionel Conacher Park",
+          "new": "Lionel Conacher Park,Cottingham Square",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30104025,
+      "address_full": "80 McMahon Dr",
+      "municipality_name": "North York",
+      "latitude": 43.76734,
+      "longitude": -79.37377,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ethennonnhawahstihnen' Park",
+          "new": "Ethennonnhawahstihnen Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13972809,
+      "address_full": "85 Hupfield Trl",
+      "municipality_name": "Scarborough",
+      "latitude": 43.81305,
+      "longitude": -79.2199,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Viola Desmond Park",
+          "new": "Hupfield Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20035359,
+      "address_full": "9 Picasso Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.8019,
+      "longitude": -79.17916,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Picasso Park",
+          "new": "Picasso Park,Rouge Neigbourhood Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7568607,
+      "address_full": "921 Logan Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67889,
+      "longitude": -79.34935,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Logan Green Field",
+          "new": "Subway Surplus Lands,Subway Surplus Lands - 4",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20258259,
+      "address_full": "95 Fort York Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63948,
+      "longitude": -79.39625,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Canoe Landing Park",
+          "new": "Canoe Landing",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30025066,
+      "address_full": "95 Fred Young Dr",
+      "municipality_name": "North York",
+      "latitude": 43.72942,
+      "longitude": -79.52029,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Oakdale Village Park",
+          "new": "Oakdale Village Park,Mayall Ave Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2689707,
+      "address_full": "99 Caribou Rd",
+      "municipality_name": "North York",
+      "latitude": 43.71944,
+      "longitude": -79.42113,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Phil Givens Park",
+          "new": "Caribou Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4709516,
+      "address_full": "990 Lawrence Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.73755,
+      "longitude": -79.34277,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Macklin Hancock Park",
+          "new": "Macklin Hancock Park,Don Mills Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14253734,
+      "address_full": "1090 Shaw St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67169,
+      "longitude": -79.42731,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Garrison Creek Park",
+          "new": "Garrison Creek Park,Ossington - Shaw Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 865167,
+      "address_full": "15 Saunders Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64094,
+      "longitude": -79.4402,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Albert Crosland Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10223377,
+      "address_full": "14 Fuller Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64066,
+      "longitude": -79.43955,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Albert Crosland Park",
+          "new": "Albert Crosland Parkette,Albert Crosland Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20048779,
+      "address_full": "1570 O'Connor Dr",
+      "municipality_name": "East York",
+      "latitude": 43.71483,
+      "longitude": -79.30608,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Willis Blair Parkette",
+          "new": "Willis Blair Parkette,O'Connor Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370451,
+      "address_full": "180 McLevin Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80372,
+      "longitude": -79.23088,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Major Abbas Ali Park",
+          "new": "Major Abbas Ali Park,McLevin Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114653,
+      "address_full": "120 Elder St",
+      "municipality_name": "North York",
+      "latitude": 43.76148,
+      "longitude": -79.45416,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Irving W. Chapley Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 766045,
+      "address_full": "208 Bain Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67251,
+      "longitude": -79.34568,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Erica Stark Parkette",
+          "new": "Bain Avenue Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14038310,
+      "address_full": "21 Chisholm Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68882,
+      "longitude": -79.30304,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Stanley G. Grizzle Park",
+          "new": "Stanley G. Grizzle Park,Main Street Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20258236,
+      "address_full": "2115 Lake Shore Blvd W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62841,
+      "longitude": -79.47796,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Jean Augustine Park",
+          "new": "Jean Augustine Park,Newport Beach Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 497123,
+      "address_full": "25 Cassandra Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.74855,
+      "longitude": -79.32745,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dr. Daniel Hill Park",
+          "new": "Underhill Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 765465,
+      "address_full": "275 Avenue Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67873,
+      "longitude": -79.39788,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Robertson Davies Park",
+          "new": "Robertson Davies Park,Avenue Road Playground",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30040459,
+      "address_full": "290 Doris Ave",
+      "municipality_name": "North York",
+      "latitude": 43.77282,
+      "longitude": -79.41249,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Doris - Norton Park",
+          "new": "Doris-Norton Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8211799,
+      "address_full": "3 Prescott Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67515,
+      "longitude": -79.45699,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Don Panos Parkette",
+          "new": "St. Clair Gardens",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30055497,
+      "address_full": "3700 Danforth Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.69803,
+      "longitude": -79.26231,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Birchcliff Woods Park",
+          "new": "Birchcliff Woods",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30040807,
+      "address_full": "40 Knightswood Rd",
+      "municipality_name": "North York",
+      "latitude": 43.73956,
+      "longitude": -79.39104,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Knightswood Road Park",
+          "new": "Knightswood Rd Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20004018,
+      "address_full": "4725 Dundas St W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.6513,
+      "longitude": -79.52596,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Tom Riley Park",
+          "new": "Tom Riley Park,Central Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 811397,
+      "address_full": "131 Glen Manor Dr",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67216,
+      "longitude": -79.29259,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ivan Forrest Gardens",
+          "new": "Ivan Forrest Gardens,Glen Stewart Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1372208,
+      "address_full": "10 Four Leaf Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.73082,
+      "longitude": -79.59293,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Mary Harker Park",
+          "new": "Lynmont Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1026020,
+      "address_full": "475 Rathburn Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65193,
+      "longitude": -79.57493,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Christ the King Church, Christ the King Park",
+          "new": "Christ The King Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10093012,
+      "address_full": "125 Pharmacy Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.69807,
+      "longitude": -79.28482,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pharmacy Yard, Warden Woods Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13971817,
+      "address_full": "1297 Ellesmere Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76897,
+      "longitude": -79.26515,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Birkdale Ravine",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6620192,
+      "address_full": "201 Guildwood Pkwy",
+      "municipality_name": "Scarborough",
+      "latitude": 43.74772,
+      "longitude": -79.19167,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Guild Park and Gardens",
+          "new": "Guildwood Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9313149,
+      "address_full": "5450 Lawrence Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77951,
+      "longitude": -79.14021,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Port Union Community Recreation Centre Park",
+          "new": "Port Union Community Recreation Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2139164,
+      "address_full": "64 Rylander Blvd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.79849,
+      "longitude": -79.1522,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Tall Pines Neighbourhood Centre, Tall Pines Park",
+          "new": "Tallpines Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10071274,
+      "address_full": "5575 Yonge St",
+      "municipality_name": "North York",
+      "latitude": 43.77933,
+      "longitude": -79.41504,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Olive Square Park",
+          "new": "Olive Square Park,Olive Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 791915,
+      "address_full": "125 De Grassi St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66303,
+      "longitude": -79.34689,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "De Grassi St Parkette, Degrassi Street Park",
+          "new": "De Grassi St Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10034904,
+      "address_full": "953 Gerrard St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66805,
+      "longitude": -79.3394,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Matty Eckler Community Centre, Matty Eckler Playground",
+          "new": "Matty Eckler Playground,Pape Avenue Playground",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14600812,
+      "address_full": "21 Ashtonbee Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.72945,
+      "longitude": -79.29614,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ashtonbee Reservoir Park",
+          "new": "Ashtonbee Reservoir Park,Eglinton Reservoir",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20117746,
+      "address_full": "110 Cactus Ave",
+      "municipality_name": "North York",
+      "latitude": 43.79219,
+      "longitude": -79.43459,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Moore Park - North York",
+          "new": "Moore Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 550381,
+      "address_full": "87A Peckham Ave",
+      "municipality_name": "North York",
+      "latitude": 43.79071,
+      "longitude": -79.43645,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Moore Park - North York",
+          "new": "Moore Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14635095,
+      "address_full": "1 Muggs Island Pk",
+      "municipality_name": "former Toronto",
+      "latitude": 43.62282,
+      "longitude": -79.38496,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Toronto Islands - Mugg's Island",
+          "new": "Mugg's Island Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114479,
+      "address_full": "657 Queen St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65822,
+      "longitude": -79.35166,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Riverside Common Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 779653,
+      "address_full": "225 Campbell Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66299,
+      "longitude": -79.44844,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Campbell Avenue Park",
+          "new": "Campbell Avenue Playground",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13505442,
+      "address_full": "2955 Don Mills Rd W",
+      "municipality_name": "North York",
+      "latitude": 43.78086,
+      "longitude": -79.3508,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Oriole Park - North York",
+          "new": "Oriole Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2385780,
+      "address_full": "369A Carlaw Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66642,
+      "longitude": -79.34197,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Badgerow Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14121099,
+      "address_full": "1229 Queen St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64183,
+      "longitude": -79.42942,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Parkdale Health Centre, Gwynne Avenue Parkette",
+          "new": "Parkdale Health Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13971568,
+      "address_full": "150 Beechgrove Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76819,
+      "longitude": -79.15916,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Beechgrove Ravine",
+          "new": "Beechgrove Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20146843,
+      "address_full": "9 Eireann Quay",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63512,
+      "longitude": -79.39681,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Billy Bishop Toronto City Airport - Express Park P1",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1371456,
+      "address_full": "1955 Don Mills Rd",
+      "municipality_name": "North York",
+      "latitude": 43.76058,
+      "longitude": -79.34668,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (81)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30040248,
+      "address_full": "235R Dalesford Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62684,
+      "longitude": -79.49102,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (71)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1371873,
+      "address_full": "1540 Wilson Ave",
+      "municipality_name": "North York",
+      "latitude": 43.72128,
+      "longitude": -79.50769,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (67)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4417439,
+      "address_full": "7451 Reesor Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82954,
+      "longitude": -79.19057,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (3)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30069824,
+      "address_full": "165R Galaxy Blvd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.67983,
+      "longitude": -79.58368,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (44)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4890399,
+      "address_full": "8327 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.85376,
+      "longitude": -79.17623,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (24)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4889324,
+      "address_full": "7501 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.84986,
+      "longitude": -79.19135,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (29)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6313057,
+      "address_full": "6741 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.84881,
+      "longitude": -79.1969,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rouge Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075753,
+      "address_full": "203R Staines Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82605,
+      "longitude": -79.21979,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (63)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12048082,
+      "address_full": "447 Albion Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.72707,
+      "longitude": -79.55273,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (42)",
+          "new": "West Humber Parkland,Kipling Heights Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4912459,
+      "address_full": "7 Reesor Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83692,
+      "longitude": -79.1877,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands ( 4)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4885369,
+      "address_full": "8 Pickering Town Line",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83653,
+      "longitude": -79.16261,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands ( 7)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 305420,
+      "address_full": "9 Beare Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83465,
+      "longitude": -79.17134,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands ( 9)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4890063,
+      "address_full": "2271 Meadowvale Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83361,
+      "longitude": -79.17999,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (10)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4890061,
+      "address_full": "2272 Meadowvale Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83357,
+      "longitude": -79.18256,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (11)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4890038,
+      "address_full": "2264 Meadowvale Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82843,
+      "longitude": -79.17999,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (12)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4889311,
+      "address_full": "2267 Meadowvale Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82922,
+      "longitude": -79.17922,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (13)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4890157,
+      "address_full": "366 Old Finch Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82667,
+      "longitude": -79.18408,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (14)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4885371,
+      "address_full": "12 Pickering Town Line",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83829,
+      "longitude": -79.16285,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (17)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 305425,
+      "address_full": "19 Beare Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83814,
+      "longitude": -79.17282,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (19)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 305426,
+      "address_full": "20 Beare Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.83949,
+      "longitude": -79.17428,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (18)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2115304,
+      "address_full": "8505 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.85415,
+      "longitude": -79.17277,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (23)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 5439691,
+      "address_full": "1203 Sewells Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.82942,
+      "longitude": -79.19969,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (26)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4889372,
+      "address_full": "8009 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.85218,
+      "longitude": -79.18243,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (27)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370844,
+      "address_full": "20 Bennett Rd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.76734,
+      "longitude": -79.16444,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (55)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 363084,
+      "address_full": "1 Midland Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.70204,
+      "longitude": -79.24404,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (59)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14310872,
+      "address_full": "72 Bowan Crt",
+      "municipality_name": "North York",
+      "latitude": 43.79773,
+      "longitude": -79.38907,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (75)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4889371,
+      "address_full": "7937-7959 Steeles Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.85052,
+      "longitude": -79.18528,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands ( 28)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13496175,
+      "address_full": "1185 Lawrence Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.73854,
+      "longitude": -79.32862,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Milne House",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20120030,
+      "address_full": "35 Mansion Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.69115,
+      "longitude": -79.28112,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Elward - Mansion Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30000057,
+      "address_full": "25 Mendelssohn St",
+      "municipality_name": "Scarborough",
+      "latitude": 43.71478,
+      "longitude": -79.28061,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Warden Hilltop Community Centre Park",
+          "new": "Warden Hilltop Community Centre - Building Grounds",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 330205,
+      "address_full": "91 Eastpark Blvd",
+      "municipality_name": "Scarborough",
+      "latitude": 43.75565,
+      "longitude": -79.22742,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cedarbrook Park Community Recreation Centre",
+          "new": "Cedar Brook Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 2439714,
+      "address_full": "819 Palmerston Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67019,
+      "longitude": -79.41525,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Vermont Square Park",
+          "new": "Vermont Square",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14069050,
+      "address_full": "339 Queens Quay W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63769,
+      "longitude": -79.38861,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "HTO Park, Fire Station 334 & Marine Unit, EMS Station 36",
+          "new": "Hto Park,Maple Leaf Quay",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 839707,
+      "address_full": "700 Markham St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66726,
+      "longitude": -79.41375,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Monsignor Fraser College - Annex Campus",
+          "new": "MSGR Fraser College - Annex Campus",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14068203,
+      "address_full": "1700 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.77567,
+      "longitude": -79.34537,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Don Mills Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370138,
+      "address_full": "2354 Passmore Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.84662,
+      "longitude": -79.18059,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (15)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13970510,
+      "address_full": "405 Driftwood Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76717,
+      "longitude": -79.51607,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Edgeley Early Learning & Child Care Centre",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14047480,
+      "address_full": "1051 Progress Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.79276,
+      "longitude": -79.23388,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cynthia Lai Park",
+          "new": "Rosebank Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14076423,
+      "address_full": "244 Viewmount Ave",
+      "municipality_name": "North York",
+      "latitude": 43.70795,
+      "longitude": -79.44014,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Glencairn Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12427670,
+      "address_full": "770 Glencairn Ave",
+      "municipality_name": "North York",
+      "latitude": 43.70967,
+      "longitude": -79.44131,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Glencairn Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075749,
+      "address_full": "250 Rory Rd",
+      "municipality_name": "North York",
+      "latitude": 43.72027,
+      "longitude": -79.48374,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ernie Lustig - Rainbow Park",
+          "new": "Rainbow Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 511410,
+      "address_full": "30 Elkhorn Dr",
+      "municipality_name": "North York",
+      "latitude": 43.77017,
+      "longitude": -79.38331,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bayview Village Tennis Club",
+          "new": "Hawksbury Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30027073,
+      "address_full": "55 Forest Manor Rd",
+      "municipality_name": "North York",
+      "latitude": 43.77254,
+      "longitude": -79.34389,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Parkway Forest Community Centre & Child Care",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10581665,
+      "address_full": "10 Martha Eaton Way",
+      "municipality_name": "North York",
+      "latitude": 43.69731,
+      "longitude": -79.4899,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Maple Creek Recreation Centre",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1369250,
+      "address_full": "20A Nordale Cres",
+      "municipality_name": "North York",
+      "latitude": 43.7018,
+      "longitude": -79.4913,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Westview Greenbelt",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30027074,
+      "address_full": "59 Forest Manor Rd",
+      "municipality_name": "North York",
+      "latitude": 43.77345,
+      "longitude": -79.34297,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Parkway Forest Outdoor Pool",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7369141,
+      "address_full": "25 Grandravine Dr",
+      "municipality_name": "North York",
+      "latitude": 43.75283,
+      "longitude": -79.49141,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grandravine Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7369114,
+      "address_full": "23 Grandravine Dr",
+      "municipality_name": "North York",
+      "latitude": 43.75188,
+      "longitude": -79.49052,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grandravine Community Recreation Centre",
+          "new": "Grandravine Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30126097,
+      "address_full": "77 Curlew Dr",
+      "municipality_name": "North York",
+      "latitude": 43.74264,
+      "longitude": -79.31608,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Curlew Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 505373,
+      "address_full": "21 Dane Ave",
+      "municipality_name": "North York",
+      "latitude": 43.71623,
+      "longitude": -79.4536,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dane Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30091621,
+      "address_full": "110 Shaughnessy Blvd",
+      "municipality_name": "North York",
+      "latitude": 43.77634,
+      "longitude": -79.3538,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dallington Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4975206,
+      "address_full": "39 Glentworth Rd",
+      "municipality_name": "North York",
+      "latitude": 43.77546,
+      "longitude": -79.35708,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Lescon Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30039993,
+      "address_full": "67 Nymark Ave",
+      "municipality_name": "North York",
+      "latitude": 43.78037,
+      "longitude": -79.36008,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lescon Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7794557,
+      "address_full": "4015 Yonge St",
+      "municipality_name": "North York",
+      "latitude": 43.74323,
+      "longitude": -79.40586,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "York Mills Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30063647,
+      "address_full": "1235 Wilson Ave",
+      "municipality_name": "North York",
+      "latitude": 43.72426,
+      "longitude": -79.48922,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "HUMBER RIVER HOSPITAL",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13497190,
+      "address_full": "989 Murray Ross Pkwy",
+      "municipality_name": "North York",
+      "latitude": 43.77434,
+      "longitude": -79.51402,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Canlan Ice Sports",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10318431,
+      "address_full": "205 Wilmington Ave",
+      "municipality_name": "North York",
+      "latitude": 43.76156,
+      "longitude": -79.45585,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Irving W. Chapley Park",
+          "new": "Irving W. Chapley Park,Wilmington Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12036638,
+      "address_full": "4070 Yonge St",
+      "municipality_name": "North York",
+      "latitude": 43.74553,
+      "longitude": -79.4073,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Yonge & York Mills Dog Off Leash Area",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14210647,
+      "address_full": "176 Broadway Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.71141,
+      "longitude": -79.39067,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Broadway Avenue Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30111752,
+      "address_full": "89 Truman Rd",
+      "municipality_name": "North York",
+      "latitude": 43.76166,
+      "longitude": -79.37957,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Harrison Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11653350,
+      "address_full": "2643 Bayview Ave",
+      "municipality_name": "North York",
+      "latitude": 43.75507,
+      "longitude": -79.38525,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "York Mills Gardens",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30140029,
+      "address_full": "5 Steve Podborski Rd",
+      "municipality_name": "North York",
+      "latitude": 43.71994,
+      "longitude": -79.34324,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Big Bear Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12551948,
+      "address_full": "850 Humberwood Blvd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.72889,
+      "longitude": -79.61918,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Humberwood Downs Junior Middle Academy, Humberwood Park",
+          "new": "Humberwood Downs Junior Middle Academy",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 60010035,
+      "address_full": "8450 Sheppard Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.80529,
+      "longitude": -79.18987,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rouge Valley Community Recreation & Child Care Centre",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20102961,
+      "address_full": "575 Royal York Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62689,
+      "longitude": -79.50251,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 513",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30139597,
+      "address_full": "4 Orianna Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.60173,
+      "longitude": -79.54668,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bell Canada Installation",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7808137,
+      "address_full": "28 Bonnyview Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.63062,
+      "longitude": -79.49314,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Jeff Healey Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30123895,
+      "address_full": "795 Dixon Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.68745,
+      "longitude": -79.58778,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bell Canada Installation",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6027136,
+      "address_full": "1949 Kipling Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.70641,
+      "longitude": -79.5637,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Etobicoke North GO Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30080804,
+      "address_full": "25 Grand Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62227,
+      "longitude": -79.49129,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grand Avenue Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 20154256,
+      "address_full": "45 Grand Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62313,
+      "longitude": -79.4918,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Grand Avenue Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 788874,
+      "address_full": "7 Crescent Rd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67694,
+      "longitude": -79.38875,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Rosedale Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 798368,
+      "address_full": "263 Dupont St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67478,
+      "longitude": -79.4068,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dupont Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 875151,
+      "address_full": "355 Strathmore Blvd",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68412,
+      "longitude": -79.32306,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Coxwell Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 4030665,
+      "address_full": "139 St George St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66827,
+      "longitude": -79.39981,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St George Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6620141,
+      "address_full": "991 Woodbine Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68641,
+      "longitude": -79.31277,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Woodbine Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 6674325,
+      "address_full": "2455 Eglinton Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73249,
+      "longitude": -79.26399,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kennedy Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7273830,
+      "address_full": "1900 Yonge St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69784,
+      "longitude": -79.39694,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Davisville Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7641746,
+      "address_full": "3 Dundas St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6563,
+      "longitude": -79.38038,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TMU Station, Dundas Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7730268,
+      "address_full": "3 Carlton St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.6612,
+      "longitude": -79.38268,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "College Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7762894,
+      "address_full": "3101 Yonge St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.72535,
+      "longitude": -79.40193,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lawrence Station, George Milbrandt Parkette",
+          "new": "George Milbrandt Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7939906,
+      "address_full": "30 Donlands Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68098,
+      "longitude": -79.33782,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Donlands Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7939998,
+      "address_full": "10 Linnsmore Cres",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68257,
+      "longitude": -79.33029,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Greenwood Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12352756,
+      "address_full": "1300 Eglinton Ave W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.69925,
+      "longitude": -79.43608,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Cedarvale Station, Eglinton West Station",
+          "new": "Eglinton West Station",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7994198,
+      "address_full": "570 Wilson Ave",
+      "municipality_name": "North York",
+      "latitude": 43.73459,
+      "longitude": -79.45087,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Wilson Station",
+          "new": "Wilson Subway Station",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7994419,
+      "address_full": "35 Quebec Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65386,
+      "longitude": -79.46689,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "High Park Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8232328,
+      "address_full": "315 Main St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68908,
+      "longitude": -79.3015,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Main Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8417694,
+      "address_full": "746 Ossington Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66238,
+      "longitude": -79.4263,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ossington Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8535819,
+      "address_full": "20 Bloor St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67075,
+      "longitude": -79.38544,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bloor-Yonge Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8540540,
+      "address_full": "633 Sherbourne St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67204,
+      "longitude": -79.37645,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sherbourne Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8540639,
+      "address_full": "600 Bloor St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67385,
+      "longitude": -79.36861,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Castle Frank Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8353629,
+      "address_full": "950 Kipling Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.63863,
+      "longitude": -79.53437,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kipling Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8771617,
+      "address_full": "3 King St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64911,
+      "longitude": -79.37752,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "King Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 9523574,
+      "address_full": "819 Bathurst St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66618,
+      "longitude": -79.41129,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bathurst Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10223914,
+      "address_full": "1006 Dufferin St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66008,
+      "longitude": -79.43561,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dufferin Station",
+          "new": "Dufferin Subway Station",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10386594,
+      "address_full": "743 Pape Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67989,
+      "longitude": -79.34501,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pape Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10834581,
+      "address_full": "22 Chester Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67823,
+      "longitude": -79.35253,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Chester Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10835316,
+      "address_full": "769 Broadview Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.67681,
+      "longitude": -79.3585,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Broadview Station",
+          "new": "Broadview Subway Station",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10864311,
+      "address_full": "55 Front St W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.64563,
+      "longitude": -79.37935,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Union Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10877852,
+      "address_full": "5 Christie St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66412,
+      "longitude": -79.41837,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Christie Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8416997,
+      "address_full": "376 Clinton St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.66434,
+      "longitude": -79.41755,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 144",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11272589,
+      "address_full": "2190 Yonge St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70529,
+      "longitude": -79.39885,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Eglinton Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11272990,
+      "address_full": "3 Queen St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65242,
+      "longitude": -79.37846,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Queen Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11382307,
+      "address_full": "777 Victoria Park Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.69454,
+      "longitude": -79.28916,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Victoria Park Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12157361,
+      "address_full": "955 Royal York Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64816,
+      "longitude": -79.51134,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Royal York Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13967653,
+      "address_full": "20 Sheppard Ave W",
+      "municipality_name": "North York",
+      "latitude": 43.7617,
+      "longitude": -79.41236,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sheppard Yonge Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14072575,
+      "address_full": "2672 Bloor St W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65006,
+      "longitude": -79.49492,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Old Mill Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14076093,
+      "address_full": "290 Borough Dr",
+      "municipality_name": "Scarborough",
+      "latitude": 43.77439,
+      "longitude": -79.25822,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Scarborough Centre Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14076454,
+      "address_full": "5102 Yonge St",
+      "municipality_name": "North York",
+      "latitude": 43.76828,
+      "longitude": -79.41291,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "North York Centre Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14224877,
+      "address_full": "731 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.76907,
+      "longitude": -79.37591,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bessarion Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30017995,
+      "address_full": "185 Northwest Gt",
+      "municipality_name": "North York",
+      "latitude": 43.77718,
+      "longitude": -79.51032,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pioneer Village Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30105606,
+      "address_full": "24 Howard Moscoe Way",
+      "municipality_name": "North York",
+      "latitude": 43.77669,
+      "longitude": -79.50873,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Emergency Exit EEB5",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30103932,
+      "address_full": "20 Howard Moscoe Way",
+      "municipality_name": "North York",
+      "latitude": 43.77696,
+      "longitude": -79.5095,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Pioneer Village Station Bus Terminal",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30033413,
+      "address_full": "50 Yorkdale Rd",
+      "municipality_name": "North York",
+      "latitude": 43.72509,
+      "longitude": -79.44774,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Yorkdale Station",
+          "new": "Yorkdale Subway Station",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30091175,
+      "address_full": "1275 Sheppard Ave E",
+      "municipality_name": "North York",
+      "latitude": 43.77118,
+      "longitude": -79.36465,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Leslie Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075704,
+      "address_full": "145 Disco Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.69964,
+      "longitude": -79.60616,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "North Mimico Valley Park",
+          "new": "North Mimico Valley park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 13967941,
+      "address_full": "435 Kipling Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.60816,
+      "longitude": -79.52013,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kipling Yard",
+          "new": "System & Services Facilities",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30112458,
+      "address_full": "296 Attwell Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.6994,
+      "longitude": -79.59532,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (88)",
+          "new": "TRCA Lands",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10759420,
+      "address_full": "3330 Bloor St W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64446,
+      "longitude": -79.52602,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 802",
+          "new": "TTC commuter parking lot 802",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1036985,
+      "address_full": "130 The Queensway",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.63316,
+      "longitude": -79.48022,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Humber Treatment Plant",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14257370,
+      "address_full": "256 Dufferin St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63814,
+      "longitude": -79.42737,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Dufferin-King Park",
+          "new": "Dufferin And King Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7485300,
+      "address_full": "2 Elmbrook Cres",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.6601,
+      "longitude": -79.58393,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Elmbrook Park Library",
+          "new": "Elmbrook Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114798,
+      "address_full": "15 Park Lawn Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62347,
+      "longitude": -79.48188,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bell Structure",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7561066,
+      "address_full": "119 Mimico Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.61222,
+      "longitude": -79.49614,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Mimico Presbyterian Church",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7569305,
+      "address_full": "2300 Lake Shore Blvd W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.61859,
+      "longitude": -79.48704,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Car Park 533",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 11070059,
+      "address_full": "45 Twenty Third St",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59413,
+      "longitude": -79.5197,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "R.L. Clark Water Treatment Plant",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14114427,
+      "address_full": "277 Park Lawn Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.63415,
+      "longitude": -79.49211,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "St. Mark's Catholic Church",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1013455,
+      "address_full": "2 Colonel Samuel Smith Park Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.5976,
+      "longitude": -79.51773,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Lakeshore Grounds Interpretive Centre",
+          "new": "Colonel Samuel Smith Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14071829,
+      "address_full": "1 Colonel Samuel Smith Park Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59766,
+      "longitude": -79.51582,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Assembly Hall",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8985236,
+      "address_full": "19 Colonel Samuel Smith Park Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59593,
+      "longitude": -79.51507,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Humber Lakeshore Campus",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 14229809,
+      "address_full": "1 Dundas St E",
+      "municipality_name": "former Toronto",
+      "latitude": 43.65619,
+      "longitude": -79.38044,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Sankofa Square",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8929254,
+      "address_full": "66Y Third St",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.60119,
+      "longitude": -79.50094,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 507",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30040368,
+      "address_full": "66 Third St",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.60114,
+      "longitude": -79.50081,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Carpark 507",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 3092009,
+      "address_full": "550 Centennial Park Blvd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.65196,
+      "longitude": -79.59756,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Centennial Park Golf Centre",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7009492,
+      "address_full": "555 Martin Grove Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.67715,
+      "longitude": -79.56383,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "EMS Station 13, Richview Park",
+          "new": "Ambulance Station 13",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1026459,
+      "address_full": "15 Redgrave Dr",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.68278,
+      "longitude": -79.56828,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Westgrove Park, Westgrove Outdoor Pool",
+          "new": "Westgrove Park",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7515102,
+      "address_full": "627 Burnhamthorpe Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.64365,
+      "longitude": -79.5732,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Renforth Baptist Church",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30114799,
+      "address_full": "10 Penhurst Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62636,
+      "longitude": -79.50055,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Bell Structure",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30040250,
+      "address_full": "571 The Queensway",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62817,
+      "longitude": -79.4926,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (79)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7847644,
+      "address_full": "315 Royal York Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.61641,
+      "longitude": -79.49777,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Mimico GO Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30075890,
+      "address_full": "2226 Lake Shore Blvd W",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62213,
+      "longitude": -79.48248,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (32)",
+          "new": "TRCA Lands",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30083235,
+      "address_full": "152R Park Lawn Rd",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.62754,
+      "longitude": -79.48981,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (47)",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 996578,
+      "address_full": "40 Dixington Cres",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.69716,
+      "longitude": -79.54016,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Dixington Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30011054,
+      "address_full": "370 Sheppard Ave W",
+      "municipality_name": "North York",
+      "latitude": 43.75782,
+      "longitude": -79.42837,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (52)",
+          "new": "TRCA Lands",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1000456,
+      "address_full": "25 Fairfield Ave",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59716,
+      "longitude": -79.52495,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "St James Presbyterian Church",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7295872,
+      "address_full": "2 Twenty Sixth St",
+      "municipality_name": "Etobicoke",
+      "latitude": 43.59696,
+      "longitude": -79.52494,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Toronto Hanuri  Presbyterian Church",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 12313164,
+      "address_full": "842 Eglinton Ave W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.7013,
+      "longitude": -79.42532,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Forest Hill Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30140799,
+      "address_full": "340 Eglinton Ave W",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70474,
+      "longitude": -79.40883,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Avenue Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30121060,
+      "address_full": "2190 Yonge St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.70537,
+      "longitude": -79.39908,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Eglinton Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30140813,
+      "address_full": "811 Eglinton Ave E",
+      "municipality_name": "East York",
+      "latitude": 43.71328,
+      "longitude": -79.365,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Laird Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30140816,
+      "address_full": "2439 Eglinton Ave E",
+      "municipality_name": "Scarborough",
+      "latitude": 43.73241,
+      "longitude": -79.26479,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Kennedy Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 8681089,
+      "address_full": "16 Shaftesbury Ave",
+      "municipality_name": "former Toronto",
+      "latitude": 43.68229,
+      "longitude": -79.39079,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Summerhill Station",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30108119,
+      "address_full": "2180 Jane St",
+      "municipality_name": "North York",
+      "latitude": 43.72213,
+      "longitude": -79.50931,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "TRCA Lands (69)",
+          "new": "TRCA Lands",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30035267,
+      "address_full": "110 Eastdale Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69537,
+      "longitude": -79.30145,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Eastdale Parkette",
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7553684,
+      "address_full": "651 Fleet St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63589,
+      "longitude": -79.40492,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Queen's Wharf Lighthouse",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 30100348,
+      "address_full": "51 Neptune Dr",
+      "municipality_name": "North York",
+      "latitude": 43.7316,
+      "longitude": -79.43541,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Elijah Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 482523,
+      "address_full": "45 Ancaster Rd",
+      "municipality_name": "North York",
+      "latitude": 43.73303,
+      "longitude": -79.46601,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Ancaster Early Learning And Child Care Centre",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 1370675,
+      "address_full": "173 Fairglen Ave",
+      "municipality_name": "Scarborough",
+      "latitude": 43.78637,
+      "longitude": -79.32603,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Fairglen Park",
+          "new": null,
+          "display_field": "Place Name"
+        }
+      ]
+    },
+    {
+      "address_point_id": 10280124,
+      "address_full": "4777 Dufferin St",
+      "municipality_name": "North York",
+      "latitude": 43.77714,
+      "longitude": -79.46182,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Community Association for Riding for the Disabled",
+          "new": "G Ross Lord Park",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -16465,6 +22369,7 @@ window.REPORT_DATA = {
     "field_changes": {
       "Location (longitude)": 708,
       "Location (latitude)": 660,
+      "Place Name": 412,
       "Full Address": 123,
       "Street Name": 115,
       "Street": 115,
@@ -16480,8 +22385,9 @@ window.REPORT_DATA = {
   },
   "added_count": 7,
   "removed_count": 3,
-  "modified_count": 132,
-  "modified_location_count": 792,
+  "modified_count": 162,
+  "modified_location_count": 762,
+  "modified_place_name_count": 380,
   "sparklines": {
     "added": [
       0,
@@ -16506,18 +22412,27 @@ window.REPORT_DATA = {
       5,
       0,
       14,
-      21,
+      24,
       0,
-      132
+      162
     ],
     "modified_location": [
       17,
       5,
       0,
-      14,
-      21,
+      12,
+      20,
       0,
-      792
+      762
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      380
     ]
   }
 }

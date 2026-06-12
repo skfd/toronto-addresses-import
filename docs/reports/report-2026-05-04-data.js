@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 04, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:39 PM",
   "old_snapshot": {
     "id": 37,
     "downloaded": "2026-05-01T13:00:38.959164",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-St. Paul's",
       "longitude": -79.39908,
       "latitude": 43.68603,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1519398, \"ADDRESS_ID_LINK\": 1512782, \"ADDRESS_POINT_ID_LINK\": 30029365, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 613073, \"CENTRELINE_ID\": 30017340, \"CENTRELINE_MEASURE\": 228.5, \"CENTRELINE_OFFSET\": 22.42, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3459.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"666171\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1519398, \"ADDRESS_ID_LINK\": 1512782, \"ADDRESS_POINT_ID_LINK\": 30029365, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 613073, \"CENTRELINE_ID\": 30017340, \"CENTRELINE_MEASURE\": 228.5, \"CENTRELINE_OFFSET\": 22.42, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3459.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"666171\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"12\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -59,6 +60,7 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -77,6 +79,7 @@ window.REPORT_DATA = {
   "removed_count": 1,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       3,
@@ -110,6 +113,15 @@ window.REPORT_DATA = {
       9,
       34,
       98,
+      0,
+      0,
+      0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0

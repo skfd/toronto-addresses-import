@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:28 PM",
+  "generated": "Jun 11, 2026 at 08:38 PM",
   "old_snapshot": {
     "id": 29,
     "downloaded": "2026-04-21T22:09:23.346756",
@@ -89,6 +89,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -106,6 +107,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 4,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -142,6 +144,15 @@ window.REPORT_DATA = {
       0,
       10,
       4
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

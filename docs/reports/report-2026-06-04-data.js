@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Jun 04, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:42 PM",
   "old_snapshot": {
     "id": 54,
     "downloaded": "2026-06-02T13:00:12.558712",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 55,
-      "max_snapshot_id": 55,
+      "max_snapshot_id": 59,
       "address_point_id": 60073101,
       "address_full": "447 Horner Ave",
       "address_number": "447",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.54086,
       "latitude": 43.60206,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008785, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006334, \"CENTRELINE_ID\": 60053733, \"CENTRELINE_MEASURE\": 118.08, \"CENTRELINE_OFFSET\": 68.25, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1823.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051910\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008785, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006334, \"CENTRELINE_ID\": 60053733, \"CENTRELINE_MEASURE\": 118.08, \"CENTRELINE_OFFSET\": 68.25, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1823.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051910\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 55,
-      "max_snapshot_id": 55,
+      "max_snapshot_id": 59,
       "address_point_id": 60073100,
       "address_full": "445 Horner Ave",
       "address_number": "445",
@@ -60,7 +61,8 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.54036,
       "latitude": 43.60217,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008782, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 4614, \"CENTRELINE_ID\": 60053733, \"CENTRELINE_MEASURE\": 75.63, \"CENTRELINE_OFFSET\": 67.86, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1823.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051911\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008782, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 4614, \"CENTRELINE_ID\": 60053733, \"CENTRELINE_MEASURE\": 75.63, \"CENTRELINE_OFFSET\": 67.86, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 1823.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051911\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -83,7 +85,8 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.38518,
       "latitude": 43.67229,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472838, \"ADDRESS_ID_LINK\": 610567, \"ADDRESS_POINT_ID_LINK\": 7950447, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125496, \"CENTRELINE_ID\": 14021163, \"CENTRELINE_MEASURE\": 37.31, \"CENTRELINE_OFFSET\": 17.54, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 503.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"598230\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472838, \"ADDRESS_ID_LINK\": 610567, \"ADDRESS_POINT_ID_LINK\": 7950447, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125496, \"CENTRELINE_ID\": 14021163, \"CENTRELINE_MEASURE\": 37.31, \"CENTRELINE_OFFSET\": 17.54, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 503.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"598230\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -117,7 +120,8 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.38497,
       "latitude": 43.67228,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472837, \"ADDRESS_ID_LINK\": 610569, \"ADDRESS_POINT_ID_LINK\": 7950445, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125495, \"CENTRELINE_ID\": 7950454, \"CENTRELINE_MEASURE\": 16.1, \"CENTRELINE_OFFSET\": 13.12, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4149.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"754951\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472837, \"ADDRESS_ID_LINK\": 610569, \"ADDRESS_POINT_ID_LINK\": 7950445, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125495, \"CENTRELINE_ID\": 7950454, \"CENTRELINE_MEASURE\": 16.1, \"CENTRELINE_OFFSET\": 13.12, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4149.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"754951\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -151,7 +155,8 @@ window.REPORT_DATA = {
       "ward_name": "Scarborough Southwest",
       "longitude": -79.27947,
       "latitude": 43.68233,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1471539, \"ADDRESS_ID_LINK\": 753508, \"ADDRESS_POINT_ID_LINK\": 20103092, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 99664, \"CENTRELINE_ID\": 8246214, \"CENTRELINE_MEASURE\": 12.35, \"CENTRELINE_OFFSET\": 15.38, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"887995\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1471539, \"ADDRESS_ID_LINK\": 753508, \"ADDRESS_POINT_ID_LINK\": 20103092, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 99664, \"CENTRELINE_ID\": 8246214, \"CENTRELINE_MEASURE\": 12.35, \"CENTRELINE_OFFSET\": 15.38, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 7874.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"SC\", \"OBJECTID\": \"887995\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"20\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -185,7 +190,8 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.38508,
       "latitude": 43.67227,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472839, \"ADDRESS_ID_LINK\": 610568, \"ADDRESS_POINT_ID_LINK\": 7950446, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125500, \"CENTRELINE_ID\": 14021163, \"CENTRELINE_MEASURE\": 25.73, \"CENTRELINE_OFFSET\": 16.18, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 503.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"985674\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1472839, \"ADDRESS_ID_LINK\": 610568, \"ADDRESS_POINT_ID_LINK\": 7950446, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 125500, \"CENTRELINE_ID\": 14021163, \"CENTRELINE_MEASURE\": 25.73, \"CENTRELINE_OFFSET\": 16.18, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TORONTO\", \"LINEAR_NAME_ID\": 503.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"985674\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -204,6 +210,23 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [
+    {
+      "address_point_id": 10364671,
+      "address_full": "305 Dawes Rd",
+      "municipality_name": "East York",
+      "latitude": 43.69861,
+      "longitude": -79.29546,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Taylor Creek Park",
+          "new": "Taylor Creek Park, The Hannon-Shields Centre for Leadership",
+          "display_field": "Place Name"
+        }
+      ]
+    }
+  ],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -220,7 +243,9 @@ window.REPORT_DATA = {
       "University-Rosedale": 3,
       "Scarborough Southwest": 1
     },
-    "field_changes": {},
+    "field_changes": {
+      "Place Name": 1
+    },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
@@ -228,6 +253,7 @@ window.REPORT_DATA = {
   "removed_count": 4,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 1,
   "sparklines": {
     "added": [
       0,
@@ -248,11 +274,11 @@ window.REPORT_DATA = {
       4
     ],
     "modified": [
+      2,
       0,
       0,
       0,
-      0,
-      0,
+      1,
       0,
       0
     ],
@@ -264,6 +290,15 @@ window.REPORT_DATA = {
       0,
       0,
       0
+    ],
+    "modified_place_name": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
     ]
   }
 }

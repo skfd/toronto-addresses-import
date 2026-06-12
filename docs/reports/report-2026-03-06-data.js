@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:07 AM",
+  "generated": "Jun 11, 2026 at 08:35 PM",
   "old_snapshot": {
     "id": 11,
     "downloaded": "2026-03-04T23:59:04.476599",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.33011,
       "latitude": 43.66349,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481052, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251613, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 14.99, \"CENTRELINE_OFFSET\": 22.19, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005333\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481052, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251613, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 14.99, \"CENTRELINE_OFFSET\": 22.19, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005333\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -74,7 +75,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32986,
       "latitude": 43.66354,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481043, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251562, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 35.48, \"CENTRELINE_OFFSET\": 22.58, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005337\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481043, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251562, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 35.48, \"CENTRELINE_OFFSET\": 22.58, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005337\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -108,7 +110,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32993,
       "latitude": 43.66353,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481044, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251563, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 29.79, \"CENTRELINE_OFFSET\": 22.39, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005341\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481044, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251563, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 29.79, \"CENTRELINE_OFFSET\": 22.39, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005341\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -142,7 +145,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.33005,
       "latitude": 43.6635,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481054, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251615, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 19.59, \"CENTRELINE_OFFSET\": 22.36, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005342\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481054, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251615, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 19.59, \"CENTRELINE_OFFSET\": 22.36, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005342\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -176,7 +180,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32941,
       "latitude": 43.66364,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481038, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251557, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 73.53, \"CENTRELINE_OFFSET\": 22.1, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005343\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481038, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251557, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 73.53, \"CENTRELINE_OFFSET\": 22.1, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005343\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -210,7 +215,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32936,
       "latitude": 43.66366,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481037, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251556, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 78.25, \"CENTRELINE_OFFSET\": 22.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005344\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481037, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251556, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 78.25, \"CENTRELINE_OFFSET\": 22.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005344\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -244,7 +250,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32999,
       "latitude": 43.66351,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481053, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251614, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 25.02, \"CENTRELINE_OFFSET\": 22.27, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005351\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481053, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251614, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 25.02, \"CENTRELINE_OFFSET\": 22.27, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005351\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -278,7 +285,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.3298,
       "latitude": 43.66356,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481042, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251561, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 40.75, \"CENTRELINE_OFFSET\": 22.54, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005357\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481042, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251561, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 40.75, \"CENTRELINE_OFFSET\": 22.54, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005357\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -312,7 +320,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32966,
       "latitude": 43.66359,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481041, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251560, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 52.7, \"CENTRELINE_OFFSET\": 22.37, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005358\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481041, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251560, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 52.7, \"CENTRELINE_OFFSET\": 22.37, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005358\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -346,7 +355,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32954,
       "latitude": 43.66362,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481040, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251559, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 63.01, \"CENTRELINE_OFFSET\": 22.18, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005359\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481040, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251559, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 63.01, \"CENTRELINE_OFFSET\": 22.18, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005359\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -380,7 +390,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto-Danforth",
       "longitude": -79.32948,
       "latitude": 43.66363,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481039, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251558, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 68.27, \"CENTRELINE_OFFSET\": 22.14, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005360\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1481039, \"ADDRESS_ID_LINK\": 725007, \"ADDRESS_POINT_ID_LINK\": 8407945, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 251558, \"CENTRELINE_ID\": 8407742, \"CENTRELINE_MEASURE\": 68.27, \"CENTRELINE_OFFSET\": 22.14, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4237.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"5005360\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"14\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -672,6 +683,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -695,6 +707,7 @@ window.REPORT_DATA = {
   "removed_count": 11,
   "modified_count": 0,
   "modified_location_count": 17,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -731,6 +744,15 @@ window.REPORT_DATA = {
       74,
       23,
       17
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }

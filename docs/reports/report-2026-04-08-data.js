@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:15 AM",
+  "generated": "Jun 11, 2026 at 08:37 PM",
   "old_snapshot": {
     "id": 24,
     "downloaded": "2026-04-03T13:00:08.881855",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 25,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60068080,
       "address_full": "89 Avenue Rd",
       "address_number": "89",
@@ -39,13 +39,15 @@ window.REPORT_DATA = {
       "ward_name": "University-Rosedale",
       "longitude": -79.39532,
       "latitude": 43.67235,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007652, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 126007, \"CENTRELINE_ID\": 30126052, \"CENTRELINE_MEASURE\": 46.41, \"CENTRELINE_OFFSET\": 22.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2924.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051836\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007652, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 126007, \"CENTRELINE_ID\": 30126052, \"CENTRELINE_MEASURE\": 46.41, \"CENTRELINE_OFFSET\": 22.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2924.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051836\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"11\"}",
+      "place_name": null,
       "history": []
     }
   ],
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -64,6 +66,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       7,
@@ -95,6 +98,15 @@ window.REPORT_DATA = {
     "modified_location": [
       44,
       35,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_place_name": [
+      0,
+      0,
       0,
       0,
       0,

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:09 AM",
+  "generated": "Jun 11, 2026 at 08:36 PM",
   "old_snapshot": {
     "id": 16,
     "downloaded": "2026-03-17T16:40:20.343378",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065342,
       "address_full": "11 Graystone Gdns",
       "address_number": "11",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.52282,
       "latitude": 43.64003,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007504, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 12819, \"CENTRELINE_ID\": 7669055, \"CENTRELINE_MEASURE\": 104.54, \"CENTRELINE_OFFSET\": 26.79, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11333.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051799\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007504, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 12819, \"CENTRELINE_ID\": 7669055, \"CENTRELINE_MEASURE\": 104.54, \"CENTRELINE_OFFSET\": 26.79, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11333.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051799\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065346,
       "address_full": "1456 King St W",
       "address_number": "1456",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.43781,
       "latitude": 43.63702,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007512, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006257, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 33.17, \"CENTRELINE_OFFSET\": 22.16, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051800\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007512, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006257, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 33.17, \"CENTRELINE_OFFSET\": 22.16, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051800\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065343,
       "address_full": "13 Graystone Gdns",
       "address_number": "13",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Etobicoke-Lakeshore",
       "longitude": -79.5229,
       "latitude": 43.64003,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007505, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006253, \"CENTRELINE_ID\": 7669055, \"CENTRELINE_MEASURE\": 110.74, \"CENTRELINE_OFFSET\": 24.88, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11333.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051801\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007505, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006253, \"CENTRELINE_ID\": 7669055, \"CENTRELINE_MEASURE\": 110.74, \"CENTRELINE_OFFSET\": 24.88, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 11333.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051801\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065349,
       "address_full": "1452 King St W",
       "address_number": "1452",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.43759,
       "latitude": 43.63705,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007519, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006255, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 14.87, \"CENTRELINE_OFFSET\": 20.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051802\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007519, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006255, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 14.87, \"CENTRELINE_OFFSET\": 20.69, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051802\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065345,
       "address_full": "250 High Park Ave",
       "address_number": "250",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.4694,
       "latitude": 43.66227,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007509, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006254, \"CENTRELINE_ID\": 8005169, \"CENTRELINE_MEASURE\": 217.95, \"CENTRELINE_OFFSET\": 32.66, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3660.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051803\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60007509, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006254, \"CENTRELINE_ID\": 8005169, \"CENTRELINE_MEASURE\": 217.95, \"CENTRELINE_OFFSET\": 32.66, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3660.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051803\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065351,
       "address_full": "10 Maynard Ave",
       "address_number": "10",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.43754,
       "latitude": 43.63715,
-      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007521, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 168097, \"CENTRELINE_ID\": 1147174, \"CENTRELINE_MEASURE\": 30.61, \"CENTRELINE_OFFSET\": 15.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3949.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051804\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60007521, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 168097, \"CENTRELINE_ID\": 1147174, \"CENTRELINE_MEASURE\": 30.61, \"CENTRELINE_OFFSET\": 15.05, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3949.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051804\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065348,
       "address_full": "1454 King St W",
       "address_number": "1454",
@@ -165,12 +171,13 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.4377,
       "latitude": 43.63704,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007517, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006256, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 23.56, \"CENTRELINE_OFFSET\": 21.52, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051805\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007517, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006256, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 23.56, \"CENTRELINE_OFFSET\": 21.52, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051805\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 17,
-      "max_snapshot_id": 29,
+      "max_snapshot_id": 59,
       "address_point_id": 60065347,
       "address_full": "1458 King St W",
       "address_number": "1458",
@@ -186,7 +193,8 @@ window.REPORT_DATA = {
       "ward_name": "Parkdale-High Park",
       "longitude": -79.43791,
       "latitude": 43.63714,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007515, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006258, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 37.62, \"CENTRELINE_OFFSET\": 36.68, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051806\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60007515, \"ADDRESS_ID_LINK\": 60007512, \"ADDRESS_POINT_ID_LINK\": 60065346, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006258, \"CENTRELINE_ID\": 8344723, \"CENTRELINE_MEASURE\": 37.62, \"CENTRELINE_OFFSET\": 36.68, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3780.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051806\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"04\"}",
+      "place_name": null,
       "history": []
     }
   ],
@@ -209,7 +217,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.36473,
       "latitude": 43.66212,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611125, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 263834, \"CENTRELINE_ID\": 60040985, \"CENTRELINE_MEASURE\": 12.66, \"CENTRELINE_OFFSET\": 33.82, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3495.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"782433\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611125, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 263834, \"CENTRELINE_ID\": 60040985, \"CENTRELINE_MEASURE\": 12.66, \"CENTRELINE_OFFSET\": 33.82, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3495.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"782433\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -243,7 +252,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.36413,
       "latitude": 43.66156,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611126, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 123980, \"CENTRELINE_ID\": 20235146, \"CENTRELINE_MEASURE\": 33.63, \"CENTRELINE_OFFSET\": 41.57, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4353.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"847467\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611126, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 123980, \"CENTRELINE_ID\": 20235146, \"CENTRELINE_MEASURE\": 33.63, \"CENTRELINE_OFFSET\": 41.57, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4353.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"847467\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -277,7 +287,8 @@ window.REPORT_DATA = {
       "ward_name": "Toronto Centre",
       "longitude": -79.36534,
       "latitude": 43.66194,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611124, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 263833, \"CENTRELINE_ID\": 60040984, \"CENTRELINE_MEASURE\": 44.03, \"CENTRELINE_OFFSET\": 39.58, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3495.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1005112\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 1611124, \"ADDRESS_ID_LINK\": 175428, \"ADDRESS_POINT_ID_LINK\": 20362101, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 263833, \"CENTRELINE_ID\": 60040984, \"CENTRELINE_MEASURE\": 44.03, \"CENTRELINE_OFFSET\": 39.58, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10011, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 3495.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1005112\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"13\"}",
+      "place_name": null,
       "history": [
         {
           "date": "2025-04-01",
@@ -296,6 +307,7 @@ window.REPORT_DATA = {
   ],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {
@@ -320,6 +332,7 @@ window.REPORT_DATA = {
   "removed_count": 3,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       0,
@@ -343,18 +356,27 @@ window.REPORT_DATA = {
       5,
       0,
       14,
-      21,
+      24,
       0,
-      924,
+      1304,
       0
     ],
     "modified_location": [
       5,
       0,
-      14,
-      21,
+      12,
+      20,
       0,
-      792,
+      762,
+      0
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      3,
+      0,
+      380,
       0
     ]
   }

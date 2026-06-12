@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "May 26, 2026 at 01:01 PM",
+  "generated": "Jun 11, 2026 at 08:41 PM",
   "old_snapshot": {
     "id": 49,
     "downloaded": "2026-05-22T13:00:13.362517",
@@ -23,7 +23,7 @@ window.REPORT_DATA = {
   "added": [
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071910,
       "address_full": "38 Chloe Cooley St",
       "address_number": "38",
@@ -39,12 +39,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.3664,
       "latitude": 43.64561,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008701, \"ADDRESS_ID_LINK\": 60008696, \"ADDRESS_POINT_ID_LINK\": 60071908, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006328, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 161.77, \"CENTRELINE_OFFSET\": 22.4, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051897\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008701, \"ADDRESS_ID_LINK\": 60008696, \"ADDRESS_POINT_ID_LINK\": 60071908, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006328, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 161.77, \"CENTRELINE_OFFSET\": 22.4, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051897\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071907,
       "address_full": "30 Chloe Cooley St",
       "address_number": "30",
@@ -60,12 +61,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36754,
       "latitude": 43.64536,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008693, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006325, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 65.82, \"CENTRELINE_OFFSET\": 21.59, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051898\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008693, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006325, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 65.82, \"CENTRELINE_OFFSET\": 21.59, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051898\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071901,
       "address_full": "33 Richardson St",
       "address_number": "33",
@@ -81,12 +83,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36812,
       "latitude": 43.64543,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008684, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006322, \"CENTRELINE_ID\": 60071865, \"CENTRELINE_MEASURE\": 41.05, \"CENTRELINE_OFFSET\": 24.6, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4275.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051899\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008684, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006322, \"CENTRELINE_ID\": 60071865, \"CENTRELINE_MEASURE\": 41.05, \"CENTRELINE_OFFSET\": 24.6, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 4275.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051899\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071909,
       "address_full": "34 Chloe Cooley St",
       "address_number": "34",
@@ -102,12 +105,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.3673,
       "latitude": 43.6454,
-      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008699, \"ADDRESS_ID_LINK\": 60008696, \"ADDRESS_POINT_ID_LINK\": 60071908, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006327, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 85.58, \"CENTRELINE_OFFSET\": 20.63, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051900\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"S\", \"ADDRESS_CLASS_DESC\": \"Structure\", \"ADDRESS_ID\": 60008699, \"ADDRESS_ID_LINK\": 60008696, \"ADDRESS_POINT_ID_LINK\": 60071908, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006327, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 85.58, \"CENTRELINE_OFFSET\": 20.63, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 11, \"CLASS_FAMILY_DESC\": \"Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051900\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071908,
       "address_full": "32 Chloe Cooley St",
       "address_number": "32",
@@ -123,12 +127,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36742,
       "latitude": 43.64539,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008696, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006326, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 75.64, \"CENTRELINE_OFFSET\": 21.42, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051901\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008696, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006326, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 75.64, \"CENTRELINE_OFFSET\": 21.42, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051901\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071904,
       "address_full": "18 Chloe Cooley St",
       "address_number": "18",
@@ -144,12 +149,13 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36782,
       "latitude": 43.64531,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008687, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006323, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 41.71, \"CENTRELINE_OFFSET\": 22.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051902\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008687, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006323, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 41.71, \"CENTRELINE_OFFSET\": 22.01, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051902\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     },
     {
       "min_snapshot_id": 50,
-      "max_snapshot_id": 50,
+      "max_snapshot_id": 59,
       "address_point_id": 60071905,
       "address_full": "20 Chloe Cooley St",
       "address_number": "20",
@@ -165,13 +171,15 @@ window.REPORT_DATA = {
       "ward_name": "Spadina-Fort York",
       "longitude": -79.36769,
       "latitude": 43.64533,
-      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008690, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006324, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 52.82, \"CENTRELINE_OFFSET\": 21.63, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051903\", \"PLACE_NAME\": \"None\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60008690, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 60006324, \"CENTRELINE_ID\": 60071888, \"CENTRELINE_MEASURE\": 52.82, \"CENTRELINE_OFFSET\": 21.63, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 1011, \"CLASS_FAMILY_DESC\": \"Land, Structure, Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 30313.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"TO\", \"OBJECTID\": \"1051903\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"10\"}",
+      "place_name": null,
       "history": []
     }
   ],
   "removed": [],
   "modified": [],
   "modified_location": [],
+  "modified_place_name": [],
   "new_streets": [
     {
       "street": "Chloe Cooley St",
@@ -200,6 +208,7 @@ window.REPORT_DATA = {
   "removed_count": 0,
   "modified_count": 0,
   "modified_location_count": 0,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       3,
@@ -220,9 +229,9 @@ window.REPORT_DATA = {
       0
     ],
     "modified": [
-      0,
-      0,
-      0,
+      1,
+      4,
+      3,
       0,
       0,
       0,
@@ -232,6 +241,15 @@ window.REPORT_DATA = {
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_place_name": [
+      1,
+      4,
+      3,
       0,
       0,
       0,

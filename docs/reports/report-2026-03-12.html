@@ -465,25 +465,25 @@
     </div>
     <div class="card">
       <div class="label">Updated Addresses</div>
-      <div class="value yellow">0</div>
+      <div class="value yellow">1</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,18.0 37.3,6.2 55.0,14.5 72.7,18.0 90.3,8.3 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#eaa300"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#eaa300" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,18.0 37.3,6.2 55.0,14.5 72.7,18.0 90.3,8.3 108.0,17.3"/><circle cx="108.0" cy="17.3" r="2" fill="#eaa300"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
     <div class="card">
       <div class="label">Location Adjustments</div>
-      <div class="value" style="color: var(--text-dim)">21</div>
+      <div class="value" style="color: var(--text-dim)">20</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#808080" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,18.0 37.3,6.2 55.0,14.5 72.7,18.0 90.3,8.3 108.0,3.4"/><circle cx="108.0" cy="3.4" r="2" fill="#808080"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#808080" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,2.0 19.7,18.0 37.3,6.2 55.0,14.5 72.7,18.0 90.3,9.7 108.0,4.1"/><circle cx="108.0" cy="4.1" r="2" fill="#808080"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
     <div class="card">
       <div class="label">Place Name Changes</div>
-      <div class="value accent">0</div>
+      <div class="value accent">3</div>
       
-      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#0078d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,18.0"/><circle cx="108.0" cy="18.0" r="2" fill="#0078d4"/></svg>
+      <svg class="sparkline" viewBox="0 0 110 20" width="110" height="20" preserveAspectRatio="none" aria-hidden="true"><polyline fill="none" stroke="#0078d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="2.0,18.0 19.7,18.0 37.3,18.0 55.0,18.0 72.7,18.0 90.3,18.0 108.0,2.0"/><circle cx="108.0" cy="2.0" r="2" fill="#0078d4"/></svg>
       <div class="sparkline-label">7-day trend</div>
       
     </div>
@@ -547,6 +547,14 @@
               <div class="bar-fill green" style="width:100.0%"></div>
             </div>
             <span class="bar-count">21</span>
+          </div>
+          
+          <div class="bar-row">
+            <span class="bar-label">Place Name</span>
+            <div class="bar-track">
+              <div class="bar-fill green" style="width:19.0%"></div>
+            </div>
+            <span class="bar-count">4</span>
           </div>
           
         </div>
@@ -680,23 +688,109 @@
 
       <!-- Modified -->
       <div class="section">
-        <h2>Updated Addresses <span class="badge badge-yellow">0</span></h2>
+        <h2>Updated Addresses <span class="badge badge-yellow">1</span></h2>
         
-          <p class="empty">No addresses updated.</p>
+        
+          <div id="tbl-modified">
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>What Changed</th>
+                  <th>Before</th>
+                  <th></th>
+                  <th>After</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                
+                <tr>
+                  <td rowspan="2">4777 Dufferin St
+                  </td>
+                  <td class="change-field">Place Name</td>
+                  <td class="old-val">G Ross Lord Park</td>
+                  <td class="arrow-val"></td>
+                  <td class="new-val">Community Association for Riding for the Disabled</td>
+                </tr>
+                
+                <tr>
+                  
+                  <td class="change-field">Location</td>
+                  <td class="old-val">43.77754, -79.46856</td>
+                  <td class="arrow-val">→ 543.6m</td>
+                  <td class="new-val">43.77714, -79.46182</td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
           
         </div>
 
       <!-- Place Name Changes -->
       <div class="section">
-        <h2>Place Name Changes <span class="badge" style="background: var(--accent-bg); color: var(--accent)">0</span></h2>
+        <h2>Place Name Changes <span class="badge" style="background: var(--accent-bg); color: var(--accent)">3</span></h2>
         
-          <p class="empty">No place name changes.</p>
+        <p class="explainer" style="margin-bottom:12px">Changes to the place or building name attached to an address — e.g. schools, parks, businesses.</p>
+        
+          <div id="tbl-place-name">
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Address</th>
+                  <th>Before</th>
+                  <th>After</th>
+                  <th>Map</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                
+                <tr>
+                  <td>173 Fairglen Ave</td>
+                  <td class="old-val">—</td>
+                  <td class="new-val">Fairglen Park</td>
+                  <td><a class="map-link"
+                      href="https://www.openstreetmap.org/?mlat=43.78637&mlon=-79.32603#map=18/43.78637/-79.32603"
+                      target="_blank" rel="noopener">View ↗</a></td>
+                </tr>
+                
+                
+                
+                <tr>
+                  <td>45 Ancaster Rd</td>
+                  <td class="old-val">—</td>
+                  <td class="new-val">Ancaster Early Learning And Child Care Centre</td>
+                  <td><a class="map-link"
+                      href="https://www.openstreetmap.org/?mlat=43.73303&mlon=-79.46601#map=18/43.73303/-79.46601"
+                      target="_blank" rel="noopener">View ↗</a></td>
+                </tr>
+                
+                
+                
+                <tr>
+                  <td>51 Neptune Dr</td>
+                  <td class="old-val">—</td>
+                  <td class="new-val">Elijah Park</td>
+                  <td><a class="map-link"
+                      href="https://www.openstreetmap.org/?mlat=43.73160&mlon=-79.43541#map=18/43.73160/-79.43541"
+                      target="_blank" rel="noopener">View ↗</a></td>
+                </tr>
+                
+                
+              </tbody>
+            </table>
+          </div>
           
         </div>
 
       <!-- Location Adjustments -->
       <div class="section">
-        <h2>Location Adjustments <span class="badge" style="background: var(--surface2); color: var(--text-dim)">21</span></h2>
+        <h2>Location Adjustments <span class="badge" style="background: var(--surface2); color: var(--text-dim)">20</span></h2>
         
         
           <div id="tbl-location">
@@ -875,15 +969,6 @@
                 </tr>
                 
                 <tr>
-                  <td>4777 Dufferin St</td>
-                  
-                  <td class="old-val">43.77754, -79.46856<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.77754&mlon=-79.46856#map=19/43.77754/-79.46856" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  <td class="arrow-val">→ 543.6m</td>
-                  <td class="new-val">43.77714, -79.46182<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.77714&mlon=-79.46182#map=19/43.77714/-79.46182" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
-                  
-                </tr>
-                
-                <tr>
                   <td>42 Mercury Rd</td>
                   
                   <td class="old-val">43.72102, -79.59141<a class="map-link" href="https://www.openstreetmap.org/?mlat=43.72102&mlon=-79.59141#map=19/43.72102/-79.59141" target="_blank" rel="noopener" title="View on OpenStreetMap" aria-label="View on OpenStreetMap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a></td>
@@ -908,7 +993,7 @@
         </div>
 
         <div class="generated-at">
-          Report generated Apr 22, 2026 at 03:08 AM
+          Report generated Jun 11, 2026 at 08:36 PM
         </div>
 
         <script>

@@ -1,5 +1,5 @@
 window.REPORT_DATA = {
-  "generated": "Apr 22, 2026 at 03:08 AM",
+  "generated": "Jun 11, 2026 at 08:36 PM",
   "old_snapshot": {
     "id": 13,
     "downloaded": "2026-03-07T12:00:26.330969",
@@ -40,7 +40,8 @@ window.REPORT_DATA = {
       "ward_name": "Don Valley West",
       "longitude": -79.37111,
       "latitude": 43.71088,
-      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1483960, \"ADDRESS_ID_LINK\": 561550, \"ADDRESS_POINT_ID_LINK\": 11915539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 381829, \"CENTRELINE_ID\": 3244890, \"CENTRELINE_MEASURE\": 177.77, \"CENTRELINE_OFFSET\": 36.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 187.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1613219\", \"PLACE_NAME\": \"Howard Talbot Park\", \"PLACE_NAME_ALL\": \"Howard Talbot Park\", \"WARD\": \"15\"}",
+      "extra": "{\"ADDRESS_CLASS\": \"SE\", \"ADDRESS_CLASS_DESC\": \"Structure Entrance\", \"ADDRESS_ID\": 1483960, \"ADDRESS_ID_LINK\": 561550, \"ADDRESS_POINT_ID_LINK\": 11915539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 381829, \"CENTRELINE_ID\": 3244890, \"CENTRELINE_MEASURE\": 177.77, \"CENTRELINE_OFFSET\": 36.35, \"CENTRELINE_SIDE\": \"L\", \"CLASS_FAMILY\": 10001, \"CLASS_FAMILY_DESC\": \"Structure Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 187.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"EY\", \"OBJECTID\": \"1613219\", \"PLACE_NAME_ALL\": \"Howard Talbot Park\", \"WARD\": \"15\"}",
+      "place_name": "Howard Talbot Park",
       "history": [
         {
           "date": "2025-04-01",
@@ -57,7 +58,52 @@ window.REPORT_DATA = {
       ]
     }
   ],
-  "modified": [],
+  "modified": [
+    {
+      "address_point_id": 30035267,
+      "address_full": "110 Eastdale Ave",
+      "municipality_name": "East York",
+      "latitude": 43.69537,
+      "longitude": -79.30145,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": "Eastdale Parkette",
+          "new": null,
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.69536, -79.30159",
+          "new": "43.69537, -79.30145",
+          "arrow": "\u2192 11.3m",
+          "display_field": "Location"
+        }
+      ]
+    },
+    {
+      "address_point_id": 7553684,
+      "address_full": "651 Fleet St",
+      "municipality_name": "former Toronto",
+      "latitude": 43.63589,
+      "longitude": -79.40492,
+      "changes": [
+        {
+          "field": "place_name",
+          "old": null,
+          "new": "Queen's Wharf Lighthouse",
+          "display_field": "Place Name"
+        },
+        {
+          "field": "location",
+          "old": "43.63589, -79.40478",
+          "new": "43.63589, -79.40492",
+          "arrow": "\u2190 11.3m",
+          "display_field": "Location"
+        }
+      ]
+    }
+  ],
   "modified_location": [
     {
       "address_point_id": 20014831,
@@ -172,22 +218,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 30035267,
-      "address_full": "110 Eastdale Ave",
-      "municipality_name": "East York",
-      "latitude": 43.69537,
-      "longitude": -79.30145,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.69536, -79.30159",
-          "new": "43.69537, -79.30145",
-          "arrow": "\u2192 11.3m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 7304924,
       "address_full": "184 Lake Promenade",
       "municipality_name": "Etobicoke",
@@ -236,22 +266,6 @@ window.REPORT_DATA = {
       ]
     },
     {
-      "address_point_id": 7553684,
-      "address_full": "651 Fleet St",
-      "municipality_name": "former Toronto",
-      "latitude": 43.63589,
-      "longitude": -79.40492,
-      "changes": [
-        {
-          "field": "location",
-          "old": "43.63589, -79.40478",
-          "new": "43.63589, -79.40492",
-          "arrow": "\u2190 11.3m",
-          "display_field": "Location"
-        }
-      ]
-    },
-    {
       "address_point_id": 8237358,
       "address_full": "56 Edith Dr",
       "municipality_name": "former Toronto",
@@ -284,6 +298,7 @@ window.REPORT_DATA = {
       ]
     }
   ],
+  "modified_place_name": [],
   "new_streets": [],
   "stats": {
     "muni_added": {},
@@ -296,15 +311,17 @@ window.REPORT_DATA = {
     },
     "field_changes": {
       "Location (longitude)": 14,
-      "Location (latitude)": 12
+      "Location (latitude)": 12,
+      "Place Name": 2
     },
     "top_streets_added": {},
     "top_streets_removed": {}
   },
   "added_count": 0,
   "removed_count": 1,
-  "modified_count": 0,
-  "modified_location_count": 14,
+  "modified_count": 2,
+  "modified_location_count": 12,
+  "modified_place_name_count": 0,
   "sparklines": {
     "added": [
       20,
@@ -331,7 +348,7 @@ window.REPORT_DATA = {
       17,
       5,
       0,
-      0
+      2
     ],
     "modified_location": [
       74,
@@ -340,7 +357,16 @@ window.REPORT_DATA = {
       17,
       5,
       0,
-      14
+      12
+    ],
+    "modified_place_name": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   }
 }
