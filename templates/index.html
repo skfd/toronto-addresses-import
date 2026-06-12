@@ -370,9 +370,11 @@
                     {% endif %}
                     {% set mod_loc = report.modified_location | default(none) %}
                     {% if mod_loc is not none %}
-                        {% set mod_sig = report.modified - mod_loc %}
+                        {% set mod_pn = report.modified_place_name | default(0) %}
+                        {% set mod_sig = report.modified - mod_loc - mod_pn %}
                         {{ "{:,}".format(report.added) }} new · {{ "{:,}".format(report.removed) }} removed
                         {%- if mod_sig > 0 %} · {{ "{:,}".format(mod_sig) }} updated{%- endif %}
+                        {%- if mod_pn > 0 %} · {{ "{:,}".format(mod_pn) }} renamed{%- endif %}
                         {%- if mod_loc > 0 %} · {{ "{:,}".format(mod_loc) }} moved{%- endif %}
                     {% else %}
                         {{ "{:,}".format(report.added) }} new · {{ "{:,}".format(report.removed) }} removed · {{ "{:,}".format(report.modified) }} updated
