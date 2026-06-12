@@ -455,7 +455,7 @@
   <div class="no-changes-banner">
     ✓ Source data unchanged — no download or update required.
   </div>
-  {% elif added_count == 0 and removed_count == 0 and modified_count == 0 and modified_location_count|default(0) == 0 and modified_place_name_count|default(0) == 0 %}
+  {% elif added_count == 0 and removed_count == 0 and modified_count == 0 and modified_location_count|default(0) == 0 and modified_place_name_count|default(0) == 0 and modified_address_number_count|default(0) == 0 %}
   <div class="no-changes-banner">
     ✓ Everything matches — no address changes were found.
   </div>
@@ -503,6 +503,14 @@
       <div class="value accent">{{ "{:,}".format(modified_place_name_count|default(0)) }}</div>
       {% if sparklines and sparklines.modified_place_name %}
       {{ sparkline_svg(sparklines.modified_place_name, '#0078d4')|safe }}
+      <div class="sparkline-label">7-day trend</div>
+      {% endif %}
+    </div>
+    <div class="card">
+      <div class="label">Renumbered Addresses</div>
+      <div class="value" style="color: #8764b8">{{ "{:,}".format(modified_address_number_count|default(0)) }}</div>
+      {% if sparklines and sparklines.modified_address_number %}
+      {{ sparkline_svg(sparklines.modified_address_number, '#8764b8')|safe }}
       <div class="sparkline-label">7-day trend</div>
       {% endif %}
     </div>
@@ -802,6 +810,45 @@
           </div>
           {% else %}
           <p class="empty">No place name changes.</p>
+          {% endif %}
+        </div>
+
+      <!-- Renumbered Addresses -->
+      <div class="section">
+        <h2>Renumbered Addresses <span class="badge" style="background: var(--surface2); color: #8764b8">{{ modified_address_number_count|default(0) }}</span></h2>
+        {% if modified_address_number %}
+        <p class="explainer" style="margin-bottom:12px">Addresses whose civic number changed while the point stayed in the same position — e.g. after a lot split or to fix numbering conflicts.</p>
+        {% if modified_address_number_count|default(0) > 50 %}
+        <button class="collapsible-toggle" onclick="toggle('tbl-renumbered')">Show / Hide</button>
+        <div id="tbl-renumbered" style="display:none">
+          {% else %}
+          <div id="tbl-renumbered">
+            {% endif %}
+            <table>
+              <thead>
+                <tr>
+                  <th>Before</th>
+                  <th>After</th>
+                  <th>Map</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for m in modified_address_number %}
+                {% set ch = (m.changes | selectattr('field', 'equalto', 'address_full') | list + m.changes) | first %}
+                <tr>
+                  <td class="old-val">{{ ch.old if ch.old is not none else '—' }}</td>
+                  <td class="new-val">{{ ch.new if ch.new is not none else '—' }}</td>
+                  <td>{% if m.latitude and m.longitude %}{% set lat = "%.5f"|format(m.latitude) %}{% set lon =
+                    "%.5f"|format(m.longitude) %}<a class="map-link"
+                      href="https://www.openstreetmap.org/?mlat={{ lat }}&mlon={{ lon }}#map=18/{{ lat }}/{{ lon }}"
+                      target="_blank" rel="noopener">View ↗</a>{% endif %}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% else %}
+          <p class="empty">No renumbered addresses.</p>
           {% endif %}
         </div>
 

@@ -12,6 +12,16 @@ from jinja2 import Environment, FileSystemLoader
 TEMPLATES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "templates")
 REPORTS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs", "reports")
 
+# Fields that together constitute a renumbering (civic number change, same position)
+ADDRESS_NUMBER_FIELDS = {
+    "address_full",
+    "address_number",
+    "lo_num",
+    "lo_num_suf",
+    "hi_num",
+    "hi_num_suf",
+}
+
 # Human-friendly field name mapping for display
 FIELD_DISPLAY_NAMES = {
     "address_full": "Full Address",
@@ -127,10 +137,11 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             if "display_field" not in ch:
                 ch["display_field"] = FIELD_DISPLAY_NAMES.get(ch["field"], ch["field"])
 
-    # Split modified into location-only / place-name-only vs significant changes
+    # Split modified into location-only / place-name-only / number-only vs significant changes
     # If an address has both location and other changes, it goes into significant
     modified_location = []
     modified_place_name = []
+    modified_address_number = []
     modified_significant = []
     for mod in diff_result["modified"]:
         fields = {c["field"] for c in mod["changes"]}
@@ -138,6 +149,8 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
             modified_location.append(mod)
         elif fields == {"place_name"}:
             modified_place_name.append(mod)
+        elif fields <= ADDRESS_NUMBER_FIELDS:
+            modified_address_number.append(mod)
         else:
             modified_significant.append(mod)
 
@@ -166,6 +179,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "modified": len(modified_significant),
         "modified_location": len(modified_location),
         "modified_place_name": len(modified_place_name),
+        "modified_address_number": len(modified_address_number),
     }
     sparklines = _compute_sparklines(date_part, current_counts)
 
@@ -181,6 +195,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "modified": modified_significant,
         "modified_location": modified_location,
         "modified_place_name": modified_place_name,
+        "modified_address_number": modified_address_number,
         "new_streets": diff_result.get("new_streets", []),
         "stats": stats,
         "added_count": len(diff_result["added"]),
@@ -188,6 +203,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
         "modified_count": len(modified_significant),
         "modified_location_count": len(modified_location),
         "modified_place_name_count": len(modified_place_name),
+        "modified_address_number_count": len(modified_address_number),
         "sparklines": sparklines,
     }
 
@@ -208,7 +224,7 @@ def generate_report(diff_result, old_snapshot, new_snapshot):
 
     # Update index
     # Use ID to ensure uniqueness
-    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location), modified_place_name=len(modified_place_name))
+    _update_report_metadata(new_snapshot["id"], date_part, filename, stats, diff_result, modified_location=len(modified_location), modified_place_name=len(modified_place_name), modified_address_number=len(modified_address_number))
     update_index()
 
     # Regenerate past reports whose added/removed rows share an address_point_id
@@ -349,7 +365,7 @@ def _render_report_html(context):
     return template.render(**context)
 
 
-SPARKLINE_KEYS = ("added", "removed", "modified", "modified_location", "modified_place_name")
+SPARKLINE_KEYS = ("added", "removed", "modified", "modified_location", "modified_place_name", "modified_address_number")
 
 
 def _compute_sparklines(current_date, current_counts):
@@ -417,7 +433,8 @@ def _enrich_context(context):
         "removed": context.get("removed", []),
         "modified": list(context.get("modified", []))
         + list(context.get("modified_location", []))
-        + list(context.get("modified_place_name", [])),
+        + list(context.get("modified_place_name", []))
+        + list(context.get("modified_address_number", [])),
     }
     stats = _compute_stats(diff_like)
     if stats.get("field_changes"):
@@ -442,6 +459,7 @@ def _enrich_context(context):
             "modified": context.get("modified_count", 0),
             "modified_location": context.get("modified_location_count", 0),
             "modified_place_name": context.get("modified_place_name_count", 0),
+            "modified_address_number": context.get("modified_address_number_count", 0),
         }
         context["sparklines"] = _compute_sparklines(date_part, current_counts)
 
@@ -691,7 +709,7 @@ def update_index():
     print(f"Index updated: {outpath}")
 
 
-def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result, modified_location=0, modified_place_name=0):
+def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result, modified_location=0, modified_place_name=0, modified_address_number=0):
     """Update the JSON metadata file with stats for this report."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
     meta_path = os.path.join(REPORTS_DIR, "metadata.json")
@@ -718,6 +736,7 @@ def _update_report_metadata(snapshot_id, date_str, filename, stats, diff_result,
         "modified": len(diff_result["modified"]),
         "modified_location": modified_location,
         "modified_place_name": modified_place_name,
+        "modified_address_number": modified_address_number,
         "new_streets": new_streets,
     }
 
