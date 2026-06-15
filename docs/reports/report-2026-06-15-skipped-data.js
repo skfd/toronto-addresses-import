@@ -1,13 +1,13 @@
 window.REPORT_DATA = {
   "generated": "Jun 15, 2026 at 07:59 PM",
   "old_snapshot": {
-    "downloaded": "2026-06-15T19:59:42.086920",
+    "downloaded": "2026-06-15T19:59:53.245436",
     "filename": "No New Data",
     "id": "-",
     "row_count": 525437
   },
   "new_snapshot": {
-    "downloaded": "2026-06-15T19:59:42.086920",
+    "downloaded": "2026-06-15T19:59:53.245436",
     "filename": "No New Data",
     "id": "-",
     "row_count": 525437
