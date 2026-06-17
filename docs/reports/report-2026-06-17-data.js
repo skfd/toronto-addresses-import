@@ -1,0 +1,302 @@
+window.REPORT_DATA = {
+  "generated": "Jun 17, 2026 at 12:01 PM",
+  "old_snapshot": {
+    "id": 61,
+    "downloaded": "2026-06-16T12:00:27.234324",
+    "row_count": 525447,
+    "filename": "address-points-2026-06-16.geojson",
+    "remote_last_modified": "Tue, 16 Jun 2026 11:42:30 GMT",
+    "remote_content_length": 589254166,
+    "skipped": 0
+  },
+  "new_snapshot": {
+    "id": 62,
+    "downloaded": "2026-06-17T12:00:44.342712",
+    "row_count": 525453,
+    "filename": "address-points-2026-06-17.geojson",
+    "remote_last_modified": "Wed, 17 Jun 2026 11:42:07 GMT",
+    "remote_content_length": 589260613,
+    "skipped": 0
+  },
+  "old_date_friendly": "Tuesday, Jun 16, 2026",
+  "new_date_friendly": "Wednesday, Jun 17, 2026",
+  "added": [
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077543,
+      "address_full": "359 Royal York Rd",
+      "address_number": "359",
+      "lo_num": 359,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49903,
+      "latitude": 43.61834,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009033, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192938, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 88.49, \"CENTRELINE_OFFSET\": 18.88, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051926\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077544,
+      "address_full": "361 Royal York Rd",
+      "address_number": "361",
+      "lo_num": 361,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49907,
+      "latitude": 43.61842,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009034, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192939, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 98.72, \"CENTRELINE_OFFSET\": 18.02, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051927\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077546,
+      "address_full": "363 Royal York Rd",
+      "address_number": "363",
+      "lo_num": 363,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49912,
+      "latitude": 43.61859,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009035, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192926, \"CENTRELINE_ID\": 7955692, \"CENTRELINE_MEASURE\": 13.89, \"CENTRELINE_OFFSET\": 19.52, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051928\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077539,
+      "address_full": "351 Royal York Rd",
+      "address_number": "351",
+      "lo_num": 351,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49886,
+      "latitude": 43.61799,
+      "extra": "{\"ADDRESS_CLASS\": \"L\", \"ADDRESS_CLASS_DESC\": \"Land\", \"ADDRESS_ID\": 60009029, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192935, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 47.21, \"CENTRELINE_OFFSET\": 20.6, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 1000, \"CLASS_FAMILY_DESC\": \"Land\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051929\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077540,
+      "address_full": "353 Royal York Rd",
+      "address_number": "353",
+      "lo_num": 353,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49892,
+      "latitude": 43.61808,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009030, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192934, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 58.96, \"CENTRELINE_OFFSET\": 18.78, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051930\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077541,
+      "address_full": "355 Royal York Rd",
+      "address_number": "355",
+      "lo_num": 355,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.49895,
+      "latitude": 43.61816,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009031, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192936, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 68.54, \"CENTRELINE_OFFSET\": 18.86, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051931\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    },
+    {
+      "min_snapshot_id": 62,
+      "max_snapshot_id": 62,
+      "address_point_id": 60077542,
+      "address_full": "357 Royal York Rd",
+      "address_number": "357",
+      "lo_num": 357,
+      "lo_num_suf": null,
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Royal York Rd",
+      "linear_name": "Royal York",
+      "linear_name_type": "Rd",
+      "linear_name_dir": null,
+      "municipality_name": "Etobicoke",
+      "ward_name": "Etobicoke-Lakeshore",
+      "longitude": -79.499,
+      "latitude": 43.61825,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 60009032, \"ADDRESS_ID_LINK\": 60009029, \"ADDRESS_POINT_ID_LINK\": 60077539, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 192937, \"CENTRELINE_ID\": 913676, \"CENTRELINE_MEASURE\": 79.01, \"CENTRELINE_OFFSET\": 18.45, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"None\", \"LINEAR_NAME_ID\": 2413.0, \"MAINT_STAGE\": \"RESERVED\", \"MUNICIPALITY\": \"ET\", \"OBJECTID\": \"1051932\", \"PLACE_NAME_ALL\": \"None\", \"WARD\": \"03\"}",
+      "place_name": null,
+      "history": []
+    }
+  ],
+  "removed": [
+    {
+      "min_snapshot_id": 16,
+      "max_snapshot_id": 61,
+      "address_point_id": 20003945,
+      "address_full": "2539A Bayview Ave",
+      "address_number": "2539A",
+      "lo_num": 2539,
+      "lo_num_suf": "A",
+      "hi_num": null,
+      "hi_num_suf": null,
+      "linear_name_full": "Bayview Ave",
+      "linear_name": "Bayview",
+      "linear_name_type": "Ave",
+      "linear_name_dir": null,
+      "municipality_name": "North York",
+      "ward_name": "Don Valley West",
+      "longitude": -79.38347,
+      "latitude": 43.74709,
+      "extra": "{\"ADDRESS_CLASS\": \"LE\", \"ADDRESS_CLASS_DESC\": \"Land Entrance\", \"ADDRESS_ID\": 1487133, \"ADDRESS_ID_LINK\": 478180, \"ADDRESS_POINT_ID_LINK\": 20015342, \"ADDRESS_STATUS\": \"None\", \"ADDRESS_STRING_ID\": 501359, \"CENTRELINE_ID\": 30100672, \"CENTRELINE_MEASURE\": 105.49, \"CENTRELINE_OFFSET\": 41.46, \"CENTRELINE_SIDE\": \"R\", \"CLASS_FAMILY\": 10100, \"CLASS_FAMILY_DESC\": \"Land Entrance\", \"GENERAL_USE\": \"Unknown\", \"GENERAL_USE_CODE\": 115001, \"LINEAR_NAME_DESC\": \"TO, EY, NY\", \"LINEAR_NAME_ID\": 24.0, \"MAINT_STAGE\": \"REGULAR\", \"MUNICIPALITY\": \"NY\", \"OBJECTID\": \"749362\", \"PLACE_NAME_ALL\": \"Irving Paisley Park,York Mills Park - Arena\", \"WARD\": \"15\"}",
+      "place_name": "Irving Paisley Park,York Mills Park - Arena",
+      "history": [
+        {
+          "date": "2025-04-01",
+          "kind": "added",
+          "snapshot_id": 1,
+          "current": false
+        },
+        {
+          "date": "2026-06-17",
+          "kind": "removed",
+          "snapshot_id": 62,
+          "current": true
+        }
+      ]
+    }
+  ],
+  "modified": [],
+  "modified_location": [],
+  "modified_place_name": [],
+  "modified_address_number": [],
+  "new_streets": [],
+  "stats": {
+    "muni_added": {
+      "Etobicoke": 7
+    },
+    "muni_removed": {
+      "North York": 1
+    },
+    "ward_added": {
+      "Etobicoke-Lakeshore": 7
+    },
+    "ward_removed": {
+      "Don Valley West": 1
+    },
+    "field_changes": {},
+    "top_streets_added": {
+      "Royal York Rd": 7
+    },
+    "top_streets_removed": {}
+  },
+  "added_count": 7,
+  "removed_count": 1,
+  "modified_count": 0,
+  "modified_location_count": 0,
+  "modified_place_name_count": 0,
+  "modified_address_number_count": 0,
+  "sparklines": {
+    "added": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      7
+    ],
+    "removed": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "modified": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    "modified_location": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "modified_place_name": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "modified_address_number": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  }
+}
