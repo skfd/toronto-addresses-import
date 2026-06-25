@@ -1,6 +1,7 @@
 """Download Toronto address points GeoJSON from the Open Data portal."""
 
 import os
+import shutil
 from datetime import date, datetime
 
 import requests
@@ -14,6 +15,31 @@ DATASET_URL = (
 )
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+
+SLUG = "toronto"
+
+
+def _shared_cache_path():
+    """Today's Toronto file in the shared download cache, or None if the cache
+    isn't configured. Matches the naming the address-layerist engine and
+    ontario-address-changes use, so all three reuse one download per day."""
+    cache = os.environ.get("ADDRESSLAYERIST_CACHE")
+    if not cache:
+        return None
+    return os.path.join(cache, f"{SLUG}-{date.today().isoformat()}.geojson")
+
+
+def _publish_shared(src, shared):
+    """Copy a freshly downloaded file into the shared cache (atomic rename) so
+    sibling jobs reuse it. Best-effort: a failure here never fails the import."""
+    try:
+        os.makedirs(os.path.dirname(shared), exist_ok=True)
+        tmp = shared + ".tmp"
+        shutil.copyfile(src, tmp)
+        os.replace(tmp, shared)
+        print(f"Published to shared cache: {os.path.basename(shared)}")
+    except OSError as e:
+        print(f"Warning: could not publish to shared cache: {e}")
 
 
 def download(force=False):
@@ -77,6 +103,16 @@ def download(force=False):
         # (unless we add logic to check if it's already imported, but db.import_geojson handles that)
         return "DOWNLOADED", filepath, remote_headers
 
+    # Cross-project shared cache: if a sibling (the address-layer build or the
+    # ontario-address-changes tracker) already pulled today's Toronto file, copy
+    # it in instead of re-downloading ~590 MB. Headers come from our own HEAD
+    # above, so the snapshot we record stays accurate.
+    shared = _shared_cache_path()
+    if shared and not force and os.path.exists(shared):
+        print(f"Reusing shared cache: {os.path.basename(shared)}")
+        shutil.copyfile(shared, filepath)
+        return "DOWNLOADED", filepath, remote_headers
+
     print(f"Downloading to {filepath} ...")
     resp = requests.get(DATASET_URL, stream=True, timeout=300)
     resp.raise_for_status()
@@ -100,6 +136,8 @@ def download(force=False):
                 print(f"\r  {downloaded // (1024*1024)} / {total // (1024*1024)} MB ({pct}%)", end="", flush=True)
 
     print(f"\nDone: {filepath} ({downloaded // (1024*1024)} MB)")
+    if shared:
+        _publish_shared(filepath, shared)
     return "DOWNLOADED", filepath, final_headers
 
 
