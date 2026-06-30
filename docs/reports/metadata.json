@@ -1250,5 +1250,16 @@
     "modified_place_name": 0,
     "modified_address_number": 0,
     "new_streets": []
+  },
+  "1782810019": {
+    "date": "2026-06-30",
+    "filename": "reports/report-2026-06-30-skipped.html",
+    "added": 0,
+    "removed": 0,
+    "modified": 0,
+    "modified_location": 0,
+    "modified_place_name": 0,
+    "modified_address_number": 0,
+    "new_streets": []
   }
 }
