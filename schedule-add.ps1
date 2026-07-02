@@ -10,9 +10,9 @@ $action = New-ScheduledTaskAction `
     -Execute "cmd.exe" `
     -Argument "/c cd /d `"$projectDir`" && python run.py update >> `"$logFile`" 2>&1"
 
-# 12:30 (after ontario-address-changes' 12:00 run) so on a day the Toronto source
-# changed, this reuses the file that run already wrote to the shared download
-# cache (ADDRESSLAYERIST_CACHE) instead of both pulling the ~590 MB file cold.
+# 12:30 (after ontario-address-changes' 12:00 run). run.py update pulls toronto
+# through address-vault with wait=True, so if the noon run is still fetching the
+# ~590 MB file this coalesces onto it instead of pulling a second copy cold.
 $trigger  = New-ScheduledTaskTrigger -Daily -At "12:30"
 $settings = New-ScheduledTaskSettingsSet -ExecutionTimeLimit (New-TimeSpan -Hours 2) -StartWhenAvailable
 

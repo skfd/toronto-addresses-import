@@ -34,7 +34,9 @@ def download(force=False):
     """
     from addressvault import Archived
     v = _vault()
-    snap = v.pull(SLUG, force=force)
+    # wait=True: if another consumer is already pulling toronto, coalesce onto its
+    # result instead of erroring or starting a second download.
+    snap = v.pull(SLUG, force=force, wait=True)
 
     # Vault content-dedup: today's bytes match an earlier day -> nothing new to import.
     if snap.unchanged_since and not force:
@@ -43,7 +45,7 @@ def download(force=False):
     try:
         path = v.path(SLUG, "latest")
     except Archived:  # latest resolved to a cold canonical -> thaw it back to hot
-        v.thaw(SLUG, v.snapshot(SLUG, "latest").date)
+        v.thaw(SLUG, v.snapshot(SLUG, "latest").date, wait=True)
         path = v.path(SLUG, "latest")
 
     row = v.cat.get_snapshot(SLUG, snap.date)
