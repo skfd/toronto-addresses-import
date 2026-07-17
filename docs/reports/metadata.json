@@ -1426,5 +1426,16 @@
     "modified_place_name": 472,
     "modified_address_number": 9,
     "new_streets": []
+  },
+  "69": {
+    "date": "2026-07-17",
+    "filename": "reports/report-2026-07-17.html",
+    "added": 3,
+    "removed": 2,
+    "modified": 5,
+    "modified_location": 5,
+    "modified_place_name": 0,
+    "modified_address_number": 0,
+    "new_streets": []
   }
 }
