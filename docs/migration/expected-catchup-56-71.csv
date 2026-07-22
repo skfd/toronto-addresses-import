@@ -1,0 +1,58 @@
+address_point_id,address_full,address_number,linear_name_full,municipality_name,latitude,longitude,address_class
+60073895,98R Primrose Ave,98R,Primrose Ave,former Toronto,43.67089,-79.44614,Structure
+60074288,61 Colgate Ave,61,Colgate Ave,former Toronto,43.66205,-79.34111,Structure
+60074306,4610 Finch Ave E,4610,Finch Ave E,Scarborough,43.80633,-79.27705,Land
+60074307,2725 Brimley Rd,2725,Brimley Rd,Scarborough,43.8064,-79.27722,Structure
+60076873,221 Carlingview Dr,221,Carlingview Dr,Etobicoke,43.68467,-79.59366,Land
+60076874,231 Carlingview Dr,231,Carlingview Dr,Etobicoke,43.68499,-79.59405,Land
+60076972,50 Cannon Rd,50,Cannon Rd,Etobicoke,43.63395,-79.48926,Land
+60077307,15 Westover Hill Rd,15,Westover Hill Rd,York,43.6966,-79.43149,Land
+60077308,17 Westover Hill Rd,17,Westover Hill Rd,York,43.69675,-79.43155,Land
+60077310,93A Donside Dr,93A,Donside Dr,Scarborough,43.70146,-79.28687,Land
+60077311,93B Donside Dr,93B,Donside Dr,Scarborough,43.70148,-79.2868,Land
+60077314,42 Wineva Ave,42,Wineva Ave,former Toronto,43.66873,-79.29479,Land
+60077315,44 Wineva Ave,44,Wineva Ave,former Toronto,43.66869,-79.29492,Land
+60077317,56 Broadway Ave,56,Broadway Ave,former Toronto,43.71049,-79.39616,Structure
+60077539,351 Royal York Rd,351,Royal York Rd,Etobicoke,43.61799,-79.49886,Land
+60077540,353 Royal York Rd,353,Royal York Rd,Etobicoke,43.61808,-79.49892,Land Entrance
+60077541,355 Royal York Rd,355,Royal York Rd,Etobicoke,43.61816,-79.49895,Land Entrance
+60077542,357 Royal York Rd,357,Royal York Rd,Etobicoke,43.61825,-79.499,Land Entrance
+60077543,359 Royal York Rd,359,Royal York Rd,Etobicoke,43.61834,-79.49903,Land Entrance
+60077544,361 Royal York Rd,361,Royal York Rd,Etobicoke,43.61842,-79.49907,Land Entrance
+60077546,363 Royal York Rd,363,Royal York Rd,Etobicoke,43.61859,-79.49912,Land Entrance
+60078033,1904 St Clair Ave W,1904,St Clair Ave W,former Toronto,43.67303,-79.46612,Land
+60078384,1 Monte Kwinter Crt,1,Monte Kwinter Crt,North York,43.73338,-79.447,Structure
+60078614,1 Silver Birch Ave,1,Silver Birch Ave,former Toronto,43.67059,-79.28401,Land
+60078615,412 Lake Front,412,Lake Front,former Toronto,43.67065,-79.28367,Land
+60078630,318 Dupont St,318,Dupont St,former Toronto,43.67467,-79.40876,Land
+60078631,320 Dupont St,320,Dupont St,former Toronto,43.67466,-79.40881,Land
+60078632,322 Dupont St,322,Dupont St,former Toronto,43.67465,-79.40887,Land
+60078633,330 Dupont St,330,Dupont St,former Toronto,43.6746,-79.4092,Land
+60078634,338 Dupont St,338,Dupont St,former Toronto,43.67465,-79.40951,Land
+60078635,336B Dupont St,336B,Dupont St,former Toronto,43.67463,-79.40948,Land
+60078637,316 Dupont St,316,Dupont St,former Toronto,43.67468,-79.40868,Land Entrance
+60078639,332 Dupont St,332,Dupont St,former Toronto,43.67459,-79.4093,Land Entrance
+60078640,336 Dupont St,336,Dupont St,former Toronto,43.67457,-79.40939,Land Entrance
+60078644,153 Old Foundry Rd,153,Old Foundry Rd,former Toronto,43.65434,-79.35612,Land
+60078645,163 Old Foundry Rd,163,Old Foundry Rd,former Toronto,43.65447,-79.35563,Land
+60078646,165 Old Foundry Rd,165,Old Foundry Rd,former Toronto,43.6545,-79.35548,Land
+60078648,175 Old Foundry Rd,175,Old Foundry Rd,former Toronto,43.65467,-79.3549,Land
+60078649,48 Palace St,48,Palace St,former Toronto,43.65401,-79.35553,Structure
+60078650,50 Palace St,50,Palace St,former Toronto,43.65404,-79.35541,Land
+60078651,52 Palace St,52,Palace St,former Toronto,43.65405,-79.35535,Structure
+60078653,46 Palace St,46,Palace St,former Toronto,43.65412,-79.35559,Land
+60078722,15 Silver Birch Ave,15,Silver Birch Ave,former Toronto,43.67092,-79.28386,Land
+60078874,314 Indian Road Cres,314,Indian Road Cres,former Toronto,43.6639,-79.4613,Structure
+60078875,36 Montgomery Ave,36,Montgomery Ave,former Toronto,43.70954,-79.39999,Land
+60078876,543 Yonge St,543,Yonge St,former Toronto,43.66435,-79.38408,Land
+60078877,555 Yonge St,555,Yonge St,former Toronto,43.66474,-79.38419,Land
+60079820,9R Bedford Rd,9R,Bedford Rd,former Toronto,43.66879,-79.39653,Structure
+60079821,8 Holmstead Ave,8,Holmstead Ave,East York,43.70927,-79.30016,Land
+60079822,8B Holmstead Ave,8B,Holmstead Ave,East York,43.70929,-79.30008,Land
+60079826,179 Bellamy Rd N,179,Bellamy Rd N,Scarborough,43.74509,-79.2301,Land
+60079827,181 Bellamy Rd N,181,Bellamy Rd N,Scarborough,43.74518,-79.23014,Land
+60081106,2539A Bayview Ave,2539A,Bayview Ave,North York,43.74719,-79.38354,Land Entrance
+60081728,210 Beta St,210,Beta St,Etobicoke,43.60685,-79.54037,Land
+60081729,212 Beta St,212,Beta St,Etobicoke,43.6069,-79.54041,Land
+60082475,62 Orchard Park Dr,62,Orchard Park Dr,Scarborough,43.77416,-79.17955,Land
+60082476,58 Orchard Park Dr,58,Orchard Park Dr,Scarborough,43.77391,-79.17946,Structure

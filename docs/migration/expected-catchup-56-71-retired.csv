@@ -1,0 +1,8 @@
+address_point_id,address_full,address_number,linear_name_full,municipality_name,latitude,longitude,address_class
+13968126,17 Aylmer Ave,17,Aylmer Ave,former Toronto,43.67388,-79.38671,Land
+14211350,50 Annette St,50,Annette St,former Toronto,43.66393,-79.46135,Structure Entrance
+30125546,2502 Yonge St,2502,Yonge St,former Toronto,43.7123,-79.39983,Structure
+30125547,2496 Yonge St,2496,Yonge St,former Toronto,43.71207,-79.39982,Structure
+30125548,2498 Yonge St,2498,Yonge St,former Toronto,43.71213,-79.39983,Structure
+7994271,328 Dupont St,328,Dupont St,former Toronto,43.67468,-79.40906,Land
+9110125,2762 Dundas St W,2762,Dundas St W,former Toronto,43.66539,-79.46112,Structure Entrance
