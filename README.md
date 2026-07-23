@@ -1,5 +1,12 @@
 # Toronto Address Change Tracker
 
+> **This repository is archived (July 2026).** Daily runs have stopped; the [reports](https://skfd.github.io/toronto-addresses-import/) remain online as a historical record.
+>
+> - Daily tracking of this dataset continues in [ontario-address-changes](https://github.com/skfd/ontario-address-changes), which covers Toronto plus 41 other Ontario address datasets. Toronto reports now live at <https://skfd.github.io/ontario-address-changes/toronto/>. The successor ignores some frequently-churning fields, so its diffs are not one-to-one with the reports here.
+> - The OSM import tooling (conflation and uploads) lives in [toronto-2-address-import](https://github.com/skfd/toronto-2-address-import) and now reads the successor's database.
+> - Raw daily snapshots are archived separately in a private snapshot vault.
+> - The full history database built by this tool (`addresses.db`, snapshots 2025-04-01 → 2026-07-21) is kept as a frozen local backup; see [`addresses.db.README.md`](addresses.db.README.md).
+
 Tracks daily changes to the City of Toronto's [Address Points](https://open.toronto.ca/dataset/address-points-municipal-toronto-one-address-repository/) dataset — over 525,000 addresses across the city.
 
 Every day, the City publishes a fresh snapshot of all address points. This tool downloads each snapshot, stores it, and produces a diff report showing which addresses were added, removed, or modified since the last run.
